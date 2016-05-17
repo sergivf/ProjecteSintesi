@@ -1,0 +1,1935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clients>
+    <client>
+        <codi>LC-JTC</codi>
+        <nom>David Boix Bech</nom>
+        <NIF>040291661P</NIF>
+        <adreca>Pujada a la Torrassa, 4</adreca>
+        <municipi>17188</municipi>
+        <codipostal>17489</codipostal>
+        <telefon>972321422</telefon>
+    </client>
+    <client>
+        <codi>LC-ICR</codi>
+        <nom>Jaume Rigau Esteve</nom>
+        <NIF>040272407M</NIF>
+        <adreca>Bernat Boades, 10,2,3</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17007</codipostal>
+        <telefon>972461906</telefon>
+    </client>
+    <client>
+        <codi>LC-MMC</codi>
+        <nom>Conrad Tormo Galià</nom>
+        <NIF>040502576J</NIF>
+        <adreca>Passeig d'olot, núm. 101.3.2</adreca>
+        <municipi>17056</municipi>
+        <codipostal>17844</codipostal>
+        <telefon>972217481</telefon>
+    </client>
+    <client>
+        <codi>LE-FFB</codi>
+        <nom>José Manuel Carbonell Aubert</nom>
+        <NIF>037292890T</NIF>
+        <adreca>Francesc Roig,7,1</adreca>
+        <municipi>17172</municipi>
+        <codipostal>17153</codipostal>
+        <telefon>651990403</telefon>
+    </client>
+    <client>
+        <codi>IN-JMMS</codi>
+        <nom>Manuel Vallmajo Pagès</nom>
+        <NIF>040515143E</NIF>
+        <adreca>Music Camps,7</adreca>
+        <municipi>99999</municipi>
+        <codipostal>46006</codipostal>
+        <telefon>972500225</telefon>
+    </client>
+    <client>
+        <codi>LS-MAL</codi>
+        <nom>Montserrat Satorre Xicoira</nom>
+        <NIF>038786694T</NIF>
+        <adreca>Onyar,18-B</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17005</codipostal>
+        <telefon>649717810</telefon>
+    </client>
+    <client>
+        <codi>FQ-JRM</codi>
+        <nom>Josep Mora Vilar</nom>
+        <NIF>040292341K</NIF>
+        <adreca>Jaume Ministral, 4</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17006</codipostal>
+    </client>
+    <client>
+        <codi>CS-JSH</codi>
+        <nom>Arturo Olivé Soler</nom>
+        <NIF>043628207J</NIF>
+        <adreca>Figuerola, 56,6,2</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972205745</telefon>
+    </client>
+    <client>
+        <codi>LE-JGF</codi>
+        <nom>Luis Geronès Ortiz</nom>
+        <NIF>040239371C</NIF>
+        <adreca>Mossen Cinto Verdaguer, s/n</adreca>
+        <municipi>17071</municipi>
+        <codipostal>17833</codipostal>
+        <telefon>972428408</telefon>
+    </client>
+    <client>
+        <codi>PS-MRT</codi>
+        <nom>Narcís Martínez Barbey</nom>
+        <NIF>052710155C</NIF>
+        <adreca>Carles Rahola, 2A , 2,3</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17181</codipostal>
+        <telefon>972461226</telefon>
+    </client>
+    <client>
+        <codi>LC-JAS</codi>
+        <nom>Lourdes Perez Valls</nom>
+        <NIF>040331122R</NIF>
+        <adreca>Pujada Pardinyes Altes, 2</adreca>
+        <municipi>17049</municipi>
+        <codipostal>17460</codipostal>
+        <telefon>972405032</telefon>
+    </client>
+    <client>
+        <codi>LC-HCG</codi>
+        <nom>Ferran Polls Comas</nom>
+        <NIF>040324265K</NIF>
+        <adreca>LLuis Vives,22,2.3</adreca>
+        <municipi>17157</municipi>
+        <codipostal>17455</codipostal>
+        <telefon>972440635</telefon>
+    </client>
+    <client>
+        <codi>LC-ASQ</codi>
+        <nom>Mónica Perez Iglesias</nom>
+        <NIF>038512738C</NIF>
+        <adreca>Can Casich</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>938204266</telefon>
+    </client>
+    <client>
+        <codi>LS-MBLL</codi>
+        <nom>Maria Dolors Company Duran</nom>
+        <NIF>040321378D</NIF>
+        <adreca>Balandrau, 9 baixos</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17005</codipostal>
+        <telefon>972214120</telefon>
+    </client>
+    <client>
+        <codi>LS-MBR</codi>
+        <nom>Pere Serra Ferrés</nom>
+        <NIF>040432678N</NIF>
+        <adreca>Avda. Lluis Pericot, 17, àtic 2</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>972209601</telefon>
+    </client>
+    <client>
+        <codi>LS-AGLL</codi>
+        <nom>Joan Ribas Peñarroya</nom>
+        <NIF>040263700S</NIF>
+        <adreca>Francesc Samsó,9</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972218634</telefon>
+    </client>
+    <client>
+        <codi>LS-JIGC</codi>
+        <nom>Marc Poch Sánchez-Guzmán</nom>
+        <NIF>037796019G</NIF>
+        <adreca>Maluquer Salvador, 20</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972243694</telefon>
+    </client>
+    <client>
+        <codi>LS-MDME</codi>
+        <nom>Cristina Rifà Muñoz</nom>
+        <NIF>036764138H</NIF>
+        <adreca>Plaça Lledoners, 8</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17004</codipostal>
+        <telefon>972202346</telefon>
+    </client>
+    <client>
+        <codi>CS-MTCS</codi>
+        <nom>Ramon Aguilar Alsina</nom>
+        <NIF>040250983V</NIF>
+        <adreca>Agudes, 49,2,4</adreca>
+        <municipi>17023</municipi>
+        <codipostal>17300</codipostal>
+        <telefon>972817829</telefon>
+    </client>
+    <client>
+        <codi>CS-MFA</codi>
+        <nom>M. Pilar Rigau Calsina</nom>
+        <NIF>033938596A</NIF>
+        <adreca>Bullidors, 6</adreca>
+        <municipi>17049</municipi>
+        <codipostal>17460</codipostal>
+        <telefon>679512425</telefon>
+    </client>
+    <client>
+        <codi>CS-FMP</codi>
+        <nom>Maria Rocio Tonietti Bover</nom>
+        <NIF>040279386S</NIF>
+        <adreca>Santa Eugenia,11,9,2</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17001</codipostal>
+        <telefon>680187522</telefon>
+    </client>
+    <client>
+        <codi>LE-EFB</codi>
+        <nom>Xavier Girona Latorre</nom>
+        <NIF>040312476P</NIF>
+        <adreca>Sta. Eugènia, 81,5,3</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17007</codipostal>
+        <telefon>972239074</telefon>
+    </client>
+    <client>
+        <codi>CS-AOS</codi>
+        <nom>Felip Rojas Canedo</nom>
+        <NIF>040288483G</NIF>
+        <adreca>Riu Brugent, 34</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>972224542</telefon>
+    </client>
+    <client>
+        <codi>IN-FCHP</codi>
+        <nom>Ester Pujol Regueiro</nom>
+        <NIF>040253603S</NIF>
+        <adreca>11 de setembre, 31</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>696438636</telefon>
+    </client>
+    <client>
+        <codi>IN-JJGV</codi>
+        <nom>Maria Assumpció Carreras Cortés</nom>
+        <NIF>077902103E</NIF>
+        <adreca>Pere Alsius, 24</adreca>
+        <municipi>17117</municipi>
+        <codipostal>17200</codipostal>
+        <telefon>972212676</telefon>
+    </client>
+    <client>
+        <codi>IN-CMB</codi>
+        <nom>Carles Baeza Lacasa</nom>
+        <NIF>033862539F</NIF>
+        <adreca>Caludi Girbal,14,1,</adreca>
+        <municipi>17066</municipi>
+        <codipostal>17600</codipostal>
+        <telefon>656868231</telefon>
+    </client>
+    <client>
+        <codi>IN-FXSM</codi>
+        <nom>Marina Trulls Sánchez</nom>
+        <NIF>040303187B</NIF>
+        <adreca>Puig de Montilivi, 6</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>972205471</telefon>
+    </client>
+    <client>
+        <codi>IN-LMVG</codi>
+        <nom>Marc Antoni Turon  Salazar</nom>
+        <NIF>040268978A</NIF>
+        <adreca>Abad Escarré, 34</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972830149</telefon>
+    </client>
+    <client>
+        <codi>LE-MCR</codi>
+        <nom>David Bover Renart</nom>
+        <NIF>040428846K</NIF>
+        <adreca>Dr. Trueta, 11</adreca>
+        <municipi>17160</municipi>
+        <codipostal>17220</codipostal>
+        <telefon>973797399</telefon>
+    </client>
+    <client>
+        <codi>EV-JBF</codi>
+        <nom>Jordi Ribas Gonzalez</nom>
+        <NIF>011824022K</NIF>
+        <adreca>Santa Eugenia,94.3.2.</adreca>
+        <municipi>17073</municipi>
+        <codipostal>17458</codipostal>
+        <telefon>972485022</telefon>
+    </client>
+    <client>
+        <codi>EV-DLV</codi>
+        <nom>Jordi Vila Tous</nom>
+        <NIF>077903452Z</NIF>
+        <adreca>Conrad Vilar, 34,2,2</adreca>
+        <municipi>17118</municipi>
+        <codipostal>17230</codipostal>
+        <telefon>972210239</telefon>
+    </client>
+    <client>
+        <codi>EV-LLRD</codi>
+        <nom>Mikel Arbos Xifra</nom>
+        <NIF>040287592X</NIF>
+        <adreca>Oliva, 14, 2 D</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17005</codipostal>
+        <telefon>616586570</telefon>
+    </client>
+    <client>
+        <codi>EF-MABN</codi>
+        <nom>Anna de Puig Moncho</nom>
+        <NIF>077907846S</NIF>
+        <adreca>Av. Lluís Pericot, 76-84, 3,4</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972570541</telefon>
+    </client>
+    <client>
+        <codi>LE-MGC</codi>
+        <nom>Josep Bastart Mercadé</nom>
+        <NIF>047792189Y</NIF>
+        <adreca>Pau, 73,1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17001</codipostal>
+        <telefon>972205981</telefon>
+    </client>
+    <client>
+        <codi>EF-MMI</codi>
+        <nom>Francesc Riu Alsina</nom>
+        <NIF>040325186E</NIF>
+        <adreca>Prat de la Riba, 49,B</adreca>
+        <municipi>08141</municipi>
+        <codipostal>08670</codipostal>
+        <telefon>972208379</telefon>
+    </client>
+    <client>
+        <codi>EF-ARC</codi>
+        <nom>Nuria Costa Donet</nom>
+        <NIF>040313470J</NIF>
+        <adreca>Joan Maragall, 9</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17004</codipostal>
+        <telefon>972226541</telefon>
+    </client>
+    <client>
+        <codi>MA-JBV</codi>
+        <nom>Josep Maria Molinero Figueras</nom>
+        <NIF>077912468Z</NIF>
+        <adreca>Jacint Verdaguer, 12,2,3</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17005</codipostal>
+        <telefon>972428504</telefon>
+    </client>
+    <client>
+        <codi>CN-PAS</codi>
+        <nom>Laura Vidal Guardiola</nom>
+        <NIF>043627698X</NIF>
+        <adreca>Ctra. de Castellet, s/n</adreca>
+        <municipi>08178</municipi>
+        <codipostal>08289</codipostal>
+        <telefon>972214120</telefon>
+    </client>
+    <client>
+        <codi>MA-JCR</codi>
+        <nom>Antonio Muñoz Grimal</nom>
+        <NIF>040534201J</NIF>
+        <adreca>Literato Atorin, 35</adreca>
+        <municipi>17095</municipi>
+        <codipostal>17310</codipostal>
+        <telefon>653054626</telefon>
+    </client>
+    <client>
+        <codi>CN-JMOP</codi>
+        <nom>Víctor Corrales Ballesta</nom>
+        <NIF>040292787F</NIF>
+        <adreca>Passeig Fora Muralla, 1</adreca>
+        <municipi>17186</municipi>
+        <codipostal>17840</codipostal>
+        <telefon>972223486</telefon>
+    </client>
+    <client>
+        <codi>CN-RRR</codi>
+        <nom>M.Teresa Iglesias Soler</nom>
+        <NIF>040239087N</NIF>
+        <adreca>De les Monges, 38</adreca>
+        <municipi>17002</municipi>
+        <codipostal>17181</codipostal>
+        <telefon>972443227</telefon>
+    </client>
+    <client>
+        <codi>CN-PSP</codi>
+        <nom>Josep Antoni Carbó Riera</nom>
+        <NIF>078001999Y</NIF>
+        <adreca>Major,30</adreca>
+        <municipi>17015</municipi>
+        <codipostal>17820</codipostal>
+        <telefon>972214690</telefon>
+    </client>
+    <client>
+        <codi>MA-MMM</codi>
+        <nom>Llorenç Guixeras Quera</nom>
+        <NIF>040252427N</NIF>
+        <adreca>Ronda de Baix, 18</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972217397</telefon>
+    </client>
+    <client>
+        <codi>FQ-MABP</codi>
+        <nom>Ester Mellado Culla</nom>
+        <NIF>040330598Y</NIF>
+        <adreca>Serrallonga, 628 (Llac del Cigne)</adreca>
+        <municipi>46250</municipi>
+        <codipostal>46870</codipostal>
+        <telefon>972208771</telefon>
+    </client>
+    <client>
+        <codi>MA-PRR</codi>
+        <nom>Raquel Valdés Sitjà</nom>
+        <NIF>039355330F</NIF>
+        <adreca>Pirineos, 29-31,2,2</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17300</codipostal>
+        <telefon>972428695</telefon>
+    </client>
+    <client>
+        <codi>FQ-LPM</codi>
+        <nom>Luis Manuel Subirós Antón</nom>
+        <NIF>077896972C</NIF>
+        <adreca>Migdia, 6,3,1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17005</codipostal>
+        <telefon>972704254</telefon>
+    </client>
+    <client>
+        <codi>MA-ASR</codi>
+        <nom>Lourdes March Martinez</nom>
+        <NIF>040517848J</NIF>
+        <adreca>Mn. Constans, 332</adreca>
+        <municipi>99999</municipi>
+        <codipostal>12100</codipostal>
+        <telefon>972494043</telefon>
+    </client>
+    <client>
+        <codi>MU-RRP</codi>
+        <nom>Judit Villarroya Pavón</nom>
+        <NIF>040319445P</NIF>
+        <adreca>Cabo deCreus, 20</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17001</codipostal>
+        <telefon>972571272</telefon>
+    </client>
+    <client>
+        <codi>TE-AAV</codi>
+        <nom>Pedro Rubió Sitjà</nom>
+        <NIF>040262755J</NIF>
+        <adreca>Bisbe Tomàs Lorenzana, 6,3,1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17006</codipostal>
+        <telefon>972219586</telefon>
+    </client>
+    <client>
+        <codi>TE-JBP</codi>
+        <nom>Beatriz Ferrer Camps</nom>
+        <NIF>040280828P</NIF>
+        <adreca>Esplanada del port, 17</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17004</codipostal>
+        <telefon>937662183</telefon>
+    </client>
+    <client>
+        <codi>TE-SCO</codi>
+        <nom>Immaculada Calsina Sague</nom>
+        <NIF>040281295S</NIF>
+        <adreca>Pla de Riba, 7</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>972217481</telefon>
+    </client>
+    <client>
+        <codi>TEJMH</codi>
+        <nom>Francesc Calderer Viñas</nom>
+        <NIF>035092577M</NIF>
+        <adreca>Girona-Banyoles, 10</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972213198</telefon>
+    </client>
+    <client>
+        <codi>PS-AFJ</codi>
+        <nom>Maria Coris Pla</nom>
+        <NIF>040346670R</NIF>
+        <adreca>Montseny, 12</adreca>
+        <municipi>17117</municipi>
+        <codipostal>17200</codipostal>
+        <telefon>972215482</telefon>
+    </client>
+    <client>
+        <codi>PS-MARL</codi>
+        <nom>Maria dels Àngels Hostench Chisbert</nom>
+        <NIF>040309142D</NIF>
+        <adreca>Gavina, 6 bis</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972214599</telefon>
+    </client>
+    <client>
+        <codi>PS-CRV</codi>
+        <nom>Maria Lluïsa Busquets Mundet</nom>
+        <NIF>040271114T</NIF>
+        <adreca>Nou, 52</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17007</codipostal>
+        <telefon>972597002</telefon>
+    </client>
+    <client>
+        <codi>PS-ASG</codi>
+        <nom>Maria Lourdes Collell Juando</nom>
+        <NIF>040288139M</NIF>
+        <adreca>Emili Grahit,52</adreca>
+        <municipi>17155</municipi>
+        <codipostal>17190</codipostal>
+        <telefon>972573659</telefon>
+    </client>
+    <client>
+        <codi>LLM-LLVR</codi>
+        <nom>Maria del Pilar Gallegos Auladell</nom>
+        <NIF>052945164S</NIF>
+        <adreca>Plaça Rafael de Casanova i Comes, 1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17005</codipostal>
+        <telefon>972213735</telefon>
+    </client>
+    <client>
+        <codi>LLM-FVA</codi>
+        <nom>Rosa Ortiz de Villacian Candal</nom>
+        <NIF>040269167P</NIF>
+        <adreca>Urb. Fontpudosa, 5</adreca>
+        <municipi>17155</municipi>
+        <codipostal>17190</codipostal>
+        <telefon>972215544</telefon>
+    </client>
+    <client>
+        <codi>RE-MPOA</codi>
+        <nom>Marc Martín Planas</nom>
+        <NIF>040306604R</NIF>
+        <adreca>Rda. Ferran Puig, 16,4,2</adreca>
+        <municipi>17073</municipi>
+        <codipostal>17458</codipostal>
+        <telefon>972242150</telefon>
+    </client>
+    <client>
+        <codi>FOL-JMSP</codi>
+        <nom>Gràcia Plaza Maurici</nom>
+        <NIF>040309634H</NIF>
+        <adreca>Maluquer Salvador, 15,5,3</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>972822209</telefon>
+    </client>
+    <client>
+        <codi>AU-CAD</codi>
+        <nom>Jordi Badal Riera</nom>
+        <NIF>036904302C</NIF>
+        <adreca>Bisbe Sivilla, 10.a.1</adreca>
+        <municipi>17015</municipi>
+        <codipostal>17820</codipostal>
+        <telefon>972244386</telefon>
+    </client>
+    <client>
+        <codi>AU-MBV</codi>
+        <nom>Encarna Garriga Prats</nom>
+        <NIF>040321688C</NIF>
+        <adreca>Cervantes, 24,8,pta.18</adreca>
+        <municipi>17163</municipi>
+        <codipostal>17150</codipostal>
+        <telefon>676448245</telefon>
+    </client>
+    <client>
+        <codi>SC-BAR</codi>
+        <nom>Àngel Serra Riera</nom>
+        <NIF>033407432R</NIF>
+        <adreca>Gavarres, 1,2,4</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>972590705</telefon>
+    </client>
+    <client>
+        <codi>AU-DBP</codi>
+        <nom>Rossen Vassilev Guinó Roig</nom>
+        <NIF>047881235L</NIF>
+        <adreca>Aiguanegra, 22</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17007</codipostal>
+        <telefon>972480035</telefon>
+    </client>
+    <client>
+        <codi>AU-RBB</codi>
+        <nom>Elisabeth Otero Palomeras</nom>
+        <NIF>040297887R</NIF>
+        <adreca>Prat de la Riba,77,2-A</adreca>
+        <municipi>17049</municipi>
+        <codipostal>17460</codipostal>
+        <telefon>972200047</telefon>
+    </client>
+    <client>
+        <codi>AU-JCG</codi>
+        <nom>Josep Bruget Vidal</nom>
+        <NIF>043726605V</NIF>
+        <adreca>Veïnat de la Selva, 22</adreca>
+        <municipi>17001</municipi>
+        <codipostal>17707</codipostal>
+        <telefon>972205854</telefon>
+    </client>
+    <client>
+        <codi>AU-FXGGF</codi>
+        <nom>Agnès Gómez Busquet</nom>
+        <NIF>077908139D</NIF>
+        <adreca>Grup l'Estel, 8,1,1</adreca>
+        <municipi>17073</municipi>
+        <codipostal>17458</codipostal>
+        <telefon>972207942</telefon>
+    </client>
+    <client>
+        <codi>AD-ABB</codi>
+        <nom>Maria Pilar Rull Pujol</nom>
+        <NIF>010799388Z</NIF>
+        <adreca>Joan Maragall, 53, 2 C</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972210796</telefon>
+    </client>
+    <client>
+        <codi>AU-JGS</codi>
+        <nom>Josep Maria Brugat Serra</nom>
+        <NIF>040275227L</NIF>
+        <adreca>Major, 8</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972570647</telefon>
+    </client>
+    <client>
+        <codi>AU-JMG</codi>
+        <nom>Francesc Xavier Redondo Pons</nom>
+        <NIF>040861236B</NIF>
+        <adreca>Jacint Verdaguer, 35</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17005</codipostal>
+        <telefon>972207867</telefon>
+    </client>
+    <client>
+        <codi>AU-JRM</codi>
+        <nom>Joaquim Paredes Ventura</nom>
+        <NIF>020013225M</NIF>
+        <adreca>Avinguda Sant Francesc,30,3,2</adreca>
+        <municipi>17110</municipi>
+        <codipostal>17253</codipostal>
+        <telefon>972218404</telefon>
+    </client>
+    <client>
+        <codi>QU-MCM</codi>
+        <nom>Josep Sabadi Rodriguez</nom>
+        <NIF>040445802A</NIF>
+        <adreca>Tomas i Roig i Llop, 8</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17006</codipostal>
+        <telefon>972461042</telefon>
+    </client>
+    <client>
+        <codi>SC-MTMP</codi>
+        <nom>Lluís Busquets Soria</nom>
+        <NIF>040288310S</NIF>
+        <adreca>Maluquer Salvador, 2 4 3</adreca>
+        <municipi>17160</municipi>
+        <codipostal>17220</codipostal>
+        <telefon>961720346</telefon>
+    </client>
+    <client>
+        <codi>AD-MTGT</codi>
+        <nom>Carles Hernandez Fiol</nom>
+        <NIF>040530451N</NIF>
+        <adreca>Ctra. Santa Pau, 11</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17001</codipostal>
+        <telefon>972222617</telefon>
+    </client>
+    <client>
+        <codi>AD-RPP</codi>
+        <nom>Anna Marjanedas Gómez</nom>
+        <NIF>039858448T</NIF>
+        <adreca>Passeig de Fora Muralla, 1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17004</codipostal>
+        <telefon>972208424</telefon>
+    </client>
+    <client>
+        <codi>QU-JPP</codi>
+        <nom>Miracle Encarn Costa Assenova</nom>
+        <NIF>040255846G</NIF>
+        <adreca>del Carme, 58,3,4</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17007</codipostal>
+        <telefon>972238657</telefon>
+    </client>
+    <client>
+        <codi>AD-DPF</codi>
+        <nom>Montserrat Barbarà Félez</nom>
+        <NIF>040296394A</NIF>
+        <adreca>Ronda  Ferran Puig,17,3r</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17007</codipostal>
+        <telefon>972402850</telefon>
+    </client>
+    <client>
+        <codi>QU-CPM</codi>
+        <nom>Anna Colomé Garcia-Gascó</nom>
+        <NIF>040508439B</NIF>
+        <adreca>Vinat de l'esglesia,1</adreca>
+        <municipi>17155</municipi>
+        <codipostal>17190</codipostal>
+        <telefon>972205745</telefon>
+    </client>
+    <client>
+        <codi>SC-EPM</codi>
+        <nom>Félix José Ignacio Surís Velasco</nom>
+        <NIF>040274285C</NIF>
+        <adreca>Barcelona, 63-6-3</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972206632</telefon>
+    </client>
+    <client>
+        <codi>QU-JSB</codi>
+        <nom>Dolors Font Ribugent</nom>
+        <NIF>040307909H</NIF>
+        <adreca>Esplanada del Port, 8,3</adreca>
+        <municipi>17020</municipi>
+        <codipostal>17162</codipostal>
+        <telefon>972170254</telefon>
+    </client>
+    <client>
+        <codi>EL-JAC</codi>
+        <nom>Joaquim Mata Planas</nom>
+        <NIF>040325642H</NIF>
+        <adreca>Bruguerol, 19</adreca>
+        <municipi>25120</municipi>
+        <codipostal>25195</codipostal>
+        <telefon>972575247</telefon>
+    </client>
+    <client>
+        <codi>SC-ERB</codi>
+        <nom>Jordi Prat Ruiz</nom>
+        <NIF>040299453A</NIF>
+        <adreca>Can Llobet, 19</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972401443</telefon>
+    </client>
+    <client>
+        <codi>EL-EBR</codi>
+        <nom>Mariano Sargatal Gonzalez</nom>
+        <NIF>040508229P</NIF>
+        <adreca>Juli Garreta, 14,àtic 1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17004</codipostal>
+        <telefon>972202001</telefon>
+    </client>
+    <client>
+        <codi>AD-JRM</codi>
+        <nom>Elena Gual Vidal</nom>
+        <NIF>043672013G</NIF>
+        <adreca>Can Pou</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17001</codipostal>
+        <telefon>972231716</telefon>
+    </client>
+    <client>
+        <codi>AD-CRC</codi>
+        <nom>Núria Alonso Fernández</nom>
+        <NIF>029165487S</NIF>
+        <adreca>Camí Ral, 9</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>972387531</telefon>
+    </client>
+    <client>
+        <codi>SC-MMTF</codi>
+        <nom>Pilar Arbussà Riera</nom>
+        <NIF>078151043X</NIF>
+        <adreca>Joaquim Hostebch,99</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972203922</telefon>
+    </client>
+    <client>
+        <codi>AD-ERC</codi>
+        <nom>Maria Goretti Roig Mira</nom>
+        <NIF>041500224J</NIF>
+        <adreca>Plaça Europa, 4,3,1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>972509237</telefon>
+    </client>
+    <client>
+        <codi>EL-MCF</codi>
+        <nom>Francesca Moreno Grabalosa</nom>
+        <NIF>077997738T</NIF>
+        <adreca>Mas Torrents, 8</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17001</codipostal>
+        <telefon>972207899</telefon>
+    </client>
+    <client>
+        <codi>AD-DSF</codi>
+        <nom>Maria Murgadas Granados</nom>
+        <NIF>040311155K</NIF>
+        <adreca>LLuís Galiana, núm.7.5.9</adreca>
+        <municipi>17058</municipi>
+        <codipostal>17832</codipostal>
+        <telefon>972535453</telefon>
+    </client>
+    <client>
+        <codi>AD-ASV</codi>
+        <nom>Marta Llaberia Oriol</nom>
+        <NIF>040430263N</NIF>
+        <adreca>Rutlla, 49-51, 4,1</adreca>
+        <municipi>17155</municipi>
+        <codipostal>17190</codipostal>
+        <telefon>972218126</telefon>
+    </client>
+    <client>
+        <codi>AD-MTQ</codi>
+        <nom>Maria Concepció Sala Cortada</nom>
+        <NIF>046672067F</NIF>
+        <adreca>Can Ballera Nova, 47</adreca>
+        <municipi>17155</municipi>
+        <codipostal>17190</codipostal>
+        <telefon>972236166</telefon>
+    </client>
+    <client>
+        <codi>EL-CPR</codi>
+        <nom>Daniel González Esteve</nom>
+        <NIF>077908705T</NIF>
+        <adreca>Pere Joan, 39</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>972423946</telefon>
+    </client>
+    <client>
+        <codi>EL-JPV</codi>
+        <nom>Josep Pluja Esteban</nom>
+        <NIF>046312728C</NIF>
+        <adreca>Joaquim Ruyra i Homs, 18, 4 B</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17005</codipostal>
+        <telefon>972219232</telefon>
+    </client>
+    <client>
+        <codi>EL-JRB</codi>
+        <nom>Josefina Ortiz Llonch</nom>
+        <NIF>040310855C</NIF>
+        <adreca>Eiximenis, 16,3</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17001</codipostal>
+        <telefon>972205340</telefon>
+    </client>
+    <client>
+        <codi>EL-XRD</codi>
+        <nom>Roser Ortiz Moratones</nom>
+        <NIF>040339464V</NIF>
+        <adreca>c/Carreras Peralta,11,3r.2a.</adreca>
+        <municipi>17142</municipi>
+        <codipostal>17241</codipostal>
+        <telefon>972209446</telefon>
+    </client>
+    <client>
+        <codi>EL-FXSG</codi>
+        <nom>Josep M. Rotxés Duran</nom>
+        <NIF>040432451S</NIF>
+        <adreca>Montnegre, 12</adreca>
+        <municipi>17185</municipi>
+        <codipostal>17857</codipostal>
+        <telefon>972476199</telefon>
+    </client>
+    <client>
+        <codi>EL-JSS</codi>
+        <nom>Felip Esteve Vidal</nom>
+        <NIF>040287633M</NIF>
+        <adreca>Joaquim Vayreda, 65,14,1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17004</codipostal>
+        <telefon>972207569</telefon>
+    </client>
+    <client>
+        <codi>PS-PLLLL</codi>
+        <nom>Simone Royo Busquet</nom>
+        <NIF>040283839Y</NIF>
+        <adreca>c/Gallines, 10,3,1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972233033</telefon>
+    </client>
+    <client>
+        <codi>PE-RCM</codi>
+        <nom>Joan Rost Duch</nom>
+        <NIF>035095143H</NIF>
+        <adreca>Major, 37</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17005</codipostal>
+        <telefon>649262142</telefon>
+    </client>
+    <client>
+        <codi>AD-EAF</codi>
+        <nom>Montserrat Amat Filgueria</nom>
+        <NIF>040306254L</NIF>
+        <adreca>Passatge Romaní, 1 PB, 4</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972222304</telefon>
+    </client>
+    <client>
+        <codi>LE-HAR</codi>
+        <nom>Ma. Assumpció Pérez Vencells</nom>
+        <NIF>046641696L</NIF>
+        <adreca>Sant Ignasi, 29, àtic A</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17005</codipostal>
+        <telefon>972321422</telefon>
+    </client>
+    <client>
+        <codi>FOL-FAZ</codi>
+        <nom>Raquel Carolà Marti</nom>
+        <NIF>040288027P</NIF>
+        <adreca>Passatge Parés, 26</adreca>
+        <municipi>17015</municipi>
+        <codipostal>17820</codipostal>
+        <telefon>972219828</telefon>
+    </client>
+    <client>
+        <codi>FQ-JBS</codi>
+        <nom>Adoración Bou Villoria</nom>
+        <NIF>043676768K</NIF>
+        <adreca>Barri de Crota, 16</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>972210091</telefon>
+    </client>
+    <client>
+        <codi>AD-NBP</codi>
+        <nom>Montserrat Lambrinov Subirós</nom>
+        <NIF>040430896R</NIF>
+        <adreca>Barcelona, 31,1,1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17005</codipostal>
+        <telefon>972237354</telefon>
+    </client>
+    <client>
+        <codi>QU-CCB</codi>
+        <nom>Merçe Mias Hortoneda</nom>
+        <NIF>018165305C</NIF>
+        <adreca>Mn. Martirià, 11</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17005</codipostal>
+        <telefon>972594568</telefon>
+    </client>
+    <client>
+        <codi>SC-ECG</codi>
+        <nom>Raquel Arasanz Pons</nom>
+        <NIF>040336669M</NIF>
+        <adreca>C/ Mig,27.2.</adreca>
+        <municipi>17023</municipi>
+        <codipostal>17300</codipostal>
+        <telefon>654258918</telefon>
+    </client>
+    <client>
+        <codi>QU-MGP</codi>
+        <nom>Lucia Florido Felip</nom>
+        <NIF>040323610X</NIF>
+        <adreca>Av. Lluís Pericot, 50,6,1</adreca>
+        <municipi>17034</municipi>
+        <codipostal>17252</codipostal>
+        <telefon>972291363</telefon>
+    </client>
+    <client>
+        <codi>LE-VMG</codi>
+        <nom>Montserrat Palos Bosch</nom>
+        <NIF>040330569T</NIF>
+        <adreca>Progres, 8</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17001</codipostal>
+        <telefon>972208650</telefon>
+    </client>
+    <client>
+        <codi>EL-RGG</codi>
+        <nom>Benjamín Cosp Mir</nom>
+        <NIF>043628284K</NIF>
+        <adreca>Guillem de Collteller, 10,3,1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972757229</telefon>
+    </client>
+    <client>
+        <codi>MU-SGC</codi>
+        <nom>Joan Marc Corcoll Roca</nom>
+        <NIF>040319993G</NIF>
+        <adreca>Miquela, 32</adreca>
+        <municipi>08019</municipi>
+        <codipostal>08012</codipostal>
+        <telefon>972462140</telefon>
+    </client>
+    <client>
+        <codi>MA-CMV</codi>
+        <nom>Amparo Piferrer Coma</nom>
+        <NIF>040523676E</NIF>
+        <adreca>Mercè,3,2,2</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17001</codipostal>
+        <telefon>938570020</telefon>
+    </client>
+    <client>
+        <codi>SC-MCRO</codi>
+        <nom>Rosa Chic Serisuelo</nom>
+        <NIF>046670544W</NIF>
+        <adreca>Riu Ser, 6,1,2</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>645142507</telefon>
+    </client>
+    <client>
+        <codi>QU-MLTS</codi>
+        <nom>Adolfo Simon Rosales</nom>
+        <NIF>040235451X</NIF>
+        <adreca>Avda. Sant Francesc, 13, àtic</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972463807</telefon>
+    </client>
+    <client>
+        <codi>EL-MTM</codi>
+        <nom>Joan Bou Ramis</nom>
+        <NIF>077912680L</NIF>
+        <adreca>Major, 21</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17001</codipostal>
+        <telefon>972460516</telefon>
+    </client>
+    <client>
+        <codi>LE-AVG</codi>
+        <nom>Montserrat Garde Jara</nom>
+        <NIF>077903157H</NIF>
+        <adreca>Can Font, 1</adreca>
+        <municipi>17049</municipi>
+        <codipostal>17460</codipostal>
+        <telefon>972428658</telefon>
+    </client>
+    <client>
+        <codi>FOL-ETA</codi>
+        <nom>Oriol Bou Bosch</nom>
+        <NIF>046141348J</NIF>
+        <adreca>Rutlla, 49-51,4,1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17005</codipostal>
+        <telefon>972471085</telefon>
+    </client>
+    <client>
+        <codi>IN-JMV</codi>
+        <nom>Lluís Viñolas Ticó</nom>
+        <NIF>040525555S</NIF>
+        <adreca>Mas Barril,2,1,B</adreca>
+        <municipi>17185</municipi>
+        <codipostal>17857</codipostal>
+        <telefon>972594049</telefon>
+    </client>
+    <client>
+        <codi>AD-ACV</codi>
+        <nom>Carlos Rabassedas Ferrero</nom>
+        <NIF>040304087Z</NIF>
+        <adreca>Bernat Boades, 29,3,3</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>972231126</telefon>
+    </client>
+    <client>
+        <codi>AD-MJP</codi>
+        <nom>Manel Sanahuja Hereu</nom>
+        <NIF>038794331R</NIF>
+        <adreca>Joan Maragall, 53-55, 6 A</adreca>
+        <municipi>17044</municipi>
+        <codipostal>17244</codipostal>
+        <telefon>972653033</telefon>
+    </client>
+    <client>
+        <codi>SC-ASG</codi>
+        <nom>Esther Soler Illera</nom>
+        <NIF>040331664Z</NIF>
+        <adreca>Carrer Nou del Teatre 1a vivenda A</adreca>
+        <municipi>17015</municipi>
+        <codipostal>17820</codipostal>
+        <telefon>972222016</telefon>
+    </client>
+    <client>
+        <codi>EL-XPC</codi>
+        <nom>Esperanza Gómez Bruguer</nom>
+        <NIF>018980345D</NIF>
+        <adreca>Plaça Miquel Coll i Alentorn, 8,3,3</adreca>
+        <municipi>17066</municipi>
+        <codipostal>17600</codipostal>
+        <telefon>972210796</telefon>
+    </client>
+    <client>
+        <codi>EF-REC</codi>
+        <nom>Juan José Murillo Masferrer</nom>
+        <NIF>036952923L</NIF>
+        <adreca>La Pau, 13</adreca>
+        <municipi>17047</municipi>
+        <codipostal>17486</codipostal>
+        <telefon>972205356</telefon>
+    </client>
+    <client>
+        <codi>IN-EBR</codi>
+        <nom>Francisco Javier Sabrià Zaragoza</nom>
+        <NIF>040438901W</NIF>
+        <adreca>Sant Joan Bta. La Salle,4,àtic,2</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972243610</telefon>
+    </client>
+    <client>
+        <codi>AD-FVA</codi>
+        <nom>Maria Àngela Massa Turon</nom>
+        <NIF>040258532E</NIF>
+        <adreca>Andreu vives, 11,2,1</adreca>
+        <municipi>17020</municipi>
+        <codipostal>17162</codipostal>
+        <telefon>972213848</telefon>
+    </client>
+    <client>
+        <codi>FQ-OCG</codi>
+        <nom>Maria Teresa Teixidor Roca</nom>
+        <NIF>040529093B</NIF>
+        <adreca>Santa Eugènia, 27,5,2</adreca>
+        <municipi>17023</municipi>
+        <codipostal>17300</codipostal>
+        <telefon>972202001</telefon>
+    </client>
+    <client>
+        <codi>QU-MCV</codi>
+        <nom>Marcela Sanchez Garcia</nom>
+        <NIF>040283965V</NIF>
+        <adreca>Avda. Sant Francesc, 13, àtic</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17005</codipostal>
+        <telefon>972212637</telefon>
+    </client>
+    <client>
+        <codi>AU-JJT</codi>
+        <nom>M. Dolors Gomila Pasturet</nom>
+        <NIF>040275503L</NIF>
+        <adreca>Albera, 29 - Mas Barril</adreca>
+        <municipi>17204</municipi>
+        <codipostal>17140</codipostal>
+        <telefon>972208419</telefon>
+    </client>
+    <client>
+        <codi>LE-MVG</codi>
+        <nom>Ernest Subils Tenas</nom>
+        <NIF>040297382W</NIF>
+        <adreca>La Bisbal, 17,1</adreca>
+        <municipi>25210</municipi>
+        <codipostal>25181</codipostal>
+        <telefon>972205939</telefon>
+    </client>
+    <client>
+        <codi>QU-AVM</codi>
+        <nom> Helena López Roig</nom>
+        <NIF>038144180Z</NIF>
+        <adreca>Sant Llàtzer, 57,2n C</adreca>
+        <municipi>46250</municipi>
+        <codipostal>46740</codipostal>
+        <telefon>972610524</telefon>
+    </client>
+    <client>
+        <codi>FOL-RGA</codi>
+        <nom>Josep Garrido Uroz</nom>
+        <NIF>040324506D</NIF>
+        <adreca>Plaça Mela Mutermilch,1,4,1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>637764039</telefon>
+    </client>
+    <client>
+        <codi>LE-NGJ</codi>
+        <nom>Jaume de Jorge Güell</nom>
+        <NIF>040284996J</NIF>
+        <adreca>Escoles, 17</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17705</codipostal>
+        <telefon>972400697</telefon>
+    </client>
+    <client>
+        <codi>PS-FGS</codi>
+        <nom>Adela García Garcia</nom>
+        <NIF>040297429A</NIF>
+        <adreca>Vayreda, 49,3,1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972215038</telefon>
+    </client>
+    <client>
+        <codi>AU-MMP</codi>
+        <nom>Nuria Vivó Gispert</nom>
+        <NIF>077100990E</NIF>
+        <adreca>Joan Maragall, 55</adreca>
+        <municipi>17160</municipi>
+        <codipostal>17220</codipostal>
+        <telefon>962895521</telefon>
+    </client>
+    <client>
+        <codi>LE-LLOF</codi>
+        <nom>Maria Isabel Amat Arrué</nom>
+        <NIF>040341654E</NIF>
+        <adreca>Anselm Clave, 17</adreca>
+        <municipi>17089</municipi>
+        <codipostal>17240</codipostal>
+        <telefon>972353045</telefon>
+    </client>
+    <client>
+        <codi>TE-JCE</codi>
+        <nom>Helena Donatiu Quer</nom>
+        <NIF>040920170L</NIF>
+        <adreca>Dr. Pascual i Prats, 17,5,1</adreca>
+        <municipi>17163</municipi>
+        <codipostal>17150</codipostal>
+        <telefon>972211409</telefon>
+    </client>
+    <client>
+        <codi>MU-MSB</codi>
+        <nom>M. Teresa Albertí Punti</nom>
+        <NIF>040351712Y</NIF>
+        <adreca>del Ter, 12</adreca>
+        <municipi>17123</municipi>
+        <codipostal>17843</codipostal>
+        <telefon>972209442</telefon>
+    </client>
+    <client>
+        <codi>IN-JCI</codi>
+        <nom>Marta Albertí Cano</nom>
+        <NIF>040307611L</NIF>
+        <adreca>M. Aurèlia Capmany, 55</adreca>
+        <municipi>17023</municipi>
+        <codipostal>17300</codipostal>
+        <telefon>972476339</telefon>
+    </client>
+    <client>
+        <codi>EL-JCB</codi>
+        <nom>Josep Sunyer Pañart</nom>
+        <NIF>040287596Z</NIF>
+        <adreca>Carme, 40,1,2</adreca>
+        <municipi>17160</municipi>
+        <codipostal>17220</codipostal>
+        <telefon>650249705</telefon>
+    </client>
+    <client>
+        <codi>AD-MAP</codi>
+        <nom>M.Mercè Soldevila Morales</nom>
+        <NIF>039999958Z</NIF>
+        <adreca>Empúries, 37 A,4,2</adreca>
+        <municipi>17015</municipi>
+        <codipostal>17820</codipostal>
+        <telefon>972220381</telefon>
+    </client>
+    <client>
+        <codi>SC-ETC</codi>
+        <nom>Marta Bossacoma Dalmau</nom>
+        <NIF>040435390X</NIF>
+        <adreca>Santa Eugènia, 209, 2</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17001</codipostal>
+        <telefon>972226124</telefon>
+    </client>
+    <client>
+        <codi>LE-DMR</codi>
+        <nom>Daniel Bernatallada Riera</nom>
+        <NIF>044793009A</NIF>
+        <adreca>Valladolid, 26</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>972411838</telefon>
+    </client>
+    <client>
+        <codi>LE-LOD</codi>
+        <nom>Ferran Bonet Juvanteny</nom>
+        <NIF>077903218X</NIF>
+        <adreca>Eivissa, 4</adreca>
+        <municipi>17147</municipi>
+        <codipostal>17500</codipostal>
+        <telefon>626241755</telefon>
+    </client>
+    <client>
+        <codi>SC-MLCLL</codi>
+        <nom>Antoni Palomeras Moré</nom>
+        <NIF>019005135M</NIF>
+        <adreca>Barri els Molins, núm.4</adreca>
+        <municipi>17019</municipi>
+        <codipostal>17850</codipostal>
+        <telefon>610302930</telefon>
+    </client>
+    <client>
+        <codi>AD-ASC</codi>
+        <nom>Carme Cros Costa</nom>
+        <NIF>017989782X</NIF>
+        <adreca>Francesc Romaguera, 36</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>625173316</telefon>
+    </client>
+    <client>
+        <codi>AU-CBF</codi>
+        <nom>Mercè Pijoan Millàs</nom>
+        <NIF>040527086M</NIF>
+        <adreca>11 de setembre, 15</adreca>
+        <municipi>17044</municipi>
+        <codipostal>17244</codipostal>
+        <telefon>669021990</telefon>
+    </client>
+    <client>
+        <codi>EL-MGS</codi>
+        <nom>Roser Torres Macias</nom>
+        <NIF>040292473S</NIF>
+        <adreca>Dalt, 37</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972243691</telefon>
+    </client>
+    <client>
+        <codi>QU-LOG</codi>
+        <nom>Marta Guerrero Ferrer</nom>
+        <NIF>040326174K</NIF>
+        <adreca>Bisbe Sivilla, 10</adreca>
+        <municipi>08215</municipi>
+        <codipostal>08512</codipostal>
+        <telefon>680535207</telefon>
+    </client>
+    <client>
+        <codi>EF-CRA</codi>
+        <nom>Joan Soler Olivert</nom>
+        <NIF>040314946V</NIF>
+        <adreca>Peio Pasqual, 2</adreca>
+        <municipi>17044</municipi>
+        <codipostal>17244</codipostal>
+        <telefon>972660263</telefon>
+    </client>
+    <client>
+        <codi>IN-JAPL</codi>
+        <nom>Joan León Subirats</nom>
+        <NIF>040302638Z</NIF>
+        <adreca>Salvador Dalí, 5</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17004</codipostal>
+        <telefon>670215570</telefon>
+    </client>
+    <client>
+        <codi>PS-LOD</codi>
+        <nom>Montserrat Garcia Prats</nom>
+        <NIF>040291933G</NIF>
+        <adreca>Migida, 5 4 1</adreca>
+        <municipi>08019</municipi>
+        <codipostal>08005</codipostal>
+        <telefon>972492250</telefon>
+    </client>
+    <client>
+        <codi>PS-MBR</codi>
+        <nom>M. Assumpció Rigau Kaiser</nom>
+        <NIF>040443315T</NIF>
+        <adreca>Pedret, 3,1,2</adreca>
+        <municipi>17155</municipi>
+        <codipostal>17190</codipostal>
+        <telefon>972485022</telefon>
+    </client>
+    <client>
+        <codi>LE-MCF</codi>
+        <nom>Marta Geis Lloret</nom>
+        <NIF>038403588M</NIF>
+        <adreca>Pica d'Estats, 90</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>972357372</telefon>
+    </client>
+    <client>
+        <codi>EF-JPI</codi>
+        <nom>Anna Vilanova Garcia</nom>
+        <NIF>040260518F</NIF>
+        <adreca>Passatge Farigola, 2,2,2</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972412225</telefon>
+    </client>
+    <client>
+        <codi>LS-ISS</codi>
+        <nom>Carme Tardiu Leon</nom>
+        <NIF>040335294X</NIF>
+        <adreca>Oriol Martorell, 26,3,2</adreca>
+        <municipi>17044</municipi>
+        <codipostal>17244</codipostal>
+        <telefon>972290379</telefon>
+    </client>
+    <client>
+        <codi>MU-JGE</codi>
+        <nom>Josep Xavier Colomer López</nom>
+        <NIF>046400791Q</NIF>
+        <adreca>Llevant,1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17005</codipostal>
+        <telefon>972211333</telefon>
+    </client>
+    <client>
+        <codi>RE-</codi>
+        <nom>Maria Lourdes Minella Caballé</nom>
+        <NIF>040338529W</NIF>
+        <adreca>Emili Grahit,5,4,2</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972334062</telefon>
+    </client>
+    <client>
+        <codi>LS-MAAL</codi>
+        <nom>Josefina Ausach Eulogio</nom>
+        <NIF>040530267N</NIF>
+        <adreca>Sardana,20.2.1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>659196316</telefon>
+    </client>
+    <client>
+        <codi>MU-BLO</codi>
+        <nom>Josep Mir Casellas</nom>
+        <NIF>042994900B</NIF>
+        <adreca>Major, 210</adreca>
+        <municipi>17044</municipi>
+        <codipostal>17244</codipostal>
+        <telefon>972209074</telefon>
+    </client>
+    <client>
+        <codi>MU-MRG</codi>
+        <nom>Anna Ortega Serra</nom>
+        <NIF>050655888K</NIF>
+        <adreca>Sta. Eugènia, 21-B,6,1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972217253</telefon>
+    </client>
+    <client>
+        <codi>AU-FGP</codi>
+        <nom>Tània Juriol Agustí</nom>
+        <NIF>077910855B</NIF>
+        <adreca>Progrés, 17, pral</adreca>
+        <municipi>08163</municipi>
+        <codipostal>08397</codipostal>
+        <telefon>972242180</telefon>
+    </client>
+    <client>
+        <codi>TE-PSA</codi>
+        <nom>José Antonio Sullà Torres</nom>
+        <NIF>040840411R</NIF>
+        <adreca>Queralbs,7.4.2</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17001</codipostal>
+        <telefon>972220241</telefon>
+    </client>
+    <client>
+        <codi>MU-RLA</codi>
+        <nom>Alfons Gascon Arza</nom>
+        <NIF>036974416F</NIF>
+        <adreca>Darnius, 53</adreca>
+        <municipi>17033</municipi>
+        <codipostal>17455</codipostal>
+        <telefon>659377589</telefon>
+    </client>
+    <client>
+        <codi>AD-MVV</codi>
+        <nom>Roger Arumí Font</nom>
+        <NIF>077998506D</NIF>
+        <adreca>Joquim Ruyra, 120,3r.E</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>637514477</telefon>
+    </client>
+    <client>
+        <codi>EC-ASR</codi>
+        <nom>Carles Estrach Corcuera</nom>
+        <NIF>005119168N</NIF>
+        <adreca>Santa Coloma de Farners, 1</adreca>
+        <municipi>17073</municipi>
+        <codipostal>17458</codipostal>
+        <telefon>972244352</telefon>
+    </client>
+    <client>
+        <codi>QU-LPE</codi>
+        <nom>Joaquina Oliva Fernández</nom>
+        <NIF>040292473S</NIF>
+        <adreca>Ctra.Barcelona,61.6.3.</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17001</codipostal>
+        <telefon>972217572</telefon>
+    </client>
+    <client>
+        <codi>AD-NMS</codi>
+        <nom>Jordi Sánchez Alberti</nom>
+        <NIF>022565994G</NIF>
+        <adreca>Ramon i Cajal, 8,3</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>972206632</telefon>
+    </client>
+    <client>
+        <codi>MA-NEM</codi>
+        <nom>Carles Malagon Ambròs</nom>
+        <NIF>020814173R</NIF>
+        <adreca>Francesc Eiximenis, 18,3,2</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17007</codipostal>
+        <telefon>972492213</telefon>
+    </client>
+    <client>
+        <codi>EL-ABE</codi>
+        <nom>Maria Teresa Pou Claraco</nom>
+        <NIF>077733423R</NIF>
+        <adreca>Joan Maragall, 23,B,3,1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972208970</telefon>
+    </client>
+    <client>
+        <codi>QU-MSK</codi>
+        <nom>Carme Clopés Fraiz</nom>
+        <NIF>047648152H</NIF>
+        <adreca>Pau Casals, 2</adreca>
+        <municipi>17056</municipi>
+        <codipostal>17844</codipostal>
+        <telefon>972207034</telefon>
+    </client>
+    <client>
+        <codi>IN-PHC</codi>
+        <nom>Isabel Cruz Farrés</nom>
+        <NIF>040340859D</NIF>
+        <adreca>Rambla 11 de setembre, 13, 4,2</adreca>
+        <municipi>17019</municipi>
+        <codipostal>17850</codipostal>
+        <telefon>932075487</telefon>
+    </client>
+    <client>
+        <codi>CS-JMFT</codi>
+        <nom>Artur Coll Rodríguez</nom>
+        <NIF>040344733L</NIF>
+        <adreca>Pirineus, 4,3,1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972476172</telefon>
+    </client>
+    <client>
+        <codi>FQ-MGPS</codi>
+        <nom>Fèlix Rubirola Cabruja</nom>
+        <NIF>038027045H</NIF>
+        <adreca>Pau Casals 36, 5,2</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17004</codipostal>
+        <telefon>972226056</telefon>
+    </client>
+    <client>
+        <codi>QU-NBM</codi>
+        <nom>Santiago Fargas Albó</nom>
+        <NIF>077898703A</NIF>
+        <adreca>Riera de Mus, 14</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>669292455</telefon>
+    </client>
+    <client>
+        <codi>LE-RMC</codi>
+        <nom>Maria Dolores Prats Martinell</nom>
+        <NIF>077905048T</NIF>
+        <adreca>Migdia, 47,2,1</adreca>
+        <municipi>99999</municipi>
+        <codipostal>46790</codipostal>
+        <telefon>972217169</telefon>
+    </client>
+    <client>
+        <codi>LE-MBJ</codi>
+        <nom>Maria Ayguabella Llorens</nom>
+        <NIF>040316890Y</NIF>
+        <adreca>Mestre Civil, 5,4,2</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17199</codipostal>
+        <telefon>972223056</telefon>
+    </client>
+    <client>
+        <codi>SC-MEPM</codi>
+        <nom>Maria Lourdes Bruget Costa</nom>
+        <NIF>040298405J</NIF>
+        <adreca>Sardana, 184-186 ent. 2a</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17001</codipostal>
+        <telefon>972210814</telefon>
+    </client>
+    <client>
+        <codi>MU-CRA</codi>
+        <nom>Lluís Rafart Cateura</nom>
+        <NIF>040297656T</NIF>
+        <adreca>Campcardós, 34,2,3</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>666584528</telefon>
+    </client>
+    <client>
+        <codi>FQ-RCS</codi>
+        <nom>Vicent Galdón Isern</nom>
+        <NIF>040283657P</NIF>
+        <adreca>Can Coll. Pjda dels Lladoners</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17007</codipostal>
+        <telefon>972200579</telefon>
+    </client>
+    <client>
+        <codi>CS-FM</codi>
+        <nom>Eva Batllori Puig</nom>
+        <NIF>040285299V</NIF>
+        <adreca>Ronda Ferran Puig,17,3r.</adreca>
+        <municipi>17015</municipi>
+        <codipostal>17820</codipostal>
+        <telefon>972235558</telefon>
+    </client>
+    <client>
+        <codi>LE-DIX</codi>
+        <nom>Juan Manuel Ripoll Fabregas</nom>
+        <NIF>073567596A</NIF>
+        <adreca>Emili Grahit, 18-20, 6,1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17005</codipostal>
+        <telefon>972580995</telefon>
+    </client>
+    <client>
+        <codi>AU-JBT</codi>
+        <nom>Antoni Cairó Palahí</nom>
+        <NIF>040320991J</NIF>
+        <adreca>Onyar, 16-B</adreca>
+        <municipi>17155</municipi>
+        <codipostal>17190</codipostal>
+        <telefon>972423646</telefon>
+    </client>
+    <client>
+        <codi>EL-JCG</codi>
+        <nom>Maria del Carmen Costa Gasull</nom>
+        <NIF>040277015J</NIF>
+        <adreca>Josep Pla, 8</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17001</codipostal>
+        <telefon>972366271</telefon>
+    </client>
+    <client>
+        <codi>QU-JMU</codi>
+        <nom>Pilar Francisco-Busquets Juanhuix</nom>
+        <NIF>046566516A</NIF>
+        <adreca>Juli Garreta, 13</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17005</codipostal>
+        <telefon>972207103</telefon>
+    </client>
+    <client>
+        <codi>CN-RHA</codi>
+        <nom>Josep Sanmartín Torrents</nom>
+        <NIF>017699103M</NIF>
+        <adreca>Mas Blanc, 7</adreca>
+        <municipi>99999</municipi>
+        <codipostal>46136</codipostal>
+        <telefon>972643781</telefon>
+    </client>
+    <client>
+        <codi>LE-MTPP</codi>
+        <nom>M. del Pilar Tal Escrivà</nom>
+        <NIF>040255162X</NIF>
+        <adreca>Plaça Mela Mutermilch,2,5,2</adreca>
+        <municipi>25207</municipi>
+        <codipostal>25280</codipostal>
+        <telefon>972305920</telefon>
+    </client>
+    <client>
+        <codi>EF-FJPL</codi>
+        <nom>Francesc Xavier Bover Díaz</nom>
+        <NIF>040287192R</NIF>
+        <adreca>Jecsalis, 1</adreca>
+        <municipi>17044</municipi>
+        <codipostal>17244</codipostal>
+        <telefon>972410153</telefon>
+    </client>
+    <client>
+        <codi>MU-MSC</codi>
+        <nom>Domingo Martínez Solés</nom>
+        <NIF>077914412A</NIF>
+        <adreca>Dr. Ametller, 3</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17004</codipostal>
+        <telefon>972227548</telefon>
+    </client>
+    <client>
+        <codi>FQ-JPJ</codi>
+        <nom>Josepa Ruiz Lara</nom>
+        <NIF>040276639M</NIF>
+        <adreca>Can Teixidor de Sors</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17006</codipostal>
+        <telefon>972461694</telefon>
+    </client>
+    <client>
+        <codi>AD-JPR</codi>
+        <nom>Elvis Gasch Viñuales</nom>
+        <NIF>040319992A</NIF>
+        <adreca>Francesc Artau,4,1,1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17001</codipostal>
+        <telefon>972221031</telefon>
+    </client>
+    <client>
+        <codi>MU-JTC</codi>
+        <nom>M. Enriqueta Soler Cosp</nom>
+        <NIF>043674211V</NIF>
+        <adreca>Mas Abella, 18</adreca>
+        <municipi>17020</municipi>
+        <codipostal>17162</codipostal>
+        <telefon>972209380</telefon>
+    </client>
+    <client>
+        <codi>EC-GCR</codi>
+        <nom>Maria Teresa Osés Olivet</nom>
+        <NIF>040271151Z</NIF>
+        <adreca>Joan Maragall, 3</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17004</codipostal>
+    </client>
+    <client>
+        <codi>LC-MAC</codi>
+        <nom>Jordi Batlle Vega</nom>
+        <NIF>039863373A</NIF>
+        <adreca>Can Triola, 27</adreca>
+        <municipi>17008</municipi>
+        <codipostal>17160</codipostal>
+        <telefon>972401674</telefon>
+    </client>
+    <client>
+        <codi>AU-AVF</codi>
+        <nom>Francesc Xavier Berney Llavaneras</nom>
+        <NIF>040273498S</NIF>
+        <adreca>Romanya, 6</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972216015</telefon>
+    </client>
+    <client>
+        <codi>AU-AFM</codi>
+        <nom>Raquel Barrot Coris</nom>
+        <NIF>040286354Z</NIF>
+        <adreca>Passatge Romaní, 1 PB4</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17007</codipostal>
+        <telefon>972462008</telefon>
+    </client>
+    <client>
+        <codi>EL-AOV</codi>
+        <nom>Marta Trillas Mangiarotti</nom>
+        <NIF>040324425C</NIF>
+        <adreca>Bonastruc de Porta, 21,2,3</adreca>
+        <municipi>99999</municipi>
+        <codipostal>46400</codipostal>
+        <telefon>972444557</telefon>
+    </client>
+    <client>
+        <codi>FOL-MAB</codi>
+        <nom>Antonio Albertí González</nom>
+        <NIF>040293417Q</NIF>
+        <adreca>Avda. Lluís Pericot, 74,6,1</adreca>
+        <municipi>17048</municipi>
+        <codipostal>17250</codipostal>
+        <telefon>972201899</telefon>
+    </client>
+    <client>
+        <codi>IN-JASB</codi>
+        <nom>Rosor Aurich Bellapart</nom>
+        <NIF>017984889Q</NIF>
+        <adreca>Vallespir, 17</adreca>
+        <municipi>17189</municipi>
+        <codipostal>17165</codipostal>
+    </client>
+    <client>
+        <codi>EF-MAM</codi>
+        <nom>Francisca Vallmajo Trias</nom>
+        <NIF>040302877T</NIF>
+        <adreca>Verdaguer, 15</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17002</codipostal>
+        <telefon>972222503</telefon>
+    </client>
+    <client>
+        <codi>FQ-DCM</codi>
+        <nom>Eduard Sistané Fernández</nom>
+        <NIF>040287642Z</NIF>
+        <adreca>Costa Carbonell,28.2n.2a.</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17001</codipostal>
+        <telefon>972442819</telefon>
+    </client>
+    <client>
+        <codi>LC-CBV</codi>
+        <nom>Caterina Font Vitales</nom>
+        <NIF>037276013M</NIF>
+        <adreca>Creu, 35,8,3</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972203592</telefon>
+    </client>
+    <client>
+        <codi>LS-EOS</codi>
+        <nom>Lluïsa Maria Colldecarrera Pons</nom>
+        <NIF>016474629M</NIF>
+        <adreca> del Carme, 58,3,4</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>972405069</telefon>
+    </client>
+    <client>
+        <codi>EV-OAA</codi>
+        <nom>Octavi Morera Saló</nom>
+        <NIF>040270000J</NIF>
+        <adreca>Santa Eugènia,  7,5,2</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17004</codipostal>
+        <telefon>687807606</telefon>
+    </client>
+    <client>
+        <codi>EC-PDC</codi>
+        <nom>Montserrat Pla Valls</nom>
+        <NIF>040504995V</NIF>
+        <adreca>Pep Ventura, 32</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17003</codipostal>
+        <telefon>872081516</telefon>
+    </client>
+    <client>
+        <codi>EL-LLCCH</codi>
+        <nom>Joan Camps Pons</nom>
+        <NIF>043677289J</NIF>
+        <adreca>Plaça Prudenci Bertrana, 7,2,1</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17007</codipostal>
+        <telefon>972400881</telefon>
+    </client>
+    <client>
+        <codi>MA-TRX</codi>
+        <nom>Núria Ribot Vizcaino</nom>
+        <NIF>046672706W</NIF>
+        <adreca>Sant Sebastià, 33, 2n.1a.</adreca>
+        <municipi>17161</municipi>
+        <codipostal>17174</codipostal>
+        <telefon>669486257</telefon>
+    </client>
+    <client>
+        <codi>IN-CTT</codi>
+        <nom>M. del Carme Antúnez Tena</nom>
+        <NIF>036947169S</NIF>
+        <adreca>Lluna, 26</adreca>
+        <municipi>17073</municipi>
+        <codipostal>17458</codipostal>
+        <telefon>972227637</telefon>
+    </client>
+    <client>
+        <codi>IN-EGT</codi>
+        <nom>Jaume Arjona Bayon</nom>
+        <NIF>046672706W</NIF>
+        <adreca>Mare de Déu del Remei, 34</adreca>
+        <municipi>17193</municipi>
+        <codipostal>17410</codipostal>
+        <telefon>972494240</telefon>
+    </client>
+    <client>
+        <codi>SC-MLGF</codi>
+        <nom>Joan Barceló Martí</nom>
+        <NIF>040264802J</NIF>
+        <adreca>La Fàbrica, 46</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17005</codipostal>
+        <telefon>972200362</telefon>
+    </client>
+    <client>
+        <codi>FQ-JMSS</codi>
+        <nom>Aina Orellana Planas</nom>
+        <NIF>033717446K</NIF>
+        <adreca>Sant Salvador d'Horta,22-28.2n.1a</adreca>
+        <municipi>17902</municipi>
+        <codipostal>17111</codipostal>
+        <telefon>636868786</telefon>
+    </client>
+    <client>
+        <codi>LC-RRF</codi>
+        <nom>Maria Almudena Geli Romero</nom>
+        <NIF>040234553D</NIF>
+        <adreca>Pompeu Fabra, 9,5,2</adreca>
+        <municipi>17079</municipi>
+        <codipostal>17001</codipostal>
+        <telefon>972476788</telefon>
+    </client>
+    <client>
+        <codi>EF-AGC</codi>
+        <nom>Joan Coll Bosch</nom>
+        <NIF>077886125Y</NIF>
+        <adreca>Castell de Solterra, 51</adreca>
+        <municipi>43067</municipi>
+        <codipostal>17151</codipostal>
+        <telefon>972212091</telefon>
+    </client>
+    <client>
+        <codi>EF-VCT</codi>
+        <nom>Martin Garcia Sayols</nom>
+        <NIF>039143131Y</NIF>
+        <adreca>P. Constitucional, 3</adreca>
+        <municipi>99999</municipi>
+        <codipostal>12549</codipostal>
+        <telefon>972227397</telefon>
+    </client>
+    <client>
+        <codi>LE-DGO</codi>
+        <nom>Montserrat Fages Castillo</nom>
+        <NIF>040268693V</NIF>
+        <adreca>Marina, 65,àtic,2,esc.1</adreca>
+        <municipi>17044</municipi>
+        <codipostal>17244</codipostal>
+        <telefon>972227287</telefon>
+    </client>
+    <client>
+        <codi>MU-AGD</codi>
+        <nom>Arnau Casellas Peñin</nom>
+        <NIF>077913668H</NIF>
+        <adreca>Santa Eugenia,,88,1,2</adreca>
+        <municipi>17147</municipi>
+        <codipostal>17500</codipostal>
+        <telefon>972223705</telefon>
+    </client>
+    <client>
+        <codi>MA-ABC</codi>
+        <nom>Joaquim Reixach Negre</nom>
+        <NIF>040317067E</NIF>
+        <adreca>Rutlla, 20, àtic, 3</adreca>
+        <municipi>17048</municipi>
+        <codipostal>17250</codipostal>
+        <telefon>972238795</telefon>
+    </client>
+</clients>

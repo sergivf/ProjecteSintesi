@@ -1,0 +1,2908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<articles>
+    <article>
+        <idProducte>AL0006</idProducte>
+        <descripcio>Altavoces ALTEC LANSING 5100 (5.1)</descripcio>
+        <pcost>97.43</pcost>
+        <pvenda>110.10597698638</pvenda>
+        <quantitatstock>466</quantitatstock>
+    </article>
+    <article>
+        <idProducte>AL0008</idProducte>
+        <descripcio>Altavoces ALTEC LANSING VS4121 (2.1)</descripcio>
+        <pcost>60.22</pcost>
+        <pvenda>88.6776968325675</pvenda>
+        <quantitatstock>702</quantitatstock>
+    </article>
+    <article>
+        <idProducte>AL0009</idProducte>
+        <descripcio>Altavoces ALTEC LANSING 120 (2.0)</descripcio>
+        <pcost>9.71</pcost>
+        <pvenda>11.2669957281599</pvenda>
+        <quantitatstock>252</quantitatstock>
+    </article>
+    <article>
+        <idProducte>AL0011</idProducte>
+        <descripcio>Altavoces ALTEC LANSING MX 5021 (2.1)</descripcio>
+        <pcost>127.36</pcost>
+        <pvenda>193.758202899978</pvenda>
+        <quantitatstock>118</quantitatstock>
+    </article>
+    <article>
+        <idProducte>AL0013</idProducte>
+        <descripcio>Altavoces ALT ALTEC LANSING CS21</descripcio>
+        <pcost>100.7</pcost>
+        <pvenda>144.322522631932</pvenda>
+        <quantitatstock>574</quantitatstock>
+    </article>
+    <article>
+        <idProducte>AL0014</idProducte>
+        <descripcio>Altavoces ALT ALTEC LANSING VS2120 (2,0)</descripcio>
+        <pcost>16.34</pcost>
+        <pvenda>24.7393028619589</pvenda>
+        <quantitatstock>703</quantitatstock>
+    </article>
+    <article>
+        <idProducte>AL0015</idProducte>
+        <descripcio>Altavoces ALT ALTEC LANSING SFX VS2121 (2,1)</descripcio>
+        <pcost>25.55</pcost>
+        <pvenda>26.752847100836</pvenda>
+        <quantitatstock>664</quantitatstock>
+    </article>
+    <article>
+        <idProducte>AL0016</idProducte>
+        <descripcio>Altavoces ALT ALTEC LANSING VS3151R (5,1)</descripcio>
+        <pcost>58.73</pcost>
+        <pvenda>87.0054957944878</pvenda>
+        <quantitatstock>875</quantitatstock>
+    </article>
+    <article>
+        <idProducte>AL1001</idProducte>
+        <descripcio>Auriculares ALTEC LANSING AHS202 Estereo</descripcio>
+        <pcost>13.14</pcost>
+        <pvenda>18.8790317004376</pvenda>
+        <quantitatstock>369</quantitatstock>
+    </article>
+    <article>
+        <idProducte>AL1002</idProducte>
+        <descripcio>Auriculares ALTEC LANSING AHS201 Mono</descripcio>
+        <pcost>9.55</pcost>
+        <pvenda>10.9893551159384</pvenda>
+        <quantitatstock>136</quantitatstock>
+    </article>
+    <article>
+        <idProducte>AL1004</idProducte>
+        <descripcio>Auriculares ALTEC LANSING AHS502</descripcio>
+        <pcost>17.73</pcost>
+        <pvenda>19.9717725512217</pvenda>
+        <quantitatstock>843</quantitatstock>
+    </article>
+    <article>
+        <idProducte>BB2196000</idProducte>
+        <descripcio>Barebone Cubo Biostar IDEQ 220 0M S775 VIA P4M800</descripcio>
+        <pcost>156.75</pcost>
+        <pvenda>179.81875475307</pvenda>
+        <quantitatstock>836</quantitatstock>
+    </article>
+    <article>
+        <idProducte>BB2196001</idProducte>
+        <descripcio>Barebone Cubo Biostar IDEQ 210 0M s478 VIA PM800</descripcio>
+        <pcost>138.84</pcost>
+        <pvenda>149.172826436995</pvenda>
+        <quantitatstock>196</quantitatstock>
+    </article>
+    <article>
+        <idProducte>BB2196002</idProducte>
+        <descripcio>Barebone Cubo Biostar IDEQ 220 0T s775 NF2</descripcio>
+        <pcost>181.61</pcost>
+        <pvenda>223.49491435049</pvenda>
+        <quantitatstock>656</quantitatstock>
+    </article>
+    <article>
+        <idProducte>BB2196003</idProducte>
+        <descripcio>Barebone Cubo Biostar IDEQ 210 P s754 NF3</descripcio>
+        <pcost>186.24</pcost>
+        <pvenda>215.078223685198</pvenda>
+        <quantitatstock>552</quantitatstock>
+    </article>
+    <article>
+        <idProducte>BB2196004</idProducte>
+        <descripcio>Barebone Cubo Biostar IDEQ 330 0P s939 nf4</descripcio>
+        <pcost>312.6</pcost>
+        <pvenda>454.453892969168</pvenda>
+        <quantitatstock>610</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CA0018</idProducte>
+        <descripcio>Cable Alimentación Serial-ATA</descripcio>
+        <pcost>1.49</pcost>
+        <pvenda>1.98194746925095</pvenda>
+        <quantitatstock>884</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CA0019</idProducte>
+        <descripcio>Cable Datos Serial-ATA</descripcio>
+        <pcost>1.82</pcost>
+        <pvenda>2.3440401139709</pvenda>
+        <quantitatstock>39</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CAM1000</idProducte>
+        <descripcio>Cámara digital SAMSUNG Digimax 301</descripcio>
+        <pcost>103.18</pcost>
+        <pvenda>153.660347541313</pvenda>
+        <quantitatstock>985</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CAM1001</idProducte>
+        <descripcio>Cámara digital SAMSUNG Digimax UCA3</descripcio>
+        <pcost>228</pcost>
+        <pvenda>275.093855540331</pvenda>
+        <quantitatstock>829</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CAM1003</idProducte>
+        <descripcio>Cámara digital SAMSUNG Digimax UCA4</descripcio>
+        <pcost>170.22</pcost>
+        <pvenda>182.810901039523</pvenda>
+        <quantitatstock>148</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CAM1004</idProducte>
+        <descripcio>Cámara digital SAMSUNG Digimax V4</descripcio>
+        <pcost>222.83</pcost>
+        <pvenda>349.943843869017</pvenda>
+        <quantitatstock>130</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CAM1005</idProducte>
+        <descripcio>Cámara digital SAMSUNG Digimax A400</descripcio>
+        <pcost>190.35</pcost>
+        <pvenda>254.493614623901</pvenda>
+        <quantitatstock>766</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CAM1006</idProducte>
+        <descripcio>Cámara digital SAMSUNG Digimax A5</descripcio>
+        <pcost>218.79</pcost>
+        <pvenda>345.713346775418</pvenda>
+        <quantitatstock>383</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CAM1007</idProducte>
+        <descripcio>Cámara digital SAMSUNG Digimax V5</descripcio>
+        <pcost>267.46</pcost>
+        <pvenda>383.960072499548</pvenda>
+        <quantitatstock>549</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CAM1008</idProducte>
+        <descripcio>Cámara digital SAMSUNG Digimax V70</descripcio>
+        <pcost>399.99</pcost>
+        <pvenda>620.908622141212</pvenda>
+        <quantitatstock>591</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CD2052</idProducte>
+        <descripcio>CDR-W LG GCE-8225B 52x32x52 Bulk</descripcio>
+        <pcost>16.27</pcost>
+        <pvenda>17.6591297569087</pvenda>
+        <quantitatstock>58</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CD2066</idProducte>
+        <descripcio>CDR-W LG GCE-8525B 52x Negro</descripcio>
+        <pcost>16.47</pcost>
+        <pvenda>23.7507287810946</pvenda>
+        <quantitatstock>833</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CD2077</idProducte>
+        <descripcio>DVD+-R LG GSA-4163B (DC) Blanca Bulk</descripcio>
+        <pcost>34.67</pcost>
+        <pvenda>45.4998299588846</pvenda>
+        <quantitatstock>257</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CD2078</idProducte>
+        <descripcio>DVD+-R LG GSA-4163B (DC) Negra Bulk</descripcio>
+        <pcost>36.6</pcost>
+        <pvenda>40.3265603357129</pvenda>
+        <quantitatstock>991</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CD2081</idProducte>
+        <descripcio>DVD+-R PIONEER DVR-109 Blanca</descripcio>
+        <pcost>37.69</pcost>
+        <pvenda>59.8211626346885</pvenda>
+        <quantitatstock>398</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CD3040</idProducte>
+        <descripcio>Lector DVD  LG GDR-8162B 16X Blanco Bulk</descripcio>
+        <pcost>15.96</pcost>
+        <pvenda>25.5105071648075</pvenda>
+        <quantitatstock>683</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CD3041</idProducte>
+        <descripcio>Lector DVD LG DRD-8162 16X Negro Bulk</descripcio>
+        <pcost>15.02</pcost>
+        <pvenda>15.6171606866441</pvenda>
+        <quantitatstock>253</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CJ0056</idProducte>
+        <descripcio>Caja SERVER ENLIGTH EN-8950 460W Negra</descripcio>
+        <pcost>269.33</pcost>
+        <pvenda>294.937426908854</pvenda>
+        <quantitatstock>491</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CJ0066</idProducte>
+        <descripcio>Caja ANTLER PC 146 Plata/Gris Comp PIV 300W</descripcio>
+        <pcost>26.09</pcost>
+        <pvenda>35.3775331556696</pvenda>
+        <quantitatstock>6</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CJ0072</idProducte>
+        <descripcio>Caja ATX 313G Silver 300W</descripcio>
+        <pcost>28.81</pcost>
+        <pvenda>29.1558908156366</pvenda>
+        <quantitatstock>106</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CJ0073</idProducte>
+        <descripcio>Caja ATX 3131G Azul 350W</descripcio>
+        <pcost>28.26</pcost>
+        <pvenda>40.6103349746197</pvenda>
+        <quantitatstock>759</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CJ0079</idProducte>
+        <descripcio>Caja ANTLER PC 302 BlackSilver 300W</descripcio>
+        <pcost>28.2</pcost>
+        <pvenda>38.1339103727466</pvenda>
+        <quantitatstock>753</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CJ0084</idProducte>
+        <descripcio>Caja ANTLER SQ 309 SILVER BLACK</descripcio>
+        <pcost>42.49</pcost>
+        <pvenda>48.1996669534309</pvenda>
+        <quantitatstock>498</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CJ0096</idProducte>
+        <descripcio>Caja ANTLER DM317 BLACK SILVER</descripcio>
+        <pcost>40.21</pcost>
+        <pvenda>63.250065026118</pvenda>
+        <quantitatstock>65</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CJ110002</idProducte>
+        <descripcio>Caja CHEMELEON X-Case</descripcio>
+        <pcost>50.5</pcost>
+        <pvenda>72.7498557131776</pvenda>
+        <quantitatstock>233</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CJ2037</idProducte>
+        <descripcio>Fuente Alimentacion  400W PIV</descripcio>
+        <pcost>13.49</pcost>
+        <pvenda>17.4069079955097</pvenda>
+        <quantitatstock>796</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CJ2038</idProducte>
+        <descripcio>Fuente Alimentacion  350W PIV</descripcio>
+        <pcost>9.4</pcost>
+        <pvenda>14.2608972280761</pvenda>
+        <quantitatstock>667</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CL0005</idProducte>
+        <descripcio>Cooler para Caja 8x8</descripcio>
+        <pcost>1.58</pcost>
+        <pvenda>1.84070809312396</pvenda>
+        <quantitatstock>304</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CN1232001</idProducte>
+        <descripcio>PCMCIA CONCEPTRONIC 1 GB </descripcio>
+        <pcost>20.64</pcost>
+        <pvenda>31.087662620055</pvenda>
+        <quantitatstock>47</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CN1290000</idProducte>
+        <descripcio>Gateway inalámbrico 54Mbps. 4PT</descripcio>
+        <pcost>52.51</pcost>
+        <pvenda>74.9522112097429</pvenda>
+        <quantitatstock>443</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CN1290003</idProducte>
+        <descripcio>Antena 2.4GHZ direccional 11DBI</descripcio>
+        <pcost>46.11</pcost>
+        <pvenda>69.9459628544654</pvenda>
+        <quantitatstock>567</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CN2290000</idProducte>
+        <descripcio>Wireless Access Point 54Mb SMC</descripcio>
+        <pcost>365.09</pcost>
+        <pvenda>498.202292918484</pvenda>
+        <quantitatstock>500</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CN3232001</idProducte>
+        <descripcio>BUETOOTH CARKIT</descripcio>
+        <pcost>43.64</pcost>
+        <pvenda>61.254836550082</pvenda>
+        <quantitatstock>854</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CN3275002</idProducte>
+        <descripcio>WOXTER BLUETOOTH GPS Antenna</descripcio>
+        <pcost>92</pcost>
+        <pvenda>108.519343263577</pvenda>
+        <quantitatstock>550</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CN3290000</idProducte>
+        <descripcio>Adaptador USB. Bluetooth Case</descripcio>
+        <pcost>10.97</pcost>
+        <pvenda>11.8067829430638</pvenda>
+        <quantitatstock>131</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CN4290000</idProducte>
+        <descripcio>Bundle SMC 7904 WBRA . SMC2862W</descripcio>
+        <pcost>72.28</pcost>
+        <pvenda>105.884850773319</pvenda>
+        <quantitatstock>523</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CN4290001</idProducte>
+        <descripcio>Router ADSL/ADSL2 SMC . Switch</descripcio>
+        <pcost>41.4</pcost>
+        <pvenda>52.1439288231075</pvenda>
+        <quantitatstock>181</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0027</idProducte>
+        <descripcio>PCMCIA M.F. 56k</descripcio>
+        <pcost>46.52</pcost>
+        <pvenda>54.0475169110414</pvenda>
+        <quantitatstock>548</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0037</idProducte>
+        <descripcio>Tarjeta PCI IEEE1394 Firewire</descripcio>
+        <pcost>12.45</pcost>
+        <pvenda>13.3501271612095</pvenda>
+        <quantitatstock>597</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0066</idProducte>
+        <descripcio>Tarjeta PCI 5 Ptos USB 2.0</descripcio>
+        <pcost>8.97</pcost>
+        <pvenda>8.99060533986006</pvenda>
+        <quantitatstock>266</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0075</idProducte>
+        <descripcio>PCMCIA Red 10/100</descripcio>
+        <pcost>17.62</pcost>
+        <pvenda>26.1670704285816</pvenda>
+        <quantitatstock>463</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0078</idProducte>
+        <descripcio>Cable Seguridad para Portatil </descripcio>
+        <pcost>13.46</pcost>
+        <pvenda>18.4384309350397</pvenda>
+        <quantitatstock>818</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0080</idProducte>
+        <descripcio>Módem RDSI Int. 128 Kbps</descripcio>
+        <pcost>21.67</pcost>
+        <pvenda>30.6927360642103</pvenda>
+        <quantitatstock>583</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0086</idProducte>
+        <descripcio>Módem USB Pasivo Externo</descripcio>
+        <pcost>30.7</pcost>
+        <pvenda>45.6580949407696</pvenda>
+        <quantitatstock>307</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0089</idProducte>
+        <descripcio>Teclado Númerico 2ptos USB</descripcio>
+        <pcost>17.9</pcost>
+        <pvenda>19.4474256444445</pvenda>
+        <quantitatstock>990</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0095</idProducte>
+        <descripcio>Módem 56 Int. ROCKWELL Retail</descripcio>
+        <pcost>7.85</pcost>
+        <pvenda>10.7299477435383</pvenda>
+        <quantitatstock>721</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0098</idProducte>
+        <descripcio>PCMCIA Firewire Snapport</descripcio>
+        <pcost>20.88</pcost>
+        <pvenda>28.7916968632833</pvenda>
+        <quantitatstock>378</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0102</idProducte>
+        <descripcio>PCMCIA 3 Ptos. USB 2.0 480Mbs</descripcio>
+        <pcost>16.36</pcost>
+        <pvenda>20.0945922896949</pvenda>
+        <quantitatstock>148</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0105</idProducte>
+        <descripcio>Luz USB CLIP (Pequeña) para Portátil</descripcio>
+        <pcost>8.11</pcost>
+        <pvenda>9.21409543165537</pvenda>
+        <quantitatstock>3</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0108</idProducte>
+        <descripcio>Tarjeta TV PCI CTVFMi FM + Radio</descripcio>
+        <pcost>34.25</pcost>
+        <pvenda>46.5037777839644</pvenda>
+        <quantitatstock>904</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0109</idProducte>
+        <descripcio>Switch 8ptos SOHO C100S8</descripcio>
+        <pcost>15.2</pcost>
+        <pvenda>16.2368980007336</pvenda>
+        <quantitatstock>112</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0110</idProducte>
+        <descripcio>Switch 16ptos SOHO C100S16</descripcio>
+        <pcost>46.48</pcost>
+        <pvenda>69.0551141346822</pvenda>
+        <quantitatstock>180</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0111</idProducte>
+        <descripcio>Router Firewall + Switch 4ptos</descripcio>
+        <pcost>36.73</pcost>
+        <pvenda>48.5128516836391</pvenda>
+        <quantitatstock>592</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0119</idProducte>
+        <descripcio>PCMCIA Card Reader 4 en 1 (SM, SD, MMC, MS)</descripcio>
+        <pcost>22.65</pcost>
+        <pvenda>33.1879829536417</pvenda>
+        <quantitatstock>921</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0121</idProducte>
+        <descripcio>PCMCIA Bluetooh  Adapter CBTCF + PDA</descripcio>
+        <pcost>41.56</pcost>
+        <pvenda>65.4019224277238</pvenda>
+        <quantitatstock>803</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0122</idProducte>
+        <descripcio>Bluetooth USB Adapter CBTU</descripcio>
+        <pcost>14.15</pcost>
+        <pvenda>18.0683651818802</pvenda>
+        <quantitatstock>775</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0123</idProducte>
+        <descripcio>Módem ADSL Ext USB Análogico</descripcio>
+        <pcost>55.78</pcost>
+        <pvenda>72.2760540597592</pvenda>
+        <quantitatstock>556</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0137</idProducte>
+        <descripcio>Tarjeta Red 10/100Mb Realtek W.O.L.</descripcio>
+        <pcost>4.74</pcost>
+        <pvenda>5.1350633679715</pvenda>
+        <quantitatstock>649</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0138</idProducte>
+        <descripcio>Bluetooth USB Adapter (100 mts)</descripcio>
+        <pcost>18.35</pcost>
+        <pvenda>27.9187371505765</pvenda>
+        <quantitatstock>444</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0145</idProducte>
+        <descripcio>Módem Ext. 56k Pto. Serie</descripcio>
+        <pcost>22.43</pcost>
+        <pvenda>26.4649411575481</pvenda>
+        <quantitatstock>835</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0146</idProducte>
+        <descripcio>Módem Ext. 56k USB C56U</descripcio>
+        <pcost>19.59</pcost>
+        <pvenda>28.0174093014034</pvenda>
+        <quantitatstock>521</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0151</idProducte>
+        <descripcio>Tarjeta PCI USB 2.0 + Firewire</descripcio>
+        <pcost>23.26</pcost>
+        <pvenda>33.1117515682567</pvenda>
+        <quantitatstock>318</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0152</idProducte>
+        <descripcio>Adapt. USB a RED 10/100 SnapPort</descripcio>
+        <pcost>22.28</pcost>
+        <pvenda>30.5612354190129</pvenda>
+        <quantitatstock>70</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0153</idProducte>
+        <descripcio>Wireless AccesPoint</descripcio>
+        <pcost>56.16</pcost>
+        <pvenda>70.7244496309172</pvenda>
+        <quantitatstock>494</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0154</idProducte>
+        <descripcio>Caja Externa USB 2.0  2.5"</descripcio>
+        <pcost>17.03</pcost>
+        <pvenda>18.3181988249726</pvenda>
+        <quantitatstock>291</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0155</idProducte>
+        <descripcio>Caja Externa Aluminio USB 2.0 Slim 3.5"</descripcio>
+        <pcost>21.71</pcost>
+        <pvenda>26.3961976344348</pvenda>
+        <quantitatstock>801</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0156</idProducte>
+        <descripcio>Router Firewall + Switch 4P (Digital)</descripcio>
+        <pcost>47.56</pcost>
+        <pvenda>59.7103509348878</pvenda>
+        <quantitatstock>821</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0157</idProducte>
+        <descripcio>Router ADSL Firewall + Switch 4P (Analógico)</descripcio>
+        <pcost>41.33</pcost>
+        <pvenda>63.5861170608879</pvenda>
+        <quantitatstock>19</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0158</idProducte>
+        <descripcio>Kit de Impresión Wireless Bluetooh</descripcio>
+        <pcost>71.57</pcost>
+        <pvenda>75.9275469899315</pvenda>
+        <quantitatstock>259</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0159</idProducte>
+        <descripcio>Módem Bluetooth 56k</descripcio>
+        <pcost>74.05</pcost>
+        <pvenda>87.8583165045292</pvenda>
+        <quantitatstock>415</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0160</idProducte>
+        <descripcio>Wireless Bluetooth AccesPoint</descripcio>
+        <pcost>67.42</pcost>
+        <pvenda>84.0594212963594</pvenda>
+        <quantitatstock>882</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0161</idProducte>
+        <descripcio>Switch 8Ptos GIGA GIGS8</descripcio>
+        <pcost>61.55</pcost>
+        <pvenda>80.4216109757891</pvenda>
+        <quantitatstock>139</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0169</idProducte>
+        <descripcio>Tarjeta de Red GIBABIT</descripcio>
+        <pcost>11.81</pcost>
+        <pvenda>15.0548867877338</pvenda>
+        <quantitatstock>435</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0170</idProducte>
+        <descripcio>Switch 5Ptos GIGA</descripcio>
+        <pcost>50.9</pcost>
+        <pvenda>58.0065117939594</pvenda>
+        <quantitatstock>180</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0171</idProducte>
+        <descripcio>PCMCIA  USB 2.0+FIREWIRE  </descripcio>
+        <pcost>38.83</pcost>
+        <pvenda>53.4920050986285</pvenda>
+        <quantitatstock>467</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0180</idProducte>
+        <descripcio>ROUTER  Firewall +SWITCH 4P</descripcio>
+        <pcost>22.39</pcost>
+        <pvenda>29.4294105427122</pvenda>
+        <quantitatstock>852</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0181</idProducte>
+        <descripcio>WEBCAM CONCEPTRONIC 640x480</descripcio>
+        <pcost>16.65</pcost>
+        <pvenda>24.6588465971077</pvenda>
+        <quantitatstock>690</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0182</idProducte>
+        <descripcio>BUNDLE HD 160GB+PCI USB 2,0</descripcio>
+        <pcost>125.11</pcost>
+        <pvenda>181.739461238662</pvenda>
+        <quantitatstock>248</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0185</idProducte>
+        <descripcio>Wireless PCI 54Mb </descripcio>
+        <pcost>18.28</pcost>
+        <pvenda>26.4426409876583</pvenda>
+        <quantitatstock>754</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0186</idProducte>
+        <descripcio>Wireless PCMCIA 54MB </descripcio>
+        <pcost>17.72</pcost>
+        <pvenda>20.1462967772517</pvenda>
+        <quantitatstock>431</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0187</idProducte>
+        <descripcio>WEBCAM CONCEPTRONIC</descripcio>
+        <pcost>13.22</pcost>
+        <pvenda>14.2564134977411</pvenda>
+        <quantitatstock>416</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0188</idProducte>
+        <descripcio>CAJA EXT HD/CD/DVD </descripcio>
+        <pcost>25.85</pcost>
+        <pvenda>31.8531454836178</pvenda>
+        <quantitatstock>847</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0189</idProducte>
+        <descripcio>Luz portátil + Ventilador</descripcio>
+        <pcost>11.37</pcost>
+        <pvenda>14.4122121404601</pvenda>
+        <quantitatstock>728</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0190</idProducte>
+        <descripcio>Router Wireless ADSL C54APRA</descripcio>
+        <pcost>63.53</pcost>
+        <pvenda>71.0571155816051</pvenda>
+        <quantitatstock>858</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0193</idProducte>
+        <descripcio>USB Wireless 54Mbps </descripcio>
+        <pcost>18.61</pcost>
+        <pvenda>25.2469913776516</pvenda>
+        <quantitatstock>8</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0194</idProducte>
+        <descripcio>Router Wireless ACPoint </descripcio>
+        <pcost>45.3</pcost>
+        <pvenda>60.3135947691083</pvenda>
+        <quantitatstock>681</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0196</idProducte>
+        <descripcio>Bluetooht Headset </descripcio>
+        <pcost>28.28</pcost>
+        <pvenda>30.8283723504736</pvenda>
+        <quantitatstock>125</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0198</idProducte>
+        <descripcio>WIRELESS A.POINT 54MB </descripcio>
+        <pcost>38.08</pcost>
+        <pvenda>48.3550149806857</pvenda>
+        <quantitatstock>439</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0199</idProducte>
+        <descripcio>TV USB 2.0 ADAPTER</descripcio>
+        <pcost>65.13</pcost>
+        <pvenda>80.1420108282137</pvenda>
+        <quantitatstock>577</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0201</idProducte>
+        <descripcio>HUB 4 PORTS USB 2.0 </descripcio>
+        <pcost>10.51</pcost>
+        <pvenda>15.6283871999384</pvenda>
+        <quantitatstock>880</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0203</idProducte>
+        <descripcio>SENSOR WIFI </descripcio>
+        <pcost>12.99</pcost>
+        <pvenda>19.2176118492062</pvenda>
+        <quantitatstock>820</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0204</idProducte>
+        <descripcio>CAJA HD. 3,5" COMBO CONEXIÓN USB 2.0</descripcio>
+        <pcost>29.1</pcost>
+        <pvenda>36.5967413026558</pvenda>
+        <quantitatstock>948</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0206</idProducte>
+        <descripcio>FRONT PANEL 5/4 </descripcio>
+        <pcost>22.88</pcost>
+        <pvenda>36.5808026927958</pvenda>
+        <quantitatstock>180</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0207</idProducte>
+        <descripcio>CARD READER 16 EN 1 </descripcio>
+        <pcost>10.31</pcost>
+        <pvenda>13.21521833022</pvenda>
+        <quantitatstock>118</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0208</idProducte>
+        <descripcio>CONVERT SERIAL ATA A ULTRA ATA</descripcio>
+        <pcost>12.59</pcost>
+        <pvenda>15.1836614821378</pvenda>
+        <quantitatstock>629</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0209</idProducte>
+        <descripcio>TARJETA COMBO SERIAL ATA IDE</descripcio>
+        <pcost>16.36</pcost>
+        <pvenda>18.7740813828127</pvenda>
+        <quantitatstock>162</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CO0212</idProducte>
+        <descripcio>CARD READER+HD 40 GB </descripcio>
+        <pcost>0</pcost>
+        <pvenda>0</pvenda>
+        <quantitatstock>236</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP1053</idProducte>
+        <descripcio>Cpu  INTEL PIV 3.0GHz PRESCOTT (FSB 800) </descripcio>
+        <pcost>143.68</pcost>
+        <pvenda>192.770127390006</pvenda>
+        <quantitatstock>982</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP1056</idProducte>
+        <descripcio>Cpu  INTEL PIV 3.2 GHz PRESCOTT (FSB 800)</descripcio>
+        <pcost>143.68</pcost>
+        <pvenda>200.903175268556</pvenda>
+        <quantitatstock>936</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP1058</idProducte>
+        <descripcio>Cpu  INTEL PIV 2,8GHz 533 1 MB PRESCOTT</descripcio>
+        <pcost>139.54</pcost>
+        <pvenda>201.707334334709</pvenda>
+        <quantitatstock>290</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP1060</idProducte>
+        <descripcio>Cpu  INTEL PIV 530 3.0 775 Box</descripcio>
+        <pcost>144.57</pcost>
+        <pvenda>161.746129974344</pvenda>
+        <quantitatstock>505</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP1061</idProducte>
+        <descripcio>Cpu  INTEL PIV 540 3.2 775 Box</descripcio>
+        <pcost>180.28</pcost>
+        <pvenda>278.36394793978</pvenda>
+        <quantitatstock>543</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP1062</idProducte>
+        <descripcio>Cpu  INTEL Celeron 320 2400 Box</descripcio>
+        <pcost>59.26</pcost>
+        <pvenda>60.8703451945529</pvenda>
+        <quantitatstock>355</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP1063</idProducte>
+        <descripcio>Cpu  INTEL Celeron 330 2600 Box</descripcio>
+        <pcost>68.37</pcost>
+        <pvenda>68.7093100839619</pvenda>
+        <quantitatstock>195</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP1064</idProducte>
+        <descripcio>Cpu  INTEL Celeron 335 2800 Box</descripcio>
+        <pcost>72.34</pcost>
+        <pvenda>91.6511834036008</pvenda>
+        <quantitatstock>930</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP2041</idProducte>
+        <descripcio>Cpu  AMD Athlon 3200+ XP BARTON FSB 400 Box</descripcio>
+        <pcost>144.46</pcost>
+        <pvenda>210.156533153474</pvenda>
+        <quantitatstock>714</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP2043</idProducte>
+        <descripcio>Cpu  AMD Athlon 64 3000 (512KB) s754 Box</descripcio>
+        <pcost>124.56</pcost>
+        <pvenda>131.307140247545</pvenda>
+        <quantitatstock>532</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP2051</idProducte>
+        <descripcio>Cpu  AMD Sempron 2.4 333 Box</descripcio>
+        <pcost>58.06</pcost>
+        <pvenda>87.7139573724785</pvenda>
+        <quantitatstock>76</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP2052</idProducte>
+        <descripcio>Cpu  AMD Sempron 2.6 333 Box</descripcio>
+        <pcost>67.87</pcost>
+        <pvenda>79.4627740330726</pvenda>
+        <quantitatstock>63</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP2053</idProducte>
+        <descripcio>Cpu  AMD Athlon 64 3400 (512KB) s754 Box</descripcio>
+        <pcost>141.17</pcost>
+        <pvenda>212.981403958485</pvenda>
+        <quantitatstock>590</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP2054</idProducte>
+        <descripcio>Cpu  AMD Sempron 2.8 333 Box</descripcio>
+        <pcost>82.03</pcost>
+        <pvenda>85.0847465585404</pvenda>
+        <quantitatstock>879</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP2057</idProducte>
+        <descripcio>Cpu  AMD Athlon 64 3000 s939 Box</descripcio>
+        <pcost>122.11</pcost>
+        <pvenda>164.361163575454</pvenda>
+        <quantitatstock>710</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP2058</idProducte>
+        <descripcio>Cpu  AMD Athlon64 3200 s939 Box</descripcio>
+        <pcost>154.11</pcost>
+        <pvenda>228.322286401401</pvenda>
+        <quantitatstock>223</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP2059</idProducte>
+        <descripcio>Cpu  AMD Athlon64 3500 s939 Box</descripcio>
+        <pcost>176.34</pcost>
+        <pvenda>223.70419688264</pvenda>
+        <quantitatstock>51</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP2120010</idProducte>
+        <descripcio>Cpu  INTEL PIV 630 3.0GHz 2Mb Box (775)</descripcio>
+        <pcost>151.74</pcost>
+        <pvenda>210.04520745097</pvenda>
+        <quantitatstock>378</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP2120011</idProducte>
+        <descripcio>Cpu  INTEL PIV 640 3.2GHz 2Mb Box (775)</descripcio>
+        <pcost>184.17</pcost>
+        <pvenda>255.73878651131</pvenda>
+        <quantitatstock>395</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP2120012</idProducte>
+        <descripcio>Cpu  INTEL PIV 650 3,4GHz 2Mb Box (775)</descripcio>
+        <pcost>329.66</pcost>
+        <pvenda>522.412532663927</pvenda>
+        <quantitatstock>722</quantitatstock>
+    </article>
+    <article>
+        <idProducte>CP2120013</idProducte>
+        <descripcio>Cpu  INTEL PIV 660 3,6GHz 2Mb Box (775)</descripcio>
+        <pcost>327.16</pcost>
+        <pvenda>482.674559949899</pvenda>
+        <quantitatstock>665</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS0041</idProducte>
+        <descripcio>CD-R PLATINUM 80Min 700Mb 52x</descripcio>
+        <pcost>0.63</pcost>
+        <pvenda>0.830362143356029</pvenda>
+        <quantitatstock>5</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS0050</idProducte>
+        <descripcio>DVD+R PLATINUM 4.7Gb (Jewel-Case)</descripcio>
+        <pcost>0.63</pcost>
+        <pvenda>0.976491505560985</pvenda>
+        <quantitatstock>364</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS0055</idProducte>
+        <descripcio>DVD-RW MILLENIUM 4.7Gb JEWEL Und.</descripcio>
+        <pcost>1.75</pcost>
+        <pvenda>2.35266033453542</pvenda>
+        <quantitatstock>521</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS0056</idProducte>
+        <descripcio>DVD-R 4x MILLENIUM 4.7Gb JEWEL Und.</descripcio>
+        <pcost>2.06</pcost>
+        <pvenda>2.17658284229151</pvenda>
+        <quantitatstock>774</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS0059</idProducte>
+        <descripcio>CD-R PLATINUM 90Min 800Mb 52x Jewel</descripcio>
+        <pcost>0.54</pcost>
+        <pvenda>0.719640257823585</pvenda>
+        <quantitatstock>183</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS0061</idProducte>
+        <descripcio>DVD+R PLATINUM 4.7Gb T-25und</descripcio>
+        <pcost>22.89</pcost>
+        <pvenda>28.6312373057674</pvenda>
+        <quantitatstock>415</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS0062</idProducte>
+        <descripcio>CD-R PLATINUM 80Min 700Mb 52x T-50und.</descripcio>
+        <pcost>17.24</pcost>
+        <pvenda>24.4131241199579</pvenda>
+        <quantitatstock>195</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS0066</idProducte>
+        <descripcio>DVD-R  PRINCO 4.7Gb 4x T-10und.</descripcio>
+        <pcost>6.92</pcost>
+        <pvenda>8.79173520769616</pvenda>
+        <quantitatstock>420</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS0068</idProducte>
+        <descripcio>CD-R PLATINUM 90 Min. 800Mb 52x T-25und.</descripcio>
+        <pcost>13.7</pcost>
+        <pvenda>19.1020821194379</pvenda>
+        <quantitatstock>544</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS0073</idProducte>
+        <descripcio>CDR 700 MB  VERBATIM 52X JEWELL</descripcio>
+        <pcost>0.46</pcost>
+        <pvenda>0.611886714518326</pvenda>
+        <quantitatstock>270</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS0074</idProducte>
+        <descripcio>CDR VERBATIM 700M  52x T 50 CD</descripcio>
+        <pcost>15.79</pcost>
+        <pvenda>23.3597273866184</pvenda>
+        <quantitatstock>908</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS0075</idProducte>
+        <descripcio>CDR VERBATIM  80 MIN 52x T 25 CD</descripcio>
+        <pcost>8.95</pcost>
+        <pvenda>13.4979529380711</pvenda>
+        <quantitatstock>641</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS0077</idProducte>
+        <descripcio>DVD -R VERBATIM X4 (Tarrina de 10 und)</descripcio>
+        <pcost>11.89</pcost>
+        <pvenda>13.2580472687355</pvenda>
+        <quantitatstock>472</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS0083</idProducte>
+        <descripcio>DVD-R PRINCO 4,7GB T-25 4X</descripcio>
+        <pcost>18.9</pcost>
+        <pvenda>24.9051341470107</pvenda>
+        <quantitatstock>722</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2027</idProducte>
+        <descripcio>WOXTER SLIM DISK 60 GB  (Aluminium Case)</descripcio>
+        <pcost>92</pcost>
+        <pvenda>135.758747546224</pvenda>
+        <quantitatstock>62</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2029</idProducte>
+        <descripcio>WOXTER PORTABLE DISK 120 GB  USB 2.0</descripcio>
+        <pcost>85</pcost>
+        <pvenda>94.355954700267</pvenda>
+        <quantitatstock>157</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2030</idProducte>
+        <descripcio>WOXTER PORTABLE DISK 200 GB USB  2.0</descripcio>
+        <pcost>110</pcost>
+        <pvenda>167.729020182273</pvenda>
+        <quantitatstock>216</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2037</idProducte>
+        <descripcio>WOXTER DVD X-DIV 600 (DVD, DIV-X, MP3, VCD)</descripcio>
+        <pcost>63</pcost>
+        <pvenda>89.7715640215499</pvenda>
+        <quantitatstock>448</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2040</idProducte>
+        <descripcio>WOXTER SLIM DISK 80 GB  (Aluminium Case)</descripcio>
+        <pcost>105</pcost>
+        <pvenda>144.175159734732</pvenda>
+        <quantitatstock>367</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2043</idProducte>
+        <descripcio>WOXTER DVD X-DIV 650 (DVD, DIV-X, MP3, VCD)</descripcio>
+        <pcost>95</pcost>
+        <pvenda>144.035707031216</pvenda>
+        <quantitatstock>929</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2049</idProducte>
+        <descripcio>WOXTER DVD SIERRA 70 XDIV (Div-X-Slot In+JPEG)</descripcio>
+        <pcost>219</pcost>
+        <pvenda>300.843534757305</pvenda>
+        <quantitatstock>569</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2057</idProducte>
+        <descripcio>WOXTER ONYX PRO 50 5" (DVD portátil DVD+MP3+VCD+JPEG)</descripcio>
+        <pcost>120</pcost>
+        <pvenda>189.564025604047</pvenda>
+        <quantitatstock>188</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2059</idProducte>
+        <descripcio>WOXTER BIG BASS SYSTEM 2,1</descripcio>
+        <pcost>19.5</pcost>
+        <pvenda>22.7504469429523</pvenda>
+        <quantitatstock>187</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2063</idProducte>
+        <descripcio>WOXTER PREMIUM HC 2600 R/C (Negros)</descripcio>
+        <pcost>52.9</pcost>
+        <pvenda>73.2785791987751</pvenda>
+        <quantitatstock>367</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2066</idProducte>
+        <descripcio>MP3 WOXTER AUDIO CAR+REGALO</descripcio>
+        <pcost>45</pcost>
+        <pvenda>50.5526699607743</pvenda>
+        <quantitatstock>285</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2068</idProducte>
+        <descripcio>WOXTER MICRO HARD DISK 2.2 GB USB</descripcio>
+        <pcost>85</pcost>
+        <pvenda>102.098452020524</pvenda>
+        <quantitatstock>308</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2074</idProducte>
+        <descripcio>DVD WOXTER VDR-1000 GRAB.+DIV-X+MULTI. TAR.</descripcio>
+        <pcost>175</pcost>
+        <pvenda>277.650196842233</pvenda>
+        <quantitatstock>314</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2077</idProducte>
+        <descripcio>WOXTER I-MOVE 505 MP3 128Mb (SD+FM+ENCODING)</descripcio>
+        <pcost>59</pcost>
+        <pvenda>92.4038513800376</pvenda>
+        <quantitatstock>788</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2078</idProducte>
+        <descripcio>WOXTER I-MOVE 505 MP3 256Mb (SD+FM+ENCODING)</descripcio>
+        <pcost>69</pcost>
+        <pvenda>86.4317145985633</pvenda>
+        <quantitatstock>429</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2079</idProducte>
+        <descripcio>WOXTER PORTABLE DISK 250 GB COMBO USB</descripcio>
+        <pcost>147</pcost>
+        <pvenda>187.965949445224</pvenda>
+        <quantitatstock>996</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2081</idProducte>
+        <descripcio>WOXTER IPOCKET 200 PHONE </descripcio>
+        <pcost>255</pcost>
+        <pvenda>372.200820652708</pvenda>
+        <quantitatstock>255</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2083</idProducte>
+        <descripcio>DVD WOXTER VDR-700 GRAB.+DIV-X</descripcio>
+        <pcost>150</pcost>
+        <pvenda>188.376447918957</pvenda>
+        <quantitatstock>32</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2087</idProducte>
+        <descripcio>ARCHIVADOR WOXTER 504 CD/DVD</descripcio>
+        <pcost>12.5</pcost>
+        <pvenda>12.8054275219226</pvenda>
+        <quantitatstock>676</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2088</idProducte>
+        <descripcio>ARCHIVADOR WOXTER MP3 + DVD MINI BAG</descripcio>
+        <pcost>3.15</pcost>
+        <pvenda>3.44953861612795</pvenda>
+        <quantitatstock>53</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2089</idProducte>
+        <descripcio>WOXTER PORTABLE LAPTOP BAG 600</descripcio>
+        <pcost>16.9</pcost>
+        <pvenda>24.0256678357778</pvenda>
+        <quantitatstock>828</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2090</idProducte>
+        <descripcio>WOXTER PORTABLE LAPTOP BAG 700</descripcio>
+        <pcost>15.5</pcost>
+        <pvenda>22.091325430871</pvenda>
+        <quantitatstock>26</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2091</idProducte>
+        <descripcio>ARCHIVADOR WOXTER  32 CD/DVD</descripcio>
+        <pcost>1.45</pcost>
+        <pvenda>1.68921136485645</pvenda>
+        <quantitatstock>100</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2092</idProducte>
+        <descripcio>ARCHIVADOR WOXTER  96 CD/DVD</descripcio>
+        <pcost>3.15</pcost>
+        <pvenda>4.18986658438129</pvenda>
+        <quantitatstock>443</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2093</idProducte>
+        <descripcio>ARCHIVADOR WOXTER 240 CD/DVD</descripcio>
+        <pcost>7.25</pcost>
+        <pvenda>10.1480050731445</pvenda>
+        <quantitatstock>1</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2094</idProducte>
+        <descripcio>ARCHIVADOR WOXTER 320 CD/DVD</descripcio>
+        <pcost>9.5</pcost>
+        <pvenda>9.73205656868106</pvenda>
+        <quantitatstock>196</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2095</idProducte>
+        <descripcio>HD WOXTER POCKET DIV-X 40 GB USB</descripcio>
+        <pcost>110</pcost>
+        <pvenda>158.660814449979</pvenda>
+        <quantitatstock>404</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2096</idProducte>
+        <descripcio>HD WOXTER POCKET DIV-X 60 GB USB</descripcio>
+        <pcost>130</pcost>
+        <pvenda>136.86198529076</pvenda>
+        <quantitatstock>122</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2099</idProducte>
+        <descripcio>MONITOR WOXTER LUXOR 200 TV LCD MM 20"</descripcio>
+        <pcost>449</pcost>
+        <pvenda>674.424256287831</pvenda>
+        <quantitatstock>175</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2103</idProducte>
+        <descripcio>WOXTER ONYX PRO 8" + TFT+ DIV-X+SD/MMC+USB</descripcio>
+        <pcost>269</pcost>
+        <pvenda>414.169801557427</pvenda>
+        <quantitatstock>119</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2105</idProducte>
+        <descripcio>MONITOR WOXTER LUXOR 300 TV LCD MM 30"</descripcio>
+        <pcost>975</pcost>
+        <pvenda>1017.02379549223</pvenda>
+        <quantitatstock>295</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2109</idProducte>
+        <descripcio>WOXTER VDR-COMBO 1100 VHS GRAB.+DIV-X</descripcio>
+        <pcost>290.25</pcost>
+        <pvenda>453.01144541186</pvenda>
+        <quantitatstock>205</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2110</idProducte>
+        <descripcio>WOXTER DESIGN DVD KIT 2.1</descripcio>
+        <pcost>120</pcost>
+        <pvenda>174.519085407124</pvenda>
+        <quantitatstock>402</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2114</idProducte>
+        <descripcio>MP3 WOXTER i-MOVE 70  512 MB FM</descripcio>
+        <pcost>72</pcost>
+        <pvenda>89.3405324762498</pvenda>
+        <quantitatstock>404</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2115</idProducte>
+        <descripcio>DVD WOXTER ONYX PRO 7" II + TFT + DIV-X</descripcio>
+        <pcost>155</pcost>
+        <pvenda>242.201710071879</pvenda>
+        <quantitatstock>981</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2118</idProducte>
+        <descripcio>MP3 WOXTER i-MOVE 600 512 MB TFT+FM+SPK.</descripcio>
+        <pcost>130</pcost>
+        <pvenda>135.786762388518</pvenda>
+        <quantitatstock>516</quantitatstock>
+    </article>
+    <article>
+        <idProducte>DS2120</idProducte>
+        <descripcio>MP3 WOXTER i-MOVE 70 1Gb MB FM</descripcio>
+        <pcost>110</pcost>
+        <pvenda>134.595351686106</pvenda>
+        <quantitatstock>925</quantitatstock>
+    </article>
+    <article>
+        <idProducte>FD0001</idProducte>
+        <descripcio>Floppy 3 1/2   1 .44 Mb.</descripcio>
+        <pcost>4.48</pcost>
+        <pvenda>5.41303916379648</pvenda>
+        <quantitatstock>269</quantitatstock>
+    </article>
+    <article>
+        <idProducte>FD2001</idProducte>
+        <descripcio>Floppy  3 1/2 1 .44 MB  Negro</descripcio>
+        <pcost>4.57</pcost>
+        <pvenda>5.134797548841</pvenda>
+        <quantitatstock>823</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HD1046</idProducte>
+        <descripcio>H.D. SEAGATE 80Gb ATA 100 7200 ST380011A</descripcio>
+        <pcost>43.36</pcost>
+        <pvenda>48.2128482904163</pvenda>
+        <quantitatstock>999</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HD1049</idProducte>
+        <descripcio>H.D. SEAGATE 120Gb 7200 SATA ST3120026AS</descripcio>
+        <pcost>69</pcost>
+        <pvenda>83.9695986733107</pvenda>
+        <quantitatstock>262</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HD1050</idProducte>
+        <descripcio>H.D. SEAGATE 160Gb 7200 SATA ST3160023AS</descripcio>
+        <pcost>73.33</pcost>
+        <pvenda>87.9720969536728</pvenda>
+        <quantitatstock>70</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HD1051</idProducte>
+        <descripcio>H.D. SEAGATE 120Gb ATA 100 7200 ST3120022A</descripcio>
+        <pcost>56.13</pcost>
+        <pvenda>61.3196216245962</pvenda>
+        <quantitatstock>929</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HD1054</idProducte>
+        <descripcio>H.D. SEAGATE 160Gb ATA 100 7200 ST3160021A</descripcio>
+        <pcost>60.96</pcost>
+        <pvenda>82.2216553707142</pvenda>
+        <quantitatstock>264</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HD1056</idProducte>
+        <descripcio>H.D. SEAGATE 200GB ATA-100 7200 ST3200822A</descripcio>
+        <pcost>74.94</pcost>
+        <pvenda>82.3932994862918</pvenda>
+        <quantitatstock>408</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HD1057</idProducte>
+        <descripcio>H.D. SEAGATE 200GB 7200  SATA ST3200822AS</descripcio>
+        <pcost>82.21</pcost>
+        <pvenda>108.968494408798</pvenda>
+        <quantitatstock>343</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HD1061</idProducte>
+        <descripcio>H.D. SEAGATE 80GB  7200 S-ATA ST380817AS</descripcio>
+        <pcost>46.93</pcost>
+        <pvenda>51.2913225690804</pvenda>
+        <quantitatstock>596</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HD4016</idProducte>
+        <descripcio>H.D. MAXTOR 80 GB 7200 RPM 6Y080L0</descripcio>
+        <pcost>40.8</pcost>
+        <pvenda>43.1646552772973</pvenda>
+        <quantitatstock>509</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HD4017</idProducte>
+        <descripcio>H.D. MAXTOR 120 GB 7200 RPM 6Y120L0</descripcio>
+        <pcost>53.4</pcost>
+        <pvenda>81.4255284329344</pvenda>
+        <quantitatstock>244</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HD4019</idProducte>
+        <descripcio>H.D. MAXTOR 120 GB 7200 RPM SATA 6Y120M0</descripcio>
+        <pcost>60.06</pcost>
+        <pvenda>83.0705127453608</pvenda>
+        <quantitatstock>177</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HD4021</idProducte>
+        <descripcio>H.D. MAXTOR 200 GB 7200 RPM SATA SATA MX-6B200M0</descripcio>
+        <pcost>70.39</pcost>
+        <pvenda>84.5770564022967</pvenda>
+        <quantitatstock>913</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HD4022</idProducte>
+        <descripcio>H.D. MAXTOR 160 GB 7200 RPM 8 Mb MX-6Y160P0042811</descripcio>
+        <pcost>59.86</pcost>
+        <pvenda>84.3932476360432</pvenda>
+        <quantitatstock>269</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HD4023</idProducte>
+        <descripcio>H.D. MAXTOR 200 GB 7200 RPM 8 Mb ATA-133  MX-6B200P0</descripcio>
+        <pcost>75.17</pcost>
+        <pvenda>105.417642125832</pvenda>
+        <quantitatstock>459</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HD4024</idProducte>
+        <descripcio>H.D. MAXTOR 250 GB 7200 RPM 8 Mb ATA-133  MX-7Y250P0</descripcio>
+        <pcost>102.63</pcost>
+        <pvenda>143.387897064238</pvenda>
+        <quantitatstock>861</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HD4025</idProducte>
+        <descripcio>H.D. MAXTOR 250 GB 7200 RPM SATA  MX-7Y250M0</descripcio>
+        <pcost>101.52</pcost>
+        <pvenda>116.000353983255</pvenda>
+        <quantitatstock>629</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HD4026</idProducte>
+        <descripcio>H.D. MAXTOR 40 GB  ATA-133</descripcio>
+        <pcost>37.46</pcost>
+        <pvenda>58.4184186225897</pvenda>
+        <quantitatstock>535</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HD4028</idProducte>
+        <descripcio>H.D. MAXTOR 300 GB 7200 RPM  SATA 6B300S0</descripcio>
+        <pcost>128.9</pcost>
+        <pvenda>199.775725656506</pvenda>
+        <quantitatstock>147</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HY0016</idProducte>
+        <descripcio>Monitor Q770 17" 1280x1024 P.Plana Silver</descripcio>
+        <pcost>88.86</pcost>
+        <pvenda>94.4520517094594</pvenda>
+        <quantitatstock>442</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HY0041</idProducte>
+        <descripcio>Monitor Q995 19" 1600x1280 P.Plana</descripcio>
+        <pcost>143.73</pcost>
+        <pvenda>168.521158790769</pvenda>
+        <quantitatstock>669</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HY0042</idProducte>
+        <descripcio>Monitor V773 17" 1280x1024</descripcio>
+        <pcost>74.85</pcost>
+        <pvenda>91.6684705928468</pvenda>
+        <quantitatstock>975</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HY0045</idProducte>
+        <descripcio>Monitor  Tv L17T Silver</descripcio>
+        <pcost>295.31</pcost>
+        <pvenda>297.300335823417</pvenda>
+        <quantitatstock>560</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HY0048</idProducte>
+        <descripcio>Tv TFT HQL260WR 26"</descripcio>
+        <pcost>700.43</pcost>
+        <pvenda>817.874740917066</pvenda>
+        <quantitatstock>485</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HY0049</idProducte>
+        <descripcio>Tv TFT HQL320WR 32"</descripcio>
+        <pcost>962.14</pcost>
+        <pvenda>1409.48078465504</pvenda>
+        <quantitatstock>228</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HY0050</idProducte>
+        <descripcio>Tv Plasma  HQP421SR 42"</descripcio>
+        <pcost>1314.47</pcost>
+        <pvenda>1757.93905743539</pvenda>
+        <quantitatstock>252</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HY0051</idProducte>
+        <descripcio>Peana para plasma 42" Y 50"</descripcio>
+        <pcost>47.33</pcost>
+        <pvenda>75.0728111663435</pvenda>
+        <quantitatstock>571</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HY0052</idProducte>
+        <descripcio>Altavoces para HPQ421SR</descripcio>
+        <pcost>65.49</pcost>
+        <pvenda>90.033500094202</pvenda>
+        <quantitatstock>953</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HY0053</idProducte>
+        <descripcio>Monitor IMAGEQUEST L90D+ TFT 19" 8 ms Pivot. Multim.</descripcio>
+        <pcost>374</pcost>
+        <pvenda>375.617706843839</pvenda>
+        <quantitatstock>369</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HY0055</idProducte>
+        <descripcio>Soporte de pared para plasma </descripcio>
+        <pcost>83.5</pcost>
+        <pvenda>107.365082771663</pvenda>
+        <quantitatstock>706</quantitatstock>
+    </article>
+    <article>
+        <idProducte>HY0066</idProducte>
+        <descripcio>Soporte de pared para LCD Tv</descripcio>
+        <pcost>81.36</pcost>
+        <pvenda>102.567563800936</pvenda>
+        <quantitatstock>36</quantitatstock>
+    </article>
+    <article>
+        <idProducte>IM1235000</idProducte>
+        <descripcio>IMP HP LASERJET 1020 Q5911A</descripcio>
+        <pcost>112.5</pcost>
+        <pvenda>157.050525602743</pvenda>
+        <quantitatstock>848</quantitatstock>
+    </article>
+    <article>
+        <idProducte>IM1280008</idProducte>
+        <descripcio>Imp. OKI  C3200 Láser Color </descripcio>
+        <pcost>412</pcost>
+        <pvenda>474.366080129223</pvenda>
+        <quantitatstock>129</quantitatstock>
+    </article>
+    <article>
+        <idProducte>IME0022</idProducte>
+        <descripcio>Imp. EPSON LQ 300+ Matricial 24 Agujas</descripcio>
+        <pcost>180.77</pcost>
+        <pvenda>182.942965303504</pvenda>
+        <quantitatstock>241</quantitatstock>
+    </article>
+    <article>
+        <idProducte>IME0025</idProducte>
+        <descripcio>Imp. EPSON LX 300+ Matricial 9 Agujas</descripcio>
+        <pcost>163.27</pcost>
+        <pvenda>258.160420276228</pvenda>
+        <quantitatstock>92</quantitatstock>
+    </article>
+    <article>
+        <idProducte>IME0155</idProducte>
+        <descripcio>Imp. EPSON STYLUS PHOTO R300</descripcio>
+        <pcost>120.22</pcost>
+        <pvenda>149.42632574419</pvenda>
+        <quantitatstock>642</quantitatstock>
+    </article>
+    <article>
+        <idProducte>IME0161</idProducte>
+        <descripcio>Imp. EPSON  STYLUS PHOTO R200</descripcio>
+        <pcost>80</pcost>
+        <pvenda>93.236258177022</pvenda>
+        <quantitatstock>798</quantitatstock>
+    </article>
+    <article>
+        <idProducte>IME0166</idProducte>
+        <descripcio>Imp.  Epson Stylus C46</descripcio>
+        <pcost>37.15</pcost>
+        <pvenda>53.7555039233969</pvenda>
+        <quantitatstock>54</quantitatstock>
+    </article>
+    <article>
+        <idProducte>IME0167</idProducte>
+        <descripcio>Imp.  Epson Stylus C66</descripcio>
+        <pcost>53.11</pcost>
+        <pvenda>72.7306932233609</pvenda>
+        <quantitatstock>652</quantitatstock>
+    </article>
+    <article>
+        <idProducte>IME0168</idProducte>
+        <descripcio>Imp.  Epson Stylus C86</descripcio>
+        <pcost>74.04</pcost>
+        <pvenda>84.9979378573201</pvenda>
+        <quantitatstock>156</quantitatstock>
+    </article>
+    <article>
+        <idProducte>IME0195</idProducte>
+        <descripcio>Imp. EPSON Stylus CX3650 (M)</descripcio>
+        <pcost>69.83</pcost>
+        <pvenda>100.357223262218</pvenda>
+        <quantitatstock>646</quantitatstock>
+    </article>
+    <article>
+        <idProducte>IMH299</idProducte>
+        <descripcio>Imp.  HP PSC 1315 Q5765A</descripcio>
+        <pcost>75.45</pcost>
+        <pvenda>109.746853150386</pvenda>
+        <quantitatstock>726</quantitatstock>
+    </article>
+    <article>
+        <idProducte>IMH315</idProducte>
+        <descripcio>Imp. HP Deskjet 3845 C9037A</descripcio>
+        <pcost>50.24</pcost>
+        <pvenda>75.7774460803733</pvenda>
+        <quantitatstock>625</quantitatstock>
+    </article>
+    <article>
+        <idProducte>IMH316</idProducte>
+        <descripcio>Imp. HP Deskjet 5740 C9016B</descripcio>
+        <pcost>56.22</pcost>
+        <pvenda>69.1427628085714</pvenda>
+        <quantitatstock>569</quantitatstock>
+    </article>
+    <article>
+        <idProducte>IMH318</idProducte>
+        <descripcio>Imp. HP Deskjet 6540 C8963B</descripcio>
+        <pcost>93.92</pcost>
+        <pvenda>130.335342231921</pvenda>
+        <quantitatstock>550</quantitatstock>
+    </article>
+    <article>
+        <idProducte>IMH321</idProducte>
+        <descripcio>Cámara digital HP M307  L1854A</descripcio>
+        <pcost>117.63</pcost>
+        <pvenda>179.50773673035</pvenda>
+        <quantitatstock>462</quantitatstock>
+    </article>
+    <article>
+        <idProducte>IMH322</idProducte>
+        <descripcio>Cámara digital HP R507   L1854A</descripcio>
+        <pcost>191.81</pcost>
+        <pvenda>256.362170448783</pvenda>
+        <quantitatstock>18</quantitatstock>
+    </article>
+    <article>
+        <idProducte>IMH328</idProducte>
+        <descripcio>Imp. HP Officejet Multifunción 2355 Q5789B</descripcio>
+        <pcost>176.85</pcost>
+        <pvenda>192.533084791152</pvenda>
+        <quantitatstock>555</quantitatstock>
+    </article>
+    <article>
+        <idProducte>IMH329</idProducte>
+        <descripcio>Bundle PSC 1315+ Cámara RI307</descripcio>
+        <pcost>175.04</pcost>
+        <pvenda>245.013227662026</pvenda>
+        <quantitatstock>114</quantitatstock>
+    </article>
+    <article>
+        <idProducte>IMH337</idProducte>
+        <descripcio>Imp. HP Officejet 2610 Q5542B</descripcio>
+        <pcost>287</pcost>
+        <pvenda>380.837843336227</pvenda>
+        <quantitatstock>253</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LB0007</idProducte>
+        <descripcio>Sai LIEBERT Off Line PSPXT 700 VA</descripcio>
+        <pcost>86.52</pcost>
+        <pvenda>128.207863460356</pvenda>
+        <quantitatstock>134</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LB0008</idProducte>
+        <descripcio>Sai LIEBERT Off Line PSPXT 1250 VA</descripcio>
+        <pcost>162.34</pcost>
+        <pvenda>255.115942867063</pvenda>
+        <quantitatstock>494</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LB0009</idProducte>
+        <descripcio>Sai LIEBERT Off Line PSPXT 450 VA USB</descripcio>
+        <pcost>79.08</pcost>
+        <pvenda>106.409214299661</pvenda>
+        <quantitatstock>897</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LB0010</idProducte>
+        <descripcio>Sai LIEBERT PSA 500MT-230</descripcio>
+        <pcost>80.01</pcost>
+        <pvenda>94.256933988316</pvenda>
+        <quantitatstock>788</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LB0011</idProducte>
+        <descripcio>Sai LIEBERT PSA 650MT-230</descripcio>
+        <pcost>133.17</pcost>
+        <pvenda>199.413233971459</pvenda>
+        <quantitatstock>157</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LB0012</idProducte>
+        <descripcio>Sai LIEBERT PSA 1000MT-230</descripcio>
+        <pcost>221.75</pcost>
+        <pvenda>271.042681540732</pvenda>
+        <quantitatstock>31</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LB1002</idProducte>
+        <descripcio>Sai LIEBERT Interactivo PSI-1000 VA</descripcio>
+        <pcost>341.46</pcost>
+        <pvenda>532.970701466443</pvenda>
+        <quantitatstock>168</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LB1003</idProducte>
+        <descripcio>Sai LIEBERT Interactivo PSI-1400 VA</descripcio>
+        <pcost>414.73</pcost>
+        <pvenda>546.165538301354</pvenda>
+        <quantitatstock>624</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LB2001</idProducte>
+        <descripcio>Sai LIEBERT Online GXT 700 VA</descripcio>
+        <pcost>387.02</pcost>
+        <pvenda>534.744978404673</pvenda>
+        <quantitatstock>754</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LB2005</idProducte>
+        <descripcio>Sai LIEBERT Online GXT 2000 VA</descripcio>
+        <pcost>877.94</pcost>
+        <pvenda>1394.51764936547</pvenda>
+        <quantitatstock>78</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LO0073</idProducte>
+        <descripcio>Ratón Wheel Optical USB/PS2 OEM B58 (930994)</descripcio>
+        <pcost>8.1</pcost>
+        <pvenda>10.9344907812849</pvenda>
+        <quantitatstock>195</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LO0079</idProducte>
+        <descripcio>Teclado Internet Multimedia AC</descripcio>
+        <pcost>9.66</pcost>
+        <pvenda>10.2336516087919</pvenda>
+        <quantitatstock>216</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LO0086</idProducte>
+        <descripcio>Cordless Desktop Comfort (967230) Ergonómico</descripcio>
+        <pcost>88.3</pcost>
+        <pvenda>100.59711172178</pvenda>
+        <quantitatstock>544</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LO0102</idProducte>
+        <descripcio>Cordless Desktop Deluxe Optical (967283)</descripcio>
+        <pcost>62.33</pcost>
+        <pvenda>90.3610815248448</pvenda>
+        <quantitatstock>999</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LO0104</idProducte>
+        <descripcio>Teclado Internet KB OEM (967248)</descripcio>
+        <pcost>7.28</pcost>
+        <pvenda>8.97086411145454</pvenda>
+        <quantitatstock>621</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LO0125</idProducte>
+        <descripcio>Teclado Value OEM 967334</descripcio>
+        <pcost>5.7</pcost>
+        <pvenda>8.15845354049035</pvenda>
+        <quantitatstock>103</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LO0126</idProducte>
+        <descripcio>Teclado y Ratón PREMIUM Opt 967311</descripcio>
+        <pcost>27.68</pcost>
+        <pvenda>44.2635226039856</pvenda>
+        <quantitatstock>214</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LO0129</idProducte>
+        <descripcio>Ratón Wheel Optical negro 953688</descripcio>
+        <pcost>7.88</pcost>
+        <pvenda>11.3637151359898</pvenda>
+        <quantitatstock>661</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LO0133</idProducte>
+        <descripcio>Ratón Logitech Scroll USB</descripcio>
+        <pcost>2.21</pcost>
+        <pvenda>3.46420988976888</pvenda>
+        <quantitatstock>546</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LO0134</idProducte>
+        <descripcio>Ratón Click Optical 931221</descripcio>
+        <pcost>19.85</pcost>
+        <pvenda>25.7919494978122</pvenda>
+        <quantitatstock>482</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LO0139</idProducte>
+        <descripcio>Teclado Internet Pro Key  PS/2</descripcio>
+        <pcost>8.56</pcost>
+        <pvenda>13.4385197640608</pvenda>
+        <quantitatstock>970</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LO0144</idProducte>
+        <descripcio>Teclado Internet Pro 967450</descripcio>
+        <pcost>9.92</pcost>
+        <pvenda>15.0422178576363</pvenda>
+        <quantitatstock>720</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LO0145</idProducte>
+        <descripcio>Cordless Desktop Int. Pro OEM</descripcio>
+        <pcost>25.17</pcost>
+        <pvenda>25.8180213154208</pvenda>
+        <quantitatstock>491</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LO0146</idProducte>
+        <descripcio>Cordless Desktop Int. Pro Negro</descripcio>
+        <pcost>27.32</pcost>
+        <pvenda>37.5954450320449</pvenda>
+        <quantitatstock>569</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LO0149</idProducte>
+        <descripcio>Cordless Desktop MX 3000</descripcio>
+        <pcost>89.58</pcost>
+        <pvenda>120.591113592573</pvenda>
+        <quantitatstock>114</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LO0150</idProducte>
+        <descripcio>Cordless Desktop EX 100</descripcio>
+        <pcost>32.24</pcost>
+        <pvenda>44.9578472775483</pvenda>
+        <quantitatstock>126</quantitatstock>
+    </article>
+    <article>
+        <idProducte>LO0153</idProducte>
+        <descripcio>Cordless Desktop LX 500</descripcio>
+        <pcost>39.24</pcost>
+        <pvenda>41.5014390401233</pvenda>
+        <quantitatstock>549</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MD1235001</idProducte>
+        <descripcio>Hp Photosmart Cámara M417</descripcio>
+        <pcost>157.33</pcost>
+        <pvenda>158.667462873539</pvenda>
+        <quantitatstock>782</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MD1235002</idProducte>
+        <descripcio>Hp Photosmart Cámara M407</descripcio>
+        <pcost>117.83</pcost>
+        <pvenda>185.150411086141</pvenda>
+        <quantitatstock>366</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MD1235004</idProducte>
+        <descripcio>Cámara Digital HP M22</descripcio>
+        <pcost>98.82</pcost>
+        <pvenda>120.081234597248</pvenda>
+        <quantitatstock>457</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MD2275001</idProducte>
+        <descripcio>MP3 WOXTER i- MOVE 600 1Gb</descripcio>
+        <pcost>138</pcost>
+        <pvenda>206.232426633148</pvenda>
+        <quantitatstock>570</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MD6236004</idProducte>
+        <descripcio>Proyector Epson EMP-53</descripcio>
+        <pcost>705.38</pcost>
+        <pvenda>1074.3214874026</pvenda>
+        <quantitatstock>743</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM2001</idProducte>
+        <descripcio>Mód. SDRAM 128Mb Pc133 KVR133X64C3/128</descripcio>
+        <pcost>19.59</pcost>
+        <pvenda>28.8141950293536</pvenda>
+        <quantitatstock>798</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM2002</idProducte>
+        <descripcio>Mód. SDRAM 256Mb Pc133 KVR133X64C3/256</descripcio>
+        <pcost>36.92</pcost>
+        <pvenda>46.7678226342432</pvenda>
+        <quantitatstock>172</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM2009</idProducte>
+        <descripcio>Mód. DDRAM 256Mb Pc333 KVR333X64C25/256</descripcio>
+        <pcost>20.42</pcost>
+        <pvenda>21.6288253992537</pvenda>
+        <quantitatstock>33</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM2010</idProducte>
+        <descripcio>Mód. DDRAM 512Mb Pc333 KVR333X64C25/512</descripcio>
+        <pcost>43.09</pcost>
+        <pvenda>47.8915690805333</pvenda>
+        <quantitatstock>372</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM2012</idProducte>
+        <descripcio>Mód. SDRAM 512Mb Pc133 KVR133X64C3/512</descripcio>
+        <pcost>72.07</pcost>
+        <pvenda>80.8843378684074</pvenda>
+        <quantitatstock>699</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM2020</idProducte>
+        <descripcio>Mód. DDR2 512Mb Pc533 KVR533D2N4/512</descripcio>
+        <pcost>44.42</pcost>
+        <pvenda>47.7104300977785</pvenda>
+        <quantitatstock>14</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM2125007</idProducte>
+        <descripcio>Mód. DDR2 1GB PC533 CL4 KVR533D2N4/1G</descripcio>
+        <pcost>99.36</pcost>
+        <pvenda>141.23855675533</pvenda>
+        <quantitatstock>670</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM3020</idProducte>
+        <descripcio>Mod. DDRAM 256Mb Pc400  KVR400X64C3A/256</descripcio>
+        <pcost>21.89</pcost>
+        <pvenda>23.9106406396537</pvenda>
+        <quantitatstock>676</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM3021</idProducte>
+        <descripcio>Mod. DDR 512Mb Pc400 KVR400X64C3A/512</descripcio>
+        <pcost>37.72</pcost>
+        <pvenda>41.1892248117534</pvenda>
+        <quantitatstock>939</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM3043</idProducte>
+        <descripcio>Mód. DDR 1GB Pc400 KVR400X64C3A/1G</descripcio>
+        <pcost>100.11</pcost>
+        <pvenda>139.600976898746</pvenda>
+        <quantitatstock>726</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM4225006</idProducte>
+        <descripcio>DATA TRAV. 512 Mb USB 2.0</descripcio>
+        <pcost>26.99</pcost>
+        <pvenda>40.9989412383167</pvenda>
+        <quantitatstock>232</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM5007</idProducte>
+        <descripcio>Secure Digital 128Mb SD/128</descripcio>
+        <pcost>10.84</pcost>
+        <pvenda>15.269088478791</pvenda>
+        <quantitatstock>372</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM5008</idProducte>
+        <descripcio>Secure Digital 256Mb SD/256</descripcio>
+        <pcost>16.21</pcost>
+        <pvenda>17.2574007968672</pvenda>
+        <quantitatstock>938</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM5018</idProducte>
+        <descripcio>Secure Digital 512MB SD/512</descripcio>
+        <pcost>25.89</pcost>
+        <pvenda>38.9812879789752</pvenda>
+        <quantitatstock>761</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM5019</idProducte>
+        <descripcio>DATA TRAV II+ KINGSTON 256Mb</descripcio>
+        <pcost>22.7</pcost>
+        <pvenda>23.5495728968092</pvenda>
+        <quantitatstock>621</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM5020</idProducte>
+        <descripcio>DATA TRAV II+ KINGSTON 512Mb</descripcio>
+        <pcost>37.04</pcost>
+        <pvenda>55.1417797334092</pvenda>
+        <quantitatstock>670</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM5021</idProducte>
+        <descripcio>DATA TRAV II+ KINGSTON 1Gb</descripcio>
+        <pcost>62.63</pcost>
+        <pvenda>83.7647387786204</pvenda>
+        <quantitatstock>928</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM5024</idProducte>
+        <descripcio>SECURE D KINGSTON 256 ELITEPRO</descripcio>
+        <pcost>19.08</pcost>
+        <pvenda>27.8893943664948</pvenda>
+        <quantitatstock>453</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM5025</idProducte>
+        <descripcio>SECURE D KINGSTON 512 ELITEPRO</descripcio>
+        <pcost>37.65</pcost>
+        <pvenda>51.3550436734029</pvenda>
+        <quantitatstock>359</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM5026</idProducte>
+        <descripcio>SECURE DIGITAL MINI 128MB KINGSTON SDM/128</descripcio>
+        <pcost>14.53</pcost>
+        <pvenda>16.3025657770645</pvenda>
+        <quantitatstock>433</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM5027</idProducte>
+        <descripcio>SECURE DIGITAL MINI 256MB KINGSTON SDM/256</descripcio>
+        <pcost>21.45</pcost>
+        <pvenda>21.988605125755</pvenda>
+        <quantitatstock>117</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MM5034</idProducte>
+        <descripcio>SECURE D KINGSTON 1GB ELITEPRO</descripcio>
+        <pcost>76.38</pcost>
+        <pvenda>98.2650374881317</pvenda>
+        <quantitatstock>889</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MN210016</idProducte>
+        <descripcio>MONITOR COLORTAC LM17C TFT 17"</descripcio>
+        <pcost>162.7</pcost>
+        <pvenda>205.571232529182</pvenda>
+        <quantitatstock>767</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MN2124008</idProducte>
+        <descripcio>Monitor Hyundai ImageQuest L72D TFT 17" 8 Ms DVI Multim. Silv.</descripcio>
+        <pcost>210.43</pcost>
+        <pvenda>244.90695595903</pvenda>
+        <quantitatstock>15</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MN2124010</idProducte>
+        <descripcio>Monitor Hyundai ImageQuest B70 aTFT 17" 8 Ms  Silv.</descripcio>
+        <pcost>199.08</pcost>
+        <pvenda>297.256522836657</pvenda>
+        <quantitatstock>510</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MN2124015</idProducte>
+        <descripcio>Monitor Hyundai ImageQuest L72S TFT 17" 8 Ms Multim. Silv.</descripcio>
+        <pcost>204.76</pcost>
+        <pvenda>265.051017089016</pvenda>
+        <quantitatstock>132</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MN3124000</idProducte>
+        <descripcio>Monitor Tv L19T+</descripcio>
+        <pcost>433.29</pcost>
+        <pvenda>571.316447322919</pvenda>
+        <quantitatstock>995</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MN3124001</idProducte>
+        <descripcio>Tv TFT HYUNDAI HQL200NR 20"</descripcio>
+        <pcost>453.76</pcost>
+        <pvenda>567.116413120397</pvenda>
+        <quantitatstock>119</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MN4007</idProducte>
+        <descripcio>MONITOR LG TFT 1715S</descripcio>
+        <pcost>182.39</pcost>
+        <pvenda>271.241826483467</pvenda>
+        <quantitatstock>820</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MN4124000</idProducte>
+        <descripcio>Tv Plasma HQP501HR 50"</descripcio>
+        <pcost>3072.98</pcost>
+        <pvenda>3947.97257806245</pvenda>
+        <quantitatstock>722</quantitatstock>
+    </article>
+    <article>
+        <idProducte>MN6004</idProducte>
+        <descripcio>MONITOR  MAG PF-770  CRT 17"  FLAT SILVER/GREY</descripcio>
+        <pcost>85.48</pcost>
+        <pvenda>90.2595749237927</pvenda>
+        <quantitatstock>485</quantitatstock>
+    </article>
+    <article>
+        <idProducte>OKI5200N</idProducte>
+        <descripcio>Imp.  OKI 5200N Láser Color</descripcio>
+        <pcost>411</pcost>
+        <pvenda>532.706577891045</pvenda>
+        <quantitatstock>666</quantitatstock>
+    </article>
+    <article>
+        <idProducte>OP2232001</idProducte>
+        <descripcio>AURIC. WIRELESS  CONCE </descripcio>
+        <pcost>39.81</pcost>
+        <pvenda>43.4054124134099</pvenda>
+        <quantitatstock>630</quantitatstock>
+    </article>
+    <article>
+        <idProducte>OR2535004</idProducte>
+        <descripcio>Portátil Hp Evo NX6110 CM 360 1.4/5</descripcio>
+        <pcost>634.98</pcost>
+        <pvenda>998.460894935257</pvenda>
+        <quantitatstock>99</quantitatstock>
+    </article>
+    <article>
+        <idProducte>OR2535005</idProducte>
+        <descripcio>Portátil Hp Evo NC6120 Cent 730/512</descripcio>
+        <pcost>765.08</pcost>
+        <pvenda>1186.56224454991</pvenda>
+        <quantitatstock>960</quantitatstock>
+    </article>
+    <article>
+        <idProducte>OR2535007</idProducte>
+        <descripcio>Portátil Hp Evo NX9105 AT 3.0 512</descripcio>
+        <pcost>846.64</pcost>
+        <pvenda>1110.36231941957</pvenda>
+        <quantitatstock>236</quantitatstock>
+    </article>
+    <article>
+        <idProducte>OR2535008</idProducte>
+        <descripcio>Portátil Hp Evo NX6110 CEN 730 1.7</descripcio>
+        <pcost>944.96</pcost>
+        <pvenda>1415.76329916712</pvenda>
+        <quantitatstock>611</quantitatstock>
+    </article>
+    <article>
+        <idProducte>OR2542001</idProducte>
+        <descripcio>Portátil Acer TM4101 LMI PM 730/512/60 15 </descripcio>
+        <pcost>767.34</pcost>
+        <pvenda>1139.30972277741</pvenda>
+        <quantitatstock>538</quantitatstock>
+    </article>
+    <article>
+        <idProducte>OR2542002</idProducte>
+        <descripcio>Portátil Acer Aspire 1522 WLMI Amd 64/512/60 15,4"</descripcio>
+        <pcost>852.73</pcost>
+        <pvenda>1023.94960164811</pvenda>
+        <quantitatstock>889</quantitatstock>
+    </article>
+    <article>
+        <idProducte>OR2542013</idProducte>
+        <descripcio>Portátil Acer Aspire 3003 Wlmi AMD 3.0 / 1GB / 60 15,4</descripcio>
+        <pcost>769.21</pcost>
+        <pvenda>1136.71061117588</pvenda>
+        <quantitatstock>53</quantitatstock>
+    </article>
+    <article>
+        <idProducte>OR2542014</idProducte>
+        <descripcio>Portátil Acer Aspire 3503 Wlmi / Cel 1,5 / 1GB / 60 15´4 </descripcio>
+        <pcost>681.49</pcost>
+        <pvenda>847.798387531993</pvenda>
+        <quantitatstock>675</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB0166</idProducte>
+        <descripcio>P.B. DFI i848P-AL FSB800 DDR400 SATA</descripcio>
+        <pcost>49.76</pcost>
+        <pvenda>69.5026455218878</pvenda>
+        <quantitatstock>817</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB0172</idProducte>
+        <descripcio>P.B. DFI KM400-MLV VIA S-A FSB333 DDR333 SATA mATX</descripcio>
+        <pcost>41.62</pcost>
+        <pvenda>62.5146387604082</pvenda>
+        <quantitatstock>410</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB0173</idProducte>
+        <descripcio>P.B. DFI 661FX-MLV SIS P.IV FSB800 DDR400 SATA mAT</descripcio>
+        <pcost>44.71</pcost>
+        <pvenda>62.230575500777</pvenda>
+        <quantitatstock>881</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB0175</idProducte>
+        <descripcio>P.B. DFI KT600-AL VIA S-A FSB400 DDR400 SATA RAID</descripcio>
+        <pcost>41.61</pcost>
+        <pvenda>46.9718353599169</pvenda>
+        <quantitatstock>256</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB0179</idProducte>
+        <descripcio>P.B. DFI PT800-AL VIA S478 FSB800 DDR400 SATA RAID</descripcio>
+        <pcost>42.49</pcost>
+        <pvenda>66.4665029889498</pvenda>
+        <quantitatstock>909</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB0180</idProducte>
+        <descripcio>P.B. DFI PT880-ALF VIA S478 FSB800 DDR400 DC SATA</descripcio>
+        <pcost>48.92</pcost>
+        <pvenda>67.3866667847974</pvenda>
+        <quantitatstock>645</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB0181</idProducte>
+        <descripcio>P.B. DFI K8M800-MLV VIA S754 DDR400 mATX</descripcio>
+        <pcost>60.79</pcost>
+        <pvenda>70.9437563807844</pvenda>
+        <quantitatstock>311</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB0182</idProducte>
+        <descripcio>P.B. DFI LAN PARTY UT 915P-T12 S775 FSB800 </descripcio>
+        <pcost>128.9</pcost>
+        <pvenda>176.142427562811</pvenda>
+        <quantitatstock>755</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB0183</idProducte>
+        <descripcio>P.B. DFI K8T800 PRO-ALF S754</descripcio>
+        <pcost>58.44</pcost>
+        <pvenda>73.2811190704699</pvenda>
+        <quantitatstock>459</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB0184</idProducte>
+        <descripcio>P.B. Lan Party 925X-T2 s775 FSB800 DDR2 ATX</descripcio>
+        <pcost>181.11</pcost>
+        <pvenda>211.409920149737</pvenda>
+        <quantitatstock>985</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB0185</idProducte>
+        <descripcio>P.B. DFI 915P-TAG S775 FSB800</descripcio>
+        <pcost>91.74</pcost>
+        <pvenda>117.490343838476</pvenda>
+        <quantitatstock>462</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB0186</idProducte>
+        <descripcio>P.B. DFI Lan Party UT NF3 250G</descripcio>
+        <pcost>84.85</pcost>
+        <pvenda>86.2908253245616</pvenda>
+        <quantitatstock>377</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB0190</idProducte>
+        <descripcio>P.B. LAN PARTY UT NF4 ULTRA-D</descripcio>
+        <pcost>126.77</pcost>
+        <pvenda>160.032151255794</pvenda>
+        <quantitatstock>69</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB0191</idProducte>
+        <descripcio>P.B. DFI 661FX-TML S775 FSB800</descripcio>
+        <pcost>56.98</pcost>
+        <pvenda>73.9007420992294</pvenda>
+        <quantitatstock>192</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB0192</idProducte>
+        <descripcio>P.B. LAN PARTY UT NF4 SLI-D</descripcio>
+        <pcost>164.63</pcost>
+        <pvenda>259.994414325637</pvenda>
+        <quantitatstock>283</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB0193</idProducte>
+        <descripcio>P.B. LAN PARTY NF4 SLI-DR</descripcio>
+        <pcost>183.73</pcost>
+        <pvenda>273.647047385088</pvenda>
+        <quantitatstock>872</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB1111001</idProducte>
+        <descripcio>P.B.  DFI  NF 4- DAGF S939 ATX LAN</descripcio>
+        <pcost>79.08</pcost>
+        <pvenda>86.6517073735647</pvenda>
+        <quantitatstock>6</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB1150004</idProducte>
+        <descripcio>P.B. FOXCONN 760 GXK 8Mb-Rs S754 4 vga matx</descripcio>
+        <pcost>44.36</pcost>
+        <pvenda>66.5750190043563</pvenda>
+        <quantitatstock>12</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB1150005</idProducte>
+        <descripcio>P.B. FOXCONN ck804k8ma-ks s939 9 matx</descripcio>
+        <pcost>62.51</pcost>
+        <pvenda>73.7470337949859</pvenda>
+        <quantitatstock>746</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB1150006</idProducte>
+        <descripcio>P.B. FOXCONN nf4uk8aa-8ekrs s939 939 pci-e atx</descripcio>
+        <pcost>81.79</pcost>
+        <pvenda>113.431688178082</pvenda>
+        <quantitatstock>458</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB2150009</idProducte>
+        <descripcio>P.B. FOXCONN 661fx7mf-s s775 vga matx</descripcio>
+        <pcost>44.36</pcost>
+        <pvenda>58.9074431016154</pvenda>
+        <quantitatstock>12</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB2150010</idProducte>
+        <descripcio>P.B. FOXCONN 915pl7ae-6ls s775 5 atx</descripcio>
+        <pcost>62.4</pcost>
+        <pvenda>64.3347100257997</pvenda>
+        <quantitatstock>558</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB2150011</idProducte>
+        <descripcio>P.B. FOXCONN 915p7ad-8ekrs s77 75 ddr+ddr2 atx</descripcio>
+        <pcost>83.4</pcost>
+        <pvenda>118.97764644243</pvenda>
+        <quantitatstock>819</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB2150012</idProducte>
+        <descripcio>P.B. FOXCONN 945p7aa-8ekrs2 s7 775 dual ddr2 atx</descripcio>
+        <pcost>102.1</pcost>
+        <pvenda>150.285953219198</pvenda>
+        <quantitatstock>332</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB2150013</idProducte>
+        <descripcio>P.B. FOXCONN 955x7aa-8ekrs2 s7 775 dual ddr2 atx</descripcio>
+        <pcost>158.93</pcost>
+        <pvenda>180.243832635843</pvenda>
+        <quantitatstock>652</quantitatstock>
+    </article>
+    <article>
+        <idProducte>PB2150014</idProducte>
+        <descripcio>P.B. FOXCONN 865pe7af-s s775 atx</descripcio>
+        <pcost>56.83</pcost>
+        <pvenda>68.4484637560259</pvenda>
+        <quantitatstock>589</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SF0037</idProducte>
+        <descripcio>MS Windows XP Professional</descripcio>
+        <pcost>120.51</pcost>
+        <pvenda>145.437349645492</pvenda>
+        <quantitatstock>771</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SF0038</idProducte>
+        <descripcio>MS Windows XP Home</descripcio>
+        <pcost>75.1</pcost>
+        <pvenda>119.328097179437</pvenda>
+        <quantitatstock>542</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SF0063</idProducte>
+        <descripcio>Microsoft Office Basic 2003 DS</descripcio>
+        <pcost>169.76</pcost>
+        <pvenda>260.912290373564</pvenda>
+        <quantitatstock>910</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SF0064</idProducte>
+        <descripcio>Microsoft Office SB 2003 DSP</descripcio>
+        <pcost>219.5</pcost>
+        <pvenda>239.909623166047</pvenda>
+        <quantitatstock>309</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SF0065</idProducte>
+        <descripcio>Microsoft Office PRO 2003 DSP</descripcio>
+        <pcost>280.23</pcost>
+        <pvenda>310.02870024379</pvenda>
+        <quantitatstock>808</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SF0072</idProducte>
+        <descripcio>Software Nero Suite 2 OEM</descripcio>
+        <pcost>4.05</pcost>
+        <pvenda>4.2205115785618</pvenda>
+        <quantitatstock>488</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0001</idProducte>
+        <descripcio>Switch SOHO  5P 10/100Mb</descripcio>
+        <pcost>17.69</pcost>
+        <pvenda>18.1405114942139</pvenda>
+        <quantitatstock>493</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0002</idProducte>
+        <descripcio>Switch SOHO  8P 10/100Mb</descripcio>
+        <pcost>18.53</pcost>
+        <pvenda>19.2406233550695</pvenda>
+        <quantitatstock>901</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0003</idProducte>
+        <descripcio>Switch SOHO 16P 10/100Mb</descripcio>
+        <pcost>41.89</pcost>
+        <pvenda>65.3906827293872</pvenda>
+        <quantitatstock>353</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0004</idProducte>
+        <descripcio>Switch RACK  8P 10/100Mb</descripcio>
+        <pcost>33.03</pcost>
+        <pvenda>52.843724889807</pvenda>
+        <quantitatstock>439</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0005</idProducte>
+        <descripcio>Switch RACK 16P 10/100Mb</descripcio>
+        <pcost>69.57</pcost>
+        <pvenda>73.4417848780065</pvenda>
+        <quantitatstock>868</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0006</idProducte>
+        <descripcio>Switch RACK 24P 10/100 Mb </descripcio>
+        <pcost>93.44</pcost>
+        <pvenda>102.383080396375</pvenda>
+        <quantitatstock>769</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0008</idProducte>
+        <descripcio>T. Pci Wireless 54Mb </descripcio>
+        <pcost>39.8</pcost>
+        <pvenda>47.2293241886391</pvenda>
+        <quantitatstock>154</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0009</idProducte>
+        <descripcio>Router+ P Server  WIRELESS</descripcio>
+        <pcost>73.05</pcost>
+        <pvenda>104.875824775699</pvenda>
+        <quantitatstock>663</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0010</idProducte>
+        <descripcio>Adaptador USB Wireless 54 </descripcio>
+        <pcost>23.7</pcost>
+        <pvenda>32.6555900910536</pvenda>
+        <quantitatstock>602</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0011</idProducte>
+        <descripcio>Pcmcia Wireless 11Mb </descripcio>
+        <pcost>-118.1</pcost>
+        <pvenda>-180.198419606118</pvenda>
+        <quantitatstock>640</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0012</idProducte>
+        <descripcio>T .Pci  Wireless 11Mb </descripcio>
+        <pcost>-402.17</pcost>
+        <pvenda>-614.641018093754</pvenda>
+        <quantitatstock>444</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0014</idProducte>
+        <descripcio>Wireless Ethernet+Accespoint+Repetidor 11Mb</descripcio>
+        <pcost>56.44</pcost>
+        <pvenda>83.1700702391914</pvenda>
+        <quantitatstock>255</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0018</idProducte>
+        <descripcio>Switch  5P GIGA </descripcio>
+        <pcost>63.5</pcost>
+        <pvenda>94.5000215950437</pvenda>
+        <quantitatstock>304</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0019</idProducte>
+        <descripcio>Switch  8P GIGA </descripcio>
+        <pcost>86.54</pcost>
+        <pvenda>89.4886884923481</pvenda>
+        <quantitatstock>400</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0021</idProducte>
+        <descripcio>Punto de acceso Ethernet Wireless 54Mb</descripcio>
+        <pcost>69.23</pcost>
+        <pvenda>84.2892898604901</pvenda>
+        <quantitatstock>394</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0022</idProducte>
+        <descripcio>Print Server Wireless  PP+USB</descripcio>
+        <pcost>86.04</pcost>
+        <pvenda>124.298557584483</pvenda>
+        <quantitatstock>399</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0023</idProducte>
+        <descripcio>Print Server Wireless  PP</descripcio>
+        <pcost>82.11</pcost>
+        <pvenda>109.529226158321</pvenda>
+        <quantitatstock>893</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0024</idProducte>
+        <descripcio>Antena OMNI  Wireless</descripcio>
+        <pcost>21.83</pcost>
+        <pvenda>23.6047241938934</pvenda>
+        <quantitatstock>144</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0025</idProducte>
+        <descripcio>Antena DIRECCIÓN Wireless</descripcio>
+        <pcost>21.85</pcost>
+        <pvenda>33.8552580675364</pvenda>
+        <quantitatstock>936</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0026</idProducte>
+        <descripcio>Punto de Acceso Wireless 54Mb Profesional</descripcio>
+        <pcost>287.02</pcost>
+        <pvenda>428.071848652507</pvenda>
+        <quantitatstock>652</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0027</idProducte>
+        <descripcio>Switch 24P  AUTO-MDIX 10/100Mb</descripcio>
+        <pcost>237.16</pcost>
+        <pvenda>369.7290596306</pvenda>
+        <quantitatstock>112</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0030</idProducte>
+        <descripcio>Bridge inalámbrico 11Mb Wireless Profesional</descripcio>
+        <pcost>163.69</pcost>
+        <pvenda>241.022516383198</pvenda>
+        <quantitatstock>511</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0031</idProducte>
+        <descripcio>Bridge inalámbrico 11Mbps Wireless Profesional</descripcio>
+        <pcost>170</pcost>
+        <pvenda>185.097035810979</pvenda>
+        <quantitatstock>34</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0032</idProducte>
+        <descripcio>Antena 2.4GHZ Wireless 10.5DBI</descripcio>
+        <pcost>106.03</pcost>
+        <pvenda>145.724420748768</pvenda>
+        <quantitatstock>455</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0033</idProducte>
+        <descripcio>Antena 2.4GHZ Wireless 14.5DBI</descripcio>
+        <pcost>158.11</pcost>
+        <pvenda>159.96857125011</pvenda>
+        <quantitatstock>93</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0034</idProducte>
+        <descripcio>Mountaing FOR D105-135-145</descripcio>
+        <pcost>159.1</pcost>
+        <pvenda>218.272193578627</pvenda>
+        <quantitatstock>77</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0035</idProducte>
+        <descripcio>Antena Desktop Stand</descripcio>
+        <pcost>34.97</pcost>
+        <pvenda>53.7114606962964</pvenda>
+        <quantitatstock>842</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0036</idProducte>
+        <descripcio>Antena Wireless 78 INCH LMR 400</descripcio>
+        <pcost>36.17</pcost>
+        <pvenda>46.7361097315865</pvenda>
+        <quantitatstock>947</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0037</idProducte>
+        <descripcio>Pcmcia Wireless 54Mb Dual</descripcio>
+        <pcost>63.03</pcost>
+        <pvenda>70.3362845814239</pvenda>
+        <quantitatstock>571</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0038</idProducte>
+        <descripcio>T.Pci Wireless 54Mb Dual</descripcio>
+        <pcost>79.4</pcost>
+        <pvenda>107.449928427933</pvenda>
+        <quantitatstock>571</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC0040</idProducte>
+        <descripcio>Adaptador USB 11Mb </descripcio>
+        <pcost>28.09</pcost>
+        <pvenda>32.7923359897113</pvenda>
+        <quantitatstock>292</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC1001</idProducte>
+        <descripcio>Tarjeta de Red PCI 10/100  </descripcio>
+        <pcost>5.12</pcost>
+        <pvenda>5.50257111185525</pvenda>
+        <quantitatstock>378</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC1002</idProducte>
+        <descripcio>Tarjeta de Red PCI 10/100 WOL </descripcio>
+        <pcost>6.26</pcost>
+        <pvenda>7.26757398943642</pvenda>
+        <quantitatstock>476</quantitatstock>
+    </article>
+    <article>
+        <idProducte>SMC1005</idProducte>
+        <descripcio>Tarjeta de Red 10/100/1GHZ </descripcio>
+        <pcost>25.84</pcost>
+        <pvenda>37.7028487267517</pvenda>
+        <quantitatstock>50</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG1174000</idProducte>
+        <descripcio>T.G GECUBE X300SE 128MB HYPERM EM PCI-E</descripcio>
+        <pcost>42.23</pcost>
+        <pvenda>66.059544940583</pvenda>
+        <quantitatstock>425</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG1174001</idProducte>
+        <descripcio>T.G. GECUBE X700 PCI 256MB TV + DVI</descripcio>
+        <pcost>93.69</pcost>
+        <pvenda>105.160606433361</pvenda>
+        <quantitatstock>184</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG1174002</idProducte>
+        <descripcio>T.G GECUBE X600 XT 256MB PCI -E TV + DVI</descripcio>
+        <pcost>77.98</pcost>
+        <pvenda>87.8424166785817</pvenda>
+        <quantitatstock>398</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG1174003</idProducte>
+        <descripcio>T.G. GECUBE X700 256MB AGP TV+</descripcio>
+        <pcost>102.28</pcost>
+        <pvenda>116.228396243971</pvenda>
+        <quantitatstock>834</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG1174006</idProducte>
+        <descripcio>T.G. GECUBE X550 PCI-E 256MB HYPERMEM TV+DVI</descripcio>
+        <pcost>59.2</pcost>
+        <pvenda>78.191473537242</pvenda>
+        <quantitatstock>310</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG2186000</idProducte>
+        <descripcio>T.G. PoV GF7800GTX 256MB PCI-E</descripcio>
+        <pcost>479.59</pcost>
+        <pvenda>491.366824494063</pvenda>
+        <quantitatstock>878</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG2186002</idProducte>
+        <descripcio>T.G. PoV MX4000 TV 128MB AGP</descripcio>
+        <pcost>29.07</pcost>
+        <pvenda>40.8985962403465</pvenda>
+        <quantitatstock>580</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG8002</idProducte>
+        <descripcio>T.G. PoV FX5200 TV 128 MB</descripcio>
+        <pcost>36.04</pcost>
+        <pvenda>46.7139421005213</pvenda>
+        <quantitatstock>678</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG8003</idProducte>
+        <descripcio>T.G. PoV FX5500 TV/DVI 256 MB</descripcio>
+        <pcost>57.52</pcost>
+        <pvenda>57.8441553127518</pvenda>
+        <quantitatstock>164</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG8005</idProducte>
+        <descripcio>T.G. PoV 6800GT TV/DVI 256MB</descripcio>
+        <pcost>354.69</pcost>
+        <pvenda>543.460228874194</pvenda>
+        <quantitatstock>743</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG8006</idProducte>
+        <descripcio>T.G. PoV PCX 5750 128MB TV/DVI</descripcio>
+        <pcost>126.68</pcost>
+        <pvenda>182.307278746034</pvenda>
+        <quantitatstock>21</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG8008</idProducte>
+        <descripcio>T.G. PoV PCX 6600 PCI-e 256 Mb TV+DVI</descripcio>
+        <pcost>108.46</pcost>
+        <pvenda>139.871680507096</pvenda>
+        <quantitatstock>32</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG8009</idProducte>
+        <descripcio>T.G. PoV GF 6600 256 Mb AGP</descripcio>
+        <pcost>130.87</pcost>
+        <pvenda>148.888849684247</pvenda>
+        <quantitatstock>246</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG8010</idProducte>
+        <descripcio>T.G. PoV FX5700VE  256 Mb AGP TV + DVI</descripcio>
+        <pcost>91.78</pcost>
+        <pvenda>116.860965623022</pvenda>
+        <quantitatstock>323</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG8011</idProducte>
+        <descripcio>T.G. PoV GF6800 ULTRA  256 Mb PCI-E TV + DVI</descripcio>
+        <pcost>447.7</pcost>
+        <pvenda>561.669429495376</pvenda>
+        <quantitatstock>718</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG8012</idProducte>
+        <descripcio>T.G. PoV GF6800GT 256Mb PCI-E</descripcio>
+        <pcost>287.83</pcost>
+        <pvenda>428.861945436334</pvenda>
+        <quantitatstock>732</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG8013</idProducte>
+        <descripcio>T.G. PoV GF6200TC 64Mb PCI-E</descripcio>
+        <pcost>56.07</pcost>
+        <pvenda>77.3536651328335</pvenda>
+        <quantitatstock>779</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG9001</idProducte>
+        <descripcio>T.G. GECUBE RADEON 7000 64Mb DDR TV+DVI</descripcio>
+        <pcost>23.42</pcost>
+        <pvenda>25.5635678005207</pvenda>
+        <quantitatstock>202</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG9011</idProducte>
+        <descripcio>T.G. GECUBE RADEON 9600XT 256Mb DDR 8X TV+DVI</descripcio>
+        <pcost>115.98</pcost>
+        <pvenda>146.360939875196</pvenda>
+        <quantitatstock>227</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG9015</idProducte>
+        <descripcio>T.G. GECUBE RADEON 9550 256M DVI + TV</descripcio>
+        <pcost>51.11</pcost>
+        <pvenda>76.8799814227779</pvenda>
+        <quantitatstock>950</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG9016</idProducte>
+        <descripcio>T.G. GECUBE RADEON X800 PRO 256 MB VIVO</descripcio>
+        <pcost>297.63</pcost>
+        <pvenda>457.146996671134</pvenda>
+        <quantitatstock>483</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG9018</idProducte>
+        <descripcio>T.G. GECUBE RADEON 9250 256 MB DDR 8X TV + DVI</descripcio>
+        <pcost>40.41</pcost>
+        <pvenda>58.080692713584</pvenda>
+        <quantitatstock>978</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TG9022</idProducte>
+        <descripcio>T.G. GECUBE RADEON 9250 128MB TV+DVI</descripcio>
+        <pcost>29.32</pcost>
+        <pvenda>35.6458787838174</pvenda>
+        <quantitatstock>436</quantitatstock>
+    </article>
+    <article>
+        <idProducte>TS0032</idProducte>
+        <descripcio>T.S. Sound Blaster 7.1 LiveOEM</descripcio>
+        <pcost>20.29</pcost>
+        <pvenda>22.8845379553031</pvenda>
+        <quantitatstock>123</quantitatstock>
+    </article>
+    <article>
+        <idProducte>VC1224001</idProducte>
+        <descripcio>Speakers para plasma 50"</descripcio>
+        <pcost>104.32</pcost>
+        <pvenda>159.982748856475</pvenda>
+        <quantitatstock>720</quantitatstock>
+    </article>
+    <article>
+        <idProducte>VM0008</idProducte>
+        <descripcio>Altavoz 260 W</descripcio>
+        <pcost>4.78</pcost>
+        <pvenda>6.5425521470915</pvenda>
+        <quantitatstock>103</quantitatstock>
+    </article>
+    <article>
+        <idProducte>VM0010</idProducte>
+        <descripcio>Micrófono sobremesa</descripcio>
+        <pcost>0.8</pcost>
+        <pvenda>1.16669077081704</pvenda>
+        <quantitatstock>267</quantitatstock>
+    </article>
+    <article>
+        <idProducte>VM0017</idProducte>
+        <descripcio>Micrófono + Auricular</descripcio>
+        <pcost>1.58</pcost>
+        <pvenda>2.39270687943416</pvenda>
+        <quantitatstock>770</quantitatstock>
+    </article>
+    <article>
+        <idProducte>VM0078</idProducte>
+        <descripcio>Win-Tv Adapt. USB Sobremesa para Tv (mod. 683)</descripcio>
+        <pcost>37.32</pcost>
+        <pvenda>49.280942009319</pvenda>
+        <quantitatstock>960</quantitatstock>
+    </article>
+    <article>
+        <idProducte>VM0080</idProducte>
+        <descripcio>Win-Tv Primio-FM Mono (mod. 690)</descripcio>
+        <pcost>37.29</pcost>
+        <pvenda>41.9977203199701</pvenda>
+        <quantitatstock>915</quantitatstock>
+    </article>
+    <article>
+        <idProducte>VM100</idProducte>
+        <descripcio>WINTV  USB-FM EXT  (mod 678)</descripcio>
+        <pcost>54.38</pcost>
+        <pvenda>75.6208553055962</pvenda>
+        <quantitatstock>727</quantitatstock>
+    </article>
+    <article>
+        <idProducte>VM1019</idProducte>
+        <descripcio>WINTV EXPRESS  (Modelo 751) Chip 878</descripcio>
+        <pcost>30.6</pcost>
+        <pvenda>43.2784238444041</pvenda>
+        <quantitatstock>379</quantitatstock>
+    </article>
+    <article>
+        <idProducte>VM1034</idProducte>
+        <descripcio>WINTV  NOVA-s  PCI (Modelo 546)</descripcio>
+        <pcost>162.61</pcost>
+        <pvenda>168.777168181779</pvenda>
+        <quantitatstock>269</quantitatstock>
+    </article>
+    <article>
+        <idProducte>VM1043</idProducte>
+        <descripcio>WINTV PVR 350</descripcio>
+        <pcost>130.34</pcost>
+        <pvenda>208.456665812595</pvenda>
+        <quantitatstock>204</quantitatstock>
+    </article>
+    <article>
+        <idProducte>VM2232000</idProducte>
+        <descripcio>ADAPT.TV DIG USB </descripcio>
+        <pcost>58.9</pcost>
+        <pvenda>76.7801947628576</pvenda>
+        <quantitatstock>43</quantitatstock>
+    </article>
+    <article>
+        <idProducte>VM3003</idProducte>
+        <descripcio>Tóner Rainbow Pack OKI</descripcio>
+        <pcost>379.5</pcost>
+        <pvenda>596.066449606653</pvenda>
+        <quantitatstock>89</quantitatstock>
+    </article>
+    <article>
+        <idProducte>VM3009</idProducte>
+        <descripcio>Tóner OKI 5100N/ 5300N</descripcio>
+        <pcost>36.73</pcost>
+        <pvenda>36.8771856595608</pvenda>
+        <quantitatstock>841</quantitatstock>
+    </article>
+    <article>
+        <idProducte>VM3015</idProducte>
+        <descripcio>DEC-1100-T EUROCONECTOR TDT</descripcio>
+        <pcost>73.7</pcost>
+        <pvenda>84.4782502273356</pvenda>
+        <quantitatstock>371</quantitatstock>
+    </article>
+    <article>
+        <idProducte>VM3016</idProducte>
+        <descripcio>WINTV NOVA-t PCI MODELO-923</descripcio>
+        <pcost>63.74</pcost>
+        <pvenda>101.863233545383</pvenda>
+        <quantitatstock>304</quantitatstock>
+    </article>
+    <article>
+        <idProducte>VM3017</idProducte>
+        <descripcio>WINTV NOVA-t USB MOD-01093</descripcio>
+        <pcost>63.74</pcost>
+        <pvenda>71.3386389950674</pvenda>
+        <quantitatstock>434</quantitatstock>
+    </article>
+</articles>

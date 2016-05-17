@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+	<xs:element name="provincies" type="provinciesType"/>
+	<xs:complexType name="provinciesType">
+	  <xs:sequence>
+		  <xs:element name="provincia" type="provinciaType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="provinciaType">
+		<xs:sequence>
+			<xs:element name="codi" type="xs:integer"/>
+			<xs:element name="nom" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

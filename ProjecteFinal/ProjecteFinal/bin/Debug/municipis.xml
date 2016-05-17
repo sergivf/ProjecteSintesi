@@ -1,0 +1,4039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<municipis>
+    <municipi>
+        <codimunicipi>25001</codimunicipi>
+        <nommunicipi>Abella de la Conca</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08001</codimunicipi>
+        <nommunicipi>Abrera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25002</codimunicipi>
+        <nommunicipi>Àger</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25003</codimunicipi>
+        <nommunicipi>Agramunt</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08002</codimunicipi>
+        <nommunicipi>Aguilar de Segarra</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17001</codimunicipi>
+        <nommunicipi>Agullana</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08014</codimunicipi>
+        <nommunicipi>Aiguafreda</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43001</codimunicipi>
+        <nommunicipi>Aiguamúrcia</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17002</codimunicipi>
+        <nommunicipi>Aiguaviva</nommunicipi>
+        <abrev>A</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>25038</codimunicipi>
+        <nommunicipi>Aitona</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25004</codimunicipi>
+        <nommunicipi>Els Alamús</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25005</codimunicipi>
+        <nommunicipi>Alàs i Cerc</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25006</codimunicipi>
+        <nommunicipi>L'Albagés</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17003</codimunicipi>
+        <nommunicipi>Albanyà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25007</codimunicipi>
+        <nommunicipi>Albatàrrec</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25008</codimunicipi>
+        <nommunicipi>Albesa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43002</codimunicipi>
+        <nommunicipi>Albinyana</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43003</codimunicipi>
+        <nommunicipi>L'Albiol</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25009</codimunicipi>
+        <nommunicipi>L'Albi</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17004</codimunicipi>
+        <nommunicipi>Albons</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43004</codimunicipi>
+        <nommunicipi>Alcanar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25010</codimunicipi>
+        <nommunicipi>Alcanó</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25011</codimunicipi>
+        <nommunicipi>Alcarràs</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25012</codimunicipi>
+        <nommunicipi>Alcoletge</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43005</codimunicipi>
+        <nommunicipi>Alcover</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43904</codimunicipi>
+        <nommunicipi>L'Aldea</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43006</codimunicipi>
+        <nommunicipi>Aldover</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43007</codimunicipi>
+        <nommunicipi>L'Aleixar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08003</codimunicipi>
+        <nommunicipi>Alella</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43008</codimunicipi>
+        <nommunicipi>Alfara de Carles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25013</codimunicipi>
+        <nommunicipi>Alfarràs</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25014</codimunicipi>
+        <nommunicipi>Alfés</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43009</codimunicipi>
+        <nommunicipi>Alforja</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25015</codimunicipi>
+        <nommunicipi>Algerri</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25016</codimunicipi>
+        <nommunicipi>Alguaire</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25017</codimunicipi>
+        <nommunicipi>Alins</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43010</codimunicipi>
+        <nommunicipi>Alió</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25019</codimunicipi>
+        <nommunicipi>Almacelles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25020</codimunicipi>
+        <nommunicipi>Almatret</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25021</codimunicipi>
+        <nommunicipi>Almenar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43011</codimunicipi>
+        <nommunicipi>Almoster</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25022</codimunicipi>
+        <nommunicipi>Alòs de Balaguer</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17006</codimunicipi>
+        <nommunicipi>Alp</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08004</codimunicipi>
+        <nommunicipi>Alpens</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25023</codimunicipi>
+        <nommunicipi>Alpicat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25024</codimunicipi>
+        <nommunicipi>Alt Àneu</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43012</codimunicipi>
+        <nommunicipi>Altafulla</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17007</codimunicipi>
+        <nommunicipi>Amer</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43013</codimunicipi>
+        <nommunicipi>L'Ametlla de Mar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08005</codimunicipi>
+        <nommunicipi>L'Ametlla del Vallès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43014</codimunicipi>
+        <nommunicipi>Amposta</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17008</codimunicipi>
+        <nommunicipi>Anglès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25027</codimunicipi>
+        <nommunicipi>Anglesola</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25029</codimunicipi>
+        <nommunicipi>Arbeca</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43016</codimunicipi>
+        <nommunicipi>L'Arboç</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43015</codimunicipi>
+        <nommunicipi>Arbolí</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17009</codimunicipi>
+        <nommunicipi>Arbúcies</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08006</codimunicipi>
+        <nommunicipi>Arenys de Mar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08007</codimunicipi>
+        <nommunicipi>Arenys de Munt</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17010</codimunicipi>
+        <nommunicipi>Argelaguer</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08008</codimunicipi>
+        <nommunicipi>Argençola</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43017</codimunicipi>
+        <nommunicipi>L'Argentera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08009</codimunicipi>
+        <nommunicipi>Argentona</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17011</codimunicipi>
+        <nommunicipi>L'Armentera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43018</codimunicipi>
+        <nommunicipi>Arnes</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25031</codimunicipi>
+        <nommunicipi>Arres</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25032</codimunicipi>
+        <nommunicipi>Arsèguel</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08010</codimunicipi>
+        <nommunicipi>Artés</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25033</codimunicipi>
+        <nommunicipi>Artesa de Lleida</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25034</codimunicipi>
+        <nommunicipi>Artesa de Segre</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43019</codimunicipi>
+        <nommunicipi>Ascó</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25036</codimunicipi>
+        <nommunicipi>Aspa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25037</codimunicipi>
+        <nommunicipi>Les Avellanes i Santa Linya</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08011</codimunicipi>
+        <nommunicipi>Avià</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08012</codimunicipi>
+        <nommunicipi>Avinyò</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17012</codimunicipi>
+        <nommunicipi>Avinyonet de Puigventós</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08013</codimunicipi>
+        <nommunicipi>Avinyonet del Penedès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08015</codimunicipi>
+        <nommunicipi>Badalona</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08016</codimunicipi>
+        <nommunicipi>Bagà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25039</codimunicipi>
+        <nommunicipi>Baix Pallars</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25040</codimunicipi>
+        <nommunicipi>Balaguer</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08018</codimunicipi>
+        <nommunicipi>Balsareny</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43020</codimunicipi>
+        <nommunicipi>Banyeres del Penedès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17015</codimunicipi>
+        <nommunicipi>Banyoles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25041</codimunicipi>
+        <nommunicipi>Barbens</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43021</codimunicipi>
+        <nommunicipi>Barberà de la Conca</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08252</codimunicipi>
+        <nommunicipi>Barberà del Vallès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08019</codimunicipi>
+        <nommunicipi>Barcelona</nommunicipi>
+        <abrev>B</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>25042</codimunicipi>
+        <nommunicipi>La Baronia de Rialb</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25043</codimunicipi>
+        <nommunicipi>Barruera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17016</codimunicipi>
+        <nommunicipi>Bàscara</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25044</codimunicipi>
+        <nommunicipi>Bassella</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43022</codimunicipi>
+        <nommunicipi>Batea</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25045</codimunicipi>
+        <nommunicipi>Bausen</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08020</codimunicipi>
+        <nommunicipi>Begues</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17013</codimunicipi>
+        <nommunicipi>Begur</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25046</codimunicipi>
+        <nommunicipi>Belianes</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25170</codimunicipi>
+        <nommunicipi>Bellaguarda</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17018</codimunicipi>
+        <nommunicipi>Bellcaire d'Empordà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25047</codimunicipi>
+        <nommunicipi>Bellcaire d'Urgell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43023</codimunicipi>
+        <nommunicipi>Bellmunt del Priorat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25049</codimunicipi>
+        <nommunicipi>Bellmunt d'Urgell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08021</codimunicipi>
+        <nommunicipi>Bellprat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25050</codimunicipi>
+        <nommunicipi>Bellpuig</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43024</codimunicipi>
+        <nommunicipi>Bellvei</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25051</codimunicipi>
+        <nommunicipi>Bellver de Cerdanya</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25052</codimunicipi>
+        <nommunicipi>Bellvís</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25048</codimunicipi>
+        <nommunicipi>Bell-lloc d'Urgell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25053</codimunicipi>
+        <nommunicipi>Benavent de Segria</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43025</codimunicipi>
+        <nommunicipi>Benifallet</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43026</codimunicipi>
+        <nommunicipi>Benissanet</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08022</codimunicipi>
+        <nommunicipi>Berga</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17019</codimunicipi>
+        <nommunicipi>Besalú</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17020</codimunicipi>
+        <nommunicipi>Bescanó</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17021</codimunicipi>
+        <nommunicipi>Beuda</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08023</codimunicipi>
+        <nommunicipi>Bigues i Riells</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25055</codimunicipi>
+        <nommunicipi>Biosca</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43027</codimunicipi>
+        <nommunicipi>La Bisbal de Falset</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43028</codimunicipi>
+        <nommunicipi>La Bisbal del Penedès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17022</codimunicipi>
+        <nommunicipi>Bisbal d'Empordà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17234</codimunicipi>
+        <nommunicipi>Biure</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43029</codimunicipi>
+        <nommunicipi>Blancafort</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17023</codimunicipi>
+        <nommunicipi>Blanes</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17029</codimunicipi>
+        <nommunicipi>Boadella d'Empordà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17024</codimunicipi>
+        <nommunicipi>Bolvir</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43030</codimunicipi>
+        <nommunicipi>Bonastre</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25057</codimunicipi>
+        <nommunicipi>Les Bòrdes</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17025</codimunicipi>
+        <nommunicipi>Bordils</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25058</codimunicipi>
+        <nommunicipi>Les Borges Blanques</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43031</codimunicipi>
+        <nommunicipi>Les Borges del Camp</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17026</codimunicipi>
+        <nommunicipi>Borrassà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08024</codimunicipi>
+        <nommunicipi>Borredà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25059</codimunicipi>
+        <nommunicipi>Bossost</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43032</codimunicipi>
+        <nommunicipi>Bot</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43033</codimunicipi>
+        <nommunicipi>Botarell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25056</codimunicipi>
+        <nommunicipi>Bovera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43034</codimunicipi>
+        <nommunicipi>Bràfim</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17027</codimunicipi>
+        <nommunicipi>Breda</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08025</codimunicipi>
+        <nommunicipi>El Bruc</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08026</codimunicipi>
+        <nommunicipi>El Brull</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17028</codimunicipi>
+        <nommunicipi>Brunyola</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25060</codimunicipi>
+        <nommunicipi>Cabanabona</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17031</codimunicipi>
+        <nommunicipi>Cabanelles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17030</codimunicipi>
+        <nommunicipi>Cabanes</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08027</codimunicipi>
+        <nommunicipi>Les Cabanyes</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43035</codimunicipi>
+        <nommunicipi>Cabassers</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25061</codimunicipi>
+        <nommunicipi>Cabó</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43036</codimunicipi>
+        <nommunicipi>Cabra del Camp</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08029</codimunicipi>
+        <nommunicipi>Cabrera de Mar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08028</codimunicipi>
+        <nommunicipi>Cabrera d'Igualada</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08030</codimunicipi>
+        <nommunicipi>Cabrils</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17032</codimunicipi>
+        <nommunicipi>Cadaqués</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08031</codimunicipi>
+        <nommunicipi>Calaf</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43037</codimunicipi>
+        <nommunicipi>Calafell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08034</codimunicipi>
+        <nommunicipi>Calders</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17033</codimunicipi>
+        <nommunicipi>Caldes de Malavella</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08033</codimunicipi>
+        <nommunicipi>Caldes de Montbui</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08032</codimunicipi>
+        <nommunicipi>Caldes d'Estrac</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08035</codimunicipi>
+        <nommunicipi>Calella</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17034</codimunicipi>
+        <nommunicipi>Calonge</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08036</codimunicipi>
+        <nommunicipi>Calonge de Segarra</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08037</codimunicipi>
+        <nommunicipi>Calldetenes</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08038</codimunicipi>
+        <nommunicipi>Callús</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25062</codimunicipi>
+        <nommunicipi>Camarasa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43903</codimunicipi>
+        <nommunicipi>Camarles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43038</codimunicipi>
+        <nommunicipi>Cambrils</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17035</codimunicipi>
+        <nommunicipi>Camós</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17036</codimunicipi>
+        <nommunicipi>Campdevànol</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17037</codimunicipi>
+        <nommunicipi>Campelles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08039</codimunicipi>
+        <nommunicipi>Campins</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17038</codimunicipi>
+        <nommunicipi>Campllong</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17039</codimunicipi>
+        <nommunicipi>Camprodon</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25063</codimunicipi>
+        <nommunicipi>Canejan</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08040</codimunicipi>
+        <nommunicipi>Canet de Mar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17040</codimunicipi>
+        <nommunicipi>Canet d'Adri</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08041</codimunicipi>
+        <nommunicipi>Canovelles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17041</codimunicipi>
+        <nommunicipi>Cantallops</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08043</codimunicipi>
+        <nommunicipi>Canyelles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43039</codimunicipi>
+        <nommunicipi>Capafonts</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43040</codimunicipi>
+        <nommunicipi>Capçanes</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08044</codimunicipi>
+        <nommunicipi>Capellades</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17042</codimunicipi>
+        <nommunicipi>Capmany</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08045</codimunicipi>
+        <nommunicipi>Capolat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08046</codimunicipi>
+        <nommunicipi>Cardedeu</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08047</codimunicipi>
+        <nommunicipi>Cardona</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08048</codimunicipi>
+        <nommunicipi>Carme</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43041</codimunicipi>
+        <nommunicipi>Caseres</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17044</codimunicipi>
+        <nommunicipi>Cassà de la Selva</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08049</codimunicipi>
+        <nommunicipi>Casserres</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08057</codimunicipi>
+        <nommunicipi>Castell de l'Areny</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25904</codimunicipi>
+        <nommunicipi>Castell de Mur</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25064</codimunicipi>
+        <nommunicipi>Castellar de la Ribera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08052</codimunicipi>
+        <nommunicipi>Castellar de N'Hug</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08050</codimunicipi>
+        <nommunicipi>Castellar del Riu</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08051</codimunicipi>
+        <nommunicipi>Castellar del Vallès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08053</codimunicipi>
+        <nommunicipi>Castellbell i el Vilar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08054</codimunicipi>
+        <nommunicipi>Castellbisbal</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08055</codimunicipi>
+        <nommunicipi>Castellcir</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25067</codimunicipi>
+        <nommunicipi>Castelldans</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08056</codimunicipi>
+        <nommunicipi>Castelldefels</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08058</codimunicipi>
+        <nommunicipi>Castellet i la Gornal</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17046</codimunicipi>
+        <nommunicipi>Castellfollit de la Roca</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08060</codimunicipi>
+        <nommunicipi>Castellfollit de Riubregós</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08059</codimunicipi>
+        <nommunicipi>Castellfollit del Boix</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08061</codimunicipi>
+        <nommunicipi>Castellgalí</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08062</codimunicipi>
+        <nommunicipi>Castellnou de Bages</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25068</codimunicipi>
+        <nommunicipi>Castellnou de Seana</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25069</codimunicipi>
+        <nommunicipi>Castelló de Farfanya</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17047</codimunicipi>
+        <nommunicipi>Castelló d'Empúries</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08063</codimunicipi>
+        <nommunicipi>Castellolí</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25070</codimunicipi>
+        <nommunicipi>Castellserà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08064</codimunicipi>
+        <nommunicipi>Castellterçol</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43042</codimunicipi>
+        <nommunicipi>Castellvell del Camp</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08065</codimunicipi>
+        <nommunicipi>Castellví de la Marca</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08066</codimunicipi>
+        <nommunicipi>Castellví de Rosanes</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17048</codimunicipi>
+        <nommunicipi>Castell-Platja d'Aro</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43043</codimunicipi>
+        <nommunicipi>El Catllar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25071</codimunicipi>
+        <nommunicipi>Cava</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17049</codimunicipi>
+        <nommunicipi>Celrà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17189</codimunicipi>
+        <nommunicipi>La Cellera de Ter</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08067</codimunicipi>
+        <nommunicipi>Centelles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08268</codimunicipi>
+        <nommunicipi>Cercs</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08266</codimunicipi>
+        <nommunicipi>Cerdanyola del Vallès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08068</codimunicipi>
+        <nommunicipi>Cervelló</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25072</codimunicipi>
+        <nommunicipi>Cervera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25073</codimunicipi>
+        <nommunicipi>Cervià de les Garrigues</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17050</codimunicipi>
+        <nommunicipi>Cervià de Ter</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17051</codimunicipi>
+        <nommunicipi>Cistella</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25074</codimunicipi>
+        <nommunicipi>Ciutadilla</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25075</codimunicipi>
+        <nommunicipi>Clariana de Cardener</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25076</codimunicipi>
+        <nommunicipi>El Cogul</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17054</codimunicipi>
+        <nommunicipi>Colera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17055</codimunicipi>
+        <nommunicipi>Colomers</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25077</codimunicipi>
+        <nommunicipi>Coll de Nargó</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08069</codimunicipi>
+        <nommunicipi>Collbató</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43045</codimunicipi>
+        <nommunicipi>Colldejou</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08070</codimunicipi>
+        <nommunicipi>Collsuspina</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25163</codimunicipi>
+        <nommunicipi>La Coma i la Pedra</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43046</codimunicipi>
+        <nommunicipi>Conesa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43047</codimunicipi>
+        <nommunicipi>Constantí</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08071</codimunicipi>
+        <nommunicipi>Copons</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08072</codimunicipi>
+        <nommunicipi>Corbera de Llobregat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43048</codimunicipi>
+        <nommunicipi>Corbera d'Ebre</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25078</codimunicipi>
+        <nommunicipi>Corbins</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17057</codimunicipi>
+        <nommunicipi>Corçà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08073</codimunicipi>
+        <nommunicipi>Cornellà de Llobregat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17056</codimunicipi>
+        <nommunicipi>Cornellà del Terri</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43049</codimunicipi>
+        <nommunicipi>Cornudella de Montsant</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43050</codimunicipi>
+        <nommunicipi>Creixell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17058</codimunicipi>
+        <nommunicipi>Crespià</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17901</codimunicipi>
+        <nommunicipi>Cruïlles-Monells i Sant Sadurni</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08074</codimunicipi>
+        <nommunicipi>Cubelles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25079</codimunicipi>
+        <nommunicipi>Cubells</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43051</codimunicipi>
+        <nommunicipi>Cunit</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17060</codimunicipi>
+        <nommunicipi>Darnius</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17061</codimunicipi>
+        <nommunicipi>Das</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43901</codimunicipi>
+        <nommunicipi>Deltebre</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08075</codimunicipi>
+        <nommunicipi>Dosrius</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43053</codimunicipi>
+        <nommunicipi>Duesaigües</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17062</codimunicipi>
+        <nommunicipi>L'Escala</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08076</codimunicipi>
+        <nommunicipi>Esparreguera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17063</codimunicipi>
+        <nommunicipi>Espinelves</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25081</codimunicipi>
+        <nommunicipi>L'Espluga Calba</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43054</codimunicipi>
+        <nommunicipi>L'Espluga de Francolí</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08077</codimunicipi>
+        <nommunicipi>Esplugues de Llobregat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17064</codimunicipi>
+        <nommunicipi>Espolla</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17065</codimunicipi>
+        <nommunicipi>Esponellà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25082</codimunicipi>
+        <nommunicipi>Espot</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08078</codimunicipi>
+        <nommunicipi>L'Espunyola</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25088</codimunicipi>
+        <nommunicipi>Estamariu</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08079</codimunicipi>
+        <nommunicipi>L'Estany</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25085</codimunicipi>
+        <nommunicipi>Estaràs</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25087</codimunicipi>
+        <nommunicipi>Esterri de Cardós</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25086</codimunicipi>
+        <nommunicipi>Esterri d'Àneu</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43055</codimunicipi>
+        <nommunicipi>Falset</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17005</codimunicipi>
+        <nommunicipi>El Far d'Empordà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25089</codimunicipi>
+        <nommunicipi>Farrera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43056</codimunicipi>
+        <nommunicipi>La Fatarella</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43057</codimunicipi>
+        <nommunicipi>La Febró</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08080</codimunicipi>
+        <nommunicipi>Fígols</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25908</codimunicipi>
+        <nommunicipi>Fígols i Alinyà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43058</codimunicipi>
+        <nommunicipi>La Figuera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17066</codimunicipi>
+        <nommunicipi>Figueres</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43059</codimunicipi>
+        <nommunicipi>Figuerola del camp</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17067</codimunicipi>
+        <nommunicipi>Flaçà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43060</codimunicipi>
+        <nommunicipi>Flix</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25092</codimunicipi>
+        <nommunicipi>La Floresta</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08081</codimunicipi>
+        <nommunicipi>Fogars de Montclús</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08082</codimunicipi>
+        <nommunicipi>Fogars de la Selva</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17068</codimunicipi>
+        <nommunicipi>Foixa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08083</codimunicipi>
+        <nommunicipi>Folgueroles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25093</codimunicipi>
+        <nommunicipi>Fondarella</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08084</codimunicipi>
+        <nommunicipi>Fonollosa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17069</codimunicipi>
+        <nommunicipi>Fontanals de Cerdanya</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17070</codimunicipi>
+        <nommunicipi>Fontanilles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17071</codimunicipi>
+        <nommunicipi>Fontcoberta</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08085</codimunicipi>
+        <nommunicipi>Font-rubí</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25094</codimunicipi>
+        <nommunicipi>Foradada</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17902</codimunicipi>
+        <nommunicipi>Forallac</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43061</codimunicipi>
+        <nommunicipi>Forès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17073</codimunicipi>
+        <nommunicipi>Fornells de la Selva</nommunicipi>
+        <abrev>F</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>17074</codimunicipi>
+        <nommunicipi>Fortia</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08086</codimunicipi>
+        <nommunicipi>Les Franqueses del Vallès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43062</codimunicipi>
+        <nommunicipi>Freginals</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25096</codimunicipi>
+        <nommunicipi>La Fuliola</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25097</codimunicipi>
+        <nommunicipi>Fulleda</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08090</codimunicipi>
+        <nommunicipi>Gaià</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43063</codimunicipi>
+        <nommunicipi>La Galera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08087</codimunicipi>
+        <nommunicipi>Gallifa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43064</codimunicipi>
+        <nommunicipi>Gandesa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43065</codimunicipi>
+        <nommunicipi>Garcia</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43066</codimunicipi>
+        <nommunicipi>Els Garidells</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17075</codimunicipi>
+        <nommunicipi>Garrigàs</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08088</codimunicipi>
+        <nommunicipi>La Garriga</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17076</codimunicipi>
+        <nommunicipi>Garrigoles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17077</codimunicipi>
+        <nommunicipi>Garriguella</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08089</codimunicipi>
+        <nommunicipi>Gavà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25098</codimunicipi>
+        <nommunicipi>Gavet de la Conca</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08091</codimunicipi>
+        <nommunicipi>Gelida</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17078</codimunicipi>
+        <nommunicipi>Ger</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43067</codimunicipi>
+        <nommunicipi>Ginestar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17079</codimunicipi>
+        <nommunicipi>Girona</nommunicipi>
+        <abrev>G</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>08092</codimunicipi>
+        <nommunicipi>Gironella</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08093</codimunicipi>
+        <nommunicipi>Gisclareny</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43068</codimunicipi>
+        <nommunicipi>Godall</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25099</codimunicipi>
+        <nommunicipi>Golmés</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17080</codimunicipi>
+        <nommunicipi>Gombrèn</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25100</codimunicipi>
+        <nommunicipi>Gósol</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08094</codimunicipi>
+        <nommunicipi>La Granada</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25101</codimunicipi>
+        <nommunicipi>La Granadella</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08095</codimunicipi>
+        <nommunicipi>Granera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25102</codimunicipi>
+        <nommunicipi>La Granja d'Escarp</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08096</codimunicipi>
+        <nommunicipi>Granollers</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25103</codimunicipi>
+        <nommunicipi>Granyanella</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25105</codimunicipi>
+        <nommunicipi>Granyena de les Garrigues</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25104</codimunicipi>
+        <nommunicipi>Granyena de Segarra</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43069</codimunicipi>
+        <nommunicipi>Gratallops</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08097</codimunicipi>
+        <nommunicipi>Gualba</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17081</codimunicipi>
+        <nommunicipi>Gualta</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08099</codimunicipi>
+        <nommunicipi>Guardiola de Berguedà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43070</codimunicipi>
+        <nommunicipi>Els Guiamets</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17082</codimunicipi>
+        <nommunicipi>Guils de Cerdanya</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25109</codimunicipi>
+        <nommunicipi>Guimerà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25110</codimunicipi>
+        <nommunicipi>Guissona</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25111</codimunicipi>
+        <nommunicipi>Guixers</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08100</codimunicipi>
+        <nommunicipi>Gurb</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43071</codimunicipi>
+        <nommunicipi>Horta de Sant Joan</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08101</codimunicipi>
+        <nommunicipi>L'Hospitalet de Llobregat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17083</codimunicipi>
+        <nommunicipi>Hostalric</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08102</codimunicipi>
+        <nommunicipi>Igualada</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25115</codimunicipi>
+        <nommunicipi>Isona i Conca Dellà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17084</codimunicipi>
+        <nommunicipi>Isòvol</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25112</codimunicipi>
+        <nommunicipi>Ivars de Noguera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25113</codimunicipi>
+        <nommunicipi>Ivars d'Urgell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25114</codimunicipi>
+        <nommunicipi>Ivorra</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17085</codimunicipi>
+        <nommunicipi>Jafre</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17086</codimunicipi>
+        <nommunicipi>La Jonquera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08103</codimunicipi>
+        <nommunicipi>Jorba</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25910</codimunicipi>
+        <nommunicipi>Josa i Tuixen</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17087</codimunicipi>
+        <nommunicipi>Juià</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25118</codimunicipi>
+        <nommunicipi>Juncosa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25119</codimunicipi>
+        <nommunicipi>Juneda</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25121</codimunicipi>
+        <nommunicipi>Les</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25122</codimunicipi>
+        <nommunicipi>Linyola</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08104</codimunicipi>
+        <nommunicipi>La Llacuna</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17088</codimunicipi>
+        <nommunicipi>Lladó</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25123</codimunicipi>
+        <nommunicipi>Lladorre</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25124</codimunicipi>
+        <nommunicipi>Lladurs</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08105</codimunicipi>
+        <nommunicipi>La Llagosta</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17089</codimunicipi>
+        <nommunicipi>Llagostera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17090</codimunicipi>
+        <nommunicipi>Llambilles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17091</codimunicipi>
+        <nommunicipi>Llanars</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17092</codimunicipi>
+        <nommunicipi>Llançà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25125</codimunicipi>
+        <nommunicipi>Llardecans</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25126</codimunicipi>
+        <nommunicipi>Llavorsí</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25120</codimunicipi>
+        <nommunicipi>Lleida</nommunicipi>
+        <abrev>L</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>17093</codimunicipi>
+        <nommunicipi>Llers</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25127</codimunicipi>
+        <nommunicipi>Lles de Cerdanya</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08108</codimunicipi>
+        <nommunicipi>Lliça de Vall</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08107</codimunicipi>
+        <nommunicipi>Lliça d'Amunt</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25128</codimunicipi>
+        <nommunicipi>Llimiana</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08106</codimunicipi>
+        <nommunicipi>Llinars del Valles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17094</codimunicipi>
+        <nommunicipi>Llívia</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43072</codimunicipi>
+        <nommunicipi>Lloar, El</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25129</codimunicipi>
+        <nommunicipi>Llobera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43073</codimunicipi>
+        <nommunicipi>Llorac</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43074</codimunicipi>
+        <nommunicipi>Llorenç del Penedès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17095</codimunicipi>
+        <nommunicipi>Lloret de Mar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17096</codimunicipi>
+        <nommunicipi>Les Llosses</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08109</codimunicipi>
+        <nommunicipi>Lluçà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17102</codimunicipi>
+        <nommunicipi>Maçanet de Cabrenys</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17103</codimunicipi>
+        <nommunicipi>Maçanet de la Selva</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17097</codimunicipi>
+        <nommunicipi>Madremanya</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17098</codimunicipi>
+        <nommunicipi>Maià de Montcal</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25133</codimunicipi>
+        <nommunicipi>Maials</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25130</codimunicipi>
+        <nommunicipi>Maldà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08110</codimunicipi>
+        <nommunicipi>Malgrat de Mar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08111</codimunicipi>
+        <nommunicipi>Malla</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08112</codimunicipi>
+        <nommunicipi>Manlleu</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08113</codimunicipi>
+        <nommunicipi>Manresa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43076</codimunicipi>
+        <nommunicipi>Marçà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43075</codimunicipi>
+        <nommunicipi>Margalef</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08242</codimunicipi>
+        <nommunicipi>Marganell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08114</codimunicipi>
+        <nommunicipi>Martorell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08115</codimunicipi>
+        <nommunicipi>Martorelles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43077</codimunicipi>
+        <nommunicipi>Mas de Barberans</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17100</codimunicipi>
+        <nommunicipi>Masarac</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43078</codimunicipi>
+        <nommunicipi>Masdenverge</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08116</codimunicipi>
+        <nommunicipi>Les Masies de Roda</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08117</codimunicipi>
+        <nommunicipi>Les Masies de Voltregà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43079</codimunicipi>
+        <nommunicipi>Masllorenç</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08118</codimunicipi>
+        <nommunicipi>El Masnou</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43080</codimunicipi>
+        <nommunicipi>La Masó</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43081</codimunicipi>
+        <nommunicipi>Maspujols</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08119</codimunicipi>
+        <nommunicipi>Masquefa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43082</codimunicipi>
+        <nommunicipi>El Masroig</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25131</codimunicipi>
+        <nommunicipi>Massalcoreig</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17101</codimunicipi>
+        <nommunicipi>Massanes</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25132</codimunicipi>
+        <nommunicipi>Massoteres</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08120</codimunicipi>
+        <nommunicipi>Matadepera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08121</codimunicipi>
+        <nommunicipi>Mataró</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08122</codimunicipi>
+        <nommunicipi>Mediona</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25134</codimunicipi>
+        <nommunicipi>Menàrguens</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17099</codimunicipi>
+        <nommunicipi>Meranges</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17105</codimunicipi>
+        <nommunicipi>Mieres</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43083</codimunicipi>
+        <nommunicipi>El Milà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25135</codimunicipi>
+        <nommunicipi>Miralcamp</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43084</codimunicipi>
+        <nommunicipi>Miravet</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08138</codimunicipi>
+        <nommunicipi>Moià</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43085</codimunicipi>
+        <nommunicipi>El Molar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08123</codimunicipi>
+        <nommunicipi>Molins de Rei</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25136</codimunicipi>
+        <nommunicipi>La Molsosa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25137</codimunicipi>
+        <nommunicipi>Mollerussa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17106</codimunicipi>
+        <nommunicipi>Mollet de Perelada</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08124</codimunicipi>
+        <nommunicipi>Mollet del Vallès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17107</codimunicipi>
+        <nommunicipi>Molló</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08128</codimunicipi>
+        <nommunicipi>Monistrol de Calders</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08127</codimunicipi>
+        <nommunicipi>Monistrol de Montserrat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17109</codimunicipi>
+        <nommunicipi>Montagut i Oix</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43086</codimunicipi>
+        <nommunicipi>Montblanc</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43088</codimunicipi>
+        <nommunicipi>Montbrió del Camp</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08125</codimunicipi>
+        <nommunicipi>Montcada i Reixac</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08130</codimunicipi>
+        <nommunicipi>Montclar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25139</codimunicipi>
+        <nommunicipi>Montellà i Martinet</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08131</codimunicipi>
+        <nommunicipi>Montesquiu</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25140</codimunicipi>
+        <nommunicipi>Montferrer i Castellbò</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43089</codimunicipi>
+        <nommunicipi>Montferri</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25138</codimunicipi>
+        <nommunicipi>Montgai</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08126</codimunicipi>
+        <nommunicipi>Montgat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08132</codimunicipi>
+        <nommunicipi>Montmajor</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08133</codimunicipi>
+        <nommunicipi>Montmaneu</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08134</codimunicipi>
+        <nommunicipi>Figaró-Montmany</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08135</codimunicipi>
+        <nommunicipi>Montmeló</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43090</codimunicipi>
+        <nommunicipi>Montmell, El</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25142</codimunicipi>
+        <nommunicipi>Montoliu de Lleida</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25141</codimunicipi>
+        <nommunicipi>Montoliu de Segarra</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25143</codimunicipi>
+        <nommunicipi>Montornès de Segarra</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08136</codimunicipi>
+        <nommunicipi>Montornès del Vallès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08137</codimunicipi>
+        <nommunicipi>Montseny</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43091</codimunicipi>
+        <nommunicipi>Mont-ral</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17110</codimunicipi>
+        <nommunicipi>Mont-ras</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43092</codimunicipi>
+        <nommunicipi>Mont-roig del camp</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43093</codimunicipi>
+        <nommunicipi>Móra d'Ebre</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43094</codimunicipi>
+        <nommunicipi>Móra la Nova</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43095</codimunicipi>
+        <nommunicipi>El Morell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43096</codimunicipi>
+        <nommunicipi>La Morera de Montsant</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08129</codimunicipi>
+        <nommunicipi>Muntanyola</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08139</codimunicipi>
+        <nommunicipi>Mura</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25145</codimunicipi>
+        <nommunicipi>Nalec</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25025</codimunicipi>
+        <nommunicipi>Naut Aran</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08140</codimunicipi>
+        <nommunicipi>Navarcles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08141</codimunicipi>
+        <nommunicipi>Navas</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17111</codimunicipi>
+        <nommunicipi>Navata</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25146</codimunicipi>
+        <nommunicipi>Navès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08142</codimunicipi>
+        <nommunicipi>La Nou de Bereguedà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43097</codimunicipi>
+        <nommunicipi>La Nou de Gaià</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43098</codimunicipi>
+        <nommunicipi>Nulles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25148</codimunicipi>
+        <nommunicipi>Odèn</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08143</codimunicipi>
+        <nommunicipi>Òdena</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17112</codimunicipi>
+        <nommunicipi>Ogassa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08145</codimunicipi>
+        <nommunicipi>Olèrdola</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08146</codimunicipi>
+        <nommunicipi>Olesa de Bonesvalls</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08147</codimunicipi>
+        <nommunicipi>Olesa de Montserrat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25149</codimunicipi>
+        <nommunicipi>Oliana</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25150</codimunicipi>
+        <nommunicipi>Oliola</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25151</codimunicipi>
+        <nommunicipi>Olius</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08148</codimunicipi>
+        <nommunicipi>Olivella</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08149</codimunicipi>
+        <nommunicipi>Olost</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17114</codimunicipi>
+        <nommunicipi>Olot</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25152</codimunicipi>
+        <nommunicipi>Les Olugues</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08144</codimunicipi>
+        <nommunicipi>Olvan</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25153</codimunicipi>
+        <nommunicipi>Els Omellons</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25154</codimunicipi>
+        <nommunicipi>Els Omells de Na Gaia</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17115</codimunicipi>
+        <nommunicipi>Ordis</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25155</codimunicipi>
+        <nommunicipi>Organyà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08150</codimunicipi>
+        <nommunicipi>Orís</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08151</codimunicipi>
+        <nommunicipi>Oristà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08152</codimunicipi>
+        <nommunicipi>Orpí</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08153</codimunicipi>
+        <nommunicipi>Òrrius</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25156</codimunicipi>
+        <nommunicipi>Os de Balaguer</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17116</codimunicipi>
+        <nommunicipi>Osor</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25157</codimunicipi>
+        <nommunicipi>Ossó de Sió</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08154</codimunicipi>
+        <nommunicipi>Pacs del Penedès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08155</codimunicipi>
+        <nommunicipi>Palafolls</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17117</codimunicipi>
+        <nommunicipi>Palafrugell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17118</codimunicipi>
+        <nommunicipi>Palamós</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08156</codimunicipi>
+        <nommunicipi>Palau-solità i Plegamans</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17119</codimunicipi>
+        <nommunicipi>Palau de Santa Eulàlia</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25158</codimunicipi>
+        <nommunicipi>El Palau d'Anglesola</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17121</codimunicipi>
+        <nommunicipi>Palau-sator</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17120</codimunicipi>
+        <nommunicipi>Palau-saverdera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43099</codimunicipi>
+        <nommunicipi>La Palma d'Ebre</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17122</codimunicipi>
+        <nommunicipi>Palmerola</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17123</codimunicipi>
+        <nommunicipi>Palol de Revardit</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17124</codimunicipi>
+        <nommunicipi>Pals</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43100</codimunicipi>
+        <nommunicipi>Els Pallaresos</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25161</codimunicipi>
+        <nommunicipi>Conca de Dalt</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08157</codimunicipi>
+        <nommunicipi>Pallejà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08158</codimunicipi>
+        <nommunicipi>El Papiol</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17125</codimunicipi>
+        <nommunicipi>Pardines</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08159</codimunicipi>
+        <nommunicipi>Parets del Vallès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17126</codimunicipi>
+        <nommunicipi>Parlavà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43101</codimunicipi>
+        <nommunicipi>Passanant</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17128</codimunicipi>
+        <nommunicipi>Pau</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43102</codimunicipi>
+        <nommunicipi>Paüls</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17129</codimunicipi>
+        <nommunicipi>Pedret i Marza</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25164</codimunicipi>
+        <nommunicipi>Penelles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08160</codimunicipi>
+        <nommunicipi>Perafita</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43103</codimunicipi>
+        <nommunicipi>Perafort</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17132</codimunicipi>
+        <nommunicipi>Peralada</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25165</codimunicipi>
+        <nommunicipi>Peramola</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17130</codimunicipi>
+        <nommunicipi>La Pera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43104</codimunicipi>
+        <nommunicipi>El Perelló</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08161</codimunicipi>
+        <nommunicipi>Piera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43105</codimunicipi>
+        <nommunicipi>Les Piles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08163</codimunicipi>
+        <nommunicipi>Pineda de Mar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43106</codimunicipi>
+        <nommunicipi>El Pinell de Brai</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25166</codimunicipi>
+        <nommunicipi>Pinell de Solsonès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25167</codimunicipi>
+        <nommunicipi>Pinós</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43107</codimunicipi>
+        <nommunicipi>Pira</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43108</codimunicipi>
+        <nommunicipi>El Pla de Santa Maria</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08164</codimunicipi>
+        <nommunicipi>El Pla del Penedès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17133</codimunicipi>
+        <nommunicipi>Les Planes d'Hostoles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17134</codimunicipi>
+        <nommunicipi>Planoles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25911</codimunicipi>
+        <nommunicipi>Plans de Sió</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25168</codimunicipi>
+        <nommunicipi>El Poal</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25169</codimunicipi>
+        <nommunicipi>La Pobla de Cérvoles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08165</codimunicipi>
+        <nommunicipi>La Pobla de Claramunt</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08166</codimunicipi>
+        <nommunicipi>La Pobla de Lillet</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43109</codimunicipi>
+        <nommunicipi>La Pobla de Mafumet</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43110</codimunicipi>
+        <nommunicipi>La Pobla de Massaluca</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43111</codimunicipi>
+        <nommunicipi>La Pobla de Montornès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25171</codimunicipi>
+        <nommunicipi>La Pobla de Segur</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43112</codimunicipi>
+        <nommunicipi>Poboleda</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08167</codimunicipi>
+        <nommunicipi>Polinyà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17135</codimunicipi>
+        <nommunicipi>Pont de Molins</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25173</codimunicipi>
+        <nommunicipi>El Pont de Suert</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08182</codimunicipi>
+        <nommunicipi>El Pont de Vilomara i Rocafort</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43113</codimunicipi>
+        <nommunicipi>El Pont d'Armentera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08168</codimunicipi>
+        <nommunicipi>Pontons</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17136</codimunicipi>
+        <nommunicipi>Pontós</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25172</codimunicipi>
+        <nommunicipi>Ponts</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17137</codimunicipi>
+        <nommunicipi>Porqueres</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43114</codimunicipi>
+        <nommunicipi>Porrera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17140</codimunicipi>
+        <nommunicipi>El Port de la Selva</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17138</codimunicipi>
+        <nommunicipi>Portbou</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25174</codimunicipi>
+        <nommunicipi>La Portella</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43116</codimunicipi>
+        <nommunicipi>Prades</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43117</codimunicipi>
+        <nommunicipi>Prat de Comte</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08169</codimunicipi>
+        <nommunicipi>El Prat de Llobregat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43118</codimunicipi>
+        <nommunicipi>Pratdip</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08171</codimunicipi>
+        <nommunicipi>Prats de Lluçanès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08170</codimunicipi>
+        <nommunicipi>Els Prats de Rei</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25175</codimunicipi>
+        <nommunicipi>Prats i Sansor</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25176</codimunicipi>
+        <nommunicipi>Preixana</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25177</codimunicipi>
+        <nommunicipi>Preixens</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08230</codimunicipi>
+        <nommunicipi>Premià de Dalt</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08172</codimunicipi>
+        <nommunicipi>Premià de Mar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17139</codimunicipi>
+        <nommunicipi>Les Preses</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25179</codimunicipi>
+        <nommunicipi>Prullans</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17141</codimunicipi>
+        <nommunicipi>Puigcerdà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08174</codimunicipi>
+        <nommunicipi>Puigdàlber</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25180</codimunicipi>
+        <nommunicipi>Puiggrós</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43119</codimunicipi>
+        <nommunicipi>Puigpelat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25182</codimunicipi>
+        <nommunicipi>Puigverd de Lleida</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25181</codimunicipi>
+        <nommunicipi>Puigverd d'Agramunt</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08175</codimunicipi>
+        <nommunicipi>Puig-Reig</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08176</codimunicipi>
+        <nommunicipi>Pujalt</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17142</codimunicipi>
+        <nommunicipi>Quart</nommunicipi>
+        <abrev>Q</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>08177</codimunicipi>
+        <nommunicipi>La Quar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17043</codimunicipi>
+        <nommunicipi>Queralbs</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43120</codimunicipi>
+        <nommunicipi>Querol</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17143</codimunicipi>
+        <nommunicipi>Rabós</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08178</codimunicipi>
+        <nommunicipi>Rajadell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43121</codimunicipi>
+        <nommunicipi>Rasquera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17144</codimunicipi>
+        <nommunicipi>Regencós</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08179</codimunicipi>
+        <nommunicipi>Rellinars</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43122</codimunicipi>
+        <nommunicipi>Renau</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43123</codimunicipi>
+        <nommunicipi>Reus</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25183</codimunicipi>
+        <nommunicipi>Rialp</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43125</codimunicipi>
+        <nommunicipi>Riba-Roja d'Ebre</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43124</codimunicipi>
+        <nommunicipi>La Riba</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25905</codimunicipi>
+        <nommunicipi>Ribera d'Ondara</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25185</codimunicipi>
+        <nommunicipi>Ribera d'Urgellet</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17145</codimunicipi>
+        <nommunicipi>Ribes de Freser</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17146</codimunicipi>
+        <nommunicipi>Riells i Viabrea</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43126</codimunicipi>
+        <nommunicipi>La Riera de Gaià</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25186</codimunicipi>
+        <nommunicipi>Riner</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17147</codimunicipi>
+        <nommunicipi>Ripoll</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08180</codimunicipi>
+        <nommunicipi>Ripollet</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17148</codimunicipi>
+        <nommunicipi>Riudarenes</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17149</codimunicipi>
+        <nommunicipi>Riudaura</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43127</codimunicipi>
+        <nommunicipi>Riudecanyes</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43128</codimunicipi>
+        <nommunicipi>Riudecols</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17150</codimunicipi>
+        <nommunicipi>Riudellots de la Selva</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43129</codimunicipi>
+        <nommunicipi>Riudoms</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17151</codimunicipi>
+        <nommunicipi>Riumors</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08181</codimunicipi>
+        <nommunicipi>La Roca del Vallès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43130</codimunicipi>
+        <nommunicipi>Rocafort de Queralt</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43131</codimunicipi>
+        <nommunicipi>Roda de Barà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08183</codimunicipi>
+        <nommunicipi>Roda de Ter</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43132</codimunicipi>
+        <nommunicipi>Rodonyà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43133</codimunicipi>
+        <nommunicipi>Roquetes</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17152</codimunicipi>
+        <nommunicipi>Roses</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25189</codimunicipi>
+        <nommunicipi>Rosselló</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43134</codimunicipi>
+        <nommunicipi>El Rourell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08184</codimunicipi>
+        <nommunicipi>Rubí</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08185</codimunicipi>
+        <nommunicipi>Rubió</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17153</codimunicipi>
+        <nommunicipi>Rupià</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08901</codimunicipi>
+        <nommunicipi>Rupit i Pruit</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08187</codimunicipi>
+        <nommunicipi>Sabadell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08188</codimunicipi>
+        <nommunicipi>Sagàs</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25190</codimunicipi>
+        <nommunicipi>Salàs de Pallars</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08190</codimunicipi>
+        <nommunicipi>Saldes</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17154</codimunicipi>
+        <nommunicipi>Sales de Llierca</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43135</codimunicipi>
+        <nommunicipi>Salomó</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17155</codimunicipi>
+        <nommunicipi>Salt</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08191</codimunicipi>
+        <nommunicipi>Sallent</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25191</codimunicipi>
+        <nommunicipi>Sanaüja</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08194</codimunicipi>
+        <nommunicipi>Sant Adrià de Besòs</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08195</codimunicipi>
+        <nommunicipi>Sant Agusti de Lluçanes</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08196</codimunicipi>
+        <nommunicipi>Sant Andreu de la Barca</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08197</codimunicipi>
+        <nommunicipi>Sant Andreu de Llavaneres</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17157</codimunicipi>
+        <nommunicipi>Sant Andreu Salou</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17183</codimunicipi>
+        <nommunicipi>Sant Aniol de Finestres</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08198</codimunicipi>
+        <nommunicipi>Sant Antoni de Vilamajor</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08199</codimunicipi>
+        <nommunicipi>Sant Bartomeu del Grau</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08200</codimunicipi>
+        <nommunicipi>Sant Boi de Llobregat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08201</codimunicipi>
+        <nommunicipi>Sant Boi de Lluçanes</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43136</codimunicipi>
+        <nommunicipi>Sant Carles de la Ràpita</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08203</codimunicipi>
+        <nommunicipi>Sant Cebrià de Vallalta</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08202</codimunicipi>
+        <nommunicipi>Sant Celoni</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08204</codimunicipi>
+        <nommunicipi>Sant Climent de Llobregat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17158</codimunicipi>
+        <nommunicipi>Sant Climent Sescebes</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08206</codimunicipi>
+        <nommunicipi>Sant Cugat de Sesgarrigues</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08205</codimunicipi>
+        <nommunicipi>Sant Cugat del Vallès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25196</codimunicipi>
+        <nommunicipi>Sant Esteve de la Sarga</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08207</codimunicipi>
+        <nommunicipi>Sant Esteve de Palautordera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08208</codimunicipi>
+        <nommunicipi>Sant Esteve Sesrovires</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17159</codimunicipi>
+        <nommunicipi>Sant Feliu de Buixalleu</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08210</codimunicipi>
+        <nommunicipi>Sant Feliu de Codines</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17160</codimunicipi>
+        <nommunicipi>Sant Feliu de Guixols</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08211</codimunicipi>
+        <nommunicipi>Sant Feliu de Llobregat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17161</codimunicipi>
+        <nommunicipi>Sant Feliu de Pallerols</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08212</codimunicipi>
+        <nommunicipi>Sant Feliu Sasserra</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17162</codimunicipi>
+        <nommunicipi>Sant Ferriol</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08209</codimunicipi>
+        <nommunicipi>Sant Fost de Campsentelles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08213</codimunicipi>
+        <nommunicipi>Sant Fruitós de Bages</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17163</codimunicipi>
+        <nommunicipi>Sant Gregori</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25192</codimunicipi>
+        <nommunicipi>Sant Guim de Freixenet</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25197</codimunicipi>
+        <nommunicipi>Sant Guim de la Plana</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17164</codimunicipi>
+        <nommunicipi>Sant Hilari Sacalm</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08215</codimunicipi>
+        <nommunicipi>Sant Hipòlit de Voltregà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08193</codimunicipi>
+        <nommunicipi>Sant Iscle de Vallalta</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08216</codimunicipi>
+        <nommunicipi>Sant Jaume de Frontanyà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17165</codimunicipi>
+        <nommunicipi>Sant Jaume de Llierca</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43137</codimunicipi>
+        <nommunicipi>Sant Jaume dels Domenys</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43902</codimunicipi>
+        <nommunicipi>Sant Jaume d'Enveja</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17167</codimunicipi>
+        <nommunicipi>Sant Joan de les Abadesses</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17168</codimunicipi>
+        <nommunicipi>Sant Joan de Mollet</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08218</codimunicipi>
+        <nommunicipi>Sant Joan de Vilatorrada</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08217</codimunicipi>
+        <nommunicipi>Sant Joan Despí</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17185</codimunicipi>
+        <nommunicipi>Sant Joan les Fonts</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17166</codimunicipi>
+        <nommunicipi>Sant Jordi Desvalls</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17169</codimunicipi>
+        <nommunicipi>Sant Julià de Ramis</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08220</codimunicipi>
+        <nommunicipi>Sant Julià de Vilatorta</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17903</codimunicipi>
+        <nommunicipi>Sant Julià del Llor i Bonmatí</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08221</codimunicipi>
+        <nommunicipi>Sant Just Desvern</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17171</codimunicipi>
+        <nommunicipi>Sant Llorenç de la Muga</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25193</codimunicipi>
+        <nommunicipi>Sant Llorenc de Morunys</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08222</codimunicipi>
+        <nommunicipi>Sant Llorenç d'Hortons</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08223</codimunicipi>
+        <nommunicipi>Sant Llorenç Savall</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08224</codimunicipi>
+        <nommunicipi>Sant Martí de Centelles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17172</codimunicipi>
+        <nommunicipi>Sant Martí de Llémena</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25902</codimunicipi>
+        <nommunicipi>Sant Martí de Riucorb</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08226</codimunicipi>
+        <nommunicipi>Sant Martí de Tous</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08225</codimunicipi>
+        <nommunicipi>Sant Martí d'Albars</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08227</codimunicipi>
+        <nommunicipi>Sant Martí Sarroca</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08228</codimunicipi>
+        <nommunicipi>Sant Martí Sesgueioles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17173</codimunicipi>
+        <nommunicipi>Sant Martí Vell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08229</codimunicipi>
+        <nommunicipi>Sant Mateu de Bages</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17174</codimunicipi>
+        <nommunicipi>Sant Miquel de Campmajor</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17175</codimunicipi>
+        <nommunicipi>Sant Miquel de Fluvia</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17176</codimunicipi>
+        <nommunicipi>Sant Mori</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17177</codimunicipi>
+        <nommunicipi>Sant Pau de Seguries</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08231</codimunicipi>
+        <nommunicipi>Sant Pere de Ribes</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08232</codimunicipi>
+        <nommunicipi>Sant Pere de Riudebitlles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08233</codimunicipi>
+        <nommunicipi>Sant Pere de Torelló</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08234</codimunicipi>
+        <nommunicipi>Sant Pere de Vilamajor</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17178</codimunicipi>
+        <nommunicipi>Sant Pere Pescador</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08189</codimunicipi>
+        <nommunicipi>Sant Pere Sallavinera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08235</codimunicipi>
+        <nommunicipi>Sant Pol de Mar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08236</codimunicipi>
+        <nommunicipi>Sant Quintí de Mediona</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08237</codimunicipi>
+        <nommunicipi>Sant Quirze de Besora</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08238</codimunicipi>
+        <nommunicipi>Sant Quirze del Vallès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08239</codimunicipi>
+        <nommunicipi>Sant Quirze Safaja</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25194</codimunicipi>
+        <nommunicipi>Sant Ramon</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08240</codimunicipi>
+        <nommunicipi>Sant Sadurní d'Anoia</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08241</codimunicipi>
+        <nommunicipi>Sant Sadurní d'Osormort</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08098</codimunicipi>
+        <nommunicipi>Sant Salvador de Guardiola</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08262</codimunicipi>
+        <nommunicipi>Sant Vicenç de Castellet</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08264</codimunicipi>
+        <nommunicipi>Sant Vicenç de Montalt</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08265</codimunicipi>
+        <nommunicipi>Sant Vicenç de Torello</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08263</codimunicipi>
+        <nommunicipi>Sant Vicenç dels Horts</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43138</codimunicipi>
+        <nommunicipi>Santa Bàrbara</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08243</codimunicipi>
+        <nommunicipi>Santa Cecília de Voltregà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08244</codimunicipi>
+        <nommunicipi>Santa Coloma de Cervelló</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17180</codimunicipi>
+        <nommunicipi>Santa Coloma de Farners</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08245</codimunicipi>
+        <nommunicipi>Santa Coloma de Gramenet</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43139</codimunicipi>
+        <nommunicipi>Santa Coloma de Queralt</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17181</codimunicipi>
+        <nommunicipi>Santa Cristina d'Aro</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08246</codimunicipi>
+        <nommunicipi>Santa Eugènia de Berga</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08247</codimunicipi>
+        <nommunicipi>Santa Eulàlia de Riuprimer</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08248</codimunicipi>
+        <nommunicipi>Santa Eulàlia de Roncana</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08249</codimunicipi>
+        <nommunicipi>Santa Fe del Penedès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17182</codimunicipi>
+        <nommunicipi>Santa Llogaia d'Àlguema</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08250</codimunicipi>
+        <nommunicipi>Santa Margarida de Montbui</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08251</codimunicipi>
+        <nommunicipi>Santa Margarida i els Monjos</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08253</codimunicipi>
+        <nommunicipi>Santa Maria de Besora</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08254</codimunicipi>
+        <nommunicipi>Santa Maria de Corcó</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08256</codimunicipi>
+        <nommunicipi>Santa Maria de Martorelles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08255</codimunicipi>
+        <nommunicipi>Santa Maria de Merlès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08257</codimunicipi>
+        <nommunicipi>Santa Maria de Miralles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08259</codimunicipi>
+        <nommunicipi>Santa Maria de Palautordera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08258</codimunicipi>
+        <nommunicipi>Santa Maria d'Oló</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43140</codimunicipi>
+        <nommunicipi>Santa Oliva</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17184</codimunicipi>
+        <nommunicipi>Santa Pau</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43141</codimunicipi>
+        <nommunicipi>Pontils</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08260</codimunicipi>
+        <nommunicipi>Santa Perpètua de Mogoda</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08261</codimunicipi>
+        <nommunicipi>Santa Susanna</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08192</codimunicipi>
+        <nommunicipi>Santpedor</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43142</codimunicipi>
+        <nommunicipi>Sarral</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17186</codimunicipi>
+        <nommunicipi>Sarrià de Ter</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25201</codimunicipi>
+        <nommunicipi>Sarroca de Bellera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25200</codimunicipi>
+        <nommunicipi>Sarroca de Lleida</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17187</codimunicipi>
+        <nommunicipi>Saus</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43143</codimunicipi>
+        <nommunicipi>Savallà del Comtat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43144</codimunicipi>
+        <nommunicipi>La Secuita</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17188</codimunicipi>
+        <nommunicipi>La Selva de Mar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43145</codimunicipi>
+        <nommunicipi>La Selva del Camp</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43146</codimunicipi>
+        <nommunicipi>Senan</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43044</codimunicipi>
+        <nommunicipi>La Sènia</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25202</codimunicipi>
+        <nommunicipi>Senterada</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25035</codimunicipi>
+        <nommunicipi>La Sentiu de Sió</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08267</codimunicipi>
+        <nommunicipi>Sentmenat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17190</codimunicipi>
+        <nommunicipi>Serinyà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25204</codimunicipi>
+        <nommunicipi>Seròs</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17191</codimunicipi>
+        <nommunicipi>Serra de Daró</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17192</codimunicipi>
+        <nommunicipi>Setcases</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25203</codimunicipi>
+        <nommunicipi>La Seu d'Urgell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08269</codimunicipi>
+        <nommunicipi>Seva</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25205</codimunicipi>
+        <nommunicipi>Sidamon</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17193</codimunicipi>
+        <nommunicipi>Sils</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08270</codimunicipi>
+        <nommunicipi>Sitges</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17052</codimunicipi>
+        <nommunicipi>Siurana</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08271</codimunicipi>
+        <nommunicipi>Sobremunt</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25206</codimunicipi>
+        <nommunicipi>El Soleràs</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43147</codimunicipi>
+        <nommunicipi>Solivella</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25207</codimunicipi>
+        <nommunicipi>Solsona</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08272</codimunicipi>
+        <nommunicipi>Sora</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25208</codimunicipi>
+        <nommunicipi>Soriguera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25209</codimunicipi>
+        <nommunicipi>Sort</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25210</codimunicipi>
+        <nommunicipi>Soses</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08273</codimunicipi>
+        <nommunicipi>Subirats</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25211</codimunicipi>
+        <nommunicipi>Sunadell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25212</codimunicipi>
+        <nommunicipi>Sunyer</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08274</codimunicipi>
+        <nommunicipi>Súria</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17194</codimunicipi>
+        <nommunicipi>Susqueda</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08276</codimunicipi>
+        <nommunicipi>Tagamanent</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08277</codimunicipi>
+        <nommunicipi>Talamanca</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25215</codimunicipi>
+        <nommunicipi>Talarn</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25216</codimunicipi>
+        <nommunicipi>Talavera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17195</codimunicipi>
+        <nommunicipi>La Tallada d'Empordà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08278</codimunicipi>
+        <nommunicipi>Taradell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43148</codimunicipi>
+        <nommunicipi>Tarragona</nommunicipi>
+        <abrev>T</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>25217</codimunicipi>
+        <nommunicipi>Tàrrega</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25218</codimunicipi>
+        <nommunicipi>Tarrés</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25219</codimunicipi>
+        <nommunicipi>Tarroja de Segarra</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08275</codimunicipi>
+        <nommunicipi>Tavèrnoles</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08280</codimunicipi>
+        <nommunicipi>Tavertet</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08281</codimunicipi>
+        <nommunicipi>Teià</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25220</codimunicipi>
+        <nommunicipi>Tèrmens</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17196</codimunicipi>
+        <nommunicipi>Terrades</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08279</codimunicipi>
+        <nommunicipi>Terrassa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08282</codimunicipi>
+        <nommunicipi>Tiana</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25221</codimunicipi>
+        <nommunicipi>Tìrvia</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25222</codimunicipi>
+        <nommunicipi>Tiurana</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43149</codimunicipi>
+        <nommunicipi>Tivenys</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43150</codimunicipi>
+        <nommunicipi>Tivissa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08283</codimunicipi>
+        <nommunicipi>Tona</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25223</codimunicipi>
+        <nommunicipi>Torà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08284</codimunicipi>
+        <nommunicipi>Tordera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08285</codimunicipi>
+        <nommunicipi>Torelló</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25224</codimunicipi>
+        <nommunicipi>Els Torms</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25225</codimunicipi>
+        <nommunicipi>Tornabous</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25227</codimunicipi>
+        <nommunicipi>La Torre de Cabdella</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08286</codimunicipi>
+        <nommunicipi>La Torre de Claramunt</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43151</codimunicipi>
+        <nommunicipi>La Torre de Fontaubella</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43152</codimunicipi>
+        <nommunicipi>La Torre de l'Espanyol</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25226</codimunicipi>
+        <nommunicipi>Torrebesses</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43153</codimunicipi>
+        <nommunicipi>Torredembarra</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25228</codimunicipi>
+        <nommunicipi>Torrefarrera</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25907</codimunicipi>
+        <nommunicipi>Torrefeta i Florejacs</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25230</codimunicipi>
+        <nommunicipi>Torregrossa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25231</codimunicipi>
+        <nommunicipi>Torrelameu</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08287</codimunicipi>
+        <nommunicipi>Torrelavit</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08288</codimunicipi>
+        <nommunicipi>Torrelles de Foix</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08289</codimunicipi>
+        <nommunicipi>Torrelles de Llobregat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17197</codimunicipi>
+        <nommunicipi>Torrent</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25232</codimunicipi>
+        <nommunicipi>Torres de Segre</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25233</codimunicipi>
+        <nommunicipi>Torre-serona</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17198</codimunicipi>
+        <nommunicipi>Torroella de Fluvià</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17199</codimunicipi>
+        <nommunicipi>Torroella de Montgrí</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43154</codimunicipi>
+        <nommunicipi>Torroja del Priorat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17200</codimunicipi>
+        <nommunicipi>Tortellà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43155</codimunicipi>
+        <nommunicipi>Tortosa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17201</codimunicipi>
+        <nommunicipi>Toses</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17202</codimunicipi>
+        <nommunicipi>Tossa de Mar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25234</codimunicipi>
+        <nommunicipi>Tremp</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17203</codimunicipi>
+        <nommunicipi>Ultramort</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17204</codimunicipi>
+        <nommunicipi>Ullà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08290</codimunicipi>
+        <nommunicipi>Ullastrell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17205</codimunicipi>
+        <nommunicipi>Ullastret</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43156</codimunicipi>
+        <nommunicipi>Ulldecona</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43157</codimunicipi>
+        <nommunicipi>Ulldemolins</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17206</codimunicipi>
+        <nommunicipi>Urús</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08291</codimunicipi>
+        <nommunicipi>Vacarisses</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17014</codimunicipi>
+        <nommunicipi>La Vajol</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17208</codimunicipi>
+        <nommunicipi>La Vall de Bianya</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25901</codimunicipi>
+        <nommunicipi>Vall de Cardós</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17207</codimunicipi>
+        <nommunicipi>La Vall d'en Bas</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25238</codimunicipi>
+        <nommunicipi>Vallbona de les Monges</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08292</codimunicipi>
+        <nommunicipi>Vallbona d'Anoia</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08293</codimunicipi>
+        <nommunicipi>Vallcebre</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43158</codimunicipi>
+        <nommunicipi>Vallclara</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25240</codimunicipi>
+        <nommunicipi>Vallfogona de Balaguer</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17170</codimunicipi>
+        <nommunicipi>Vallfogona de Ripollès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43159</codimunicipi>
+        <nommunicipi>Vallfogona de Riucorb</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08294</codimunicipi>
+        <nommunicipi>Vallgorguina</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08295</codimunicipi>
+        <nommunicipi>Vallirana</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43160</codimunicipi>
+        <nommunicipi>Vallmoll</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08296</codimunicipi>
+        <nommunicipi>Vallromanes</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43161</codimunicipi>
+        <nommunicipi>Valls</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25239</codimunicipi>
+        <nommunicipi>Les Valls de Valira</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25906</codimunicipi>
+        <nommunicipi>Les Valls d'Aguilar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17209</codimunicipi>
+        <nommunicipi>Vall-llobrega</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25909</codimunicipi>
+        <nommunicipi>La Vansa i Fórnols</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08297</codimunicipi>
+        <nommunicipi>Veciana</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43163</codimunicipi>
+        <nommunicipi>El Vendrell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17210</codimunicipi>
+        <nommunicipi>Ventalló</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25242</codimunicipi>
+        <nommunicipi>Verdú</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17211</codimunicipi>
+        <nommunicipi>Verges</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43164</codimunicipi>
+        <nommunicipi>Vespella</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08298</codimunicipi>
+        <nommunicipi>Vic</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17212</codimunicipi>
+        <nommunicipi>Vidrà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17213</codimunicipi>
+        <nommunicipi>Vidreres</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25243</codimunicipi>
+        <nommunicipi>Vielha e Mijaran</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43165</codimunicipi>
+        <nommunicipi>Vilabella</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17214</codimunicipi>
+        <nommunicipi>Vilabertran</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17215</codimunicipi>
+        <nommunicipi>Vilablareix</nommunicipi>
+        <abrev>V</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>08299</codimunicipi>
+        <nommunicipi>Vilada</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17217</codimunicipi>
+        <nommunicipi>Viladamat</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17216</codimunicipi>
+        <nommunicipi>Viladasens</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08301</codimunicipi>
+        <nommunicipi>Viladecans</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08300</codimunicipi>
+        <nommunicipi>Viladecavalls</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17218</codimunicipi>
+        <nommunicipi>Vilademuls</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17220</codimunicipi>
+        <nommunicipi>Viladrau</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17221</codimunicipi>
+        <nommunicipi>Vilafant</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08305</codimunicipi>
+        <nommunicipi>Vilafranca del Penedès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25244</codimunicipi>
+        <nommunicipi>Vilagrassa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17223</codimunicipi>
+        <nommunicipi>Vilajuïga</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43175</codimunicipi>
+        <nommunicipi>Vilalba dels Arcs</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08306</codimunicipi>
+        <nommunicipi>Vilalba Sasserra</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25245</codimunicipi>
+        <nommunicipi>Vilaller</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17224</codimunicipi>
+        <nommunicipi>Vilallonga de Ter</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43166</codimunicipi>
+        <nommunicipi>Vilallonga del Camp</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17225</codimunicipi>
+        <nommunicipi>Vilamacolum</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17226</codimunicipi>
+        <nommunicipi>Vilamalla</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17227</codimunicipi>
+        <nommunicipi>Vilamaniscle</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25247</codimunicipi>
+        <nommunicipi>Vilamòs</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17228</codimunicipi>
+        <nommunicipi>Vilanant</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25248</codimunicipi>
+        <nommunicipi>Vilanova de Bellpuig</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25254</codimunicipi>
+        <nommunicipi>Vilanova de la Barca</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25249</codimunicipi>
+        <nommunicipi>Vilanova de l'Aguda</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25250</codimunicipi>
+        <nommunicipi>Vilanova de Meià</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43168</codimunicipi>
+        <nommunicipi>Vilanova de Prades</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08303</codimunicipi>
+        <nommunicipi>Vilanova de Sau</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25251</codimunicipi>
+        <nommunicipi>Vilanova de Segrià</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08302</codimunicipi>
+        <nommunicipi>Vilanova del Camí</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08902</codimunicipi>
+        <nommunicipi>Vilanova del Vallès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43167</codimunicipi>
+        <nommunicipi>Vilanova d'Escornalbou</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08307</codimunicipi>
+        <nommunicipi>Vilanova i la Geltrú</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43169</codimunicipi>
+        <nommunicipi>Vilaplana</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08214</codimunicipi>
+        <nommunicipi>Vilassar de Dalt</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08219</codimunicipi>
+        <nommunicipi>Vilassar de Mar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17222</codimunicipi>
+        <nommunicipi>Vilaür</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43172</codimunicipi>
+        <nommunicipi>Vilaverd</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43170</codimunicipi>
+        <nommunicipi>Vila-rodona</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17230</codimunicipi>
+        <nommunicipi>Vila-sacra</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25252</codimunicipi>
+        <nommunicipi>Vila-sana</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43171</codimunicipi>
+        <nommunicipi>Vila-seca</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43173</codimunicipi>
+        <nommunicipi>La Vilella Alta</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43174</codimunicipi>
+        <nommunicipi>La vilella Baixa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08304</codimunicipi>
+        <nommunicipi>Vilobi del Penedès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17233</codimunicipi>
+        <nommunicipi>Vilobí d'Onyar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>17232</codimunicipi>
+        <nommunicipi>Vilopriu</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25253</codimunicipi>
+        <nommunicipi>El Vilosell</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43176</codimunicipi>
+        <nommunicipi>Vimbodí</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25255</codimunicipi>
+        <nommunicipi>Vinaixa</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43177</codimunicipi>
+        <nommunicipi>Vinebre</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43178</codimunicipi>
+        <nommunicipi>Vinyols i Arcs</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08308</codimunicipi>
+        <nommunicipi>Viver i Serrateix</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43052</codimunicipi>
+        <nommunicipi>Xerta</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>99999</codimunicipi>
+        <nommunicipi>Municipi fora de Catalunya</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25030</codimunicipi>
+        <nommunicipi>Pont de Bar</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08042</codimunicipi>
+        <nommunicipi>Cànoves i Samalús</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25903</codimunicipi>
+        <nommunicipi>La Guingueta d'Àneu</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08017</codimunicipi>
+        <nommunicipi>Balenyà</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08162</codimunicipi>
+        <nommunicipi>Els Hostalets de Pierola</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43115</codimunicipi>
+        <nommunicipi>Pradell de la Teixeta</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43162</codimunicipi>
+        <nommunicipi>Vandellós i l'Hospitalet de l'Infan</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>25912</codimunicipi>
+        <nommunicipi>Gimenells i el Pla de la Font</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43906</codimunicipi>
+        <nommunicipi>L'Ampolla</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>43905</codimunicipi>
+        <nommunicipi>Salou</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08904</codimunicipi>
+        <nommunicipi>Badia del Vallès</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08903</codimunicipi>
+        <nommunicipi>Sant Julià de Cerdanyola</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>08905</codimunicipi>
+        <nommunicipi>Palma de Cervelló, La</nommunicipi>
+    </municipi>
+    <municipi>
+        <codimunicipi>01059</codimunicipi>
+        <nommunicipi>Vitòria</nommunicipi>
+        <abrev>VI</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>02003</codimunicipi>
+        <nommunicipi>Albacete</nommunicipi>
+        <abrev>AB</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>03014</codimunicipi>
+        <nommunicipi>Alacant</nommunicipi>
+        <abrev>A</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>04013</codimunicipi>
+        <nommunicipi>Almeria</nommunicipi>
+        <abrev>AL</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>05019</codimunicipi>
+        <nommunicipi>Àvila</nommunicipi>
+        <abrev>AV</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>06015</codimunicipi>
+        <nommunicipi>Badajoz</nommunicipi>
+        <abrev>BA</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>07040</codimunicipi>
+        <nommunicipi>Palma de Mallorca</nommunicipi>
+        <abrev>IB</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>09059</codimunicipi>
+        <nommunicipi>Burgos</nommunicipi>
+        <abrev>BU</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>10037</codimunicipi>
+        <nommunicipi>Càceres</nommunicipi>
+        <abrev>CC</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>11012</codimunicipi>
+        <nommunicipi>Càdis</nommunicipi>
+        <abrev>CA</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>12040</codimunicipi>
+        <nommunicipi>Castelló de la Plana</nommunicipi>
+        <abrev>CS</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>13034</codimunicipi>
+        <nommunicipi>Ciudad Real</nommunicipi>
+        <abrev>CR</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>14021</codimunicipi>
+        <nommunicipi>Còrdova</nommunicipi>
+        <abrev>CO</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>15030</codimunicipi>
+        <nommunicipi>Corunya, La</nommunicipi>
+        <abrev>C</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>16078</codimunicipi>
+        <nommunicipi>Conca</nommunicipi>
+        <abrev>CU</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>18087</codimunicipi>
+        <nommunicipi>Granada</nommunicipi>
+        <abrev>GR</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>19130</codimunicipi>
+        <nommunicipi>Guadalajara</nommunicipi>
+        <abrev>GU</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>20069</codimunicipi>
+        <nommunicipi>Sant Sebastià</nommunicipi>
+        <abrev>SS</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>21041</codimunicipi>
+        <nommunicipi>Huelva</nommunicipi>
+        <abrev>H</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>22125</codimunicipi>
+        <nommunicipi>Osca</nommunicipi>
+        <abrev>HU</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>23050</codimunicipi>
+        <nommunicipi>Jaén</nommunicipi>
+        <abrev>J</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>24089</codimunicipi>
+        <nommunicipi>Lleó</nommunicipi>
+        <abrev>LE</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>26089</codimunicipi>
+        <nommunicipi>Logronyo</nommunicipi>
+        <abrev>LO</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>27028</codimunicipi>
+        <nommunicipi>Lugo</nommunicipi>
+        <abrev>LU</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>28079</codimunicipi>
+        <nommunicipi>Madrid</nommunicipi>
+        <abrev>M</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>29067</codimunicipi>
+        <nommunicipi>Màlaga</nommunicipi>
+        <abrev>MA</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>30030</codimunicipi>
+        <nommunicipi>Múrcia</nommunicipi>
+        <abrev>MU</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>31201</codimunicipi>
+        <nommunicipi>Pamplona</nommunicipi>
+        <abrev>NA</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>32054</codimunicipi>
+        <nommunicipi>Orense</nommunicipi>
+        <abrev>OR</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>33044</codimunicipi>
+        <nommunicipi>Oviedo</nommunicipi>
+        <abrev>O</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>34120</codimunicipi>
+        <nommunicipi>Palència</nommunicipi>
+        <abrev>P</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>35016</codimunicipi>
+        <nommunicipi>Palmas de Gran Canària, Las</nommunicipi>
+        <abrev>GC</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>36038</codimunicipi>
+        <nommunicipi>Pontevedra</nommunicipi>
+        <abrev>PO</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>37274</codimunicipi>
+        <nommunicipi>Salamanca</nommunicipi>
+        <abrev>SA</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>38038</codimunicipi>
+        <nommunicipi>Santa Cruz de Tenerife</nommunicipi>
+        <abrev>TF</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>39075</codimunicipi>
+        <nommunicipi>Santander</nommunicipi>
+        <abrev>S</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>40194</codimunicipi>
+        <nommunicipi>Segòvia</nommunicipi>
+        <abrev>SG</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>41091</codimunicipi>
+        <nommunicipi>Sevilla</nommunicipi>
+        <abrev>SE</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>42173</codimunicipi>
+        <nommunicipi>Sòria</nommunicipi>
+        <abrev>SO</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>44216</codimunicipi>
+        <nommunicipi>Terol</nommunicipi>
+        <abrev>TE</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>45168</codimunicipi>
+        <nommunicipi>Toledo</nommunicipi>
+        <abrev>TO</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>46250</codimunicipi>
+        <nommunicipi>València</nommunicipi>
+        <abrev>V</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>47186</codimunicipi>
+        <nommunicipi>Valladolid</nommunicipi>
+        <abrev>VA</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>48020</codimunicipi>
+        <nommunicipi>Bilbao</nommunicipi>
+        <abrev>BI</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>49275</codimunicipi>
+        <nommunicipi>Zamora</nommunicipi>
+        <abrev>ZA</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>50297</codimunicipi>
+        <nommunicipi>Saragossa</nommunicipi>
+        <abrev>Z</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>51001</codimunicipi>
+        <nommunicipi>Ceuta</nommunicipi>
+        <abrev>CE</abrev>
+    </municipi>
+    <municipi>
+        <codimunicipi>52001</codimunicipi>
+        <nommunicipi>Melilla</nommunicipi>
+        <abrev>ML</abrev>
+    </municipi>
+</municipis>

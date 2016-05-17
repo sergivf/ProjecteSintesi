@@ -1,0 +1,38 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ProjecteFinal.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;DATA SOURCE=Sergi-PC:1521/xe;PASSWORD=dam34dam34;USER ID=SERGI&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;Oracle.ManagedDataAccess.Client&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">DATA SOURCE=Sergi-PC:1521/xe;PASSWORD=dam34dam34;USER ID=SERGI</Value>
+    </Setting>
+    <Setting Name="ConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;DATA SOURCE=Informatica-PC:1521/XE;PASSWORD=1234;USER ID=SYSTEM&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;Oracle.ManagedDataAccess.Client&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">DATA SOURCE=Informatica-PC:1521/XE;PASSWORD=1234;USER ID=SYSTEM</Value>
+    </Setting>
+    <Setting Name="OracleDataSet" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;DATA SOURCE=Sergi-PC:1521/XE;PASSWORD=123456;USER ID=PROJECTEFINAL&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;Oracle.ManagedDataAccess.Client&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">DATA SOURCE=Sergi-PC:1521/XE;PASSWORD=123456;USER ID=PROJECTEFINAL</Value>
+    </Setting>
+    <Setting Name="ConnectionString2" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;DATA SOURCE=Informatica-PC:1521/XE;PASSWORD=123456;PERSIST SECURITY INFO=True;USER ID=PROJECTEFINAL&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;Oracle.ManagedDataAccess.Client&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">DATA SOURCE=Informatica-PC:1521/XE;PASSWORD=123456;PERSIST SECURITY INFO=True;USER ID=PROJECTEFINAL</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

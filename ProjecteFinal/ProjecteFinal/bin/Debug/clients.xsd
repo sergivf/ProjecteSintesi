@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+	<xs:element name="clients" type="clientsType"/>
+	<xs:complexType name="clientsType">
+	  <xs:sequence>
+		  <xs:element name="client" type="clientType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="clientType">
+		<xs:sequence>
+			<xs:element name="codi" type="xs:string"/>
+			<xs:element name="nom" type="xs:string"/>
+			<xs:element name="NIF" type="xs:string"/>
+			<xs:element name="adreca" type="xs:string"/>
+			<xs:element name="municipi" type="xs:integer"/>
+			<xs:element name="codipostal" type="xs:integer"/>
+			<xs:element name="telefon" type="xs:integer" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
