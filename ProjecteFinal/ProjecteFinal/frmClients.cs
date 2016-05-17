@@ -122,14 +122,8 @@ namespace ProjecteFinal
             btnCancelarCanvis.Show();
         }
 
-        private void btnCancelarCanvis_Click(object sender, EventArgs e)
+        private void ModeVisualitzacio()
         {
-            ModeEdicio = false;
-
-            btnModeEdicio.Show();
-            btnGuardarCanvis.Hide();
-            btnCancelarCanvis.Hide();
-
             txtNIF.ReadOnly = true;
             txtNom.ReadOnly = true;
             txtAdreça.ReadOnly = true;
@@ -140,6 +134,17 @@ namespace ProjecteFinal
             txtEmail.ReadOnly = true;
             txtBancCC.ReadOnly = true;
             txtFormaPagament.ReadOnly = true;
+        }
+
+        private void btnCancelarCanvis_Click(object sender, EventArgs e)
+        {
+            ModeEdicio = false;
+
+            btnModeEdicio.Show();
+            btnGuardarCanvis.Hide();
+            btnCancelarCanvis.Hide();
+
+            ModeVisualitzacio();
 
             EmplenarDades(((DataRowView)Origen.Current).Row);
         }
@@ -152,9 +157,13 @@ namespace ProjecteFinal
             btnGuardarCanvis.Hide();
             btnCancelarCanvis.Hide();
 
+            ModeVisualitzacio();
+
             try
             {
-                cTa = new OracleDataSetTableAdapters.CLIENTSTableAdapter();
+                #region CODIUSELESS
+                /*cTa = new OracleDataSetTableAdapters.CLIENTSTableAdapter();
+                
                 // Guardar els canvis en el dataset
 
                 DataRow dr = ((DataRowView)Origen.Current).Row;
@@ -173,6 +182,29 @@ namespace ProjecteFinal
                 dr.EndEdit();
 
                 cTa.Update(dsDades);
+                OracleDataSetTableAdapters.TableAdapterManager.
+                dsDades.AcceptChanges();*/
+                #endregion
+
+                OracleDataSetTableAdapters.CLIENTSTableAdapter cTa = new OracleDataSetTableAdapters.CLIENTSTableAdapter();
+
+                DataRow dr = ((DataRowView)Origen.Current).Row;
+
+                dr.BeginEdit();
+                dr[1] = txtNIF.Text;
+                dr[2] = txtNom.Text;
+                dr[3] = txtAdreça.Text;
+                dr[4] = txtCodiProvincia.Text;
+                dr[5] = txtCodiMunicipi.Text;
+                dr[6] = txtTelefon.Text;
+                dr[7] = txtFax.Text;
+                dr[8] = txtEmail.Text;
+                dr[9] = txtBancCC.Text;
+                dr[10] = txtFormaPagament.Text;
+
+                dr.EndEdit();
+                cTa.Update(dsDades);
+                
             }
             catch (Exception ez)
             {
