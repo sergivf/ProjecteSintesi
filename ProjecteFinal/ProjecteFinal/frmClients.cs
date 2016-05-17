@@ -92,14 +92,33 @@ namespace ProjecteFinal
 
         private void MostrarAlbarans(string codiClient)
         {
+            double total = 0;
+            int quant = 0;
+            double preu = 0;
             OracleCommand cmd = new OracleCommand();
             cmd = cnOracle.CreateCommand();
             cmd.CommandText = "SELECT nalbara, dataalbara FROM cabalbara WHERE codiclient = '" + codiClient + "'";
             OracleDataReader reader = cmd.ExecuteReader();
 
+            OracleCommand cmdTotal = new OracleCommand();
+            cmdTotal = cnOracle.CreateCommand();
+
             while (reader.Read())
             {
-                dgvAlbarans.Rows.Add(reader.GetOracleValue(0), reader.GetDateTime(1));
+                cmdTotal.CommandText = "SELECT quantitatvenuda, preuvenda FROM lineasalbara WHERE nalbara = " + reader.GetOracleValue(0);
+
+                OracleDataReader readerTotal = cmdTotal.ExecuteReader();
+
+                while (readerTotal.Read())
+                {
+                    quant = Convert.ToInt32(readerTotal.GetOracleValue(0).ToString());
+                    string preuString = readerTotal.GetOracleValue(1).ToString().Replace('.', ',');
+                    preu = Convert.ToDouble(preuString);
+                    total += quant * preu;
+                }
+
+                dgvAlbarans.Rows.Add(reader.GetOracleValue(0), reader.GetDateTime(1), total);
+                total = 0;
             }
         }
 
@@ -188,7 +207,8 @@ namespace ProjecteFinal
 
                 DataGridViewRow selectedRow = dgvAlbarans.Rows[index];
 
-                int nAlbara = Convert.ToInt32(selectedRow.Cells["nalbara"].Value);
+                string nAlbaraString = selectedRow.Cells["nalbara"].Value.ToString();
+                int nAlbara = Convert.ToInt32(nAlbaraString);
 
                 dgvLinies.Rows.Clear();
                 OracleCommand cmd = new OracleCommand();
@@ -198,7 +218,7 @@ namespace ProjecteFinal
 
                 while (reader.Read())
                 {
-                    dgvLinies.Rows.Add(reader.GetString(0), reader.GetString(1), reader.GetInt32(2), reader.GetDouble(3));
+                    dgvLinies.Rows.Add(reader.GetOracleString(0), reader.GetOracleString(1), reader.GetOracleValue(2), reader.GetOracleValue(3));
                 }
             }
         }
