@@ -37,3 +37,21 @@ F:\PROJECTEFINAL\9-5Tarda\ProjecteFinal\ProjecteFinal\bin\Debug\ProjecteFinal.pd
 F:\PROJECTEFINAL\9-5Tarda\ProjecteFinal\ProjecteFinal\bin\Debug\Oracle.ManagedDataAccess.dll
 F:\PROJECTEFINAL\9-5Tarda\ProjecteFinal\ProjecteFinal\bin\Debug\Oracle.DataAccess.dll
 C:\Users\Informatica\CFGS2\Projecte Final\ProjecteFinal\ProjecteFinal\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Sergi\Documents\GitHub\ProjecteSintesi\ProjecteFinal\ProjecteFinal\bin\Debug\ProjecteFinal.exe.config
+C:\Users\Sergi\Documents\GitHub\ProjecteSintesi\ProjecteFinal\ProjecteFinal\bin\Debug\ProjecteFinal.exe
+C:\Users\Sergi\Documents\GitHub\ProjecteSintesi\ProjecteFinal\ProjecteFinal\bin\Debug\ProjecteFinal.pdb
+C:\Users\Sergi\Documents\GitHub\ProjecteSintesi\ProjecteFinal\ProjecteFinal\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Sergi\Documents\GitHub\ProjecteSintesi\ProjecteFinal\ProjecteFinal\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Sergi\Documents\GitHub\ProjecteSintesi\ProjecteFinal\ProjecteFinal\obj\Debug\ProjecteFinal.csprojResolveAssemblyReference.cache
+C:\Users\Sergi\Documents\GitHub\ProjecteSintesi\ProjecteFinal\ProjecteFinal\obj\Debug\ProjecteFinal.frmValidacio.resources
+C:\Users\Sergi\Documents\GitHub\ProjecteSintesi\ProjecteFinal\ProjecteFinal\obj\Debug\ProjecteFinal.frmMDIPare.resources
+C:\Users\Sergi\Documents\GitHub\ProjecteSintesi\ProjecteFinal\ProjecteFinal\obj\Debug\ProjecteFinal.frmAlbarans.resources
+C:\Users\Sergi\Documents\GitHub\ProjecteSintesi\ProjecteFinal\ProjecteFinal\obj\Debug\ProjecteFinal.frmArticles.resources
+C:\Users\Sergi\Documents\GitHub\ProjecteSintesi\ProjecteFinal\ProjecteFinal\obj\Debug\ProjecteFinal.frmClients.resources
+C:\Users\Sergi\Documents\GitHub\ProjecteSintesi\ProjecteFinal\ProjecteFinal\obj\Debug\ProjecteFinal.frmFactures.resources
+C:\Users\Sergi\Documents\GitHub\ProjecteSintesi\ProjecteFinal\ProjecteFinal\obj\Debug\ProjecteFinal.frmInformes.resources
+C:\Users\Sergi\Documents\GitHub\ProjecteSintesi\ProjecteFinal\ProjecteFinal\obj\Debug\ProjecteFinal.frmPare.resources
+C:\Users\Sergi\Documents\GitHub\ProjecteSintesi\ProjecteFinal\ProjecteFinal\obj\Debug\ProjecteFinal.Properties.Resources.resources
+C:\Users\Sergi\Documents\GitHub\ProjecteSintesi\ProjecteFinal\ProjecteFinal\obj\Debug\ProjecteFinal.csproj.GenerateResource.Cache
+C:\Users\Sergi\Documents\GitHub\ProjecteSintesi\ProjecteFinal\ProjecteFinal\obj\Debug\ProjecteFinal.exe
+C:\Users\Sergi\Documents\GitHub\ProjecteSintesi\ProjecteFinal\ProjecteFinal\obj\Debug\ProjecteFinal.pdb

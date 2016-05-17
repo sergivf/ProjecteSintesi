@@ -40,21 +40,21 @@ namespace ProjecteFinal {
         
         private PROVINCIESDataTable tablePROVINCIES;
         
-        private global::System.Data.DataRelation relationSYS_C008835;
+        private global::System.Data.DataRelation relationSYS_C007420;
         
-        private global::System.Data.DataRelation relationSYS_C008841;
+        private global::System.Data.DataRelation relationSYS_C007425;
         
-        private global::System.Data.DataRelation relationSYS_C008832;
+        private global::System.Data.DataRelation relationSYS_C007417;
         
-        private global::System.Data.DataRelation relationSYS_C008833;
+        private global::System.Data.DataRelation relationSYS_C007418;
         
-        private global::System.Data.DataRelation relationSYS_C008837;
+        private global::System.Data.DataRelation relationSYS_C007422;
         
-        private global::System.Data.DataRelation relationSYS_C008838;
+        private global::System.Data.DataRelation relationSYS_C007423;
         
-        private global::System.Data.DataRelation relationSYS_C008843;
+        private global::System.Data.DataRelation relationSYS_C007427;
         
-        private global::System.Data.DataRelation relationSYS_C008844;
+        private global::System.Data.DataRelation relationSYS_C007428;
         
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
@@ -378,14 +378,14 @@ namespace ProjecteFinal {
                     this.tablePROVINCIES.InitVars();
                 }
             }
-            this.relationSYS_C008835 = this.Relations["SYS_C008835"];
-            this.relationSYS_C008841 = this.Relations["SYS_C008841"];
-            this.relationSYS_C008832 = this.Relations["SYS_C008832"];
-            this.relationSYS_C008833 = this.Relations["SYS_C008833"];
-            this.relationSYS_C008837 = this.Relations["SYS_C008837"];
-            this.relationSYS_C008838 = this.Relations["SYS_C008838"];
-            this.relationSYS_C008843 = this.Relations["SYS_C008843"];
-            this.relationSYS_C008844 = this.Relations["SYS_C008844"];
+            this.relationSYS_C007420 = this.Relations["SYS_C007420"];
+            this.relationSYS_C007425 = this.Relations["SYS_C007425"];
+            this.relationSYS_C007417 = this.Relations["SYS_C007417"];
+            this.relationSYS_C007418 = this.Relations["SYS_C007418"];
+            this.relationSYS_C007422 = this.Relations["SYS_C007422"];
+            this.relationSYS_C007423 = this.Relations["SYS_C007423"];
+            this.relationSYS_C007427 = this.Relations["SYS_C007427"];
+            this.relationSYS_C007428 = this.Relations["SYS_C007428"];
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -412,38 +412,38 @@ namespace ProjecteFinal {
             base.Tables.Add(this.tableMUNICIPIS);
             this.tablePROVINCIES = new PROVINCIESDataTable();
             base.Tables.Add(this.tablePROVINCIES);
-            this.relationSYS_C008835 = new global::System.Data.DataRelation("SYS_C008835", new global::System.Data.DataColumn[] {
+            this.relationSYS_C007420 = new global::System.Data.DataRelation("SYS_C007420", new global::System.Data.DataColumn[] {
                         this.tableCLIENTS.CODIColumn}, new global::System.Data.DataColumn[] {
                         this.tableCABALBARA.CODICLIENTColumn}, false);
-            this.Relations.Add(this.relationSYS_C008835);
-            this.relationSYS_C008841 = new global::System.Data.DataRelation("SYS_C008841", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationSYS_C007420);
+            this.relationSYS_C007425 = new global::System.Data.DataRelation("SYS_C007425", new global::System.Data.DataColumn[] {
                         this.tableCLIENTS.CODIColumn}, new global::System.Data.DataColumn[] {
                         this.tableCABFACTURAS.CODICLIENTColumn}, false);
-            this.Relations.Add(this.relationSYS_C008841);
-            this.relationSYS_C008832 = new global::System.Data.DataRelation("SYS_C008832", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationSYS_C007425);
+            this.relationSYS_C007417 = new global::System.Data.DataRelation("SYS_C007417", new global::System.Data.DataColumn[] {
                         this.tablePROVINCIES.CODIColumn}, new global::System.Data.DataColumn[] {
                         this.tableCLIENTS.CODIPROVINCIAColumn}, false);
-            this.Relations.Add(this.relationSYS_C008832);
-            this.relationSYS_C008833 = new global::System.Data.DataRelation("SYS_C008833", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationSYS_C007417);
+            this.relationSYS_C007418 = new global::System.Data.DataRelation("SYS_C007418", new global::System.Data.DataColumn[] {
                         this.tableMUNICIPIS.CODIColumn}, new global::System.Data.DataColumn[] {
                         this.tableCLIENTS.CODIMUNICIPIColumn}, false);
-            this.Relations.Add(this.relationSYS_C008833);
-            this.relationSYS_C008837 = new global::System.Data.DataRelation("SYS_C008837", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationSYS_C007418);
+            this.relationSYS_C007422 = new global::System.Data.DataRelation("SYS_C007422", new global::System.Data.DataColumn[] {
                         this.tableCABALBARA.NALBARAColumn}, new global::System.Data.DataColumn[] {
                         this.tableLINEASALBARA.NALBARAColumn}, false);
-            this.Relations.Add(this.relationSYS_C008837);
-            this.relationSYS_C008838 = new global::System.Data.DataRelation("SYS_C008838", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationSYS_C007422);
+            this.relationSYS_C007423 = new global::System.Data.DataRelation("SYS_C007423", new global::System.Data.DataColumn[] {
                         this.tableARTICLES.CODIColumn}, new global::System.Data.DataColumn[] {
                         this.tableLINEASALBARA.CODIARTICLEColumn}, false);
-            this.Relations.Add(this.relationSYS_C008838);
-            this.relationSYS_C008843 = new global::System.Data.DataRelation("SYS_C008843", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationSYS_C007423);
+            this.relationSYS_C007427 = new global::System.Data.DataRelation("SYS_C007427", new global::System.Data.DataColumn[] {
                         this.tableCABFACTURAS.NFACTURAColumn}, new global::System.Data.DataColumn[] {
                         this.tableLINEASFACTURA.NFACTURAColumn}, false);
-            this.Relations.Add(this.relationSYS_C008843);
-            this.relationSYS_C008844 = new global::System.Data.DataRelation("SYS_C008844", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationSYS_C007427);
+            this.relationSYS_C007428 = new global::System.Data.DataRelation("SYS_C007428", new global::System.Data.DataColumn[] {
                         this.tableARTICLES.CODIColumn}, new global::System.Data.DataColumn[] {
                         this.tableLINEASFACTURA.CODIARTICLEColumn}, false);
-            this.Relations.Add(this.relationSYS_C008844);
+            this.Relations.Add(this.relationSYS_C007428);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1050,7 +1050,7 @@ namespace ProjecteFinal {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public CABALBARARow AddCABALBARARow(long NALBARA, System.DateTime DATAALBARA, CLIENTSRow parentCLIENTSRowBySYS_C008835, string NIF, string NOM, string DIRECCIO, string POBLACIO) {
+            public CABALBARARow AddCABALBARARow(long NALBARA, System.DateTime DATAALBARA, CLIENTSRow parentCLIENTSRowBySYS_C007420, string NIF, string NOM, string DIRECCIO, string POBLACIO) {
                 CABALBARARow rowCABALBARARow = ((CABALBARARow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         NALBARA,
@@ -1060,8 +1060,8 @@ namespace ProjecteFinal {
                         NOM,
                         DIRECCIO,
                         POBLACIO};
-                if ((parentCLIENTSRowBySYS_C008835 != null)) {
-                    columnValuesArray[2] = parentCLIENTSRowBySYS_C008835[0];
+                if ((parentCLIENTSRowBySYS_C007420 != null)) {
+                    columnValuesArray[2] = parentCLIENTSRowBySYS_C007420[0];
                 }
                 rowCABALBARARow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowCABALBARARow);
@@ -1410,7 +1410,7 @@ namespace ProjecteFinal {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public CABFACTURASRow AddCABFACTURASRow(long NFACTURA, System.DateTime DATAFACTURA, long NALBARA, System.DateTime DATAALBARA, CLIENTSRow parentCLIENTSRowBySYS_C008841, string NIF, string NOM, string DIRECCIO) {
+            public CABFACTURASRow AddCABFACTURASRow(long NFACTURA, System.DateTime DATAFACTURA, long NALBARA, System.DateTime DATAALBARA, CLIENTSRow parentCLIENTSRowBySYS_C007425, string NIF, string NOM, string DIRECCIO) {
                 CABFACTURASRow rowCABFACTURASRow = ((CABFACTURASRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         NFACTURA,
@@ -1421,8 +1421,8 @@ namespace ProjecteFinal {
                         NIF,
                         NOM,
                         DIRECCIO};
-                if ((parentCLIENTSRowBySYS_C008841 != null)) {
-                    columnValuesArray[4] = parentCLIENTSRowBySYS_C008841[0];
+                if ((parentCLIENTSRowBySYS_C007425 != null)) {
+                    columnValuesArray[4] = parentCLIENTSRowBySYS_C007425[0];
                 }
                 rowCABFACTURASRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowCABFACTURASRow);
@@ -1803,7 +1803,7 @@ namespace ProjecteFinal {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public CLIENTSRow AddCLIENTSRow(string CODI, string NIF, string NOM, string ADREÇA, PROVINCIESRow parentPROVINCIESRowBySYS_C008832, MUNICIPISRow parentMUNICIPISRowBySYS_C008833, int TELEFON, string FAX, string EMAIL, string BANCCC, string FORMADEPAGAMENT) {
+            public CLIENTSRow AddCLIENTSRow(string CODI, string NIF, string NOM, string ADREÇA, PROVINCIESRow parentPROVINCIESRowBySYS_C007417, MUNICIPISRow parentMUNICIPISRowBySYS_C007418, int TELEFON, string FAX, string EMAIL, string BANCCC, string FORMADEPAGAMENT) {
                 CLIENTSRow rowCLIENTSRow = ((CLIENTSRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         CODI,
@@ -1817,11 +1817,11 @@ namespace ProjecteFinal {
                         EMAIL,
                         BANCCC,
                         FORMADEPAGAMENT};
-                if ((parentPROVINCIESRowBySYS_C008832 != null)) {
-                    columnValuesArray[4] = parentPROVINCIESRowBySYS_C008832[0];
+                if ((parentPROVINCIESRowBySYS_C007417 != null)) {
+                    columnValuesArray[4] = parentPROVINCIESRowBySYS_C007417[0];
                 }
-                if ((parentMUNICIPISRowBySYS_C008833 != null)) {
-                    columnValuesArray[5] = parentMUNICIPISRowBySYS_C008833[0];
+                if ((parentMUNICIPISRowBySYS_C007418 != null)) {
+                    columnValuesArray[5] = parentMUNICIPISRowBySYS_C007418[0];
                 }
                 rowCLIENTSRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowCLIENTSRow);
@@ -2155,7 +2155,7 @@ namespace ProjecteFinal {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public LINEASALBARARow AddLINEASALBARARow(CABALBARARow parentCABALBARARowBySYS_C008837, ARTICLESRow parentARTICLESRowBySYS_C008838, string DESCRIPCIO, decimal QUANTITATVENUDA, double PREUVENDA) {
+            public LINEASALBARARow AddLINEASALBARARow(CABALBARARow parentCABALBARARowBySYS_C007422, ARTICLESRow parentARTICLESRowBySYS_C007423, string DESCRIPCIO, decimal QUANTITATVENUDA, double PREUVENDA) {
                 LINEASALBARARow rowLINEASALBARARow = ((LINEASALBARARow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -2163,11 +2163,11 @@ namespace ProjecteFinal {
                         DESCRIPCIO,
                         QUANTITATVENUDA,
                         PREUVENDA};
-                if ((parentCABALBARARowBySYS_C008837 != null)) {
-                    columnValuesArray[0] = parentCABALBARARowBySYS_C008837[0];
+                if ((parentCABALBARARowBySYS_C007422 != null)) {
+                    columnValuesArray[0] = parentCABALBARARowBySYS_C007422[0];
                 }
-                if ((parentARTICLESRowBySYS_C008838 != null)) {
-                    columnValuesArray[1] = parentARTICLESRowBySYS_C008838[0];
+                if ((parentARTICLESRowBySYS_C007423 != null)) {
+                    columnValuesArray[1] = parentARTICLESRowBySYS_C007423[0];
                 }
                 rowLINEASALBARARow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowLINEASALBARARow);
@@ -2489,7 +2489,7 @@ namespace ProjecteFinal {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public LINEASFACTURARow AddLINEASFACTURARow(CABFACTURASRow parentCABFACTURASRowBySYS_C008843, ARTICLESRow parentARTICLESRowBySYS_C008844, string DESCRIPCIO, decimal QUANTITATVENUDA, double PREUVENDA, short DESCOMPTE) {
+            public LINEASFACTURARow AddLINEASFACTURARow(CABFACTURASRow parentCABFACTURASRowBySYS_C007427, ARTICLESRow parentARTICLESRowBySYS_C007428, string DESCRIPCIO, decimal QUANTITATVENUDA, double PREUVENDA, short DESCOMPTE) {
                 LINEASFACTURARow rowLINEASFACTURARow = ((LINEASFACTURARow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -2498,11 +2498,11 @@ namespace ProjecteFinal {
                         QUANTITATVENUDA,
                         PREUVENDA,
                         DESCOMPTE};
-                if ((parentCABFACTURASRowBySYS_C008843 != null)) {
-                    columnValuesArray[0] = parentCABFACTURASRowBySYS_C008843[0];
+                if ((parentCABFACTURASRowBySYS_C007427 != null)) {
+                    columnValuesArray[0] = parentCABFACTURASRowBySYS_C007427[0];
                 }
-                if ((parentARTICLESRowBySYS_C008844 != null)) {
-                    columnValuesArray[1] = parentARTICLESRowBySYS_C008844[0];
+                if ((parentARTICLESRowBySYS_C007428 != null)) {
+                    columnValuesArray[1] = parentARTICLESRowBySYS_C007428[0];
                 }
                 rowLINEASFACTURARow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowLINEASFACTURARow);
@@ -3419,22 +3419,22 @@ namespace ProjecteFinal {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public LINEASALBARARow[] GetLINEASALBARARows() {
-                if ((this.Table.ChildRelations["SYS_C008838"] == null)) {
+                if ((this.Table.ChildRelations["SYS_C007423"] == null)) {
                     return new LINEASALBARARow[0];
                 }
                 else {
-                    return ((LINEASALBARARow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C008838"])));
+                    return ((LINEASALBARARow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C007423"])));
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public LINEASFACTURARow[] GetLINEASFACTURARows() {
-                if ((this.Table.ChildRelations["SYS_C008844"] == null)) {
+                if ((this.Table.ChildRelations["SYS_C007428"] == null)) {
                     return new LINEASFACTURARow[0];
                 }
                 else {
-                    return ((LINEASFACTURARow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C008844"])));
+                    return ((LINEASFACTURARow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C007428"])));
                 }
             }
         }
@@ -3564,10 +3564,10 @@ namespace ProjecteFinal {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public CLIENTSRow CLIENTSRow {
                 get {
-                    return ((CLIENTSRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C008835"])));
+                    return ((CLIENTSRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C007420"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C008835"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C007420"]);
                 }
             }
             
@@ -3646,11 +3646,11 @@ namespace ProjecteFinal {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public LINEASALBARARow[] GetLINEASALBARARows() {
-                if ((this.Table.ChildRelations["SYS_C008837"] == null)) {
+                if ((this.Table.ChildRelations["SYS_C007422"] == null)) {
                     return new LINEASALBARARow[0];
                 }
                 else {
-                    return ((LINEASALBARARow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C008837"])));
+                    return ((LINEASALBARARow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C007422"])));
                 }
             }
         }
@@ -3796,10 +3796,10 @@ namespace ProjecteFinal {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public CLIENTSRow CLIENTSRow {
                 get {
-                    return ((CLIENTSRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C008841"])));
+                    return ((CLIENTSRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C007425"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C008841"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C007425"]);
                 }
             }
             
@@ -3890,11 +3890,11 @@ namespace ProjecteFinal {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public LINEASFACTURARow[] GetLINEASFACTURARows() {
-                if ((this.Table.ChildRelations["SYS_C008843"] == null)) {
+                if ((this.Table.ChildRelations["SYS_C007427"] == null)) {
                     return new LINEASFACTURARow[0];
                 }
                 else {
-                    return ((LINEASFACTURARow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C008843"])));
+                    return ((LINEASFACTURARow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C007427"])));
                 }
             }
         }
@@ -4088,10 +4088,10 @@ namespace ProjecteFinal {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public PROVINCIESRow PROVINCIESRow {
                 get {
-                    return ((PROVINCIESRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C008832"])));
+                    return ((PROVINCIESRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C007417"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C008832"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C007417"]);
                 }
             }
             
@@ -4099,10 +4099,10 @@ namespace ProjecteFinal {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public MUNICIPISRow MUNICIPISRow {
                 get {
-                    return ((MUNICIPISRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C008833"])));
+                    return ((MUNICIPISRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C007418"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C008833"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C007418"]);
                 }
             }
             
@@ -4229,22 +4229,22 @@ namespace ProjecteFinal {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public CABALBARARow[] GetCABALBARARows() {
-                if ((this.Table.ChildRelations["SYS_C008835"] == null)) {
+                if ((this.Table.ChildRelations["SYS_C007420"] == null)) {
                     return new CABALBARARow[0];
                 }
                 else {
-                    return ((CABALBARARow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C008835"])));
+                    return ((CABALBARARow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C007420"])));
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public CABFACTURASRow[] GetCABFACTURASRows() {
-                if ((this.Table.ChildRelations["SYS_C008841"] == null)) {
+                if ((this.Table.ChildRelations["SYS_C007425"] == null)) {
                     return new CABFACTURASRow[0];
                 }
                 else {
-                    return ((CABFACTURASRow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C008841"])));
+                    return ((CABFACTURASRow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C007425"])));
                 }
             }
         }
@@ -4337,10 +4337,10 @@ namespace ProjecteFinal {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public CABALBARARow CABALBARARow {
                 get {
-                    return ((CABALBARARow)(this.GetParentRow(this.Table.ParentRelations["SYS_C008837"])));
+                    return ((CABALBARARow)(this.GetParentRow(this.Table.ParentRelations["SYS_C007422"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C008837"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C007422"]);
                 }
             }
             
@@ -4348,10 +4348,10 @@ namespace ProjecteFinal {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public ARTICLESRow ARTICLESRow {
                 get {
-                    return ((ARTICLESRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C008838"])));
+                    return ((ARTICLESRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C007423"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C008838"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C007423"]);
                 }
             }
             
@@ -4496,10 +4496,10 @@ namespace ProjecteFinal {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public CABFACTURASRow CABFACTURASRow {
                 get {
-                    return ((CABFACTURASRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C008843"])));
+                    return ((CABFACTURASRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C007427"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C008843"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C007427"]);
                 }
             }
             
@@ -4507,10 +4507,10 @@ namespace ProjecteFinal {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public ARTICLESRow ARTICLESRow {
                 get {
-                    return ((ARTICLESRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C008844"])));
+                    return ((ARTICLESRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C007428"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C008844"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C007428"]);
                 }
             }
             
@@ -4647,11 +4647,11 @@ namespace ProjecteFinal {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public CLIENTSRow[] GetCLIENTSRows() {
-                if ((this.Table.ChildRelations["SYS_C008833"] == null)) {
+                if ((this.Table.ChildRelations["SYS_C007418"] == null)) {
                     return new CLIENTSRow[0];
                 }
                 else {
-                    return ((CLIENTSRow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C008833"])));
+                    return ((CLIENTSRow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C007418"])));
                 }
             }
         }
@@ -4712,11 +4712,11 @@ namespace ProjecteFinal {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public CLIENTSRow[] GetCLIENTSRows() {
-                if ((this.Table.ChildRelations["SYS_C008832"] == null)) {
+                if ((this.Table.ChildRelations["SYS_C007417"] == null)) {
                     return new CLIENTSRow[0];
                 }
                 else {
-                    return ((CLIENTSRow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C008832"])));
+                    return ((CLIENTSRow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C007417"])));
                 }
             }
         }
@@ -5441,7 +5441,7 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Oracle.ManagedDataAccess.Client.OracleConnection();
-            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.ConnectionString2;
+            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.OracleDataSet;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6231,7 +6231,7 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Oracle.ManagedDataAccess.Client.OracleConnection();
-            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.ConnectionString2;
+            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.OracleDataSet;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7088,7 +7088,7 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Oracle.ManagedDataAccess.Client.OracleConnection();
-            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.ConnectionString2;
+            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.OracleDataSet;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8136,7 +8136,7 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Oracle.ManagedDataAccess.Client.OracleConnection();
-            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.ConnectionString2;
+            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.OracleDataSet;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8991,7 +8991,7 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Oracle.ManagedDataAccess.Client.OracleConnection();
-            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.ConnectionString2;
+            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.OracleDataSet;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9666,7 +9666,7 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Oracle.ManagedDataAccess.Client.OracleConnection();
-            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.ConnectionString2;
+            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.OracleDataSet;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10226,7 +10226,7 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Oracle.ManagedDataAccess.Client.OracleConnection();
-            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.ConnectionString2;
+            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.OracleDataSet;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10653,7 +10653,7 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Oracle.ManagedDataAccess.Client.OracleConnection();
-            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.ConnectionString2;
+            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.OracleDataSet;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

@@ -36,50 +36,56 @@ namespace ProjecteFinal
             this.lINEASFACTURATableAdapter.Fill(this.oracleDataSet.LINEASFACTURA);
             #endregion
 
-            #region Punt 2 - JAR
-            Process p = new Process();
-            p.StartInfo.FileName = "cmd.exe";
-            p.StartInfo.Arguments = "/c java.exe -jar transformacions.jar";
-            p.Start();
-            p.WaitForExit(1000);
-            #endregion
+            DialogResult dialgoRes = MessageBox.Show("Vols carregar dades del eXistDB?", "Carrega eXistDB", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-            #region Punt 3 - Validacions XML
-            p.Close();
-            ValidacioXML("clients.xml", "clients.xsd");
-            ValidacioXML("productes.xml", "productes.xsd");
-            ValidacioXML("municipis.xml", "municipis.xsd");
-            ValidacioXML("provincies.xml", "provincies.xsd");
-            #endregion
+            if (dialgoRes == DialogResult.Yes)
+            {
 
-            #region Punt 4 - Modificar DataSet
-            dsLlegir = new DataSet();
-            dsLlegir.ReadXml("clients.xml");
+                #region Punt 2 - JAR
+                Process p = new Process();
+                p.StartInfo.FileName = "cmd.exe";
+                p.StartInfo.Arguments = "/c java.exe -jar transformacions.jar";
+                p.Start();
+                p.WaitForExit(1000);
+                #endregion
 
-            dsXML.Merge(dsLlegir);
+                #region Punt 3 - Validacions XML
+                p.Close();
+                ValidacioXML("clients.xml", "clients.xsd");
+                ValidacioXML("productes.xml", "productes.xsd");
+                ValidacioXML("municipis.xml", "municipis.xsd");
+                ValidacioXML("provincies.xml", "provincies.xsd");
+                #endregion
 
-            dsLlegir = new DataSet();
-            dsLlegir.ReadXml("productes.xml");
+                #region Punt 4 - Modificar DataSet
+                dsLlegir = new DataSet();
+                dsLlegir.ReadXml("clients.xml");
 
-            dsXML.Merge(dsLlegir);
+                dsXML.Merge(dsLlegir);
 
-            dsLlegir = new DataSet();
-            dsLlegir.ReadXml("municipis.xml");
+                dsLlegir = new DataSet();
+                dsLlegir.ReadXml("productes.xml");
 
-            dsXML.Merge(dsLlegir);
+                dsXML.Merge(dsLlegir);
 
-            dsLlegir = new DataSet();
-            dsLlegir.ReadXml("provincies.xml");
+                dsLlegir = new DataSet();
+                dsLlegir.ReadXml("municipis.xml");
 
-            dsXML.Merge(dsLlegir);
-            #endregion
+                dsXML.Merge(dsLlegir);
 
-            #region Punt 5 - Dades Persistents
-            InserirMunicipis();
-            InserirProvincies();
-            InserirArticles();
-            InserirClients();
-            #endregion
+                dsLlegir = new DataSet();
+                dsLlegir.ReadXml("provincies.xml");
+
+                dsXML.Merge(dsLlegir);
+                #endregion
+
+                #region Punt 5 - Dades Persistents
+                InserirMunicipis();
+                InserirProvincies();
+                InserirArticles();
+                InserirClients();
+                #endregion
+            }
 
             MessageBox.Show("Obtenció de dades finalitzat");
 

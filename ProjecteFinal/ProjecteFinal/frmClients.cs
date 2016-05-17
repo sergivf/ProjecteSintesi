@@ -188,7 +188,8 @@ namespace ProjecteFinal
 
                 DataGridViewRow selectedRow = dgvAlbarans.Rows[index];
 
-                int nAlbara = Convert.ToInt32(selectedRow.Cells["nalbara"].Value);
+                string nAlbaraString = selectedRow.Cells["nalbara"].Value.ToString();
+                int nAlbara = Convert.ToInt32(nAlbaraString);
 
                 dgvLinies.Rows.Clear();
                 OracleCommand cmd = new OracleCommand();
@@ -198,7 +199,7 @@ namespace ProjecteFinal
 
                 while (reader.Read())
                 {
-                    dgvLinies.Rows.Add(reader.GetString(0), reader.GetString(1), reader.GetInt32(2), reader.GetDouble(3));
+                    dgvLinies.Rows.Add(reader.GetOracleString(0), reader.GetOracleString(1), reader.GetOracleValue(2), reader.GetOracleValue(3));
                 }
             }
         }
