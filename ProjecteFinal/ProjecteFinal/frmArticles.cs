@@ -43,6 +43,8 @@ namespace ProjecteFinal
 
         private void Origen_CurrentChanged(object sender, EventArgs e)
         {
+            dgvAlbarans.Rows.Clear();
+
             if (Origen.Count > 0)
             {
                 DataRow dr = ((DataRowView)Origen.Current).Row;
@@ -139,6 +141,52 @@ namespace ProjecteFinal
         private void frmArticles_FormClosing(object sender, FormClosingEventArgs e)
         {
             cnOracle.Close();
+        }
+
+        private void btnCercarArticles_Click(object sender, EventArgs e)
+        {
+            if (dtpDataFinal.Value < dtpDataInici.Value)
+            {
+                MessageBox.Show("La data final és anterior a la data inici...!");
+                dgvAlbarans.Rows.Clear();
+            }
+            else
+            {
+                DataRow dr = ((DataRowView)Origen.Current).Row;
+                string dataInici = "";
+                string dataFinal = "";
+
+                dgvAlbarans.Rows.Clear();
+                OracleCommand cmd = new OracleCommand();
+                cmd = cnOracle.CreateCommand();
+                cmd.CommandText = "SELECT nalbara, quantitatvenuda FROM lineasalbara WHERE codiarticle = '" + dr[0] + "'";
+                OracleDataReader reader = cmd.ExecuteReader();
+
+                OracleCommand cmdCab = new OracleCommand();
+                cmdCab = cnOracle.CreateCommand();
+
+                while (reader.Read())
+                {
+                    dataInici = dtpDataInici.Value.Day + "/" + dtpDataInici.Value.Month + "/" + dtpDataInici.Value.Year;
+                    dataFinal = dtpDataFinal.Value.Day + "/" + dtpDataFinal.Value.Month + "/" + dtpDataFinal.Value.Year;
+                    cmdCab.CommandText = "SELECT nom, dataalbara FROM cabalbara WHERE nalbara = " + reader.GetOracleValue(0) + " AND dataalbara BETWEEN TO_DATE('" + dataInici + "', 'dd/mm/yyyy') AND TO_DATE('" + dataFinal + "', 'dd/mm/yyyy')";
+
+                    OracleDataReader readerCab = cmdCab.ExecuteReader();
+
+                    while (readerCab.Read())
+                    {
+                        dgvAlbarans.Rows.Add(reader.GetOracleValue(0), readerCab.GetOracleDate(1), readerCab.GetOracleString(0), reader.GetOracleValue(1));
+                    }
+
+                    readerCab.Dispose();
+                    readerCab.Close();
+                }
+
+                cmdCab.Dispose();
+                reader.Dispose();
+                reader.Close();
+                cmd.Dispose();
+            }
         }
     }
 }

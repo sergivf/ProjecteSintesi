@@ -61,6 +61,7 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlbarans)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLinies)).BeginInit();
             this.SuspendLayout();
@@ -289,11 +290,12 @@
             this.dgvAlbarans.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvAlbarans.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.nalbara,
-            this.Column2});
+            this.Column2,
+            this.Column1});
             this.dgvAlbarans.Location = new System.Drawing.Point(372, 27);
             this.dgvAlbarans.Name = "dgvAlbarans";
             this.dgvAlbarans.ReadOnly = true;
-            this.dgvAlbarans.Size = new System.Drawing.Size(249, 150);
+            this.dgvAlbarans.Size = new System.Drawing.Size(311, 150);
             this.dgvAlbarans.TabIndex = 23;
             this.dgvAlbarans.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvAlbarans_CellDoubleClick);
             // 
@@ -359,6 +361,12 @@
             this.Column6.Name = "Column6";
             this.Column6.ReadOnly = true;
             this.Column6.Width = 54;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Total";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
             // 
             // frmClients
             // 
@@ -464,5 +472,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn nalbara;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
     }
 }

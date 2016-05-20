@@ -43,6 +43,17 @@
             this.btnCancelarCanvis = new System.Windows.Forms.Button();
             this.btnGuardarCanvis = new System.Windows.Forms.Button();
             this.btnModeEdicio = new System.Windows.Forms.Button();
+            this.dtpDataInici = new System.Windows.Forms.DateTimePicker();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.dtpDataFinal = new System.Windows.Forms.DateTimePicker();
+            this.btnCercarArticles = new System.Windows.Forms.Button();
+            this.dgvAlbarans = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAlbarans)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -177,11 +188,99 @@
             this.btnModeEdicio.UseVisualStyleBackColor = true;
             this.btnModeEdicio.Click += new System.EventHandler(this.btnModeEdicio_Click);
             // 
+            // dtpDataInici
+            // 
+            this.dtpDataInici.Location = new System.Drawing.Point(502, 55);
+            this.dtpDataInici.Name = "dtpDataInici";
+            this.dtpDataInici.Size = new System.Drawing.Size(200, 20);
+            this.dtpDataInici.TabIndex = 26;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(427, 62);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(52, 13);
+            this.label7.TabIndex = 27;
+            this.label7.Text = "Data Inici";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(427, 100);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(55, 13);
+            this.label8.TabIndex = 28;
+            this.label8.Text = "Data Final";
+            // 
+            // dtpDataFinal
+            // 
+            this.dtpDataFinal.Location = new System.Drawing.Point(502, 93);
+            this.dtpDataFinal.Name = "dtpDataFinal";
+            this.dtpDataFinal.Size = new System.Drawing.Size(200, 20);
+            this.dtpDataFinal.TabIndex = 29;
+            // 
+            // btnCercarArticles
+            // 
+            this.btnCercarArticles.Location = new System.Drawing.Point(742, 64);
+            this.btnCercarArticles.Name = "btnCercarArticles";
+            this.btnCercarArticles.Size = new System.Drawing.Size(97, 41);
+            this.btnCercarArticles.TabIndex = 30;
+            this.btnCercarArticles.Text = "Cercar articles entre dates";
+            this.btnCercarArticles.UseVisualStyleBackColor = true;
+            this.btnCercarArticles.Click += new System.EventHandler(this.btnCercarArticles_Click);
+            // 
+            // dgvAlbarans
+            // 
+            this.dgvAlbarans.AllowUserToAddRows = false;
+            this.dgvAlbarans.AllowUserToDeleteRows = false;
+            this.dgvAlbarans.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvAlbarans.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4});
+            this.dgvAlbarans.Location = new System.Drawing.Point(439, 159);
+            this.dgvAlbarans.Name = "dgvAlbarans";
+            this.dgvAlbarans.ReadOnly = true;
+            this.dgvAlbarans.Size = new System.Drawing.Size(446, 130);
+            this.dgvAlbarans.TabIndex = 31;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Número d\'albarà";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Data albarà";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Nom client";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Quantitat";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            // 
             // frmArticles
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(955, 517);
+            this.Controls.Add(this.dgvAlbarans);
+            this.Controls.Add(this.btnCercarArticles);
+            this.Controls.Add(this.dtpDataFinal);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.dtpDataInici);
             this.Controls.Add(this.btnCancelarCanvis);
             this.Controls.Add(this.btnGuardarCanvis);
             this.Controls.Add(this.btnModeEdicio);
@@ -215,6 +314,13 @@
             this.Controls.SetChildIndex(this.btnModeEdicio, 0);
             this.Controls.SetChildIndex(this.btnGuardarCanvis, 0);
             this.Controls.SetChildIndex(this.btnCancelarCanvis, 0);
+            this.Controls.SetChildIndex(this.dtpDataInici, 0);
+            this.Controls.SetChildIndex(this.label7, 0);
+            this.Controls.SetChildIndex(this.label8, 0);
+            this.Controls.SetChildIndex(this.dtpDataFinal, 0);
+            this.Controls.SetChildIndex(this.btnCercarArticles, 0);
+            this.Controls.SetChildIndex(this.dgvAlbarans, 0);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAlbarans)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -237,5 +343,15 @@
         private System.Windows.Forms.Button btnCancelarCanvis;
         private System.Windows.Forms.Button btnGuardarCanvis;
         private System.Windows.Forms.Button btnModeEdicio;
+        private System.Windows.Forms.DateTimePicker dtpDataInici;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.DateTimePicker dtpDataFinal;
+        private System.Windows.Forms.Button btnCercarArticles;
+        private System.Windows.Forms.DataGridView dgvAlbarans;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
     }
 }

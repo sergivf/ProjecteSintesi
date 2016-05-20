@@ -92,14 +92,33 @@ namespace ProjecteFinal
 
         private void MostrarAlbarans(string codiClient)
         {
+            double total = 0;
+            int quant = 0;
+            double preu = 0;
             OracleCommand cmd = new OracleCommand();
             cmd = cnOracle.CreateCommand();
             cmd.CommandText = "SELECT nalbara, dataalbara FROM cabalbara WHERE codiclient = '" + codiClient + "'";
             OracleDataReader reader = cmd.ExecuteReader();
 
+            OracleCommand cmdTotal = new OracleCommand();
+            cmdTotal = cnOracle.CreateCommand();
+
             while (reader.Read())
             {
-                dgvAlbarans.Rows.Add(reader.GetOracleValue(0), reader.GetDateTime(1));
+                cmdTotal.CommandText = "SELECT quantitatvenuda, preuvenda FROM lineasalbara WHERE nalbara = " + reader.GetOracleValue(0);
+
+                OracleDataReader readerTotal = cmdTotal.ExecuteReader();
+
+                while (readerTotal.Read())
+                {
+                    quant = Convert.ToInt32(readerTotal.GetOracleValue(0).ToString());
+                    string preuString = readerTotal.GetOracleValue(1).ToString().Replace('.', ',');
+                    preu = Convert.ToDouble(preuString);
+                    total += quant * preu;
+                }
+
+                dgvAlbarans.Rows.Add(reader.GetOracleValue(0), reader.GetDateTime(1), total);
+                total = 0;
             }
         }
 
@@ -122,14 +141,8 @@ namespace ProjecteFinal
             btnCancelarCanvis.Show();
         }
 
-        private void btnCancelarCanvis_Click(object sender, EventArgs e)
+        private void ModeConsulta()
         {
-            ModeEdicio = false;
-
-            btnModeEdicio.Show();
-            btnGuardarCanvis.Hide();
-            btnCancelarCanvis.Hide();
-
             txtNIF.ReadOnly = true;
             txtNom.ReadOnly = true;
             txtAdreça.ReadOnly = true;
@@ -140,6 +153,17 @@ namespace ProjecteFinal
             txtEmail.ReadOnly = true;
             txtBancCC.ReadOnly = true;
             txtFormaPagament.ReadOnly = true;
+        }
+
+        private void btnCancelarCanvis_Click(object sender, EventArgs e)
+        {
+            ModeEdicio = false;
+
+            btnModeEdicio.Show();
+            btnGuardarCanvis.Hide();
+            btnCancelarCanvis.Hide();
+
+            ModeConsulta();
 
             EmplenarDades(((DataRowView)Origen.Current).Row);
         }
@@ -151,6 +175,7 @@ namespace ProjecteFinal
             btnModeEdicio.Show();
             btnGuardarCanvis.Hide();
             btnCancelarCanvis.Hide();
+            ModeConsulta();
 
             try
             {

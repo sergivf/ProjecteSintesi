@@ -40,21 +40,21 @@ namespace ProjecteFinal {
         
         private PROVINCIESDataTable tablePROVINCIES;
         
-        private global::System.Data.DataRelation relationSYS_C007420;
+        private global::System.Data.DataRelation relationSYS_C009252;
         
-        private global::System.Data.DataRelation relationSYS_C007425;
+        private global::System.Data.DataRelation relationSYS_C009257;
         
-        private global::System.Data.DataRelation relationSYS_C007417;
+        private global::System.Data.DataRelation relationSYS_C009249;
         
-        private global::System.Data.DataRelation relationSYS_C007418;
+        private global::System.Data.DataRelation relationSYS_C009250;
         
-        private global::System.Data.DataRelation relationSYS_C007422;
+        private global::System.Data.DataRelation relationSYS_C009254;
         
-        private global::System.Data.DataRelation relationSYS_C007423;
+        private global::System.Data.DataRelation relationSYS_C009255;
         
-        private global::System.Data.DataRelation relationSYS_C007427;
+        private global::System.Data.DataRelation relationSYS_C009259;
         
-        private global::System.Data.DataRelation relationSYS_C007428;
+        private global::System.Data.DataRelation relationSYS_C009260;
         
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
@@ -378,14 +378,14 @@ namespace ProjecteFinal {
                     this.tablePROVINCIES.InitVars();
                 }
             }
-            this.relationSYS_C007420 = this.Relations["SYS_C007420"];
-            this.relationSYS_C007425 = this.Relations["SYS_C007425"];
-            this.relationSYS_C007417 = this.Relations["SYS_C007417"];
-            this.relationSYS_C007418 = this.Relations["SYS_C007418"];
-            this.relationSYS_C007422 = this.Relations["SYS_C007422"];
-            this.relationSYS_C007423 = this.Relations["SYS_C007423"];
-            this.relationSYS_C007427 = this.Relations["SYS_C007427"];
-            this.relationSYS_C007428 = this.Relations["SYS_C007428"];
+            this.relationSYS_C009252 = this.Relations["SYS_C009252"];
+            this.relationSYS_C009257 = this.Relations["SYS_C009257"];
+            this.relationSYS_C009249 = this.Relations["SYS_C009249"];
+            this.relationSYS_C009250 = this.Relations["SYS_C009250"];
+            this.relationSYS_C009254 = this.Relations["SYS_C009254"];
+            this.relationSYS_C009255 = this.Relations["SYS_C009255"];
+            this.relationSYS_C009259 = this.Relations["SYS_C009259"];
+            this.relationSYS_C009260 = this.Relations["SYS_C009260"];
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -412,38 +412,38 @@ namespace ProjecteFinal {
             base.Tables.Add(this.tableMUNICIPIS);
             this.tablePROVINCIES = new PROVINCIESDataTable();
             base.Tables.Add(this.tablePROVINCIES);
-            this.relationSYS_C007420 = new global::System.Data.DataRelation("SYS_C007420", new global::System.Data.DataColumn[] {
+            this.relationSYS_C009252 = new global::System.Data.DataRelation("SYS_C009252", new global::System.Data.DataColumn[] {
                         this.tableCLIENTS.CODIColumn}, new global::System.Data.DataColumn[] {
                         this.tableCABALBARA.CODICLIENTColumn}, false);
-            this.Relations.Add(this.relationSYS_C007420);
-            this.relationSYS_C007425 = new global::System.Data.DataRelation("SYS_C007425", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationSYS_C009252);
+            this.relationSYS_C009257 = new global::System.Data.DataRelation("SYS_C009257", new global::System.Data.DataColumn[] {
                         this.tableCLIENTS.CODIColumn}, new global::System.Data.DataColumn[] {
                         this.tableCABFACTURAS.CODICLIENTColumn}, false);
-            this.Relations.Add(this.relationSYS_C007425);
-            this.relationSYS_C007417 = new global::System.Data.DataRelation("SYS_C007417", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationSYS_C009257);
+            this.relationSYS_C009249 = new global::System.Data.DataRelation("SYS_C009249", new global::System.Data.DataColumn[] {
                         this.tablePROVINCIES.CODIColumn}, new global::System.Data.DataColumn[] {
                         this.tableCLIENTS.CODIPROVINCIAColumn}, false);
-            this.Relations.Add(this.relationSYS_C007417);
-            this.relationSYS_C007418 = new global::System.Data.DataRelation("SYS_C007418", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationSYS_C009249);
+            this.relationSYS_C009250 = new global::System.Data.DataRelation("SYS_C009250", new global::System.Data.DataColumn[] {
                         this.tableMUNICIPIS.CODIColumn}, new global::System.Data.DataColumn[] {
                         this.tableCLIENTS.CODIMUNICIPIColumn}, false);
-            this.Relations.Add(this.relationSYS_C007418);
-            this.relationSYS_C007422 = new global::System.Data.DataRelation("SYS_C007422", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationSYS_C009250);
+            this.relationSYS_C009254 = new global::System.Data.DataRelation("SYS_C009254", new global::System.Data.DataColumn[] {
                         this.tableCABALBARA.NALBARAColumn}, new global::System.Data.DataColumn[] {
                         this.tableLINEASALBARA.NALBARAColumn}, false);
-            this.Relations.Add(this.relationSYS_C007422);
-            this.relationSYS_C007423 = new global::System.Data.DataRelation("SYS_C007423", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationSYS_C009254);
+            this.relationSYS_C009255 = new global::System.Data.DataRelation("SYS_C009255", new global::System.Data.DataColumn[] {
                         this.tableARTICLES.CODIColumn}, new global::System.Data.DataColumn[] {
                         this.tableLINEASALBARA.CODIARTICLEColumn}, false);
-            this.Relations.Add(this.relationSYS_C007423);
-            this.relationSYS_C007427 = new global::System.Data.DataRelation("SYS_C007427", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationSYS_C009255);
+            this.relationSYS_C009259 = new global::System.Data.DataRelation("SYS_C009259", new global::System.Data.DataColumn[] {
                         this.tableCABFACTURAS.NFACTURAColumn}, new global::System.Data.DataColumn[] {
                         this.tableLINEASFACTURA.NFACTURAColumn}, false);
-            this.Relations.Add(this.relationSYS_C007427);
-            this.relationSYS_C007428 = new global::System.Data.DataRelation("SYS_C007428", new global::System.Data.DataColumn[] {
+            this.Relations.Add(this.relationSYS_C009259);
+            this.relationSYS_C009260 = new global::System.Data.DataRelation("SYS_C009260", new global::System.Data.DataColumn[] {
                         this.tableARTICLES.CODIColumn}, new global::System.Data.DataColumn[] {
                         this.tableLINEASFACTURA.CODIARTICLEColumn}, false);
-            this.Relations.Add(this.relationSYS_C007428);
+            this.Relations.Add(this.relationSYS_C009260);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1050,7 +1050,7 @@ namespace ProjecteFinal {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public CABALBARARow AddCABALBARARow(long NALBARA, System.DateTime DATAALBARA, CLIENTSRow parentCLIENTSRowBySYS_C007420, string NIF, string NOM, string DIRECCIO, string POBLACIO) {
+            public CABALBARARow AddCABALBARARow(long NALBARA, System.DateTime DATAALBARA, CLIENTSRow parentCLIENTSRowBySYS_C009252, string NIF, string NOM, string DIRECCIO, string POBLACIO) {
                 CABALBARARow rowCABALBARARow = ((CABALBARARow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         NALBARA,
@@ -1060,8 +1060,8 @@ namespace ProjecteFinal {
                         NOM,
                         DIRECCIO,
                         POBLACIO};
-                if ((parentCLIENTSRowBySYS_C007420 != null)) {
-                    columnValuesArray[2] = parentCLIENTSRowBySYS_C007420[0];
+                if ((parentCLIENTSRowBySYS_C009252 != null)) {
+                    columnValuesArray[2] = parentCLIENTSRowBySYS_C009252[0];
                 }
                 rowCABALBARARow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowCABALBARARow);
@@ -1276,6 +1276,8 @@ namespace ProjecteFinal {
             
             private global::System.Data.DataColumn columnDIRECCIO;
             
+            private global::System.Data.DataColumn columnPOBLACIO;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public CABFACTURASDataTable() {
@@ -1375,6 +1377,14 @@ namespace ProjecteFinal {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn POBLACIOColumn {
+                get {
+                    return this.columnPOBLACIO;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -1410,7 +1420,7 @@ namespace ProjecteFinal {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public CABFACTURASRow AddCABFACTURASRow(long NFACTURA, System.DateTime DATAFACTURA, long NALBARA, System.DateTime DATAALBARA, CLIENTSRow parentCLIENTSRowBySYS_C007425, string NIF, string NOM, string DIRECCIO) {
+            public CABFACTURASRow AddCABFACTURASRow(long NFACTURA, System.DateTime DATAFACTURA, long NALBARA, System.DateTime DATAALBARA, CLIENTSRow parentCLIENTSRowBySYS_C009257, string NIF, string NOM, string DIRECCIO, string POBLACIO) {
                 CABFACTURASRow rowCABFACTURASRow = ((CABFACTURASRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         NFACTURA,
@@ -1420,9 +1430,10 @@ namespace ProjecteFinal {
                         null,
                         NIF,
                         NOM,
-                        DIRECCIO};
-                if ((parentCLIENTSRowBySYS_C007425 != null)) {
-                    columnValuesArray[4] = parentCLIENTSRowBySYS_C007425[0];
+                        DIRECCIO,
+                        POBLACIO};
+                if ((parentCLIENTSRowBySYS_C009257 != null)) {
+                    columnValuesArray[4] = parentCLIENTSRowBySYS_C009257[0];
                 }
                 rowCABFACTURASRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowCABFACTURASRow);
@@ -1461,6 +1472,7 @@ namespace ProjecteFinal {
                 this.columnNIF = base.Columns["NIF"];
                 this.columnNOM = base.Columns["NOM"];
                 this.columnDIRECCIO = base.Columns["DIRECCIO"];
+                this.columnPOBLACIO = base.Columns["POBLACIO"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1482,6 +1494,8 @@ namespace ProjecteFinal {
                 base.Columns.Add(this.columnNOM);
                 this.columnDIRECCIO = new global::System.Data.DataColumn("DIRECCIO", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnDIRECCIO);
+                this.columnPOBLACIO = new global::System.Data.DataColumn("POBLACIO", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnPOBLACIO);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnNFACTURA}, true));
                 this.columnNFACTURA.AllowDBNull = false;
@@ -1490,6 +1504,7 @@ namespace ProjecteFinal {
                 this.columnNIF.MaxLength = 10;
                 this.columnNOM.MaxLength = 40;
                 this.columnDIRECCIO.MaxLength = 50;
+                this.columnPOBLACIO.MaxLength = 40;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1803,7 +1818,7 @@ namespace ProjecteFinal {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public CLIENTSRow AddCLIENTSRow(string CODI, string NIF, string NOM, string ADREÇA, PROVINCIESRow parentPROVINCIESRowBySYS_C007417, MUNICIPISRow parentMUNICIPISRowBySYS_C007418, int TELEFON, string FAX, string EMAIL, string BANCCC, string FORMADEPAGAMENT) {
+            public CLIENTSRow AddCLIENTSRow(string CODI, string NIF, string NOM, string ADREÇA, PROVINCIESRow parentPROVINCIESRowBySYS_C009249, MUNICIPISRow parentMUNICIPISRowBySYS_C009250, int TELEFON, string FAX, string EMAIL, string BANCCC, string FORMADEPAGAMENT) {
                 CLIENTSRow rowCLIENTSRow = ((CLIENTSRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         CODI,
@@ -1817,11 +1832,11 @@ namespace ProjecteFinal {
                         EMAIL,
                         BANCCC,
                         FORMADEPAGAMENT};
-                if ((parentPROVINCIESRowBySYS_C007417 != null)) {
-                    columnValuesArray[4] = parentPROVINCIESRowBySYS_C007417[0];
+                if ((parentPROVINCIESRowBySYS_C009249 != null)) {
+                    columnValuesArray[4] = parentPROVINCIESRowBySYS_C009249[0];
                 }
-                if ((parentMUNICIPISRowBySYS_C007418 != null)) {
-                    columnValuesArray[5] = parentMUNICIPISRowBySYS_C007418[0];
+                if ((parentMUNICIPISRowBySYS_C009250 != null)) {
+                    columnValuesArray[5] = parentMUNICIPISRowBySYS_C009250[0];
                 }
                 rowCLIENTSRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowCLIENTSRow);
@@ -2155,7 +2170,7 @@ namespace ProjecteFinal {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public LINEASALBARARow AddLINEASALBARARow(CABALBARARow parentCABALBARARowBySYS_C007422, ARTICLESRow parentARTICLESRowBySYS_C007423, string DESCRIPCIO, decimal QUANTITATVENUDA, double PREUVENDA) {
+            public LINEASALBARARow AddLINEASALBARARow(CABALBARARow parentCABALBARARowBySYS_C009254, ARTICLESRow parentARTICLESRowBySYS_C009255, string DESCRIPCIO, decimal QUANTITATVENUDA, double PREUVENDA) {
                 LINEASALBARARow rowLINEASALBARARow = ((LINEASALBARARow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -2163,11 +2178,11 @@ namespace ProjecteFinal {
                         DESCRIPCIO,
                         QUANTITATVENUDA,
                         PREUVENDA};
-                if ((parentCABALBARARowBySYS_C007422 != null)) {
-                    columnValuesArray[0] = parentCABALBARARowBySYS_C007422[0];
+                if ((parentCABALBARARowBySYS_C009254 != null)) {
+                    columnValuesArray[0] = parentCABALBARARowBySYS_C009254[0];
                 }
-                if ((parentARTICLESRowBySYS_C007423 != null)) {
-                    columnValuesArray[1] = parentARTICLESRowBySYS_C007423[0];
+                if ((parentARTICLESRowBySYS_C009255 != null)) {
+                    columnValuesArray[1] = parentARTICLESRowBySYS_C009255[0];
                 }
                 rowLINEASALBARARow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowLINEASALBARARow);
@@ -2489,7 +2504,7 @@ namespace ProjecteFinal {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public LINEASFACTURARow AddLINEASFACTURARow(CABFACTURASRow parentCABFACTURASRowBySYS_C007427, ARTICLESRow parentARTICLESRowBySYS_C007428, string DESCRIPCIO, decimal QUANTITATVENUDA, double PREUVENDA, short DESCOMPTE) {
+            public LINEASFACTURARow AddLINEASFACTURARow(CABFACTURASRow parentCABFACTURASRowBySYS_C009259, ARTICLESRow parentARTICLESRowBySYS_C009260, string DESCRIPCIO, decimal QUANTITATVENUDA, double PREUVENDA, short DESCOMPTE) {
                 LINEASFACTURARow rowLINEASFACTURARow = ((LINEASFACTURARow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -2498,11 +2513,11 @@ namespace ProjecteFinal {
                         QUANTITATVENUDA,
                         PREUVENDA,
                         DESCOMPTE};
-                if ((parentCABFACTURASRowBySYS_C007427 != null)) {
-                    columnValuesArray[0] = parentCABFACTURASRowBySYS_C007427[0];
+                if ((parentCABFACTURASRowBySYS_C009259 != null)) {
+                    columnValuesArray[0] = parentCABFACTURASRowBySYS_C009259[0];
                 }
-                if ((parentARTICLESRowBySYS_C007428 != null)) {
-                    columnValuesArray[1] = parentARTICLESRowBySYS_C007428[0];
+                if ((parentARTICLESRowBySYS_C009260 != null)) {
+                    columnValuesArray[1] = parentARTICLESRowBySYS_C009260[0];
                 }
                 rowLINEASFACTURARow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowLINEASFACTURARow);
@@ -3419,22 +3434,22 @@ namespace ProjecteFinal {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public LINEASALBARARow[] GetLINEASALBARARows() {
-                if ((this.Table.ChildRelations["SYS_C007423"] == null)) {
+                if ((this.Table.ChildRelations["SYS_C009255"] == null)) {
                     return new LINEASALBARARow[0];
                 }
                 else {
-                    return ((LINEASALBARARow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C007423"])));
+                    return ((LINEASALBARARow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C009255"])));
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public LINEASFACTURARow[] GetLINEASFACTURARows() {
-                if ((this.Table.ChildRelations["SYS_C007428"] == null)) {
+                if ((this.Table.ChildRelations["SYS_C009260"] == null)) {
                     return new LINEASFACTURARow[0];
                 }
                 else {
-                    return ((LINEASFACTURARow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C007428"])));
+                    return ((LINEASFACTURARow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C009260"])));
                 }
             }
         }
@@ -3564,10 +3579,10 @@ namespace ProjecteFinal {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public CLIENTSRow CLIENTSRow {
                 get {
-                    return ((CLIENTSRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C007420"])));
+                    return ((CLIENTSRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C009252"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C007420"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C009252"]);
                 }
             }
             
@@ -3646,11 +3661,11 @@ namespace ProjecteFinal {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public LINEASALBARARow[] GetLINEASALBARARows() {
-                if ((this.Table.ChildRelations["SYS_C007422"] == null)) {
+                if ((this.Table.ChildRelations["SYS_C009254"] == null)) {
                     return new LINEASALBARARow[0];
                 }
                 else {
-                    return ((LINEASALBARARow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C007422"])));
+                    return ((LINEASALBARARow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C009254"])));
                 }
             }
         }
@@ -3794,12 +3809,28 @@ namespace ProjecteFinal {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public CLIENTSRow CLIENTSRow {
+            public string POBLACIO {
                 get {
-                    return ((CLIENTSRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C007425"])));
+                    try {
+                        return ((string)(this[this.tableCABFACTURAS.POBLACIOColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'POBLACIO\' de la tabla \'CABFACTURAS\' es DBNull.", e);
+                    }
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C007425"]);
+                    this[this.tableCABFACTURAS.POBLACIOColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public CLIENTSRow CLIENTSRow {
+                get {
+                    return ((CLIENTSRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C009257"])));
+                }
+                set {
+                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C009257"]);
                 }
             }
             
@@ -3889,12 +3920,24 @@ namespace ProjecteFinal {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsPOBLACIONull() {
+                return this.IsNull(this.tableCABFACTURAS.POBLACIOColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetPOBLACIONull() {
+                this[this.tableCABFACTURAS.POBLACIOColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public LINEASFACTURARow[] GetLINEASFACTURARows() {
-                if ((this.Table.ChildRelations["SYS_C007427"] == null)) {
+                if ((this.Table.ChildRelations["SYS_C009259"] == null)) {
                     return new LINEASFACTURARow[0];
                 }
                 else {
-                    return ((LINEASFACTURARow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C007427"])));
+                    return ((LINEASFACTURARow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C009259"])));
                 }
             }
         }
@@ -4088,10 +4131,10 @@ namespace ProjecteFinal {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public PROVINCIESRow PROVINCIESRow {
                 get {
-                    return ((PROVINCIESRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C007417"])));
+                    return ((PROVINCIESRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C009249"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C007417"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C009249"]);
                 }
             }
             
@@ -4099,10 +4142,10 @@ namespace ProjecteFinal {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public MUNICIPISRow MUNICIPISRow {
                 get {
-                    return ((MUNICIPISRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C007418"])));
+                    return ((MUNICIPISRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C009250"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C007418"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C009250"]);
                 }
             }
             
@@ -4229,22 +4272,22 @@ namespace ProjecteFinal {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public CABALBARARow[] GetCABALBARARows() {
-                if ((this.Table.ChildRelations["SYS_C007420"] == null)) {
+                if ((this.Table.ChildRelations["SYS_C009252"] == null)) {
                     return new CABALBARARow[0];
                 }
                 else {
-                    return ((CABALBARARow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C007420"])));
+                    return ((CABALBARARow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C009252"])));
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public CABFACTURASRow[] GetCABFACTURASRows() {
-                if ((this.Table.ChildRelations["SYS_C007425"] == null)) {
+                if ((this.Table.ChildRelations["SYS_C009257"] == null)) {
                     return new CABFACTURASRow[0];
                 }
                 else {
-                    return ((CABFACTURASRow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C007425"])));
+                    return ((CABFACTURASRow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C009257"])));
                 }
             }
         }
@@ -4337,10 +4380,10 @@ namespace ProjecteFinal {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public CABALBARARow CABALBARARow {
                 get {
-                    return ((CABALBARARow)(this.GetParentRow(this.Table.ParentRelations["SYS_C007422"])));
+                    return ((CABALBARARow)(this.GetParentRow(this.Table.ParentRelations["SYS_C009254"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C007422"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C009254"]);
                 }
             }
             
@@ -4348,10 +4391,10 @@ namespace ProjecteFinal {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public ARTICLESRow ARTICLESRow {
                 get {
-                    return ((ARTICLESRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C007423"])));
+                    return ((ARTICLESRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C009255"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C007423"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C009255"]);
                 }
             }
             
@@ -4496,10 +4539,10 @@ namespace ProjecteFinal {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public CABFACTURASRow CABFACTURASRow {
                 get {
-                    return ((CABFACTURASRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C007427"])));
+                    return ((CABFACTURASRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C009259"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C007427"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C009259"]);
                 }
             }
             
@@ -4507,10 +4550,10 @@ namespace ProjecteFinal {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public ARTICLESRow ARTICLESRow {
                 get {
-                    return ((ARTICLESRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C007428"])));
+                    return ((ARTICLESRow)(this.GetParentRow(this.Table.ParentRelations["SYS_C009260"])));
                 }
                 set {
-                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C007428"]);
+                    this.SetParentRow(value, this.Table.ParentRelations["SYS_C009260"]);
                 }
             }
             
@@ -4647,11 +4690,11 @@ namespace ProjecteFinal {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public CLIENTSRow[] GetCLIENTSRows() {
-                if ((this.Table.ChildRelations["SYS_C007418"] == null)) {
+                if ((this.Table.ChildRelations["SYS_C009250"] == null)) {
                     return new CLIENTSRow[0];
                 }
                 else {
-                    return ((CLIENTSRow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C007418"])));
+                    return ((CLIENTSRow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C009250"])));
                 }
             }
         }
@@ -4712,11 +4755,11 @@ namespace ProjecteFinal {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public CLIENTSRow[] GetCLIENTSRows() {
-                if ((this.Table.ChildRelations["SYS_C007417"] == null)) {
+                if ((this.Table.ChildRelations["SYS_C009249"] == null)) {
                     return new CLIENTSRow[0];
                 }
                 else {
-                    return ((CLIENTSRow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C007417"])));
+                    return ((CLIENTSRow[])(base.GetChildRows(this.Table.ChildRelations["SYS_C009249"])));
                 }
             }
         }
@@ -5441,7 +5484,7 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Oracle.ManagedDataAccess.Client.OracleConnection();
-            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.OracleDataSet;
+            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.ConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6231,7 +6274,7 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Oracle.ManagedDataAccess.Client.OracleConnection();
-            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.OracleDataSet;
+            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.ConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6671,10 +6714,11 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
             tableMapping.ColumnMappings.Add("NIF", "NIF");
             tableMapping.ColumnMappings.Add("NOM", "NOM");
             tableMapping.ColumnMappings.Add("DIRECCIO", "DIRECCIO");
+            tableMapping.ColumnMappings.Add("POBLACIO", "POBLACIO");
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.DeleteCommand = new global::Oracle.ManagedDataAccess.Client.OracleCommand();
             this._adapter.DeleteCommand.Connection = this.Connection;
-            this._adapter.DeleteCommand.CommandText = @"DELETE FROM ""PROJECTEFINAL"".""CABFACTURAS"" WHERE ((""NFACTURA"" = :Original_NFACTURA) AND ((:IsNull_DATAFACTURA = 1 AND ""DATAFACTURA"" IS NULL) OR (""DATAFACTURA"" = :Original_DATAFACTURA)) AND ((:IsNull_NALBARA = 1 AND ""NALBARA"" IS NULL) OR (""NALBARA"" = :Original_NALBARA)) AND ((:IsNull_DATAALBARA = 1 AND ""DATAALBARA"" IS NULL) OR (""DATAALBARA"" = :Original_DATAALBARA)) AND ((:IsNull_CODICLIENT = 1 AND ""CODICLIENT"" IS NULL) OR (""CODICLIENT"" = :Original_CODICLIENT)) AND ((:IsNull_NIF = 1 AND ""NIF"" IS NULL) OR (""NIF"" = :Original_NIF)) AND ((:IsNull_NOM = 1 AND ""NOM"" IS NULL) OR (""NOM"" = :Original_NOM)) AND ((:IsNull_DIRECCIO = 1 AND ""DIRECCIO"" IS NULL) OR (""DIRECCIO"" = :Original_DIRECCIO)))";
+            this._adapter.DeleteCommand.CommandText = @"DELETE FROM ""PROJECTEFINAL"".""CABFACTURAS"" WHERE ((""NFACTURA"" = :Original_NFACTURA) AND ((:IsNull_DATAFACTURA = 1 AND ""DATAFACTURA"" IS NULL) OR (""DATAFACTURA"" = :Original_DATAFACTURA)) AND ((:IsNull_NALBARA = 1 AND ""NALBARA"" IS NULL) OR (""NALBARA"" = :Original_NALBARA)) AND ((:IsNull_DATAALBARA = 1 AND ""DATAALBARA"" IS NULL) OR (""DATAALBARA"" = :Original_DATAALBARA)) AND ((:IsNull_CODICLIENT = 1 AND ""CODICLIENT"" IS NULL) OR (""CODICLIENT"" = :Original_CODICLIENT)) AND ((:IsNull_NIF = 1 AND ""NIF"" IS NULL) OR (""NIF"" = :Original_NIF)) AND ((:IsNull_NOM = 1 AND ""NOM"" IS NULL) OR (""NOM"" = :Original_NOM)) AND ((:IsNull_DIRECCIO = 1 AND ""DIRECCIO"" IS NULL) OR (""DIRECCIO"" = :Original_DIRECCIO)) AND ((:IsNull_POBLACIO = 1 AND ""POBLACIO"" IS NULL) OR (""POBLACIO"" = :Original_POBLACIO)))";
             this._adapter.DeleteCommand.CommandType = global::System.Data.CommandType.Text;
             global::Oracle.ManagedDataAccess.Client.OracleParameter param = new global::Oracle.ManagedDataAccess.Client.OracleParameter();
             param.ParameterName = "Original_NFACTURA";
@@ -6814,11 +6858,30 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
             param.SourceColumn = "DIRECCIO";
             param.SourceVersion = global::System.Data.DataRowVersion.Original;
             this._adapter.DeleteCommand.Parameters.Add(param);
+            param = new global::Oracle.ManagedDataAccess.Client.OracleParameter();
+            param.ParameterName = "IsNull_POBLACIO";
+            param.DbType = global::System.Data.DbType.Int32;
+            param.OracleDbTypeEx = global::Oracle.ManagedDataAccess.Client.OracleDbType.Int32;
+            param.Size = 40;
+            param.IsNullable = true;
+            param.SourceColumn = "POBLACIO";
+            param.SourceVersion = global::System.Data.DataRowVersion.Original;
+            param.SourceColumnNullMapping = true;
+            this._adapter.DeleteCommand.Parameters.Add(param);
+            param = new global::Oracle.ManagedDataAccess.Client.OracleParameter();
+            param.ParameterName = "Original_POBLACIO";
+            param.OracleDbTypeEx = global::Oracle.ManagedDataAccess.Client.OracleDbType.Varchar2;
+            param.Size = 40;
+            param.IsNullable = true;
+            param.SourceColumn = "POBLACIO";
+            param.SourceVersion = global::System.Data.DataRowVersion.Original;
+            this._adapter.DeleteCommand.Parameters.Add(param);
             this._adapter.InsertCommand = new global::Oracle.ManagedDataAccess.Client.OracleCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO \"PROJECTEFINAL\".\"CABFACTURAS\" (\"NFACTURA\", \"DATAFACTURA\", \"NALBARA\", " +
-                "\"DATAALBARA\", \"CODICLIENT\", \"NIF\", \"NOM\", \"DIRECCIO\") VALUES (:NFACTURA, :DATAFA" +
-                "CTURA, :NALBARA, :DATAALBARA, :CODICLIENT, :NIF, :NOM, :DIRECCIO)";
+                "\"DATAALBARA\", \"CODICLIENT\", \"NIF\", \"NOM\", \"DIRECCIO\", \"POBLACIO\") VALUES (:NFACT" +
+                "URA, :DATAFACTURA, :NALBARA, :DATAALBARA, :CODICLIENT, :NIF, :NOM, :DIRECCIO, :P" +
+                "OBLACIO)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             param = new global::Oracle.ManagedDataAccess.Client.OracleParameter();
             param.ParameterName = "NFACTURA";
@@ -6880,9 +6943,16 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
             param.IsNullable = true;
             param.SourceColumn = "DIRECCIO";
             this._adapter.InsertCommand.Parameters.Add(param);
+            param = new global::Oracle.ManagedDataAccess.Client.OracleParameter();
+            param.ParameterName = "POBLACIO";
+            param.OracleDbTypeEx = global::Oracle.ManagedDataAccess.Client.OracleDbType.Varchar2;
+            param.Size = 40;
+            param.IsNullable = true;
+            param.SourceColumn = "POBLACIO";
+            this._adapter.InsertCommand.Parameters.Add(param);
             this._adapter.UpdateCommand = new global::Oracle.ManagedDataAccess.Client.OracleCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
-            this._adapter.UpdateCommand.CommandText = @"UPDATE ""PROJECTEFINAL"".""CABFACTURAS"" SET ""NFACTURA"" = :NFACTURA, ""DATAFACTURA"" = :DATAFACTURA, ""NALBARA"" = :NALBARA, ""DATAALBARA"" = :DATAALBARA, ""CODICLIENT"" = :CODICLIENT, ""NIF"" = :NIF, ""NOM"" = :NOM, ""DIRECCIO"" = :DIRECCIO WHERE ((""NFACTURA"" = :Original_NFACTURA) AND ((:IsNull_DATAFACTURA = 1 AND ""DATAFACTURA"" IS NULL) OR (""DATAFACTURA"" = :Original_DATAFACTURA)) AND ((:IsNull_NALBARA = 1 AND ""NALBARA"" IS NULL) OR (""NALBARA"" = :Original_NALBARA)) AND ((:IsNull_DATAALBARA = 1 AND ""DATAALBARA"" IS NULL) OR (""DATAALBARA"" = :Original_DATAALBARA)) AND ((:IsNull_CODICLIENT = 1 AND ""CODICLIENT"" IS NULL) OR (""CODICLIENT"" = :Original_CODICLIENT)) AND ((:IsNull_NIF = 1 AND ""NIF"" IS NULL) OR (""NIF"" = :Original_NIF)) AND ((:IsNull_NOM = 1 AND ""NOM"" IS NULL) OR (""NOM"" = :Original_NOM)) AND ((:IsNull_DIRECCIO = 1 AND ""DIRECCIO"" IS NULL) OR (""DIRECCIO"" = :Original_DIRECCIO)))";
+            this._adapter.UpdateCommand.CommandText = @"UPDATE ""PROJECTEFINAL"".""CABFACTURAS"" SET ""NFACTURA"" = :NFACTURA, ""DATAFACTURA"" = :DATAFACTURA, ""NALBARA"" = :NALBARA, ""DATAALBARA"" = :DATAALBARA, ""CODICLIENT"" = :CODICLIENT, ""NIF"" = :NIF, ""NOM"" = :NOM, ""DIRECCIO"" = :DIRECCIO, ""POBLACIO"" = :POBLACIO WHERE ((""NFACTURA"" = :Original_NFACTURA) AND ((:IsNull_DATAFACTURA = 1 AND ""DATAFACTURA"" IS NULL) OR (""DATAFACTURA"" = :Original_DATAFACTURA)) AND ((:IsNull_NALBARA = 1 AND ""NALBARA"" IS NULL) OR (""NALBARA"" = :Original_NALBARA)) AND ((:IsNull_DATAALBARA = 1 AND ""DATAALBARA"" IS NULL) OR (""DATAALBARA"" = :Original_DATAALBARA)) AND ((:IsNull_CODICLIENT = 1 AND ""CODICLIENT"" IS NULL) OR (""CODICLIENT"" = :Original_CODICLIENT)) AND ((:IsNull_NIF = 1 AND ""NIF"" IS NULL) OR (""NIF"" = :Original_NIF)) AND ((:IsNull_NOM = 1 AND ""NOM"" IS NULL) OR (""NOM"" = :Original_NOM)) AND ((:IsNull_DIRECCIO = 1 AND ""DIRECCIO"" IS NULL) OR (""DIRECCIO"" = :Original_DIRECCIO)) AND ((:IsNull_POBLACIO = 1 AND ""POBLACIO"" IS NULL) OR (""POBLACIO"" = :Original_POBLACIO)))";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
             param = new global::Oracle.ManagedDataAccess.Client.OracleParameter();
             param.ParameterName = "NFACTURA";
@@ -6943,6 +7013,13 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
             param.Size = 50;
             param.IsNullable = true;
             param.SourceColumn = "DIRECCIO";
+            this._adapter.UpdateCommand.Parameters.Add(param);
+            param = new global::Oracle.ManagedDataAccess.Client.OracleParameter();
+            param.ParameterName = "POBLACIO";
+            param.OracleDbTypeEx = global::Oracle.ManagedDataAccess.Client.OracleDbType.Varchar2;
+            param.Size = 40;
+            param.IsNullable = true;
+            param.SourceColumn = "POBLACIO";
             this._adapter.UpdateCommand.Parameters.Add(param);
             param = new global::Oracle.ManagedDataAccess.Client.OracleParameter();
             param.ParameterName = "Original_NFACTURA";
@@ -7082,13 +7159,31 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
             param.SourceColumn = "DIRECCIO";
             param.SourceVersion = global::System.Data.DataRowVersion.Original;
             this._adapter.UpdateCommand.Parameters.Add(param);
+            param = new global::Oracle.ManagedDataAccess.Client.OracleParameter();
+            param.ParameterName = "IsNull_POBLACIO";
+            param.DbType = global::System.Data.DbType.Int32;
+            param.OracleDbTypeEx = global::Oracle.ManagedDataAccess.Client.OracleDbType.Int32;
+            param.Size = 40;
+            param.IsNullable = true;
+            param.SourceColumn = "POBLACIO";
+            param.SourceVersion = global::System.Data.DataRowVersion.Original;
+            param.SourceColumnNullMapping = true;
+            this._adapter.UpdateCommand.Parameters.Add(param);
+            param = new global::Oracle.ManagedDataAccess.Client.OracleParameter();
+            param.ParameterName = "Original_POBLACIO";
+            param.OracleDbTypeEx = global::Oracle.ManagedDataAccess.Client.OracleDbType.Varchar2;
+            param.Size = 40;
+            param.IsNullable = true;
+            param.SourceColumn = "POBLACIO";
+            param.SourceVersion = global::System.Data.DataRowVersion.Original;
+            this._adapter.UpdateCommand.Parameters.Add(param);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Oracle.ManagedDataAccess.Client.OracleConnection();
-            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.OracleDataSet;
+            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.ConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7098,7 +7193,7 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
             this._commandCollection[0] = new global::Oracle.ManagedDataAccess.Client.OracleCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = "SELECT NFACTURA, DATAFACTURA, NALBARA, DATAALBARA, CODICLIENT, NIF, NOM, DIRECCIO" +
-                " FROM PROJECTEFINAL.CABFACTURAS";
+                ", POBLACIO FROM PROJECTEFINAL.CABFACTURAS";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         
@@ -7159,7 +7254,7 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Delete, true)]
-        public virtual int Delete(long Original_NFACTURA, global::System.Nullable<global::System.DateTime> Original_DATAFACTURA, global::System.Nullable<long> Original_NALBARA, global::System.Nullable<global::System.DateTime> Original_DATAALBARA, string Original_CODICLIENT, string Original_NIF, string Original_NOM, string Original_DIRECCIO) {
+        public virtual int Delete(long Original_NFACTURA, global::System.Nullable<global::System.DateTime> Original_DATAFACTURA, global::System.Nullable<long> Original_NALBARA, global::System.Nullable<global::System.DateTime> Original_DATAALBARA, string Original_CODICLIENT, string Original_NIF, string Original_NOM, string Original_DIRECCIO, string Original_POBLACIO) {
             this.Adapter.DeleteCommand.Parameters[0].Value = ((long)(Original_NFACTURA));
             if ((Original_DATAFACTURA.HasValue == true)) {
                 this.Adapter.DeleteCommand.Parameters[1].Value = ((object)(0));
@@ -7217,6 +7312,14 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
                 this.Adapter.DeleteCommand.Parameters[13].Value = ((object)(0));
                 this.Adapter.DeleteCommand.Parameters[14].Value = ((string)(Original_DIRECCIO));
             }
+            if ((Original_POBLACIO == null)) {
+                this.Adapter.DeleteCommand.Parameters[15].Value = ((object)(1));
+                this.Adapter.DeleteCommand.Parameters[16].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.DeleteCommand.Parameters[15].Value = ((object)(0));
+                this.Adapter.DeleteCommand.Parameters[16].Value = ((string)(Original_POBLACIO));
+            }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
             if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {
@@ -7237,7 +7340,7 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(long NFACTURA, global::System.Nullable<global::System.DateTime> DATAFACTURA, global::System.Nullable<long> NALBARA, global::System.Nullable<global::System.DateTime> DATAALBARA, string CODICLIENT, string NIF, string NOM, string DIRECCIO) {
+        public virtual int Insert(long NFACTURA, global::System.Nullable<global::System.DateTime> DATAFACTURA, global::System.Nullable<long> NALBARA, global::System.Nullable<global::System.DateTime> DATAALBARA, string CODICLIENT, string NIF, string NOM, string DIRECCIO, string POBLACIO) {
             this.Adapter.InsertCommand.Parameters[0].Value = ((long)(NFACTURA));
             if ((DATAFACTURA.HasValue == true)) {
                 this.Adapter.InsertCommand.Parameters[1].Value = ((System.DateTime)(DATAFACTURA.Value));
@@ -7281,6 +7384,12 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
             else {
                 this.Adapter.InsertCommand.Parameters[7].Value = ((string)(DIRECCIO));
             }
+            if ((POBLACIO == null)) {
+                this.Adapter.InsertCommand.Parameters[8].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[8].Value = ((string)(POBLACIO));
+            }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
             if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {
@@ -7310,6 +7419,7 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
                     string NIF, 
                     string NOM, 
                     string DIRECCIO, 
+                    string POBLACIO, 
                     long Original_NFACTURA, 
                     global::System.Nullable<global::System.DateTime> Original_DATAFACTURA, 
                     global::System.Nullable<long> Original_NALBARA, 
@@ -7317,7 +7427,8 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
                     string Original_CODICLIENT, 
                     string Original_NIF, 
                     string Original_NOM, 
-                    string Original_DIRECCIO) {
+                    string Original_DIRECCIO, 
+                    string Original_POBLACIO) {
             this.Adapter.UpdateCommand.Parameters[0].Value = ((long)(NFACTURA));
             if ((DATAFACTURA.HasValue == true)) {
                 this.Adapter.UpdateCommand.Parameters[1].Value = ((System.DateTime)(DATAFACTURA.Value));
@@ -7361,62 +7472,76 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
             else {
                 this.Adapter.UpdateCommand.Parameters[7].Value = ((string)(DIRECCIO));
             }
-            this.Adapter.UpdateCommand.Parameters[8].Value = ((long)(Original_NFACTURA));
-            if ((Original_DATAFACTURA.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[9].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[10].Value = ((System.DateTime)(Original_DATAFACTURA.Value));
+            if ((POBLACIO == null)) {
+                this.Adapter.UpdateCommand.Parameters[8].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[9].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[10].Value = global::System.DBNull.Value;
+                this.Adapter.UpdateCommand.Parameters[8].Value = ((string)(POBLACIO));
+            }
+            this.Adapter.UpdateCommand.Parameters[9].Value = ((long)(Original_NFACTURA));
+            if ((Original_DATAFACTURA.HasValue == true)) {
+                this.Adapter.UpdateCommand.Parameters[10].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[11].Value = ((System.DateTime)(Original_DATAFACTURA.Value));
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[10].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[11].Value = global::System.DBNull.Value;
             }
             if ((Original_NALBARA.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[11].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[12].Value = ((long)(Original_NALBARA.Value));
+                this.Adapter.UpdateCommand.Parameters[12].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[13].Value = ((long)(Original_NALBARA.Value));
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[11].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[12].Value = global::System.DBNull.Value;
+                this.Adapter.UpdateCommand.Parameters[12].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[13].Value = global::System.DBNull.Value;
             }
             if ((Original_DATAALBARA.HasValue == true)) {
-                this.Adapter.UpdateCommand.Parameters[13].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[14].Value = ((System.DateTime)(Original_DATAALBARA.Value));
+                this.Adapter.UpdateCommand.Parameters[14].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[15].Value = ((System.DateTime)(Original_DATAALBARA.Value));
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[13].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[14].Value = global::System.DBNull.Value;
+                this.Adapter.UpdateCommand.Parameters[14].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[15].Value = global::System.DBNull.Value;
             }
             if ((Original_CODICLIENT == null)) {
-                this.Adapter.UpdateCommand.Parameters[15].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[16].Value = global::System.DBNull.Value;
+                this.Adapter.UpdateCommand.Parameters[16].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[17].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[15].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[16].Value = ((string)(Original_CODICLIENT));
+                this.Adapter.UpdateCommand.Parameters[16].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[17].Value = ((string)(Original_CODICLIENT));
             }
             if ((Original_NIF == null)) {
-                this.Adapter.UpdateCommand.Parameters[17].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[18].Value = global::System.DBNull.Value;
+                this.Adapter.UpdateCommand.Parameters[18].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[19].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[17].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[18].Value = ((string)(Original_NIF));
+                this.Adapter.UpdateCommand.Parameters[18].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[19].Value = ((string)(Original_NIF));
             }
             if ((Original_NOM == null)) {
-                this.Adapter.UpdateCommand.Parameters[19].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[20].Value = global::System.DBNull.Value;
+                this.Adapter.UpdateCommand.Parameters[20].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[21].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[19].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[20].Value = ((string)(Original_NOM));
+                this.Adapter.UpdateCommand.Parameters[20].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[21].Value = ((string)(Original_NOM));
             }
             if ((Original_DIRECCIO == null)) {
-                this.Adapter.UpdateCommand.Parameters[21].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[22].Value = global::System.DBNull.Value;
+                this.Adapter.UpdateCommand.Parameters[22].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[23].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[21].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[22].Value = ((string)(Original_DIRECCIO));
+                this.Adapter.UpdateCommand.Parameters[22].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[23].Value = ((string)(Original_DIRECCIO));
+            }
+            if ((Original_POBLACIO == null)) {
+                this.Adapter.UpdateCommand.Parameters[24].Value = ((object)(1));
+                this.Adapter.UpdateCommand.Parameters[25].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[24].Value = ((object)(0));
+                this.Adapter.UpdateCommand.Parameters[25].Value = ((string)(Original_POBLACIO));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
             if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -7438,8 +7563,25 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(global::System.Nullable<global::System.DateTime> DATAFACTURA, global::System.Nullable<long> NALBARA, global::System.Nullable<global::System.DateTime> DATAALBARA, string CODICLIENT, string NIF, string NOM, string DIRECCIO, long Original_NFACTURA, global::System.Nullable<global::System.DateTime> Original_DATAFACTURA, global::System.Nullable<long> Original_NALBARA, global::System.Nullable<global::System.DateTime> Original_DATAALBARA, string Original_CODICLIENT, string Original_NIF, string Original_NOM, string Original_DIRECCIO) {
-            return this.Update(Original_NFACTURA, DATAFACTURA, NALBARA, DATAALBARA, CODICLIENT, NIF, NOM, DIRECCIO, Original_NFACTURA, Original_DATAFACTURA, Original_NALBARA, Original_DATAALBARA, Original_CODICLIENT, Original_NIF, Original_NOM, Original_DIRECCIO);
+        public virtual int Update(
+                    global::System.Nullable<global::System.DateTime> DATAFACTURA, 
+                    global::System.Nullable<long> NALBARA, 
+                    global::System.Nullable<global::System.DateTime> DATAALBARA, 
+                    string CODICLIENT, 
+                    string NIF, 
+                    string NOM, 
+                    string DIRECCIO, 
+                    string POBLACIO, 
+                    long Original_NFACTURA, 
+                    global::System.Nullable<global::System.DateTime> Original_DATAFACTURA, 
+                    global::System.Nullable<long> Original_NALBARA, 
+                    global::System.Nullable<global::System.DateTime> Original_DATAALBARA, 
+                    string Original_CODICLIENT, 
+                    string Original_NIF, 
+                    string Original_NOM, 
+                    string Original_DIRECCIO, 
+                    string Original_POBLACIO) {
+            return this.Update(Original_NFACTURA, DATAFACTURA, NALBARA, DATAALBARA, CODICLIENT, NIF, NOM, DIRECCIO, POBLACIO, Original_NFACTURA, Original_DATAFACTURA, Original_NALBARA, Original_DATAALBARA, Original_CODICLIENT, Original_NIF, Original_NOM, Original_DIRECCIO, Original_POBLACIO);
         }
     }
     
@@ -8136,7 +8278,7 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Oracle.ManagedDataAccess.Client.OracleConnection();
-            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.OracleDataSet;
+            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.ConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8991,7 +9133,7 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Oracle.ManagedDataAccess.Client.OracleConnection();
-            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.OracleDataSet;
+            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.ConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9666,7 +9808,7 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Oracle.ManagedDataAccess.Client.OracleConnection();
-            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.OracleDataSet;
+            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.ConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10226,7 +10368,7 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Oracle.ManagedDataAccess.Client.OracleConnection();
-            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.OracleDataSet;
+            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.ConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10653,7 +10795,7 @@ namespace ProjecteFinal.OracleDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::Oracle.ManagedDataAccess.Client.OracleConnection();
-            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.OracleDataSet;
+            this._connection.ConnectionString = global::ProjecteFinal.Properties.Settings.Default.ConnectionString2;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

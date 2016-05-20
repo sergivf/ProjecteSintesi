@@ -192,6 +192,7 @@ namespace ProjecteFinal
                 this.cABFACTURASTableAdapter.Fill(this.oracleDataSet.CABFACTURAS);
                 this.lINEASALBARATableAdapter.Fill(this.oracleDataSet.LINEASALBARA);
                 this.lINEASFACTURATableAdapter.Fill(this.oracleDataSet.LINEASFACTURA);
+                this.aRTICLESTableAdapter.Fill(this.oracleDataSet.ARTICLES);
 
                 MessageBox.Show("Generació de dades finalitzat");
                 #endregion
@@ -300,7 +301,7 @@ namespace ProjecteFinal
 
         private void tsmAlbarans_Click(object sender, EventArgs e)
         {
-            Form f = new frmAlbarans(oracleDataSet.CABALBARA, oracleDataSet.LINEASALBARA);
+            Form f = new frmAlbarans(oracleDataSet, cnOracle, tableAdapterManager);
             f.Show();
             f.MdiParent = this;
 
@@ -309,7 +310,7 @@ namespace ProjecteFinal
 
         private void tsmFactures_Click(object sender, EventArgs e)
         {
-            Form f = new frmFactures(oracleDataSet.CABFACTURAS, oracleDataSet.LINEASFACTURA);
+            Form f = new frmFactures(oracleDataSet, cnOracle, tableAdapterManager);
             f.Show();
             f.MdiParent = this;
 
