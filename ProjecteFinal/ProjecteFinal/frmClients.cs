@@ -18,7 +18,8 @@ namespace ProjecteFinal
         OracleDataSet dsDades;
         OracleDataSetTableAdapters.CLIENTSTableAdapter cTa;
         OracleConnection cnOracle;
-        public frmClients(OracleDataSet dsDades, OracleConnection cnOracle)
+        DataRow dr;
+        public frmClients(OracleDataSet dsDades, OracleConnection cnOracle) 
         {
             InitializeComponent();
             this.dsDades = dsDades;
@@ -26,28 +27,32 @@ namespace ProjecteFinal
 
             cnOracle.Open();
 
+            dsDades.CLIENTS.DefaultView.Sort = "CODI ASC";
+
             Origen.DataSource = dsDades.CLIENTS;
             Origen.MoveFirst();
             btnGuardarCanvis.Hide();
             btnCancelarCanvis.Hide();
 
-            DataRow dr = ((DataRowView)Origen.Current).Row;
+            dr = ((DataRowView)Origen.Current).Row;
 
-            EmplenarDades(dr);
+            EmplenarDades();
             MostrarAlbarans(dr["codi"].ToString());
-            
+
+            // Esdeveniment que saltarà quan canviem de registre actual
             Origen.CurrentChanged += Origen_CurrentChanged;
         }
 
         private void Origen_CurrentChanged(object sender, EventArgs e)
         {
+            // S'encarrega de mostrar les dades del registre actual, si no hi ha més dades, les posa totes a buit
             dgvLinies.Rows.Clear();
             dgvAlbarans.Rows.Clear();
 
             if (Origen.Count > 0)
             {
-                DataRow dr = ((DataRowView)Origen.Current).Row;
-                EmplenarDades(dr);
+                dr = ((DataRowView)Origen.Current).Row;
+                EmplenarDades();
                 MostrarAlbarans(dr["codi"].ToString());
             }
             else
@@ -56,6 +61,9 @@ namespace ProjecteFinal
             }
         }
 
+        /// <summary>
+        /// Quan no hi ha més dades mostra els textbox buits
+        /// </summary>
         private void MostrarBuits()
         {
             txtCodi.Text = "";
@@ -75,7 +83,11 @@ namespace ProjecteFinal
             btnCancelarCanvis.Hide();
         }
 
-        private void EmplenarDades(DataRow dr)
+        /// <summary>
+        /// Emplena les dades amb el registre actual
+        /// </summary>
+        /// <param name="dr"></param>
+        private void EmplenarDades()
         {
             txtCodi.Text = dr["codi"].ToString();
             txtNIF.Text = dr["nif"].ToString();
@@ -90,6 +102,10 @@ namespace ProjecteFinal
             txtFormaPagament.Text = dr["formadepagament"].ToString();
         }
 
+        /// <summary>
+        /// Funció que s'encarrega de mostrar tots els albarans del client actual
+        /// </summary>
+        /// <param name="codiClient"></param>
         private void MostrarAlbarans(string codiClient)
         {
             double total = 0;
@@ -103,12 +119,14 @@ namespace ProjecteFinal
             OracleCommand cmdTotal = new OracleCommand();
             cmdTotal = cnOracle.CreateCommand();
 
+            // While -> Recorre el reader que conte el número d'albarà i la data del client actual
             while (reader.Read())
             {
                 cmdTotal.CommandText = "SELECT quantitatvenuda, preuvenda FROM lineasalbara WHERE nalbara = " + reader.GetOracleValue(0);
 
                 OracleDataReader readerTotal = cmdTotal.ExecuteReader();
 
+                // While -> Recorre el reader que conté la quantitat venuda i preuvenda de l'albarà
                 while (readerTotal.Read())
                 {
                     quant = Convert.ToInt32(readerTotal.GetOracleValue(0).ToString());
@@ -122,6 +140,11 @@ namespace ProjecteFinal
             }
         }
 
+        /// <summary>
+        /// Funció que entra en el mode edició
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnModeEdicio_Click(object sender, EventArgs e)
         {
             ModeEdicio = true;
@@ -141,6 +164,9 @@ namespace ProjecteFinal
             btnCancelarCanvis.Show();
         }
 
+        /// <summary>
+        /// Funció que ens canvia a mode navegació
+        /// </summary>
         private void ModeConsulta()
         {
             txtNIF.ReadOnly = true;
@@ -155,6 +181,11 @@ namespace ProjecteFinal
             txtFormaPagament.ReadOnly = true;
         }
 
+        /// <summary>
+        /// Cancel·la tots els canvis i surt del mode edició
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnCancelarCanvis_Click(object sender, EventArgs e)
         {
             ModeEdicio = false;
@@ -165,11 +196,17 @@ namespace ProjecteFinal
 
             ModeConsulta();
 
-            EmplenarDades(((DataRowView)Origen.Current).Row);
+            EmplenarDades();
         }
 
+        /// <summary>
+        /// Guarda tots els canvis i surt del mode edició
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnGuardarCanvis_Click(object sender, EventArgs e)
         {
+            int sortida = 0;
             ModeEdicio = false;
 
             btnModeEdicio.Show();
@@ -180,17 +217,41 @@ namespace ProjecteFinal
             try
             {
                 cTa = new OracleDataSetTableAdapters.CLIENTSTableAdapter();
-                // Guardar els canvis en el dataset
 
-                DataRow dr = ((DataRowView)Origen.Current).Row;
+                dr = ((DataRowView)Origen.Current).Row;
 
                 dr.BeginEdit();
                 dr[1] = txtNIF.Text;
                 dr[2] = txtNom.Text;
                 dr[3] = txtAdreça.Text;
-                dr[4] = txtCodiProvincia.Text;
-                dr[5] = txtCodiMunicipi.Text;
-                dr[6] = txtTelefon.Text;
+
+                if (ProvinciaExisteix())
+                {
+                    dr[4] = txtCodiProvincia.Text;
+                }
+                else
+                {
+                    txtCodiProvincia.Text = dr["codiprovincia"].ToString();
+                }
+
+                if (MunicipiExisteix())
+                {
+                    dr[5] = txtCodiMunicipi.Text;
+                }
+                else
+                {
+                    txtCodiMunicipi.Text = dr["codimunicipi"].ToString();
+                }
+
+                if (!int.TryParse(txtTelefon.Text, out sortida))
+                {
+                    txtTelefon.Text = dr["telefon"].ToString();
+                }
+                else
+                {
+                    dr[6] = txtTelefon.Text;
+                }
+
                 dr[7] = txtFax.Text;
                 dr[8] = txtEmail.Text;
                 dr[9] = txtBancCC.Text;
@@ -205,6 +266,51 @@ namespace ProjecteFinal
             }
         }
 
+        private bool ProvinciaExisteix()
+        {
+            OracleCommand cmd = cnOracle.CreateCommand();
+            OracleDataReader reader;
+            int sortida = 0;
+
+            if (!int.TryParse(txtCodiProvincia.Text, out sortida))
+            {
+                return false;
+            }
+            else
+            {
+                cmd.CommandText = "SELECT * FROM PROVINCIES WHERE codi = '" + sortida + "'";
+                reader = cmd.ExecuteReader();
+
+                if (reader.HasRows) return true;
+                else return false;
+            }
+        }
+
+        private bool MunicipiExisteix()
+        {
+            OracleCommand cmd = cnOracle.CreateCommand();
+            OracleDataReader reader;
+            int sortida = 0;
+
+            if (!int.TryParse(txtCodiMunicipi.Text, out sortida))
+            {
+                return false;
+            }
+            else
+            {
+                cmd.CommandText = "SELECT * FROM MUNICIPIS WHERE codi = '" + sortida + "'";
+                reader = cmd.ExecuteReader();
+
+                if (reader.HasRows) return true;
+                else return false;
+            }
+        }
+
+        /// <summary>
+        /// Quan es fa doble clic a un albarà, mostra les seves línies d'albarà
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void dgvAlbarans_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             if (dgvAlbarans.SelectedCells.Count > 0)

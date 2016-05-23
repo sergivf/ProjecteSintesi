@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace ProjecteFinal
 {
+    // Tots els altres formularis (clients, articles, etc) hereten d'aquest formulari, tindràn un bindingsource i el KeyDown
     public partial class frmPare : Form
     {
         BindingSource origen;
@@ -20,6 +21,19 @@ namespace ProjecteFinal
             InitializeComponent();
 
             origen = new BindingSource();
+            this.MouseWheel += FrmPare_MouseWheel;
+        }
+
+        private void FrmPare_MouseWheel(object sender, MouseEventArgs e)
+        {
+            if (e.Delta > 0 && !modeEdicio)
+            {
+                origen.MoveNext();
+            }
+            else if (e.Delta < 0 && !modeEdicio)
+            {
+                origen.MovePrevious();
+            }
         }
 
         public BindingSource Origen

@@ -141,6 +141,7 @@
             // 
             this.txtNFactura.Location = new System.Drawing.Point(132, 58);
             this.txtNFactura.Name = "txtNFactura";
+            this.txtNFactura.ReadOnly = true;
             this.txtNFactura.Size = new System.Drawing.Size(100, 20);
             this.txtNFactura.TabIndex = 9;
             // 
@@ -148,6 +149,7 @@
             // 
             this.txtNAlbara.Location = new System.Drawing.Point(132, 141);
             this.txtNAlbara.Name = "txtNAlbara";
+            this.txtNAlbara.ReadOnly = true;
             this.txtNAlbara.Size = new System.Drawing.Size(100, 20);
             this.txtNAlbara.TabIndex = 10;
             // 
@@ -155,6 +157,7 @@
             // 
             this.txtDataFactura.Location = new System.Drawing.Point(132, 99);
             this.txtDataFactura.Name = "txtDataFactura";
+            this.txtDataFactura.ReadOnly = true;
             this.txtDataFactura.Size = new System.Drawing.Size(100, 20);
             this.txtDataFactura.TabIndex = 10;
             // 
@@ -162,6 +165,7 @@
             // 
             this.txtDataAlbara.Location = new System.Drawing.Point(132, 183);
             this.txtDataAlbara.Name = "txtDataAlbara";
+            this.txtDataAlbara.ReadOnly = true;
             this.txtDataAlbara.Size = new System.Drawing.Size(100, 20);
             this.txtDataAlbara.TabIndex = 11;
             // 
@@ -169,6 +173,7 @@
             // 
             this.txtCodiClient.Location = new System.Drawing.Point(132, 225);
             this.txtCodiClient.Name = "txtCodiClient";
+            this.txtCodiClient.ReadOnly = true;
             this.txtCodiClient.Size = new System.Drawing.Size(100, 20);
             this.txtCodiClient.TabIndex = 12;
             // 
@@ -176,6 +181,7 @@
             // 
             this.txtNom.Location = new System.Drawing.Point(132, 303);
             this.txtNom.Name = "txtNom";
+            this.txtNom.ReadOnly = true;
             this.txtNom.Size = new System.Drawing.Size(100, 20);
             this.txtNom.TabIndex = 13;
             // 
@@ -183,6 +189,7 @@
             // 
             this.txtNIF.Location = new System.Drawing.Point(132, 264);
             this.txtNIF.Name = "txtNIF";
+            this.txtNIF.ReadOnly = true;
             this.txtNIF.Size = new System.Drawing.Size(100, 20);
             this.txtNIF.TabIndex = 13;
             // 
@@ -190,6 +197,7 @@
             // 
             this.txtDireccio.Location = new System.Drawing.Point(132, 340);
             this.txtDireccio.Name = "txtDireccio";
+            this.txtDireccio.ReadOnly = true;
             this.txtDireccio.Size = new System.Drawing.Size(100, 20);
             this.txtDireccio.TabIndex = 14;
             // 
@@ -197,6 +205,7 @@
             // 
             this.txtPoblacio.Location = new System.Drawing.Point(132, 377);
             this.txtPoblacio.Name = "txtPoblacio";
+            this.txtPoblacio.ReadOnly = true;
             this.txtPoblacio.Size = new System.Drawing.Size(100, 20);
             this.txtPoblacio.TabIndex = 15;
             // 

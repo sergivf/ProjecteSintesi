@@ -25,6 +25,7 @@ namespace ProjecteFinal
             dsXML = new DataSet();
             DataSet dsLlegir;
 
+            // Carregarà sobre el dataset totes les dades de l'Oracle amb el (Fill)
             #region Punt 1 - DataSet Oracle
             this.aRTICLESTableAdapter.Fill(this.oracleDataSet.ARTICLES);
             this.pROVINCIESTableAdapter.Fill(this.oracleDataSet.PROVINCIES);
@@ -36,11 +37,12 @@ namespace ProjecteFinal
             this.lINEASFACTURATableAdapter.Fill(this.oracleDataSet.LINEASFACTURA);
             #endregion
 
+            // Ens pregunta si volem carregar les dades de la base de dades (eXist)
             DialogResult dialgoRes = MessageBox.Show("Vols carregar dades del eXistDB?", "Carrega eXistDB", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (dialgoRes == DialogResult.Yes)
             {
-
+                // Execució del JAR mitjançant un procés
                 #region Punt 2 - JAR
                 Process p = new Process();
                 p.StartInfo.FileName = "cmd.exe";
@@ -49,6 +51,7 @@ namespace ProjecteFinal
                 p.WaitForExit(1000);
                 #endregion
 
+                // Validació dels fitxers XML amb l'XSD
                 #region Punt 3 - Validacions XML
                 p.Close();
                 ValidacioXML("clients.xml", "clients.xsd");
@@ -57,6 +60,7 @@ namespace ProjecteFinal
                 ValidacioXML("provincies.xml", "provincies.xsd");
                 #endregion
 
+                // El codi d'aquesta region s'encarrega de llegir tots els xml i afegir-los a un sol dataset
                 #region Punt 4 - Modificar DataSet
                 dsLlegir = new DataSet();
                 dsLlegir.ReadXml("clients.xml");
@@ -79,6 +83,7 @@ namespace ProjecteFinal
                 dsXML.Merge(dsLlegir);
                 #endregion
 
+                // S'encarrega de fer persistents les dades, és a dir, de fer els inserts a les taules de la base de dades Oracle
                 #region Punt 5 - Dades Persistents
                 InserirMunicipis();
                 InserirProvincies();
@@ -96,110 +101,135 @@ namespace ProjecteFinal
         {
             if (obtencioFeta)
             {
-                cnOracle.Open();
-                int nombreClients = Convert.ToInt32(Math.Round(oracleDataSet.CLIENTS.Rows.Count * 0.6, 0));
-                Random r = new Random();
-                OracleCommand cmd;
-                OracleDataReader reader;
-                OracleDataSetTableAdapters.CABALBARATableAdapter caTa = new OracleDataSetTableAdapters.CABALBARATableAdapter();
-                OracleDataSetTableAdapters.LINEASALBARATableAdapter laTa = new OracleDataSetTableAdapters.LINEASALBARATableAdapter();
-
-                int [] clients = CreacioArray(oracleDataSet.CLIENTS.Rows.Count);
-
-                #region Generació Albarà
-                for (int i = 0; i < nombreClients; i++)
+                try
                 {
+                    cnOracle.Open();
+                    int nombreClients = Convert.ToInt32(Math.Round(oracleDataSet.CLIENTS.Rows.Count * 0.6, 0));
+                    Random r = new Random();
+                    OracleCommand cmd;
+                    OracleDataReader reader;
+                    OracleDataSetTableAdapters.CABALBARATableAdapter caTa = new OracleDataSetTableAdapters.CABALBARATableAdapter();
+                    OracleDataSetTableAdapters.LINEASALBARATableAdapter laTa = new OracleDataSetTableAdapters.LINEASALBARATableAdapter();
+
+                    // Creació array ens crearà un array amb números aleatoris, indicant de quins clients seran els albarans que creem
+                    int[] clients = CreacioArray(oracleDataSet.CLIENTS.Rows.Count);
+
+                    // El codi d'aquesta region s'encarrega de generar els albarans, tant la capçalera com les línies
+                    #region Generació Albarà
                     DataRow dr;
-                    dr = oracleDataSet.CABALBARA.NewRow();
-                    int vegades = r.Next(1, 6);
-                    string poblacio = "";
 
-                    cmd = cnOracle.CreateCommand();
-                    cmd.CommandText = "SELECT nom FROM municipis WHERE codi = " + oracleDataSet.CLIENTS.Rows[clients[i]]["codimunicipi"];
-                    reader = cmd.ExecuteReader();
-                    reader.Read();
-                    poblacio = reader[0].ToString();
-
-                    reader.Dispose();
-                    reader.Close();
-
-                    for (int j = 0; j < vegades; j++)
+                    // For -> nombre d'albarans que crearem
+                    for (int i = 0; i < nombreClients; i++)
                     {
-                        dr = oracleDataSet.CABALBARA.NewRow();
-                        cmd.CommandText = "SELECT TO_CHAR(projectefinal.seq_albara.NEXTVAL, 'TM9') FROM DUAL";
+                        int vegades = r.Next(1, 6);
+                        string poblacio = "";
+
+                        // D'aquesta select treurem la població per després inserir-la a la CABALBARA
+                        cmd = cnOracle.CreateCommand();
+                        cmd.CommandText = "SELECT nom FROM municipis WHERE codi = " + oracleDataSet.CLIENTS.Rows[clients[i]]["codimunicipi"];
                         reader = cmd.ExecuteReader();
-
                         reader.Read();
-
-                        dr[0] = reader[0];
+                        poblacio = reader[0].ToString();
 
                         reader.Dispose();
                         reader.Close();
 
-                        dr[1] = DateTime.Today;
-                        dr[2] = oracleDataSet.CLIENTS.Rows[clients[i]]["codi"];
-                        dr[3] = oracleDataSet.CLIENTS.Rows[clients[i]]["nif"];
-                        dr[4] = oracleDataSet.CLIENTS.Rows[clients[i]]["nom"];
-                        dr[5] = oracleDataSet.CLIENTS.Rows[clients[i]]["adreça"];
+                        // For -> número d'albarans que tindrà el client
+                        for (int j = 0; j < vegades; j++)
+                        {
+                            // Agafarà el següent número de la seqüència
+                            cmd.CommandText = "SELECT TO_CHAR(projectefinal.seq_albara.NEXTVAL, 'TM9') FROM DUAL";
+                            reader = cmd.ExecuteReader();
+                            dr = oracleDataSet.CABALBARA.NewRow();
 
-                        dr[6] = poblacio;
+                            reader.Read();
 
-                        oracleDataSet.CABALBARA.Rows.Add(dr);
-                        caTa.Update(dr);
+                            // Insereix totes les dades en el DataRow
+                            dr[0] = reader[0];
 
-                        CreacioLineaAlbara(laTa, dr[0].ToString());
+                            reader.Dispose();
+                            reader.Close();
+
+                            dr[1] = DateTime.Today;
+                            dr[2] = oracleDataSet.CLIENTS.Rows[clients[i]]["codi"];
+                            dr[3] = oracleDataSet.CLIENTS.Rows[clients[i]]["nif"];
+                            dr[4] = oracleDataSet.CLIENTS.Rows[clients[i]]["nom"];
+                            dr[5] = oracleDataSet.CLIENTS.Rows[clients[i]]["adreça"];
+
+                            dr[6] = poblacio;
+
+                            // Afegeix la fila que hem creat a l'OracleDataSet
+                            oracleDataSet.CABALBARA.Rows.Add(dr);
+                            // Update de la base de dades oracle, passant-li el DataRow
+                            caTa.Update(dr);
+
+                            // Ens crearà les línies de l'albarà
+                            CreacioLineaAlbara(laTa, dr[0].ToString());
+
+                            reader.Dispose();
+                            reader.Close();
+                        }
+                        cmd.Dispose();
+                    }
+                    #endregion
+
+                    #region Generació Factura
+                    int nombreAlbarans = Convert.ToInt32(Math.Round(oracleDataSet.CABALBARA.Rows.Count * 0.66, 0));
+
+                    // Array que hi haurà els albarans que haurem de passar a factura
+                    int[] albarans = CreacioArray(oracleDataSet.CABALBARA.Rows.Count);
+
+                    OracleCommand command = new OracleCommand();
+                    cmd = cnOracle.CreateCommand();
+
+                    // For -> Nombre d'albarans que es passaran a factura
+                    for (int i = 0; i < nombreAlbarans; i++)
+                    {
+                        // PROCEDIMENT ENMAGATZEMAT que ens farà tota la generació d'una factura, restar stock, eliminar l'albarà i crear la factura
+                        command.Connection = cnOracle;
+                        command.CommandText = "projectefinal.generarFactura";
+                        command.CommandType = CommandType.StoredProcedure;
+
+                        cmd.CommandText = "SELECT TO_CHAR(projectefinal.seq_factura.NEXTVAL, 'TM9') FROM DUAL";
+                        reader = cmd.ExecuteReader();
+                        reader.Read();
+
+                        command.Parameters.Clear();
+                        command.Parameters.Add(new OracleParameter("nAlbara", OracleDbType.Int32)).Value = oracleDataSet.CABALBARA.Rows[albarans[i]]["nalbara"];
+                        command.Parameters.Add(new OracleParameter("nFactura", OracleDbType.Int32)).Value = reader[0];
+                        command.Parameters.Add(new OracleParameter("dataFactura", OracleDbType.Date)).Value = DateTime.Today;
+
+                        command.ExecuteNonQuery();
 
                         reader.Dispose();
                         reader.Close();
                     }
                     cmd.Dispose();
+                    command.Dispose();
+                    cnOracle.Close();
+
+                    this.cABALBARATableAdapter.Fill(this.oracleDataSet.CABALBARA);
+                    this.cABFACTURASTableAdapter.Fill(this.oracleDataSet.CABFACTURAS);
+                    this.lINEASALBARATableAdapter.Fill(this.oracleDataSet.LINEASALBARA);
+                    this.lINEASFACTURATableAdapter.Fill(this.oracleDataSet.LINEASFACTURA);
+                    this.aRTICLESTableAdapter.Fill(this.oracleDataSet.ARTICLES);
+
+                    MessageBox.Show("Generació de dades finalitzat");
+                    #endregion
                 }
-                #endregion
-
-                #region Generació Factura
-                int nombreAlbarans = Convert.ToInt32(Math.Round(oracleDataSet.CABALBARA.Rows.Count * 0.66, 0));
-
-                int[] albarans = CreacioArray(oracleDataSet.CABALBARA.Rows.Count);
-
-                OracleCommand command = new OracleCommand();
-                cmd = cnOracle.CreateCommand();
-
-                for (int i = 0; i < nombreAlbarans; i++)
+                catch (Exception ex)
                 {
-                    command.Connection = cnOracle;
-                    command.CommandText = "projectefinal.generarFactura";
-                    command.CommandType = CommandType.StoredProcedure;
-
-                    cmd.CommandText = "SELECT TO_CHAR(projectefinal.seq_factura.NEXTVAL, 'TM9') FROM DUAL";
-                    reader = cmd.ExecuteReader();
-                    reader.Read();
-
-                    command.Parameters.Clear();
-                    command.Parameters.Add(new OracleParameter("nAlbara", OracleDbType.Int32)).Value = oracleDataSet.CABALBARA.Rows[albarans[i]]["nalbara"];
-                    command.Parameters.Add(new OracleParameter("nFactura", OracleDbType.Int32)).Value = reader[0];
-                    command.Parameters.Add(new OracleParameter("dataFactura", OracleDbType.Date)).Value = DateTime.Today;
-
-                    command.ExecuteNonQuery();
-
-                    reader.Dispose();
-                    reader.Close();
+                    MessageBox.Show(ex.Message);
                 }
-                cmd.Dispose();
-                command.Dispose();
-                cnOracle.Close();
-
-                this.cABALBARATableAdapter.Fill(this.oracleDataSet.CABALBARA);
-                this.cABFACTURASTableAdapter.Fill(this.oracleDataSet.CABFACTURAS);
-                this.lINEASALBARATableAdapter.Fill(this.oracleDataSet.LINEASALBARA);
-                this.lINEASFACTURATableAdapter.Fill(this.oracleDataSet.LINEASFACTURA);
-                this.aRTICLESTableAdapter.Fill(this.oracleDataSet.ARTICLES);
-
-                MessageBox.Show("Generació de dades finalitzat");
-                #endregion
             }
             else MessageBox.Show("Primer has de obtenir les dades");
         }
         
+        /// <summary>
+        /// Funció que ens crearà les línies d'albarà i les guardarà tant a l'OracleDataSet com a la base de dades Oracle
+        /// </summary>
+        /// <param name="laTa"></param>
+        /// <param name="nAlbara"></param>
         private void CreacioLineaAlbara(OracleDataSetTableAdapters.LINEASALBARATableAdapter laTa, string nAlbara)
         {
             Random r = new Random();
@@ -210,9 +240,12 @@ namespace ProjecteFinal
             int nLinies = r.Next(3, 21);
             List<int> productesAgafats = new List<int>();
 
+            // Número de línies d'albarà que crearà per l'albarà
             for (int i = 0; i < nLinies; i++)
             {
                 nProducte = r.Next(0, oracleDataSet.ARTICLES.Rows.Count);
+                // Mentres coincideixin els productes agafarà de nous
+                // While fet per no fer que un albarà tingui dos productes repetits
                 while (productesAgafats.Contains(nProducte))
                 {
                     nProducte = r.Next(0, oracleDataSet.ARTICLES.Rows.Count);
@@ -221,18 +254,25 @@ namespace ProjecteFinal
                 dr = oracleDataSet.LINEASALBARA.NewRow();
                 producte = oracleDataSet.ARTICLES.Rows[nProducte];
                 quantitatVenuda = r.Next(1, 21);
-
+                
                 dr[0] = Convert.ToInt32(nAlbara);
                 dr[1] = producte["codi"];
                 dr[2] = producte["descripcio"];
                 dr[3] = quantitatVenuda;
                 dr[4] = producte["pvenda"];
 
+                // Updates
                 oracleDataSet.LINEASALBARA.Rows.Add(dr);
                 laTa.Update(dr);
             }
         }
 
+        /// <summary>
+        /// Funció que s'encarrega de crear un array i barrejar els números
+        /// Farà els aleatoris de clients i albarans
+        /// </summary>
+        /// <param name="llargada"></param>
+        /// <returns></returns>
         private int[] CreacioArray(int llargada)
         {
             int[] taula = new int[llargada];
@@ -259,35 +299,11 @@ namespace ProjecteFinal
             return taula;
         }
 
-        private void tsmSortir_Click(object sender, EventArgs e)
-        {
-            // PRIMER COMPROVA SI HI HA HAGUT CANVIS.
-
-            // NO HI HA CANVIS SURT DE L'APLICACIÓ.
-
-            // SI HI HA CANVIS:
-            DialogResult resultat = MessageBox.Show("Vols guardar els canvis?", "Tancar el formulari", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
-
-            switch(resultat)
-            {
-                case DialogResult.Yes:
-                    // Guarda canvis i surt de l'aplicació
-                    this.Close();
-                    break;
-                case DialogResult.No:
-                    // Fet
-                    this.Close();
-                    break;
-            }
-        }
-
         private void tsmClients_Click(object sender, EventArgs e)
         {
             Form f = new frmClients(oracleDataSet, cnOracle);
             f.Show();
             f.MdiParent = this;
-
-            // TODO TOT
         }
 
         private void tsmArticles_Click(object sender, EventArgs e)
@@ -295,8 +311,6 @@ namespace ProjecteFinal
             Form f = new frmArticles(oracleDataSet, cnOracle);
             f.Show();
             f.MdiParent = this;
-
-            // TODO TOT
         }
 
         private void tsmAlbarans_Click(object sender, EventArgs e)
@@ -304,8 +318,6 @@ namespace ProjecteFinal
             Form f = new frmAlbarans(oracleDataSet, cnOracle, tableAdapterManager);
             f.Show();
             f.MdiParent = this;
-
-            // TODO TOT
         }
 
         private void tsmFactures_Click(object sender, EventArgs e)
@@ -313,8 +325,6 @@ namespace ProjecteFinal
             Form f = new frmFactures(oracleDataSet, cnOracle, tableAdapterManager);
             f.Show();
             f.MdiParent = this;
-
-            // TODO TOT
         }
 
         private void tsmInformes_Click(object sender, EventArgs e)
@@ -322,10 +332,11 @@ namespace ProjecteFinal
             Form f = new frmInformes();
             f.Show();
             f.MdiParent = this;
-
-            // TODO TOT
         }
 
+        /// <summary>
+        /// Inserirà els municipis del DataSet (que té les dades del fitxer XML de municipis) cap a la base de dades d'Oracle
+        /// </summary>
         private void InserirMunicipis()
         {
             OracleDataSetTableAdapters.MUNICIPISTableAdapter mTa = new OracleDataSetTableAdapters.MUNICIPISTableAdapter();
@@ -383,6 +394,9 @@ namespace ProjecteFinal
             }
         }
 
+        /// <summary>
+        /// Inserirà les províncies del DataSet (que té les dades del fitxer XML de províncies) cap a la base de dades d'Oracle
+        /// </summary>
         private void InserirProvincies()
         {
             OracleDataSetTableAdapters.PROVINCIESTableAdapter pTa = new OracleDataSetTableAdapters.PROVINCIESTableAdapter();
@@ -426,6 +440,9 @@ namespace ProjecteFinal
             }
         }
 
+        /// <summary>
+        /// Inserirà els articles del DataSet (que té les dades del fitxer XML d'articles) cap a la base de dades d'Oracle
+        /// </summary>
         private void InserirArticles()
         {
             String codiDB;
@@ -501,6 +518,9 @@ namespace ProjecteFinal
             }
         }
 
+        /// <summary>
+        /// Inserirà els clients del DataSet (que té les dades del fitxer XML de clients) cap a la base de dades d'Oracle
+        /// </summary>
         private void InserirClients()
         {
             OracleDataSetTableAdapters.CLIENTSTableAdapter cTa = new OracleDataSetTableAdapters.CLIENTSTableAdapter();
@@ -569,6 +589,11 @@ namespace ProjecteFinal
             }
         }
 
+        /// <summary>
+        /// Funció que s'encarregarà de validar els XML
+        /// </summary>
+        /// <param name="xmlFile">Indica quin és el nom del fitxer xml</param>
+        /// <param name="xsdFile">Indica quin és el nom del fitxer xsd</param>
         private void ValidacioXML(string xmlFile, string xsdFile)
         {
             try
@@ -580,13 +605,39 @@ namespace ProjecteFinal
                 document.Load(xmlFile);
                 XmlReader rdr = XmlReader.Create(new StringReader(document.InnerXml), settings);
                 while (rdr.Read()) { }
-
-                // MessageBox.Show(xmlFile + " ÉS VÀLID");
             }
             catch (Exception e)
             {
                 MessageBox.Show(xmlFile + " NO ÉS VÀLID" + "\n" + e.Message);
             }
         }
+
+        private void eliminarDadesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            cnOracle.Open();
+            DialogResult dialgoRes = MessageBox.Show("Estàs segur que vols eliminar les dades de la base de dades d'Oracle", "Eliminar Oracle", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (dialgoRes == DialogResult.Yes)
+            {
+                try
+                {
+                    OracleCommand command = new OracleCommand();
+
+                    command.Connection = cnOracle;
+                    command.CommandText = "projectefinal.eliminarDades";
+                    command.CommandType = CommandType.StoredProcedure;
+
+                    command.ExecuteNonQuery();
+
+                    cnOracle.Close();
+
+                    MessageBox.Show("S'han esborrat les dades");
+                }
+                catch (Exception ez)
+                {
+                    MessageBox.Show(ez.Message);
+                }
+            }
         }
+    }
 }

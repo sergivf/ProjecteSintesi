@@ -49,11 +49,13 @@
             this.txtDireccio = new System.Windows.Forms.TextBox();
             this.dgv = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnFacturarAlbara = new System.Windows.Forms.Button();
+            this.btnCancelarCanvis = new System.Windows.Forms.Button();
+            this.btnGuardarCanvis = new System.Windows.Forms.Button();
+            this.btnModeEdicio = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLiniaAlbara)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.SuspendLayout();
@@ -107,6 +109,7 @@
             // 
             this.txtNAlbara.Location = new System.Drawing.Point(144, 39);
             this.txtNAlbara.Name = "txtNAlbara";
+            this.txtNAlbara.ReadOnly = true;
             this.txtNAlbara.Size = new System.Drawing.Size(100, 20);
             this.txtNAlbara.TabIndex = 6;
             // 
@@ -114,6 +117,7 @@
             // 
             this.txtDataAlbara.Location = new System.Drawing.Point(144, 79);
             this.txtDataAlbara.Name = "txtDataAlbara";
+            this.txtDataAlbara.ReadOnly = true;
             this.txtDataAlbara.Size = new System.Drawing.Size(100, 20);
             this.txtDataAlbara.TabIndex = 7;
             // 
@@ -121,6 +125,7 @@
             // 
             this.txtCodiClient.Location = new System.Drawing.Point(144, 119);
             this.txtCodiClient.Name = "txtCodiClient";
+            this.txtCodiClient.ReadOnly = true;
             this.txtCodiClient.Size = new System.Drawing.Size(100, 20);
             this.txtCodiClient.TabIndex = 8;
             // 
@@ -128,6 +133,7 @@
             // 
             this.txtNIF.Location = new System.Drawing.Point(144, 160);
             this.txtNIF.Name = "txtNIF";
+            this.txtNIF.ReadOnly = true;
             this.txtNIF.Size = new System.Drawing.Size(100, 20);
             this.txtNIF.TabIndex = 9;
             // 
@@ -135,6 +141,7 @@
             // 
             this.txtNom.Location = new System.Drawing.Point(144, 201);
             this.txtNom.Name = "txtNom";
+            this.txtNom.ReadOnly = true;
             this.txtNom.Size = new System.Drawing.Size(100, 20);
             this.txtNom.TabIndex = 10;
             // 
@@ -148,7 +155,7 @@
             this.Column3,
             this.Column4,
             this.Column5});
-            this.dgvLiniaAlbara.Location = new System.Drawing.Point(292, 39);
+            this.dgvLiniaAlbara.Location = new System.Drawing.Point(371, 34);
             this.dgvLiniaAlbara.Name = "dgvLiniaAlbara";
             this.dgvLiniaAlbara.ReadOnly = true;
             this.dgvLiniaAlbara.Size = new System.Drawing.Size(448, 127);
@@ -200,6 +207,7 @@
             // 
             this.txtPoblacio.Location = new System.Drawing.Point(144, 277);
             this.txtPoblacio.Name = "txtPoblacio";
+            this.txtPoblacio.ReadOnly = true;
             this.txtPoblacio.Size = new System.Drawing.Size(100, 20);
             this.txtPoblacio.TabIndex = 14;
             // 
@@ -207,6 +215,7 @@
             // 
             this.txtDireccio.Location = new System.Drawing.Point(144, 240);
             this.txtDireccio.Name = "txtDireccio";
+            this.txtDireccio.ReadOnly = true;
             this.txtDireccio.Size = new System.Drawing.Size(100, 20);
             this.txtDireccio.TabIndex = 15;
             // 
@@ -217,11 +226,10 @@
             this.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
-            this.Column6,
             this.Column7,
             this.Column8,
             this.Column9});
-            this.dgv.Location = new System.Drawing.Point(292, 172);
+            this.dgv.Location = new System.Drawing.Point(371, 167);
             this.dgv.Name = "dgv";
             this.dgv.ReadOnly = true;
             this.dgv.Size = new System.Drawing.Size(548, 135);
@@ -232,12 +240,6 @@
             this.Column1.HeaderText = "Total brut";
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Total descompte";
-            this.Column6.Name = "Column6";
-            this.Column6.ReadOnly = true;
             // 
             // Column7
             // 
@@ -259,7 +261,7 @@
             // 
             // btnFacturarAlbara
             // 
-            this.btnFacturarAlbara.Location = new System.Drawing.Point(401, 344);
+            this.btnFacturarAlbara.Location = new System.Drawing.Point(480, 339);
             this.btnFacturarAlbara.Name = "btnFacturarAlbara";
             this.btnFacturarAlbara.Size = new System.Drawing.Size(117, 39);
             this.btnFacturarAlbara.TabIndex = 17;
@@ -267,11 +269,44 @@
             this.btnFacturarAlbara.UseVisualStyleBackColor = true;
             this.btnFacturarAlbara.Click += new System.EventHandler(this.btnFacturarAlbara_Click);
             // 
+            // btnCancelarCanvis
+            // 
+            this.btnCancelarCanvis.Location = new System.Drawing.Point(265, 176);
+            this.btnCancelarCanvis.Name = "btnCancelarCanvis";
+            this.btnCancelarCanvis.Size = new System.Drawing.Size(75, 51);
+            this.btnCancelarCanvis.TabIndex = 25;
+            this.btnCancelarCanvis.Text = "Cancel·lar Canvis";
+            this.btnCancelarCanvis.UseVisualStyleBackColor = true;
+            this.btnCancelarCanvis.Click += new System.EventHandler(this.btnCancelarCanvis_Click);
+            // 
+            // btnGuardarCanvis
+            // 
+            this.btnGuardarCanvis.Location = new System.Drawing.Point(265, 114);
+            this.btnGuardarCanvis.Name = "btnGuardarCanvis";
+            this.btnGuardarCanvis.Size = new System.Drawing.Size(75, 53);
+            this.btnGuardarCanvis.TabIndex = 24;
+            this.btnGuardarCanvis.Text = "Guardar Canvis";
+            this.btnGuardarCanvis.UseVisualStyleBackColor = true;
+            this.btnGuardarCanvis.Click += new System.EventHandler(this.btnGuardarCanvis_Click);
+            // 
+            // btnModeEdicio
+            // 
+            this.btnModeEdicio.Location = new System.Drawing.Point(265, 66);
+            this.btnModeEdicio.Name = "btnModeEdicio";
+            this.btnModeEdicio.Size = new System.Drawing.Size(75, 23);
+            this.btnModeEdicio.TabIndex = 23;
+            this.btnModeEdicio.Text = "Mode Edició";
+            this.btnModeEdicio.UseVisualStyleBackColor = true;
+            this.btnModeEdicio.Click += new System.EventHandler(this.btnModeEdicio_Click);
+            // 
             // frmAlbarans
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(972, 413);
+            this.Controls.Add(this.btnCancelarCanvis);
+            this.Controls.Add(this.btnGuardarCanvis);
+            this.Controls.Add(this.btnModeEdicio);
             this.Controls.Add(this.btnFacturarAlbara);
             this.Controls.Add(this.dgv);
             this.Controls.Add(this.txtDireccio);
@@ -309,6 +344,9 @@
             this.Controls.SetChildIndex(this.txtDireccio, 0);
             this.Controls.SetChildIndex(this.dgv, 0);
             this.Controls.SetChildIndex(this.btnFacturarAlbara, 0);
+            this.Controls.SetChildIndex(this.btnModeEdicio, 0);
+            this.Controls.SetChildIndex(this.btnGuardarCanvis, 0);
+            this.Controls.SetChildIndex(this.btnCancelarCanvis, 0);
             ((System.ComponentModel.ISupportInitialize)(this.dgvLiniaAlbara)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             this.ResumeLayout(false);
@@ -338,11 +376,13 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridView dgv;
+        private System.Windows.Forms.Button btnFacturarAlbara;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
-        private System.Windows.Forms.Button btnFacturarAlbara;
+        private System.Windows.Forms.Button btnCancelarCanvis;
+        private System.Windows.Forms.Button btnGuardarCanvis;
+        private System.Windows.Forms.Button btnModeEdicio;
     }
 }

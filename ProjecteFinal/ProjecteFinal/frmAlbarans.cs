@@ -27,23 +27,26 @@ namespace ProjecteFinal
 
             cnOracle.Open();
 
+            // Ordenem els albarans pel seu número
             dsDades.CABALBARA.DefaultView.Sort = "NALBARA ASC";
 
             Origen.DataSource = dsDades.CABALBARA;
             Origen.MoveFirst();
-            /*btnGuardarCanvis.Hide();
-            btnCancelarCanvis.Hide();*/
+            btnGuardarCanvis.Hide();
+            btnCancelarCanvis.Hide();
 
             dr = ((DataRowView)Origen.Current).Row;
 
             EmplenarDades();
             MostrarLiniaAlbara(dr["nalbara"].ToString());
 
+            // Esdeveniment que saltarà quan canviem de registre actual
             Origen.CurrentChanged += Origen_CurrentChanged;
         }
 
         private void Origen_CurrentChanged(object sender, EventArgs e)
         {
+            // S'encarrega de mostrar les dades del registre actual, si no hi ha més dades, les posa totes a buit
             dgvLiniaAlbara.Rows.Clear();
 
             if (Origen.Count > 0)
@@ -58,6 +61,9 @@ namespace ProjecteFinal
             }
         }
 
+        /// <summary>
+        /// Quan no hi ha més dades mostra els textbox buits
+        /// </summary>
         private void MostrarBuits()
         {
             txtNAlbara.Text = "";
@@ -67,12 +73,11 @@ namespace ProjecteFinal
             txtNom.Text = "";
             txtDireccio.Text = "";
             txtPoblacio.Text = "";
-
-            /*btnModeEdicio.Hide();
-            btnGuardarCanvis.Hide();
-            btnCancelarCanvis.Hide();*/
         }
 
+        /// <summary>
+        /// Emplena les dades amb el registre actual
+        /// </summary>
         private void EmplenarDades()
         {
             txtNAlbara.Text = dr["nalbara"].ToString();
@@ -84,6 +89,10 @@ namespace ProjecteFinal
             txtPoblacio.Text = dr["poblacio"].ToString();
         }
 
+        /// <summary>
+        /// Funció que mostra al DataGridView les linies de l'albarà que estem situats
+        /// </summary>
+        /// <param name="nAlbara"></param>
         private void MostrarLiniaAlbara(string nAlbara)
         {
             OracleCommand cmd = new OracleCommand();
@@ -91,14 +100,21 @@ namespace ProjecteFinal
             cmd.CommandText = "SELECT * FROM lineasalbara WHERE nalbara = " + nAlbara;
             OracleDataReader reader = cmd.ExecuteReader();
 
-            while (reader.Read())
+            if (dgvLiniaAlbara.Columns.Count != 0)
             {
-                dgvLiniaAlbara.Rows.Add(reader.GetOracleString(1), reader.GetOracleString(2), reader.GetOracleValue(3), reader.GetOracleDecimal(4));
+                while (reader.Read())
+                {
+                    dgvLiniaAlbara.Rows.Add(reader.GetOracleString(1), reader.GetOracleString(2), reader.GetOracleValue(3), reader.GetOracleDecimal(4));
+                }
             }
+
+            reader.Dispose();
+            reader.Close();
         }
 
         private void btnFacturarAlbara_Click(object sender, EventArgs e)
         {
+            // Obrirà el formulari que ens pregunta quin tipus de Facturació volem, manual o automàtica
             FrmModus frmModus = new FrmModus();
             frmModus.ShowDialog();
             bool modusManual = frmModus.ModusManual;
@@ -111,20 +127,75 @@ namespace ProjecteFinal
                 string nFactura = Convert.ToString(frmManual.NFactura);
                 DateTime data = frmManual.DtData;
 
-                FacturarAlbara(dr["nalbara"].ToString(), nFactura, data);
+                // Comprova si el número de factura que ens han entrat existeix
+                if (!ExisteixFactura(Convert.ToInt32(nFactura)))
+                {
+                    // Generarà la factura
+                    FacturarAlbara(dr["nalbara"].ToString(), nFactura, data);
+                }
+                else
+                {
+                    MessageBox.Show("Aquest número de factura ja existeix, hauràs d'entrar un altre");
+                }
+
+                
             }
             else if (modusAutomatic)
             {
                 OracleCommand cmd = cnOracle.CreateCommand();
+                bool existeix = false;
+                OracleDataReader reader;
+                string nFactura = "";
 
-                cmd.CommandText = "SELECT TO_CHAR(projectefinal.seq_factura.NEXTVAL, 'TM9') FROM DUAL";
-                OracleDataReader reader = cmd.ExecuteReader();
-                reader.Read();
+                while (!existeix)
+                {
+                    cmd.CommandText = "SELECT TO_CHAR(projectefinal.seq_factura.NEXTVAL, 'TM9') FROM DUAL";
+                    reader = cmd.ExecuteReader();
+                    reader.Read();
 
-                FacturarAlbara(dr["nalbara"].ToString(), reader[0].ToString(), DateTime.Today);
+                    OracleCommand command = cnOracle.CreateCommand();
+
+                    command.CommandText = "SELECT * FROM cabfacturas WHERE nfactura = " + reader[0];
+                    OracleDataReader readerFactura = command.ExecuteReader();
+                    if (!readerFactura.HasRows)
+                    {
+                        existeix = true;
+                        nFactura = reader[0].ToString();
+                    }
+                }
+
+                // Generarà la factura
+                FacturarAlbara(dr["nalbara"].ToString(), nFactura, DateTime.Today);
             }
         }
 
+        /// <summary>
+        /// Funció que ens dirà si el número de la factura que hem entrat existeix
+        /// </summary>
+        /// <param name="nFactura"></param>
+        /// <returns></returns>
+        private bool ExisteixFactura(int nFactura)
+        {
+            OracleCommand cmd = cnOracle.CreateCommand();
+
+            cmd.CommandText = "SELECT * FROM cabfacturas WHERE nfactura = " + nFactura;
+            OracleDataReader reader = cmd.ExecuteReader();
+            if (reader.HasRows)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Funció que farà tota la facturació cridant al procediment emmagatzemat
+        /// </summary>
+        /// <param name="nAlbara"></param>
+        /// <param name="nFactura"></param>
+        /// <param name="data"></param>
         private void FacturarAlbara(string nAlbara, string nFactura, DateTime data)
         {
             OracleCommand command = new OracleCommand();
@@ -152,6 +223,104 @@ namespace ProjecteFinal
         private void frmAlbarans_FormClosing(object sender, FormClosingEventArgs e)
         {
             cnOracle.Close();
+        }
+
+        private void btnModeEdicio_Click(object sender, EventArgs e)
+        {
+            ModeEdicio = true;
+            txtDataAlbara.ReadOnly = false;
+            txtCodiClient.ReadOnly = false;
+            txtNIF.ReadOnly = false;
+            txtNom.ReadOnly = false;
+            txtDireccio.ReadOnly = false;
+            txtPoblacio.ReadOnly = false;
+
+            btnModeEdicio.Hide();
+            btnGuardarCanvis.Show();
+            btnCancelarCanvis.Show();
+        }
+
+        private void btnGuardarCanvis_Click(object sender, EventArgs e)
+        {
+            OracleDataSetTableAdapters.CABALBARATableAdapter caTa;
+            ModeEdicio = false;
+
+            btnModeEdicio.Show();
+            btnGuardarCanvis.Hide();
+            btnCancelarCanvis.Hide();
+            ModeConsulta();
+
+            try
+            {
+                caTa = new OracleDataSetTableAdapters.CABALBARATableAdapter();
+
+                dr = ((DataRowView)Origen.Current).Row;
+
+                dr.BeginEdit();
+                dr[1] = txtDataAlbara.Text;
+
+                if (ClientExisteix())
+                {
+                    dr[2] = txtCodiClient.Text;
+                }
+                else
+                {
+                    txtCodiClient.Text = dr["codiclient"].ToString();
+                }
+
+                dr[3] = txtNIF.Text;
+                dr[4] = txtNom.Text;
+                dr[5] = txtDireccio.Text;
+                dr[6] = txtPoblacio.Text;
+                dr.EndEdit();
+
+                caTa.Update(dsDades);
+            }
+            catch (Exception ez)
+            {
+                MessageBox.Show(ez.Message);
+            }
+        }
+
+        private bool ClientExisteix()
+        {
+            OracleCommand cmd = cnOracle.CreateCommand();
+            OracleDataReader reader;
+
+            cmd.CommandText = "SELECT * FROM CLIENTS WHERE CODI = '" + txtCodiClient.Text + "'";
+            reader = cmd.ExecuteReader();
+
+            if (reader.HasRows)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        private void ModeConsulta()
+        {
+            txtDataAlbara.ReadOnly = true;
+            txtCodiClient.ReadOnly = true;
+            txtNIF.ReadOnly = true;
+            txtNom.ReadOnly = true;
+            txtDireccio.ReadOnly = true;
+            txtPoblacio.ReadOnly = true;
+        }
+
+        private void btnCancelarCanvis_Click(object sender, EventArgs e)
+        {
+            ModeEdicio = false;
+
+            btnModeEdicio.Show();
+            btnGuardarCanvis.Hide();
+            btnCancelarCanvis.Hide();
+
+            ModeConsulta();
+
+            EmplenarDades();
         }
     }
 }

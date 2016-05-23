@@ -27,21 +27,24 @@ namespace ProjecteFinal
 
             cnOracle.Open();
 
+            // Ordenem els albarans per número de Factura
+            dsDades.CABFACTURAS.DefaultView.Sort = "NFACTURA ASC";
+
             Origen.DataSource = dsDades.CABFACTURAS;
             Origen.MoveFirst();
-            /*btnGuardarCanvis.Hide();
-            btnCancelarCanvis.Hide();*/
 
             dr = ((DataRowView)Origen.Current).Row;
 
             EmplenarDades();
             MostrarLiniaFactura(dr["nfactura"].ToString());
 
+            // Esdeveniment que saltarà quan canviem de registre actual
             Origen.CurrentChanged += Origen_CurrentChanged; ;
         }
 
         private void Origen_CurrentChanged(object sender, EventArgs e)
         {
+            // S'encarrega de mostrar les dades del registre actual, si no hi ha més dades, les posa totes a buit
             dgvLiniesFactura.Rows.Clear();
 
             if (Origen.Count > 0)
@@ -56,6 +59,9 @@ namespace ProjecteFinal
             }
         }
 
+        /// <summary>
+        /// Quan no hi ha més dades mostra els textbox buits
+        /// </summary>
         private void MostrarBuits()
         {
             txtNFactura.Text = "";
@@ -67,12 +73,11 @@ namespace ProjecteFinal
             txtNom.Text = "";
             txtDireccio.Text = "";
             txtPoblacio.Text = "";
-
-            /*btnModeEdicio.Hide();
-            btnGuardarCanvis.Hide();
-            btnCancelarCanvis.Hide();*/
         }
 
+        /// <summary>
+        /// Emplena les dades amb el registre actual
+        /// </summary>
         private void EmplenarDades()
         {
             txtNFactura.Text = dr["nfactura"].ToString();
@@ -86,6 +91,11 @@ namespace ProjecteFinal
             txtPoblacio.Text = dr["poblacio"].ToString();
         }
 
+        /// <summary>
+        /// Funció que mostrarà les línies de factura
+        /// Executarà la funció sempre que canvii el registre actual
+        /// </summary>
+        /// <param name="nFactura"></param>
         private void MostrarLiniaFactura(string nFactura)
         {
             OracleCommand cmd = new OracleCommand();
@@ -104,6 +114,11 @@ namespace ProjecteFinal
             cnOracle.Close();
         }
 
+        /// <summary>
+        /// S'encarrega de cridat el procediment emmagatzemat que recuperarà l'stock, l'albarà i eliminarà la factura
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void txtEliminarFactura_Click(object sender, EventArgs e)
         {
             OracleCommand command = new OracleCommand();
@@ -118,6 +133,8 @@ namespace ProjecteFinal
             command.ExecuteNonQuery();
 
             command.Dispose();
+
+           
 
             tamDades.CABALBARATableAdapter.Fill(dsDades.CABALBARA);
             tamDades.CABFACTURASTableAdapter.Fill(dsDades.CABFACTURAS);

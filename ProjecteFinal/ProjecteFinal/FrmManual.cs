@@ -35,6 +35,7 @@ namespace ProjecteFinal
 
         private void tbnFacturar_Click(object sender, EventArgs e)
         {
+            // Intentarà convertir el text que ha entrat l'usuari a int per comprovar que s'ha entrat un número
             if (!int.TryParse(txtNFactura.Text, out nFactura))
             {
                 MessageBox.Show("El número de factura ha de ser un número");

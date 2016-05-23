@@ -21,6 +21,8 @@ namespace ProjecteFinal
         {
             try
             {
+                // Intentarà fer la connexió amb els usuari i password que hem entrar
+                // Si es pot connectar obrirà el formulari (frmMDIPare)
                 string connectionString = "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=xe)));User Id=projectefinal;Password=123456;";
                 //string connectionString = "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=xe)));User Id=" + txtUser.Text + ";Password=" + txtPassword.Text + ";";
                 OracleConnection cnOracle = new OracleConnection(connectionString);
@@ -32,10 +34,9 @@ namespace ProjecteFinal
                 mdiPare.ShowDialog();
                 this.Close();
             }
-            catch (Exception ez)
+            catch (Exception e)
             {
-                MessageBox.Show(ez.Message);
-                //MessageBox.Show("Invalid username/password\nTorna-ho a provar");
+                MessageBox.Show("Invalid username/password\nTorna-ho a provar");
             }
         }
 

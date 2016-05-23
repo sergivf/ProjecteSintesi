@@ -32,7 +32,6 @@
             this.arxiuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmObtenirDades = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmGenerarDades = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmSortir = new System.Windows.Forms.ToolStripMenuItem();
             this.formularisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmClients = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmArticles = new System.Windows.Forms.ToolStripMenuItem();
@@ -49,6 +48,7 @@
             this.lINEASFACTURATableAdapter = new ProjecteFinal.OracleDataSetTableAdapters.LINEASFACTURATableAdapter();
             this.mUNICIPISTableAdapter = new ProjecteFinal.OracleDataSetTableAdapters.MUNICIPISTableAdapter();
             this.pROVINCIESTableAdapter = new ProjecteFinal.OracleDataSetTableAdapters.PROVINCIESTableAdapter();
+            this.eliminarDadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuStripMDI.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.oracleDataSet)).BeginInit();
             this.SuspendLayout();
@@ -69,7 +69,7 @@
             this.arxiuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmObtenirDades,
             this.tsmGenerarDades,
-            this.tsmSortir});
+            this.eliminarDadesToolStripMenuItem});
             this.arxiuToolStripMenuItem.Name = "arxiuToolStripMenuItem";
             this.arxiuToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.arxiuToolStripMenuItem.Text = "Arxiu";
@@ -77,23 +77,16 @@
             // tsmObtenirDades
             // 
             this.tsmObtenirDades.Name = "tsmObtenirDades";
-            this.tsmObtenirDades.Size = new System.Drawing.Size(150, 22);
+            this.tsmObtenirDades.Size = new System.Drawing.Size(152, 22);
             this.tsmObtenirDades.Text = "Obtenir Dades";
             this.tsmObtenirDades.Click += new System.EventHandler(this.tsmObtenirDades_Click);
             // 
             // tsmGenerarDades
             // 
             this.tsmGenerarDades.Name = "tsmGenerarDades";
-            this.tsmGenerarDades.Size = new System.Drawing.Size(150, 22);
+            this.tsmGenerarDades.Size = new System.Drawing.Size(152, 22);
             this.tsmGenerarDades.Text = "Generar Dades";
             this.tsmGenerarDades.Click += new System.EventHandler(this.tsmGenerarDades_Click);
-            // 
-            // tsmSortir
-            // 
-            this.tsmSortir.Name = "tsmSortir";
-            this.tsmSortir.Size = new System.Drawing.Size(150, 22);
-            this.tsmSortir.Text = "Sortir";
-            this.tsmSortir.Click += new System.EventHandler(this.tsmSortir_Click);
             // 
             // formularisToolStripMenuItem
             // 
@@ -192,6 +185,13 @@
             // 
             this.pROVINCIESTableAdapter.ClearBeforeFill = true;
             // 
+            // eliminarDadesToolStripMenuItem
+            // 
+            this.eliminarDadesToolStripMenuItem.Name = "eliminarDadesToolStripMenuItem";
+            this.eliminarDadesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.eliminarDadesToolStripMenuItem.Text = "Eliminar Dades";
+            this.eliminarDadesToolStripMenuItem.Click += new System.EventHandler(this.eliminarDadesToolStripMenuItem_Click);
+            // 
             // frmMDIPare
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -216,7 +216,6 @@
         private System.Windows.Forms.ToolStripMenuItem arxiuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tsmObtenirDades;
         private System.Windows.Forms.ToolStripMenuItem tsmGenerarDades;
-        private System.Windows.Forms.ToolStripMenuItem tsmSortir;
         private System.Windows.Forms.ToolStripMenuItem formularisToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tsmClients;
         private System.Windows.Forms.ToolStripMenuItem tsmArticles;
@@ -233,5 +232,6 @@
         private OracleDataSetTableAdapters.CABFACTURASTableAdapter cABFACTURASTableAdapter;
         private OracleDataSetTableAdapters.LINEASALBARATableAdapter lINEASALBARATableAdapter;
         private OracleDataSetTableAdapters.LINEASFACTURATableAdapter lINEASFACTURATableAdapter;
+        private System.Windows.Forms.ToolStripMenuItem eliminarDadesToolStripMenuItem;
     }
 }
