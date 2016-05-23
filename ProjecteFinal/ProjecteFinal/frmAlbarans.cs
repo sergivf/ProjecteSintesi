@@ -15,7 +15,9 @@ namespace ProjecteFinal
     {
         OracleDataSet dsDades;
         OracleConnection cnOracle;
+        OracleDataSetTableAdapters.CABALBARATableAdapter caTa;
         OracleDataSetTableAdapters.TableAdapterManager tamDades;
+
         DataRow dr;
         public frmAlbarans(OracleDataSet dsDades, OracleConnection cnOracle, OracleDataSetTableAdapters.TableAdapterManager tamDades)
         {
@@ -24,6 +26,7 @@ namespace ProjecteFinal
             this.dsDades = dsDades;
             this.cnOracle = cnOracle;
             this.tamDades = tamDades;
+            caTa = new OracleDataSetTableAdapters.CABALBARATableAdapter();
 
             cnOracle.Open();
 
@@ -32,8 +35,8 @@ namespace ProjecteFinal
 
             Origen.DataSource = dsDades.CABALBARA;
             Origen.MoveFirst();
-            btnGuardarCanvis.Hide();
-            btnCancelarCanvis.Hide();
+            BtnGuardarCanvis.Hide();
+            BtnCancelarCanvis.Hide();
 
             dr = ((DataRowView)Origen.Current).Row;
 
@@ -42,6 +45,63 @@ namespace ProjecteFinal
 
             // Esdeveniment que saltarà quan canviem de registre actual
             Origen.CurrentChanged += Origen_CurrentChanged;
+        }
+
+        public override void EliminarRegistreActual()
+        {
+            // NO XUTA
+            Origen.RemoveCurrent();
+
+            try
+            {
+                caTa.Update(dsDades);
+            }
+            catch (Exception c)
+            {
+                MessageBox.Show(c.Message);
+            }
+        }
+
+        public override void GuardarCanvis()
+        {
+            try
+            {
+                dr = ((DataRowView)Origen.Current).Row;
+
+                dr.BeginEdit();
+                dr[1] = txtDataAlbara.Text;
+
+                if (ClientExisteix())
+                {
+                    dr[2] = txtCodiClient.Text;
+                }
+                else
+                {
+                    txtCodiClient.Text = dr["codiclient"].ToString();
+                }
+
+                dr[3] = txtNIF.Text;
+                dr[4] = txtNom.Text;
+                dr[5] = txtDireccio.Text;
+                dr[6] = txtPoblacio.Text;
+                dr.EndEdit();
+
+                caTa.Update(dsDades);
+            }
+            catch (Exception ez)
+            {
+                MessageBox.Show(ez.Message);
+            }
+        }
+
+        public override void ActivarModeEdicio()
+        {
+            txtDataAlbara.ReadOnly = false;
+            txtCodiClient.ReadOnly = false;
+            txtNIF.ReadOnly = false;
+            txtNom.ReadOnly = false;
+            txtDireccio.ReadOnly = false;
+            txtPoblacio.ReadOnly = false;
         }
 
         private void Origen_CurrentChanged(object sender, EventArgs e)
@@ -61,10 +121,7 @@ namespace ProjecteFinal
             }
         }
 
-        /// <summary>
-        /// Quan no hi ha més dades mostra els textbox buits
-        /// </summary>
-        private void MostrarBuits()
+        public override void MostrarBuits()
         {
             txtNAlbara.Text = "";
             txtDataAlbara.Text = "";
@@ -75,10 +132,7 @@ namespace ProjecteFinal
             txtPoblacio.Text = "";
         }
 
-        /// <summary>
-        /// Emplena les dades amb el registre actual
-        /// </summary>
-        private void EmplenarDades()
+        public override void EmplenarDades()
         {
             txtNAlbara.Text = dr["nalbara"].ToString();
             txtDataAlbara.Text = dr["dataalbara"].ToString();
@@ -87,6 +141,16 @@ namespace ProjecteFinal
             txtNom.Text = dr["nom"].ToString();
             txtDireccio.Text = dr["direccio"].ToString();
             txtPoblacio.Text = dr["poblacio"].ToString();
+        }
+
+        public override void ModeNavegacio()
+        {
+            txtDataAlbara.ReadOnly = true;
+            txtCodiClient.ReadOnly = true;
+            txtNIF.ReadOnly = true;
+            txtNom.ReadOnly = true;
+            txtDireccio.ReadOnly = true;
+            txtPoblacio.ReadOnly = true;
         }
 
         /// <summary>
@@ -225,63 +289,6 @@ namespace ProjecteFinal
             cnOracle.Close();
         }
 
-        private void btnModeEdicio_Click(object sender, EventArgs e)
-        {
-            ModeEdicio = true;
-            txtDataAlbara.ReadOnly = false;
-            txtCodiClient.ReadOnly = false;
-            txtNIF.ReadOnly = false;
-            txtNom.ReadOnly = false;
-            txtDireccio.ReadOnly = false;
-            txtPoblacio.ReadOnly = false;
-
-            btnModeEdicio.Hide();
-            btnGuardarCanvis.Show();
-            btnCancelarCanvis.Show();
-        }
-
-        private void btnGuardarCanvis_Click(object sender, EventArgs e)
-        {
-            OracleDataSetTableAdapters.CABALBARATableAdapter caTa;
-            ModeEdicio = false;
-
-            btnModeEdicio.Show();
-            btnGuardarCanvis.Hide();
-            btnCancelarCanvis.Hide();
-            ModeConsulta();
-
-            try
-            {
-                caTa = new OracleDataSetTableAdapters.CABALBARATableAdapter();
-
-                dr = ((DataRowView)Origen.Current).Row;
-
-                dr.BeginEdit();
-                dr[1] = txtDataAlbara.Text;
-
-                if (ClientExisteix())
-                {
-                    dr[2] = txtCodiClient.Text;
-                }
-                else
-                {
-                    txtCodiClient.Text = dr["codiclient"].ToString();
-                }
-
-                dr[3] = txtNIF.Text;
-                dr[4] = txtNom.Text;
-                dr[5] = txtDireccio.Text;
-                dr[6] = txtPoblacio.Text;
-                dr.EndEdit();
-
-                caTa.Update(dsDades);
-            }
-            catch (Exception ez)
-            {
-                MessageBox.Show(ez.Message);
-            }
-        }
-
         private bool ClientExisteix()
         {
             OracleCommand cmd = cnOracle.CreateCommand();
@@ -298,29 +305,6 @@ namespace ProjecteFinal
             {
                 return false;
             }
-        }
-
-        private void ModeConsulta()
-        {
-            txtDataAlbara.ReadOnly = true;
-            txtCodiClient.ReadOnly = true;
-            txtNIF.ReadOnly = true;
-            txtNom.ReadOnly = true;
-            txtDireccio.ReadOnly = true;
-            txtPoblacio.ReadOnly = true;
-        }
-
-        private void btnCancelarCanvis_Click(object sender, EventArgs e)
-        {
-            ModeEdicio = false;
-
-            btnModeEdicio.Show();
-            btnGuardarCanvis.Hide();
-            btnCancelarCanvis.Hide();
-
-            ModeConsulta();
-
-            EmplenarDades();
         }
     }
 }

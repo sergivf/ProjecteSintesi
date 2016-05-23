@@ -48,6 +48,24 @@ namespace ProjecteFinal
             set { modeEdicio = value; }
         }
 
+        public Button BtnModeEdicio
+        {
+            get { return btnModeEdicio; }
+            set { btnModeEdicio = value; }
+        }
+
+        public Button BtnGuardarCanvis
+        {
+            get { return btnGuardarCanvis; }
+            set { btnGuardarCanvis = value; }
+        }
+
+        public Button BtnCancelarCanvis
+        {
+            get { return btnCancelarCanvis; }
+            set { btnCancelarCanvis = value; }
+        }
+
         private void frmPare_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.PageUp)
@@ -78,32 +96,124 @@ namespace ProjecteFinal
             {
                 if (!modeEdicio && origen.Count > 0)
                 {
-                    origen.RemoveCurrent();
+                    EliminarRegistreActual();
                 }
             }
             else if (e.KeyCode == Keys.E && e.Modifiers == Keys.Control)
             {
-                this.Text = "Ctrl + E";
-                // Posarà el registre en mode d’edició.
-                // TODO TOT
+                if (!modeEdicio)
+                {
+                    modeEdicio = true;
+                    btnModeEdicio.Hide();
+                    btnGuardarCanvis.Show();
+                    btnCancelarCanvis.Show();
+                    ActivarModeEdicio();
+                }
             }
             else if (e.KeyCode == Keys.A && e.Modifiers == Keys.Control)
             {
-                this.Text = "Ctrl + A";
-                // Cancel·larà els canvis fets en el registre que estem modificant.
-                // TODO TOT
+                if (modeEdicio)
+                {
+                    modeEdicio = false;
+
+                    btnModeEdicio.Show();
+                    btnGuardarCanvis.Hide();
+                    btnCancelarCanvis.Hide();
+
+                    ModeNavegacio();
+
+                    EmplenarDades();
+                }
             }
             else if (e.KeyCode == Keys.G && e.Modifiers == Keys.Control)
             {
-                this.Text = "Ctrl + G";
-                // Gravarà a l’origen de dades, els canvis fets en el registre que estem modificant
-                // TODO TOT
+                if (modeEdicio)
+                {
+                    modeEdicio = false;
+
+                    btnModeEdicio.Show();
+                    btnGuardarCanvis.Hide();
+                    btnCancelarCanvis.Hide();
+
+                    ModeNavegacio();
+
+                    GuardarCanvis();
+                }
             }
         }
-
+        
         private void bindingNavigatorMoveLastItem_Click(object sender, EventArgs e)
         {
             origen.MoveLast();
+        }
+
+        private void btnModeEdicio_Click(object sender, EventArgs e)
+        {
+            modeEdicio = true;
+            btnModeEdicio.Hide();
+            btnGuardarCanvis.Show();
+            btnCancelarCanvis.Show();
+
+            ActivarModeEdicio();
+        }
+
+        public virtual void ActivarModeEdicio()
+        {
+
+        }
+
+        private void btnGuardarCanvis_Click(object sender, EventArgs e)
+        {
+            if (modeEdicio)
+            {
+                modeEdicio = false;
+
+                btnModeEdicio.Show();
+                btnGuardarCanvis.Hide();
+                btnCancelarCanvis.Hide();
+
+                ModeNavegacio();
+
+                GuardarCanvis();
+            }
+        }
+
+        public virtual void GuardarCanvis()
+        {
+            
+        }
+
+        public virtual void ModeNavegacio()
+        {
+
+        }
+
+        private void btnCancelarCanvis_Click(object sender, EventArgs e)
+        {
+            modeEdicio = false;
+
+            btnModeEdicio.Show();
+            btnGuardarCanvis.Hide();
+            btnCancelarCanvis.Hide();
+
+            ModeNavegacio();
+
+            EmplenarDades();
+        }
+
+        public virtual void EmplenarDades()
+        {
+
+        }
+
+        public virtual void EliminarRegistreActual()
+        {
+
+        }
+
+        public virtual void MostrarBuits()
+        {
+
         }
     }
 }

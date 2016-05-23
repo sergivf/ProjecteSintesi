@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<Albarans>
+  <CabAlbara>
+    <NAlbara>1</NAlbara>
+    <DataAlbara>2016-05-23T00:00:00+02:00</DataAlbara>
+    <NIF>AD-JPR</NIF>
+    <Nom>asd</Nom>
+    <Direccio>Elvis Gasch Viñuales</Direccio>
+  </CabAlbara>
+  <LiniaAlbara>
+    <Descripcio>Soporte de pared para LCD Tv</Descripcio>
+    <QuantitatVenuda>14</QuantitatVenuda>
+    <PreuVenda>102.57000000000001</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaAlbara>
+  <LiniaAlbara>
+    <Descripcio>Tarjeta de Red 10/100/1GHZ </Descripcio>
+    <QuantitatVenuda>20</QuantitatVenuda>
+    <PreuVenda>37.7</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaAlbara>
+  <LiniaAlbara>
+    <Descripcio>DEC-1100-T EUROCONECTOR TDT</Descripcio>
+    <QuantitatVenuda>19</QuantitatVenuda>
+    <PreuVenda>84.48</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaAlbara>
+</Albarans>

@@ -32,6 +32,7 @@
             this.arxiuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmObtenirDades = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmGenerarDades = new System.Windows.Forms.ToolStripMenuItem();
+            this.eliminarDadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.formularisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmClients = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmArticles = new System.Windows.Forms.ToolStripMenuItem();
@@ -48,7 +49,7 @@
             this.lINEASFACTURATableAdapter = new ProjecteFinal.OracleDataSetTableAdapters.LINEASFACTURATableAdapter();
             this.mUNICIPISTableAdapter = new ProjecteFinal.OracleDataSetTableAdapters.MUNICIPISTableAdapter();
             this.pROVINCIESTableAdapter = new ProjecteFinal.OracleDataSetTableAdapters.PROVINCIESTableAdapter();
-            this.eliminarDadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.llistarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuStripMDI.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.oracleDataSet)).BeginInit();
             this.SuspendLayout();
@@ -57,7 +58,8 @@
             // 
             this.mnuStripMDI.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.arxiuToolStripMenuItem,
-            this.formularisToolStripMenuItem});
+            this.formularisToolStripMenuItem,
+            this.llistarToolStripMenuItem});
             this.mnuStripMDI.Location = new System.Drawing.Point(0, 0);
             this.mnuStripMDI.Name = "mnuStripMDI";
             this.mnuStripMDI.Size = new System.Drawing.Size(762, 24);
@@ -87,6 +89,13 @@
             this.tsmGenerarDades.Size = new System.Drawing.Size(152, 22);
             this.tsmGenerarDades.Text = "Generar Dades";
             this.tsmGenerarDades.Click += new System.EventHandler(this.tsmGenerarDades_Click);
+            // 
+            // eliminarDadesToolStripMenuItem
+            // 
+            this.eliminarDadesToolStripMenuItem.Name = "eliminarDadesToolStripMenuItem";
+            this.eliminarDadesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.eliminarDadesToolStripMenuItem.Text = "Eliminar Dades";
+            this.eliminarDadesToolStripMenuItem.Click += new System.EventHandler(this.eliminarDadesToolStripMenuItem_Click);
             // 
             // formularisToolStripMenuItem
             // 
@@ -185,12 +194,12 @@
             // 
             this.pROVINCIESTableAdapter.ClearBeforeFill = true;
             // 
-            // eliminarDadesToolStripMenuItem
+            // llistarToolStripMenuItem
             // 
-            this.eliminarDadesToolStripMenuItem.Name = "eliminarDadesToolStripMenuItem";
-            this.eliminarDadesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.eliminarDadesToolStripMenuItem.Text = "Eliminar Dades";
-            this.eliminarDadesToolStripMenuItem.Click += new System.EventHandler(this.eliminarDadesToolStripMenuItem_Click);
+            this.llistarToolStripMenuItem.Name = "llistarToolStripMenuItem";
+            this.llistarToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
+            this.llistarToolStripMenuItem.Text = "Llistar";
+            this.llistarToolStripMenuItem.Click += new System.EventHandler(this.llistarToolStripMenuItem_Click);
             // 
             // frmMDIPare
             // 
@@ -233,5 +242,6 @@
         private OracleDataSetTableAdapters.LINEASALBARATableAdapter lINEASALBARATableAdapter;
         private OracleDataSetTableAdapters.LINEASFACTURATableAdapter lINEASFACTURATableAdapter;
         private System.Windows.Forms.ToolStripMenuItem eliminarDadesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem llistarToolStripMenuItem;
     }
 }

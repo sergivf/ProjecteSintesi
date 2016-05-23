@@ -27,6 +27,7 @@ namespace ProjecteFinal
             InitializeComponent();
             this.dsDades = dsDades;
             this.cnOracle = cnOracle;
+            aTa = new OracleDataSetTableAdapters.ARTICLESTableAdapter();
 
             cnOracle.Open();
 
@@ -34,8 +35,8 @@ namespace ProjecteFinal
 
             Origen.DataSource = dsDades.ARTICLES;
             Origen.MoveFirst();
-            btnGuardarCanvis.Hide();
-            btnCancelarCanvis.Hide();
+            BtnGuardarCanvis.Hide();
+            BtnCancelarCanvis.Hide();
 
             dr = ((DataRowView)Origen.Current).Row;
 
@@ -45,110 +46,28 @@ namespace ProjecteFinal
             Origen.CurrentChanged += Origen_CurrentChanged;
         }
 
-        private void Origen_CurrentChanged(object sender, EventArgs e)
+        public override void EliminarRegistreActual()
         {
-            // S'encarrega de mostrar les dades del registre actual, si no hi ha més dades, les posa totes a buit
-            dgvAlbarans.Rows.Clear();
-
-            if (Origen.Count > 0)
-            {
-                dr = ((DataRowView)Origen.Current).Row;
-                EmplenarDades();
-            }
-            else
-            {
-                MostrarBuits();
-            }
-        }
-
-        /// <summary>
-        /// Quan no hi ha més dades mostra els textbox buits
-        /// </summary>
-        private void MostrarBuits()
-        {
-            txtCodi.Text = "";
-            txtDescripcio.Text = "";
-            txtQuantitatStock.Text = "";
-            txtPCost.Text = "";
-            txtPVenda.Text = "";
-            txtDescompte.Text = "";
-        }
-
-        /// <summary>
-        /// Emplena les dades amb el registre actual
-        /// </summary>
-        /// <param name="dr"></param>
-        private void EmplenarDades()
-        {
-            txtCodi.Text = dr["codi"].ToString();
-            txtDescripcio.Text = dr["descripcio"].ToString();
-            txtQuantitatStock.Text = dr["quantitatstock"].ToString();
-            txtPCost.Text = dr["pcost"].ToString();
-            txtPVenda.Text = dr["pvenda"].ToString();
-            txtDescompte.Text = dr["descompte"].ToString();
-        }
-
-        /// <summary>
-        /// Canvia a mode edició
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void btnModeEdicio_Click(object sender, EventArgs e)
-        {
-            ModeEdicio = true;
-            txtDescripcio.ReadOnly = false;
-            txtQuantitatStock.ReadOnly = false;
-            txtPCost.ReadOnly = false;
-            txtPVenda.ReadOnly = false;
-            txtDescompte.ReadOnly = false;
-
-            btnModeEdicio.Hide();
-            btnGuardarCanvis.Show();
-            btnCancelarCanvis.Show();
-        }
-
-        /// <summary>
-        /// Cancel·larà tots els canvis i treurà el mode edició
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void btnCancelarCanvis_Click(object sender, EventArgs e)
-        {
-            ModeEdicio = false;
-
-            btnModeEdicio.Show();
-            btnGuardarCanvis.Hide();
-            btnCancelarCanvis.Hide();
-
-            txtDescripcio.ReadOnly = true;
-            txtQuantitatStock.ReadOnly = true;
-            txtPCost.ReadOnly = true;
-            txtPVenda.ReadOnly = true;
-            txtDescompte.ReadOnly = true;
-
-            EmplenarDades();
-        }
-
-        /// <summary>
-        /// Guardarà tots els canvis i treurà el mode edició
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void btnGuardarCanvis_Click(object sender, EventArgs e)
-        {
-            double valorDecimal = 0;
-            int valorEnter = 0;
-            ModeEdicio = false;
-
-            btnModeEdicio.Show();
-            btnGuardarCanvis.Hide();
-            btnCancelarCanvis.Hide();
-            ModeConsulta();
+            // NO XUTA
+            Origen.RemoveCurrent();
 
             try
             {
-                aTa = new OracleDataSetTableAdapters.ARTICLESTableAdapter();
+                aTa.Update(dsDades);
+            }
+            catch (Exception c)
+            {
+                MessageBox.Show(c.Message);
+            }
+        }
 
+        public override void GuardarCanvis()
+        {
+            double valorDecimal = 0;
+            int valorEnter = 0;
+
+            try
+            {
                 DataRow dr = ((DataRowView)Origen.Current).Row;
 
                 dr.BeginEdit();
@@ -199,7 +118,55 @@ namespace ProjecteFinal
             }
         }
 
-        private void ModeConsulta()
+        public override void ActivarModeEdicio()
+        {
+            txtDescripcio.ReadOnly = false;
+            txtQuantitatStock.ReadOnly = false;
+            txtPCost.ReadOnly = false;
+            txtPVenda.ReadOnly = false;
+            txtDescompte.ReadOnly = false;
+        }
+
+        private void Origen_CurrentChanged(object sender, EventArgs e)
+        {
+            // S'encarrega de mostrar les dades del registre actual, si no hi ha més dades, les posa totes a buit
+            dgvAlbarans.Rows.Clear();
+
+            if (Origen.Count > 0)
+            {
+                dr = ((DataRowView)Origen.Current).Row;
+                EmplenarDades();
+            }
+            else
+            {
+                MostrarBuits();
+            }
+        }
+
+        /// <summary>
+        /// Quan no hi ha més dades mostra els textbox buits
+        /// </summary>
+        public override void MostrarBuits()
+        {
+            txtCodi.Text = "";
+            txtDescripcio.Text = "";
+            txtQuantitatStock.Text = "";
+            txtPCost.Text = "";
+            txtPVenda.Text = "";
+            txtDescompte.Text = "";
+        }
+
+        public override void EmplenarDades()
+        {
+            txtCodi.Text = dr["codi"].ToString();
+            txtDescripcio.Text = dr["descripcio"].ToString();
+            txtQuantitatStock.Text = dr["quantitatstock"].ToString();
+            txtPCost.Text = dr["pcost"].ToString();
+            txtPVenda.Text = dr["pvenda"].ToString();
+            txtDescompte.Text = dr["descompte"].ToString();
+        }
+
+        public override void ModeNavegacio()
         {
             txtDescripcio.ReadOnly = true;
             txtQuantitatStock.ReadOnly = true;

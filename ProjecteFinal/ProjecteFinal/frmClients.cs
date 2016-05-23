@@ -24,6 +24,7 @@ namespace ProjecteFinal
             InitializeComponent();
             this.dsDades = dsDades;
             this.cnOracle = cnOracle;
+            cTa = new OracleDataSetTableAdapters.CLIENTSTableAdapter();
 
             cnOracle.Open();
 
@@ -31,8 +32,8 @@ namespace ProjecteFinal
 
             Origen.DataSource = dsDades.CLIENTS;
             Origen.MoveFirst();
-            btnGuardarCanvis.Hide();
-            btnCancelarCanvis.Hide();
+            BtnGuardarCanvis.Hide();
+            BtnCancelarCanvis.Hide();
 
             dr = ((DataRowView)Origen.Current).Row;
 
@@ -43,181 +44,27 @@ namespace ProjecteFinal
             Origen.CurrentChanged += Origen_CurrentChanged;
         }
 
-        private void Origen_CurrentChanged(object sender, EventArgs e)
+        public override void EliminarRegistreActual()
         {
-            // S'encarrega de mostrar les dades del registre actual, si no hi ha més dades, les posa totes a buit
-            dgvLinies.Rows.Clear();
-            dgvAlbarans.Rows.Clear();
-
-            if (Origen.Count > 0)
-            {
-                dr = ((DataRowView)Origen.Current).Row;
-                EmplenarDades();
-                MostrarAlbarans(dr["codi"].ToString());
-            }
-            else
-            {
-                MostrarBuits();
-            }
-        }
-
-        /// <summary>
-        /// Quan no hi ha més dades mostra els textbox buits
-        /// </summary>
-        private void MostrarBuits()
-        {
-            txtCodi.Text = "";
-            txtNIF.Text = "";
-            txtNom.Text = "";
-            txtAdreça.Text = "";
-            txtCodiProvincia.Text = "";
-            txtCodiMunicipi.Text = "";
-            txtTelefon.Text = "";
-            txtFax.Text = "";
-            txtEmail.Text = "";
-            txtBancCC.Text = "";
-            txtFormaPagament.Text = "";
-
-            btnModeEdicio.Hide();
-            btnGuardarCanvis.Hide();
-            btnCancelarCanvis.Hide();
-        }
-
-        /// <summary>
-        /// Emplena les dades amb el registre actual
-        /// </summary>
-        /// <param name="dr"></param>
-        private void EmplenarDades()
-        {
-            txtCodi.Text = dr["codi"].ToString();
-            txtNIF.Text = dr["nif"].ToString();
-            txtNom.Text = dr["nom"].ToString();
-            txtAdreça.Text = dr["adreça"].ToString();
-            txtCodiProvincia.Text = dr["codiprovincia"].ToString();
-            txtCodiMunicipi.Text = dr["codimunicipi"].ToString();
-            txtTelefon.Text = dr["telefon"].ToString();
-            txtFax.Text = dr["fax"].ToString();
-            txtEmail.Text = dr["email"].ToString();
-            txtBancCC.Text = dr["banccc"].ToString();
-            txtFormaPagament.Text = dr["formadepagament"].ToString();
-        }
-
-        /// <summary>
-        /// Funció que s'encarrega de mostrar tots els albarans del client actual
-        /// </summary>
-        /// <param name="codiClient"></param>
-        private void MostrarAlbarans(string codiClient)
-        {
-            double total = 0;
-            int quant = 0;
-            double preu = 0;
-            OracleCommand cmd = new OracleCommand();
-            cmd = cnOracle.CreateCommand();
-            cmd.CommandText = "SELECT nalbara, dataalbara FROM cabalbara WHERE codiclient = '" + codiClient + "'";
-            OracleDataReader reader = cmd.ExecuteReader();
-
-            OracleCommand cmdTotal = new OracleCommand();
-            cmdTotal = cnOracle.CreateCommand();
-
-            // While -> Recorre el reader que conte el número d'albarà i la data del client actual
-            while (reader.Read())
-            {
-                cmdTotal.CommandText = "SELECT quantitatvenuda, preuvenda FROM lineasalbara WHERE nalbara = " + reader.GetOracleValue(0);
-
-                OracleDataReader readerTotal = cmdTotal.ExecuteReader();
-
-                // While -> Recorre el reader que conté la quantitat venuda i preuvenda de l'albarà
-                while (readerTotal.Read())
-                {
-                    quant = Convert.ToInt32(readerTotal.GetOracleValue(0).ToString());
-                    string preuString = readerTotal.GetOracleValue(1).ToString().Replace('.', ',');
-                    preu = Convert.ToDouble(preuString);
-                    total += quant * preu;
-                }
-
-                dgvAlbarans.Rows.Add(reader.GetOracleValue(0), reader.GetDateTime(1), total);
-                total = 0;
-            }
-        }
-
-        /// <summary>
-        /// Funció que entra en el mode edició
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void btnModeEdicio_Click(object sender, EventArgs e)
-        {
-            ModeEdicio = true;
-            txtNIF.ReadOnly = false;
-            txtNom.ReadOnly = false;
-            txtAdreça.ReadOnly = false;
-            txtCodiProvincia.ReadOnly = false;
-            txtCodiMunicipi.ReadOnly = false;
-            txtTelefon.ReadOnly = false;
-            txtFax.ReadOnly = false;
-            txtEmail.ReadOnly = false;
-            txtBancCC.ReadOnly = false;
-            txtFormaPagament.ReadOnly = false;
-
-            btnModeEdicio.Hide();
-            btnGuardarCanvis.Show();
-            btnCancelarCanvis.Show();
-        }
-
-        /// <summary>
-        /// Funció que ens canvia a mode navegació
-        /// </summary>
-        private void ModeConsulta()
-        {
-            txtNIF.ReadOnly = true;
-            txtNom.ReadOnly = true;
-            txtAdreça.ReadOnly = true;
-            txtCodiProvincia.ReadOnly = true;
-            txtCodiMunicipi.ReadOnly = true;
-            txtTelefon.ReadOnly = true;
-            txtFax.ReadOnly = true;
-            txtEmail.ReadOnly = true;
-            txtBancCC.ReadOnly = true;
-            txtFormaPagament.ReadOnly = true;
-        }
-
-        /// <summary>
-        /// Cancel·la tots els canvis i surt del mode edició
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void btnCancelarCanvis_Click(object sender, EventArgs e)
-        {
-            ModeEdicio = false;
-
-            btnModeEdicio.Show();
-            btnGuardarCanvis.Hide();
-            btnCancelarCanvis.Hide();
-
-            ModeConsulta();
-
-            EmplenarDades();
-        }
-
-        /// <summary>
-        /// Guarda tots els canvis i surt del mode edició
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void btnGuardarCanvis_Click(object sender, EventArgs e)
-        {
-            int sortida = 0;
-            ModeEdicio = false;
-
-            btnModeEdicio.Show();
-            btnGuardarCanvis.Hide();
-            btnCancelarCanvis.Hide();
-            ModeConsulta();
+            // NO XUTA
+            Origen.RemoveCurrent();
 
             try
             {
-                cTa = new OracleDataSetTableAdapters.CLIENTSTableAdapter();
+                cTa.Update(dsDades);
+            }
+            catch (Exception c)
+            {
+                MessageBox.Show(c.Message);
+            }
+        }
 
+        public override void GuardarCanvis()
+        {
+            int sortida = 0;
+
+            try
+            {
                 dr = ((DataRowView)Origen.Current).Row;
 
                 dr.BeginEdit();
@@ -266,6 +113,129 @@ namespace ProjecteFinal
             }
         }
 
+        public override void ActivarModeEdicio()
+        {
+            txtNIF.ReadOnly = false;
+            txtNom.ReadOnly = false;
+            txtAdreça.ReadOnly = false;
+            txtCodiProvincia.ReadOnly = false;
+            txtCodiMunicipi.ReadOnly = false;
+            txtTelefon.ReadOnly = false;
+            txtFax.ReadOnly = false;
+            txtEmail.ReadOnly = false;
+            txtBancCC.ReadOnly = false;
+            txtFormaPagament.ReadOnly = false;
+        }
+
+        private void Origen_CurrentChanged(object sender, EventArgs e)
+        {
+            // S'encarrega de mostrar les dades del registre actual, si no hi ha més dades, les posa totes a buit
+            dgvLinies.Rows.Clear();
+            dgvAlbarans.Rows.Clear();
+
+            if (Origen.Count > 0)
+            {
+                dr = ((DataRowView)Origen.Current).Row;
+                EmplenarDades();
+                MostrarAlbarans(dr["codi"].ToString());
+            }
+            else
+            {
+                MostrarBuits();
+            }
+        }
+        
+        public override void MostrarBuits()
+        {
+            txtCodi.Text = "";
+            txtNIF.Text = "";
+            txtNom.Text = "";
+            txtAdreça.Text = "";
+            txtCodiProvincia.Text = "";
+            txtCodiMunicipi.Text = "";
+            txtTelefon.Text = "";
+            txtFax.Text = "";
+            txtEmail.Text = "";
+            txtBancCC.Text = "";
+            txtFormaPagament.Text = "";
+        }
+        
+        public override void EmplenarDades()
+        {
+            txtCodi.Text = dr["codi"].ToString();
+            txtNIF.Text = dr["nif"].ToString();
+            txtNom.Text = dr["nom"].ToString();
+            txtAdreça.Text = dr["adreça"].ToString();
+            txtCodiProvincia.Text = dr["codiprovincia"].ToString();
+            txtCodiMunicipi.Text = dr["codimunicipi"].ToString();
+            txtTelefon.Text = dr["telefon"].ToString();
+            txtFax.Text = dr["fax"].ToString();
+            txtEmail.Text = dr["email"].ToString();
+            txtBancCC.Text = dr["banccc"].ToString();
+            txtFormaPagament.Text = dr["formadepagament"].ToString();
+        }
+
+        public override void ModeNavegacio()
+        {
+            txtNIF.ReadOnly = true;
+            txtNom.ReadOnly = true;
+            txtAdreça.ReadOnly = true;
+            txtCodiProvincia.ReadOnly = true;
+            txtCodiMunicipi.ReadOnly = true;
+            txtTelefon.ReadOnly = true;
+            txtFax.ReadOnly = true;
+            txtEmail.ReadOnly = true;
+            txtBancCC.ReadOnly = true;
+            txtFormaPagament.ReadOnly = true;
+        }
+
+        private void frmClients_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            cnOracle.Close();
+        }
+
+        /// <summary>
+        /// Funció que s'encarrega de mostrar tots els albarans del client actual
+        /// </summary>
+        /// <param name="codiClient"></param>
+        private void MostrarAlbarans(string codiClient)
+        {
+            double total = 0;
+            int quant = 0;
+            double preu = 0;
+            OracleCommand cmd = new OracleCommand();
+            cmd = cnOracle.CreateCommand();
+            cmd.CommandText = "SELECT nalbara, dataalbara FROM cabalbara WHERE codiclient = '" + codiClient + "'";
+            OracleDataReader reader = cmd.ExecuteReader();
+
+            OracleCommand cmdTotal = new OracleCommand();
+            cmdTotal = cnOracle.CreateCommand();
+
+            // While -> Recorre el reader que conte el número d'albarà i la data del client actual
+            while (reader.Read())
+            {
+                cmdTotal.CommandText = "SELECT quantitatvenuda, preuvenda FROM lineasalbara WHERE nalbara = " + reader.GetOracleValue(0);
+
+                OracleDataReader readerTotal = cmdTotal.ExecuteReader();
+
+                // While -> Recorre el reader que conté la quantitat venuda i preuvenda de l'albarà
+                while (readerTotal.Read())
+                {
+                    quant = Convert.ToInt32(readerTotal.GetOracleValue(0).ToString());
+                    string preuString = readerTotal.GetOracleValue(1).ToString().Replace('.', ',');
+                    preu = Convert.ToDouble(preuString);
+                    total += quant * preu;
+                }
+
+                dgvAlbarans.Rows.Add(reader.GetOracleValue(0), reader.GetDateTime(1), total);
+                total = 0;
+            }
+        }
+
+        /// <summary>
+        /// Si l'usuari canvia la provincia d'un client, ha d'existir
+        /// </summary>
+        /// <returns></returns>
         private bool ProvinciaExisteix()
         {
             OracleCommand cmd = cnOracle.CreateCommand();
@@ -286,6 +256,10 @@ namespace ProjecteFinal
             }
         }
 
+        /// <summary>
+        /// Si l'usuari canvia el municipi d'un client, ha d'existir
+        /// </summary>
+        /// <returns></returns>
         private bool MunicipiExisteix()
         {
             OracleCommand cmd = cnOracle.CreateCommand();
@@ -333,11 +307,6 @@ namespace ProjecteFinal
                     dgvLinies.Rows.Add(reader.GetOracleString(0), reader.GetOracleString(1), reader.GetOracleValue(2), reader.GetOracleValue(3));
                 }
             }
-        }
-
-        private void frmClients_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            cnOracle.Close();
         }
     }
 }

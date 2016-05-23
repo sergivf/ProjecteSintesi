@@ -38,8 +38,12 @@ namespace ProjecteFinal
             EmplenarDades();
             MostrarLiniaFactura(dr["nfactura"].ToString());
 
+            BtnCancelarCanvis.Hide();
+            BtnModeEdicio.Hide();
+            BtnGuardarCanvis.Hide();
+
             // Esdeveniment que saltarà quan canviem de registre actual
-            Origen.CurrentChanged += Origen_CurrentChanged; ;
+            Origen.CurrentChanged += Origen_CurrentChanged;
         }
 
         private void Origen_CurrentChanged(object sender, EventArgs e)

@@ -45,6 +45,9 @@
             this.orderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ascendentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.descendentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnCancelarCanvis = new System.Windows.Forms.Button();
+            this.btnGuardarCanvis = new System.Windows.Forms.Button();
+            this.btnModeEdicio = new System.Windows.Forms.Button();
             this.mnuStripNavegacio.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,7 +57,7 @@
             this.navegacióToolStripMenuItem});
             this.mnuStripNavegacio.Location = new System.Drawing.Point(0, 0);
             this.mnuStripNavegacio.Name = "mnuStripNavegacio";
-            this.mnuStripNavegacio.Size = new System.Drawing.Size(284, 24);
+            this.mnuStripNavegacio.Size = new System.Drawing.Size(436, 24);
             this.mnuStripNavegacio.TabIndex = 0;
             this.mnuStripNavegacio.Text = "menuStrip1";
             // 
@@ -162,20 +165,53 @@
             // ascendentToolStripMenuItem
             // 
             this.ascendentToolStripMenuItem.Name = "ascendentToolStripMenuItem";
-            this.ascendentToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.ascendentToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.ascendentToolStripMenuItem.Text = "Ascendent";
             // 
             // descendentToolStripMenuItem
             // 
             this.descendentToolStripMenuItem.Name = "descendentToolStripMenuItem";
-            this.descendentToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.descendentToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.descendentToolStripMenuItem.Text = "Descendent";
+            // 
+            // btnCancelarCanvis
+            // 
+            this.btnCancelarCanvis.Location = new System.Drawing.Point(288, 178);
+            this.btnCancelarCanvis.Name = "btnCancelarCanvis";
+            this.btnCancelarCanvis.Size = new System.Drawing.Size(75, 51);
+            this.btnCancelarCanvis.TabIndex = 28;
+            this.btnCancelarCanvis.Text = "Cancel·lar Canvis";
+            this.btnCancelarCanvis.UseVisualStyleBackColor = true;
+            this.btnCancelarCanvis.Click += new System.EventHandler(this.btnCancelarCanvis_Click);
+            // 
+            // btnGuardarCanvis
+            // 
+            this.btnGuardarCanvis.Location = new System.Drawing.Point(288, 110);
+            this.btnGuardarCanvis.Name = "btnGuardarCanvis";
+            this.btnGuardarCanvis.Size = new System.Drawing.Size(75, 53);
+            this.btnGuardarCanvis.TabIndex = 27;
+            this.btnGuardarCanvis.Text = "Guardar Canvis";
+            this.btnGuardarCanvis.UseVisualStyleBackColor = true;
+            this.btnGuardarCanvis.Click += new System.EventHandler(this.btnGuardarCanvis_Click);
+            // 
+            // btnModeEdicio
+            // 
+            this.btnModeEdicio.Location = new System.Drawing.Point(288, 68);
+            this.btnModeEdicio.Name = "btnModeEdicio";
+            this.btnModeEdicio.Size = new System.Drawing.Size(75, 23);
+            this.btnModeEdicio.TabIndex = 26;
+            this.btnModeEdicio.Text = "Mode Edició";
+            this.btnModeEdicio.UseVisualStyleBackColor = true;
+            this.btnModeEdicio.Click += new System.EventHandler(this.btnModeEdicio_Click);
             // 
             // frmPare
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.ClientSize = new System.Drawing.Size(436, 303);
+            this.Controls.Add(this.btnCancelarCanvis);
+            this.Controls.Add(this.btnGuardarCanvis);
+            this.Controls.Add(this.btnModeEdicio);
             this.Controls.Add(this.mnuStripNavegacio);
             this.KeyPreview = true;
             this.MainMenuStrip = this.mnuStripNavegacio;
@@ -208,5 +244,8 @@
         private System.Windows.Forms.ToolStripMenuItem orderToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ascendentToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem descendentToolStripMenuItem;
+        private System.Windows.Forms.Button btnCancelarCanvis;
+        private System.Windows.Forms.Button btnGuardarCanvis;
+        private System.Windows.Forms.Button btnModeEdicio;
     }
 }

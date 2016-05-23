@@ -40,9 +40,6 @@
             this.txtPCost = new System.Windows.Forms.TextBox();
             this.txtPVenda = new System.Windows.Forms.TextBox();
             this.txtDescompte = new System.Windows.Forms.TextBox();
-            this.btnCancelarCanvis = new System.Windows.Forms.Button();
-            this.btnGuardarCanvis = new System.Windows.Forms.Button();
-            this.btnModeEdicio = new System.Windows.Forms.Button();
             this.dtpDataInici = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -158,36 +155,6 @@
             this.txtDescompte.Size = new System.Drawing.Size(100, 20);
             this.txtDescompte.TabIndex = 12;
             // 
-            // btnCancelarCanvis
-            // 
-            this.btnCancelarCanvis.Location = new System.Drawing.Point(282, 162);
-            this.btnCancelarCanvis.Name = "btnCancelarCanvis";
-            this.btnCancelarCanvis.Size = new System.Drawing.Size(75, 51);
-            this.btnCancelarCanvis.TabIndex = 25;
-            this.btnCancelarCanvis.Text = "Cancel·lar Canvis";
-            this.btnCancelarCanvis.UseVisualStyleBackColor = true;
-            this.btnCancelarCanvis.Click += new System.EventHandler(this.btnCancelarCanvis_Click);
-            // 
-            // btnGuardarCanvis
-            // 
-            this.btnGuardarCanvis.Location = new System.Drawing.Point(282, 100);
-            this.btnGuardarCanvis.Name = "btnGuardarCanvis";
-            this.btnGuardarCanvis.Size = new System.Drawing.Size(75, 53);
-            this.btnGuardarCanvis.TabIndex = 24;
-            this.btnGuardarCanvis.Text = "Guardar Canvis";
-            this.btnGuardarCanvis.UseVisualStyleBackColor = true;
-            this.btnGuardarCanvis.Click += new System.EventHandler(this.btnGuardarCanvis_Click);
-            // 
-            // btnModeEdicio
-            // 
-            this.btnModeEdicio.Location = new System.Drawing.Point(282, 52);
-            this.btnModeEdicio.Name = "btnModeEdicio";
-            this.btnModeEdicio.Size = new System.Drawing.Size(75, 23);
-            this.btnModeEdicio.TabIndex = 23;
-            this.btnModeEdicio.Text = "Mode Edició";
-            this.btnModeEdicio.UseVisualStyleBackColor = true;
-            this.btnModeEdicio.Click += new System.EventHandler(this.btnModeEdicio_Click);
-            // 
             // dtpDataInici
             // 
             this.dtpDataInici.Location = new System.Drawing.Point(502, 55);
@@ -281,9 +248,6 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dtpDataInici);
-            this.Controls.Add(this.btnCancelarCanvis);
-            this.Controls.Add(this.btnGuardarCanvis);
-            this.Controls.Add(this.btnModeEdicio);
             this.Controls.Add(this.txtDescompte);
             this.Controls.Add(this.txtPVenda);
             this.Controls.Add(this.txtPCost);
@@ -311,9 +275,6 @@
             this.Controls.SetChildIndex(this.txtPCost, 0);
             this.Controls.SetChildIndex(this.txtPVenda, 0);
             this.Controls.SetChildIndex(this.txtDescompte, 0);
-            this.Controls.SetChildIndex(this.btnModeEdicio, 0);
-            this.Controls.SetChildIndex(this.btnGuardarCanvis, 0);
-            this.Controls.SetChildIndex(this.btnCancelarCanvis, 0);
             this.Controls.SetChildIndex(this.dtpDataInici, 0);
             this.Controls.SetChildIndex(this.label7, 0);
             this.Controls.SetChildIndex(this.label8, 0);
@@ -340,9 +301,6 @@
         private System.Windows.Forms.TextBox txtPCost;
         private System.Windows.Forms.TextBox txtPVenda;
         private System.Windows.Forms.TextBox txtDescompte;
-        private System.Windows.Forms.Button btnCancelarCanvis;
-        private System.Windows.Forms.Button btnGuardarCanvis;
-        private System.Windows.Forms.Button btnModeEdicio;
         private System.Windows.Forms.DateTimePicker dtpDataInici;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;

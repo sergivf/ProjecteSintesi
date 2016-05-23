@@ -50,18 +50,15 @@
             this.txtAdreça = new System.Windows.Forms.TextBox();
             this.txtNom = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.btnModeEdicio = new System.Windows.Forms.Button();
-            this.btnGuardarCanvis = new System.Windows.Forms.Button();
-            this.btnCancelarCanvis = new System.Windows.Forms.Button();
             this.dgvAlbarans = new System.Windows.Forms.DataGridView();
             this.nalbara = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvLinies = new System.Windows.Forms.DataGridView();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlbarans)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLinies)).BeginInit();
             this.SuspendLayout();
@@ -253,36 +250,6 @@
             this.label11.TabIndex = 18;
             this.label11.Text = "Nom";
             // 
-            // btnModeEdicio
-            // 
-            this.btnModeEdicio.Location = new System.Drawing.Point(271, 68);
-            this.btnModeEdicio.Name = "btnModeEdicio";
-            this.btnModeEdicio.Size = new System.Drawing.Size(75, 23);
-            this.btnModeEdicio.TabIndex = 20;
-            this.btnModeEdicio.Text = "Mode Edició";
-            this.btnModeEdicio.UseVisualStyleBackColor = true;
-            this.btnModeEdicio.Click += new System.EventHandler(this.btnModeEdicio_Click);
-            // 
-            // btnGuardarCanvis
-            // 
-            this.btnGuardarCanvis.Location = new System.Drawing.Point(271, 116);
-            this.btnGuardarCanvis.Name = "btnGuardarCanvis";
-            this.btnGuardarCanvis.Size = new System.Drawing.Size(75, 53);
-            this.btnGuardarCanvis.TabIndex = 21;
-            this.btnGuardarCanvis.Text = "Guardar Canvis";
-            this.btnGuardarCanvis.UseVisualStyleBackColor = true;
-            this.btnGuardarCanvis.Click += new System.EventHandler(this.btnGuardarCanvis_Click);
-            // 
-            // btnCancelarCanvis
-            // 
-            this.btnCancelarCanvis.Location = new System.Drawing.Point(271, 178);
-            this.btnCancelarCanvis.Name = "btnCancelarCanvis";
-            this.btnCancelarCanvis.Size = new System.Drawing.Size(75, 51);
-            this.btnCancelarCanvis.TabIndex = 22;
-            this.btnCancelarCanvis.Text = "Cancel·lar Canvis";
-            this.btnCancelarCanvis.UseVisualStyleBackColor = true;
-            this.btnCancelarCanvis.Click += new System.EventHandler(this.btnCancelarCanvis_Click);
-            // 
             // dgvAlbarans
             // 
             this.dgvAlbarans.AllowUserToAddRows = false;
@@ -292,7 +259,7 @@
             this.nalbara,
             this.Column2,
             this.Column1});
-            this.dgvAlbarans.Location = new System.Drawing.Point(372, 27);
+            this.dgvAlbarans.Location = new System.Drawing.Point(412, 27);
             this.dgvAlbarans.Name = "dgvAlbarans";
             this.dgvAlbarans.ReadOnly = true;
             this.dgvAlbarans.Size = new System.Drawing.Size(311, 150);
@@ -315,6 +282,12 @@
             this.Column2.ReadOnly = true;
             this.Column2.Width = 88;
             // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Total";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
             // dgvLinies
             // 
             this.dgvLinies.AllowUserToAddRows = false;
@@ -325,7 +298,7 @@
             this.Column4,
             this.Column5,
             this.Column6});
-            this.dgvLinies.Location = new System.Drawing.Point(372, 200);
+            this.dgvLinies.Location = new System.Drawing.Point(412, 200);
             this.dgvLinies.Name = "dgvLinies";
             this.dgvLinies.ReadOnly = true;
             this.dgvLinies.Size = new System.Drawing.Size(429, 150);
@@ -362,12 +335,6 @@
             this.Column6.ReadOnly = true;
             this.Column6.Width = 54;
             // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Total";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
             // frmClients
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -375,9 +342,6 @@
             this.ClientSize = new System.Drawing.Size(955, 517);
             this.Controls.Add(this.dgvLinies);
             this.Controls.Add(this.dgvAlbarans);
-            this.Controls.Add(this.btnCancelarCanvis);
-            this.Controls.Add(this.btnGuardarCanvis);
-            this.Controls.Add(this.btnModeEdicio);
             this.Controls.Add(this.txtNom);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.txtAdreça);
@@ -425,9 +389,6 @@
             this.Controls.SetChildIndex(this.txtAdreça, 0);
             this.Controls.SetChildIndex(this.label11, 0);
             this.Controls.SetChildIndex(this.txtNom, 0);
-            this.Controls.SetChildIndex(this.btnModeEdicio, 0);
-            this.Controls.SetChildIndex(this.btnGuardarCanvis, 0);
-            this.Controls.SetChildIndex(this.btnCancelarCanvis, 0);
             this.Controls.SetChildIndex(this.dgvAlbarans, 0);
             this.Controls.SetChildIndex(this.dgvLinies, 0);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlbarans)).EndInit();
@@ -461,9 +422,6 @@
         private System.Windows.Forms.TextBox txtAdreça;
         private System.Windows.Forms.TextBox txtNom;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button btnModeEdicio;
-        private System.Windows.Forms.Button btnGuardarCanvis;
-        private System.Windows.Forms.Button btnCancelarCanvis;
         private System.Windows.Forms.DataGridView dgvAlbarans;
         private System.Windows.Forms.DataGridView dgvLinies;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
