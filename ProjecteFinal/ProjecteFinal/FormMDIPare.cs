@@ -302,37 +302,46 @@ namespace ProjecteFinal
 
         private void tsmClients_Click(object sender, EventArgs e)
         {
-            Form f = new frmClients(oracleDataSet, cnOracle);
-            f.Show();
-            f.MdiParent = this;
+            if (obtencioFeta)
+            {
+                Form f = new frmClients(oracleDataSet, cnOracle);
+                f.Show();
+                f.MdiParent = this;
+            }
+            else MessageBox.Show("Primer has d'obtenir les dades");
         }
 
         private void tsmArticles_Click(object sender, EventArgs e)
         {
-            Form f = new frmArticles(oracleDataSet, cnOracle);
-            f.Show();
-            f.MdiParent = this;
+            if (obtencioFeta)
+            {
+                Form f = new frmArticles(oracleDataSet, cnOracle);
+                f.Show();
+                f.MdiParent = this;
+            }
+            else MessageBox.Show("Primer has d'obtenir les dades");
         }
 
         private void tsmAlbarans_Click(object sender, EventArgs e)
         {
-            Form f = new frmAlbarans(oracleDataSet, cnOracle, tableAdapterManager);
-            f.Show();
-            f.MdiParent = this;
+            if (obtencioFeta)
+            {
+                Form f = new frmAlbarans(oracleDataSet, cnOracle, tableAdapterManager);
+                f.Show();
+                f.MdiParent = this;
+            }
+            else MessageBox.Show("Primer has d'obtenir les dades");
         }
 
         private void tsmFactures_Click(object sender, EventArgs e)
         {
-            Form f = new frmFactures(oracleDataSet, cnOracle, tableAdapterManager);
-            f.Show();
-            f.MdiParent = this;
-        }
-
-        private void tsmInformes_Click(object sender, EventArgs e)
-        {
-            Form f = new frmInformes();
-            f.Show();
-            f.MdiParent = this;
+            if (obtencioFeta)
+            {
+                Form f = new frmFactures(oracleDataSet, cnOracle, tableAdapterManager);
+                f.Show();
+                f.MdiParent = this;
+            }
+            else MessageBox.Show("Primer has d'obtenir les dades");
         }
 
         /// <summary>
@@ -632,6 +641,8 @@ namespace ProjecteFinal
 
                     cnOracle.Close();
 
+                    obtencioFeta = false;
+
                     MessageBox.Show("S'han esborrat les dades");
                 }
                 catch (Exception ez)
@@ -643,78 +654,46 @@ namespace ProjecteFinal
 
         private void llistarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            try
-            {
-                cnOracle.Open();
-                DataSet albarans = new DataSet("Albarans");
+            
+        }
 
-                #region DataTable Capçalera
-                DataTable cabAlbara = new DataTable("CabAlbara");
-                cabAlbara.Columns.Add("NAlbara", typeof(Int32));
-                cabAlbara.Columns.Add("DataAlbara", typeof(DateTime));
-                cabAlbara.Columns.Add("NIF", typeof(string));
-                cabAlbara.Columns.Add("Nom", typeof(string));
-                cabAlbara.Columns.Add("Direccio", typeof(string));
+        private void unAlbaràToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmInformes f = new frmInformes(cnOracle, oracleDataSet);
 
-                DataRow dr = oracleDataSet.CABALBARA.Rows[0];
-                DataRow fila = cabAlbara.NewRow();
+            f.TxtFinsA.Hide();
+            f.TxtFinsA.Enabled = false;
+            f.LblFinsA.Hide();
+            f.Albara = true;
+            f.Factura = false;
+            f.Show();
+            f.MdiParent = this;
+        }
 
-                fila[0] = dr[0];
-                fila[1] = dr[1];
-                fila[2] = dr[2];
-                fila[3] = dr[3];
-                fila[4] = dr[4];
+        private void facturesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmInformes f = new frmInformes(cnOracle, oracleDataSet);
 
-                cabAlbara.Rows.Add(fila);
-                #endregion
+            f.TxtFinsA.Hide();
+            f.TxtFinsA.Enabled = false;
+            f.LblFinsA.Hide();
+            f.Factura = true;
+            f.Albara = false;
+            f.Show();
+            f.MdiParent = this;
+        }
 
-                #region DataTable Linia
-                DataTable liniaAlbara = new DataTable("LiniaAlbara");
-                liniaAlbara.Columns.Add("Descripcio", typeof(string));
-                liniaAlbara.Columns.Add("QuantitatVenuda", typeof(Int32));
-                liniaAlbara.Columns.Add("PreuVenda", typeof(double));
-                liniaAlbara.Columns.Add("Descompte", typeof(Int32));
+        private void entreNúmerosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmInformes f = new frmInformes(cnOracle, oracleDataSet);
 
-                OracleCommand cmd = cnOracle.CreateCommand();
-                cmd.CommandText = "SELECT descripcio, quantitatvenuda, preuvenda, descompte FROM lineasalbara WHERE nalbara = " + dr[0];
-
-                OracleDataReader reader;
-                reader = cmd.ExecuteReader();
-
-                while (reader.Read())
-                {
-                    fila = liniaAlbara.NewRow();
-
-                    fila[0] = reader.GetOracleString(0);
-                    fila[1] = reader.GetInt32(1);
-                    fila[2] = reader.GetDouble(2);
-                    if (reader["descompte"] != DBNull.Value) fila[3] = reader.GetInt32(3);
-                    else fila[3] = 0;
-
-                    liniaAlbara.Rows.Add(fila);
-                }
-                #endregion
-
-                albarans.Tables.Add(cabAlbara);
-                albarans.Tables.Add(liniaAlbara);
-
-                albarans.WriteXml("albarans.xml");
-
-                var myXslTrans = new XslCompiledTransform();
-                myXslTrans.Load("albarans.xsl");
-                myXslTrans.Transform("albarans.xml", "albarans.html");
-
-                System.Diagnostics.Process.Start("firefox.exe", "albarans.html");
-
-                cnOracle.Close();
-                reader.Dispose();
-                reader.Close();
-                cmd.Dispose();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+            f.TxtFinsA.Show();
+            f.TxtFinsA.Enabled = true;
+            f.LblFinsA.Show();
+            f.Albara = true;
+            f.Factura = false;
+            f.Show();
+            f.MdiParent = this;
         }
     }
 }

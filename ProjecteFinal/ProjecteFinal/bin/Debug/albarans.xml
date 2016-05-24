@@ -1,11 +1,19 @@
 <?xml version="1.0" standalone="yes"?>
 <Albarans>
+  <Empresa>
+    <Logotip>logo.jpg</Logotip>
+    <Nom>Reparacions</Nom>
+    <Adreça>Adreça inventada</Adreça>
+    <NIF>NIF</NIF>
+    <Telefon>987654321</Telefon>
+    <Fax>Fax inventat</Fax>
+  </Empresa>
   <CabAlbara>
     <NAlbara>1</NAlbara>
     <DataAlbara>2016-05-23T00:00:00+02:00</DataAlbara>
-    <NIF>AD-JPR</NIF>
-    <Nom>asd</Nom>
-    <Direccio>Elvis Gasch Viñuales</Direccio>
+    <NIF>asd</NIF>
+    <Nom>Elvis Gasch Viñuales</Nom>
+    <Direccio>Francesc Artau,4,1,1</Direccio>
   </CabAlbara>
   <LiniaAlbara>
     <Descripcio>Soporte de pared para LCD Tv</Descripcio>

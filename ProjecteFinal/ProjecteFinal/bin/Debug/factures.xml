@@ -1,0 +1,108 @@
+<?xml version="1.0" standalone="yes"?>
+<Factures>
+  <Empresa>
+    <Logotip>logo.jpg</Logotip>
+    <Nom>Reparacions</Nom>
+    <Adreça>Adreça inventada</Adreça>
+    <NIF>NIF</NIF>
+    <Telefon>987654321</Telefon>
+    <Fax>Fax inventat</Fax>
+  </Empresa>
+  <CabFactura>
+    <NFactura>1</NFactura>
+    <DataFactura>2016-05-23T00:00:00+02:00</DataFactura>
+    <NIF>046400791Q</NIF>
+    <Nom>Josep Xavier Colomer López</Nom>
+    <Direccio>Llevant,1</Direccio>
+  </CabFactura>
+  <LiniaFactura>
+    <Descripcio>Adaptador USB. Bluetooth Case</Descripcio>
+    <QuantitatVenuda>14</QuantitatVenuda>
+    <PreuVenda>11.81</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaFactura>
+  <LiniaFactura>
+    <Descripcio>Router ADSL/ADSL2 SMC . Switch</Descripcio>
+    <QuantitatVenuda>14</QuantitatVenuda>
+    <PreuVenda>52.14</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaFactura>
+  <LiniaFactura>
+    <Descripcio>CAJA HD. 3,5" COMBO CONEXIÓN USB 2.0</Descripcio>
+    <QuantitatVenuda>11</QuantitatVenuda>
+    <PreuVenda>36.6</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaFactura>
+  <LiniaFactura>
+    <Descripcio>Cpu  INTEL PIV 3.0GHz PRESCOTT (FSB 800) </Descripcio>
+    <QuantitatVenuda>1</QuantitatVenuda>
+    <PreuVenda>192.77</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaFactura>
+  <LiniaFactura>
+    <Descripcio>H.D. MAXTOR 120 GB 7200 RPM 6Y120L0</Descripcio>
+    <QuantitatVenuda>11</QuantitatVenuda>
+    <PreuVenda>81.43</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaFactura>
+  <LiniaFactura>
+    <Descripcio>Monitor IMAGEQUEST L90D+ TFT 19" 8 ms Pivot. Multim.</Descripcio>
+    <QuantitatVenuda>13</QuantitatVenuda>
+    <PreuVenda>375.62</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaFactura>
+  <LiniaFactura>
+    <Descripcio>Imp. EPSON STYLUS PHOTO R300</Descripcio>
+    <QuantitatVenuda>15</QuantitatVenuda>
+    <PreuVenda>149.43</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaFactura>
+  <LiniaFactura>
+    <Descripcio>Cordless Desktop Int. Pro OEM</Descripcio>
+    <QuantitatVenuda>13</QuantitatVenuda>
+    <PreuVenda>25.82</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaFactura>
+  <LiniaFactura>
+    <Descripcio>Mód. SDRAM 128Mb Pc133 KVR133X64C3/128</Descripcio>
+    <QuantitatVenuda>10</QuantitatVenuda>
+    <PreuVenda>28.810000000000002</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaFactura>
+  <LiniaFactura>
+    <Descripcio>Mód. DDRAM 512Mb Pc333 KVR333X64C25/512</Descripcio>
+    <QuantitatVenuda>2</QuantitatVenuda>
+    <PreuVenda>47.89</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaFactura>
+  <LiniaFactura>
+    <Descripcio>Mod. DDR 512Mb Pc400 KVR400X64C3A/512</Descripcio>
+    <QuantitatVenuda>7</QuantitatVenuda>
+    <PreuVenda>41.19</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaFactura>
+  <LiniaFactura>
+    <Descripcio>DATA TRAV. 512 Mb USB 2.0</Descripcio>
+    <QuantitatVenuda>18</QuantitatVenuda>
+    <PreuVenda>41</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaFactura>
+  <LiniaFactura>
+    <Descripcio>P.B. DFI KT600-AL VIA S-A FSB400 DDR400 SATA RAID</Descripcio>
+    <QuantitatVenuda>7</QuantitatVenuda>
+    <PreuVenda>46.97</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaFactura>
+  <LiniaFactura>
+    <Descripcio>P.B. DFI 661FX-TML S775 FSB800</Descripcio>
+    <QuantitatVenuda>19</QuantitatVenuda>
+    <PreuVenda>73.9</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaFactura>
+  <LiniaFactura>
+    <Descripcio>Tarjeta de Red PCI 10/100 WOL </Descripcio>
+    <QuantitatVenuda>16</QuantitatVenuda>
+    <PreuVenda>7.2700000000000005</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaFactura>
+</Factures>

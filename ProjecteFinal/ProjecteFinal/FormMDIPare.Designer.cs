@@ -38,7 +38,13 @@
             this.tsmArticles = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmAlbarans = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmFactures = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmInformes = new System.Windows.Forms.ToolStripMenuItem();
+            this.llistarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clientsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.articlesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.albaransToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.unAlbaràToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.entreNúmerosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.facturesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.oracleDataSet = new ProjecteFinal.OracleDataSet();
             this.cLIENTSTableAdapter = new ProjecteFinal.OracleDataSetTableAdapters.CLIENTSTableAdapter();
             this.tableAdapterManager = new ProjecteFinal.OracleDataSetTableAdapters.TableAdapterManager();
@@ -49,7 +55,6 @@
             this.lINEASFACTURATableAdapter = new ProjecteFinal.OracleDataSetTableAdapters.LINEASFACTURATableAdapter();
             this.mUNICIPISTableAdapter = new ProjecteFinal.OracleDataSetTableAdapters.MUNICIPISTableAdapter();
             this.pROVINCIESTableAdapter = new ProjecteFinal.OracleDataSetTableAdapters.PROVINCIESTableAdapter();
-            this.llistarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuStripMDI.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.oracleDataSet)).BeginInit();
             this.SuspendLayout();
@@ -103,8 +108,7 @@
             this.tsmClients,
             this.tsmArticles,
             this.tsmAlbarans,
-            this.tsmFactures,
-            this.tsmInformes});
+            this.tsmFactures});
             this.formularisToolStripMenuItem.Name = "formularisToolStripMenuItem";
             this.formularisToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
             this.formularisToolStripMenuItem.Text = "Formularis";
@@ -112,37 +116,84 @@
             // tsmClients
             // 
             this.tsmClients.Name = "tsmClients";
-            this.tsmClients.Size = new System.Drawing.Size(121, 22);
+            this.tsmClients.Size = new System.Drawing.Size(120, 22);
             this.tsmClients.Text = "Clients";
             this.tsmClients.Click += new System.EventHandler(this.tsmClients_Click);
             // 
             // tsmArticles
             // 
             this.tsmArticles.Name = "tsmArticles";
-            this.tsmArticles.Size = new System.Drawing.Size(121, 22);
+            this.tsmArticles.Size = new System.Drawing.Size(120, 22);
             this.tsmArticles.Text = "Articles";
             this.tsmArticles.Click += new System.EventHandler(this.tsmArticles_Click);
             // 
             // tsmAlbarans
             // 
             this.tsmAlbarans.Name = "tsmAlbarans";
-            this.tsmAlbarans.Size = new System.Drawing.Size(121, 22);
+            this.tsmAlbarans.Size = new System.Drawing.Size(120, 22);
             this.tsmAlbarans.Text = "Albarans";
             this.tsmAlbarans.Click += new System.EventHandler(this.tsmAlbarans_Click);
             // 
             // tsmFactures
             // 
             this.tsmFactures.Name = "tsmFactures";
-            this.tsmFactures.Size = new System.Drawing.Size(121, 22);
+            this.tsmFactures.Size = new System.Drawing.Size(120, 22);
             this.tsmFactures.Text = "Factures";
             this.tsmFactures.Click += new System.EventHandler(this.tsmFactures_Click);
             // 
-            // tsmInformes
+            // llistarToolStripMenuItem
             // 
-            this.tsmInformes.Name = "tsmInformes";
-            this.tsmInformes.Size = new System.Drawing.Size(121, 22);
-            this.tsmInformes.Text = "Informes";
-            this.tsmInformes.Click += new System.EventHandler(this.tsmInformes_Click);
+            this.llistarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.clientsToolStripMenuItem,
+            this.articlesToolStripMenuItem,
+            this.albaransToolStripMenuItem,
+            this.facturesToolStripMenuItem});
+            this.llistarToolStripMenuItem.Name = "llistarToolStripMenuItem";
+            this.llistarToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
+            this.llistarToolStripMenuItem.Text = "Llistar";
+            this.llistarToolStripMenuItem.Click += new System.EventHandler(this.llistarToolStripMenuItem_Click);
+            // 
+            // clientsToolStripMenuItem
+            // 
+            this.clientsToolStripMenuItem.Name = "clientsToolStripMenuItem";
+            this.clientsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.clientsToolStripMenuItem.Text = "Clients";
+            // 
+            // articlesToolStripMenuItem
+            // 
+            this.articlesToolStripMenuItem.Name = "articlesToolStripMenuItem";
+            this.articlesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.articlesToolStripMenuItem.Text = "Articles";
+            // 
+            // albaransToolStripMenuItem
+            // 
+            this.albaransToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.unAlbaràToolStripMenuItem,
+            this.entreNúmerosToolStripMenuItem});
+            this.albaransToolStripMenuItem.Name = "albaransToolStripMenuItem";
+            this.albaransToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.albaransToolStripMenuItem.Text = "Albarans";
+            // 
+            // unAlbaràToolStripMenuItem
+            // 
+            this.unAlbaràToolStripMenuItem.Name = "unAlbaràToolStripMenuItem";
+            this.unAlbaràToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.unAlbaràToolStripMenuItem.Text = "Un albarà";
+            this.unAlbaràToolStripMenuItem.Click += new System.EventHandler(this.unAlbaràToolStripMenuItem_Click);
+            // 
+            // entreNúmerosToolStripMenuItem
+            // 
+            this.entreNúmerosToolStripMenuItem.Name = "entreNúmerosToolStripMenuItem";
+            this.entreNúmerosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.entreNúmerosToolStripMenuItem.Text = "Entre números";
+            this.entreNúmerosToolStripMenuItem.Click += new System.EventHandler(this.entreNúmerosToolStripMenuItem_Click);
+            // 
+            // facturesToolStripMenuItem
+            // 
+            this.facturesToolStripMenuItem.Name = "facturesToolStripMenuItem";
+            this.facturesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.facturesToolStripMenuItem.Text = "Factures";
+            this.facturesToolStripMenuItem.Click += new System.EventHandler(this.facturesToolStripMenuItem_Click);
             // 
             // oracleDataSet
             // 
@@ -194,13 +245,6 @@
             // 
             this.pROVINCIESTableAdapter.ClearBeforeFill = true;
             // 
-            // llistarToolStripMenuItem
-            // 
-            this.llistarToolStripMenuItem.Name = "llistarToolStripMenuItem";
-            this.llistarToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
-            this.llistarToolStripMenuItem.Text = "Llistar";
-            this.llistarToolStripMenuItem.Click += new System.EventHandler(this.llistarToolStripMenuItem_Click);
-            // 
             // frmMDIPare
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -230,7 +274,6 @@
         private System.Windows.Forms.ToolStripMenuItem tsmArticles;
         private System.Windows.Forms.ToolStripMenuItem tsmAlbarans;
         private System.Windows.Forms.ToolStripMenuItem tsmFactures;
-        private System.Windows.Forms.ToolStripMenuItem tsmInformes;
         private OracleDataSet oracleDataSet;
         private OracleDataSetTableAdapters.CLIENTSTableAdapter cLIENTSTableAdapter;
         private OracleDataSetTableAdapters.TableAdapterManager tableAdapterManager;
@@ -243,5 +286,11 @@
         private OracleDataSetTableAdapters.LINEASFACTURATableAdapter lINEASFACTURATableAdapter;
         private System.Windows.Forms.ToolStripMenuItem eliminarDadesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem llistarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem clientsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem articlesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem albaransToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem unAlbaràToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem entreNúmerosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem facturesToolStripMenuItem;
     }
 }

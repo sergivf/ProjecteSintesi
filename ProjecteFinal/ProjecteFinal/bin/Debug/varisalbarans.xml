@@ -1,0 +1,88 @@
+<?xml version="1.0" standalone="yes"?>
+<Albarans>
+  <Empresa>
+    <Logotip>logo.jpg</Logotip>
+    <Nom>Reparacions</Nom>
+    <Adreça>Adreça inventada</Adreça>
+    <NIF>NIF</NIF>
+    <Telefon>987654321</Telefon>
+    <Fax>Fax inventat</Fax>
+  </Empresa>
+  <CabAlbara>
+    <NAlbara>1</NAlbara>
+    <DataAlbara>2016-05-23T00:00:00+02:00</DataAlbara>
+    <NIF>asd</NIF>
+    <Nom>Elvis Gasch Viñuales</Nom>
+    <Direccio>Francesc Artau,4,1,1</Direccio>
+  </CabAlbara>
+  <CabAlbara>
+    <NAlbara>8</NAlbara>
+    <DataAlbara>2016-05-23T00:00:00+02:00</DataAlbara>
+    <NIF>040252427N</NIF>
+    <Nom>Llorenç Guixeras Quera</Nom>
+    <Direccio>Ronda de Baix, 18</Direccio>
+  </CabAlbara>
+  <LiniaAlbara>
+    <NAlbara>1</NAlbara>
+    <Descripcio>Soporte de pared para LCD Tv</Descripcio>
+    <QuantitatVenuda>14</QuantitatVenuda>
+    <PreuVenda>102.57000000000001</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaAlbara>
+  <LiniaAlbara>
+    <NAlbara>1</NAlbara>
+    <Descripcio>Tarjeta de Red 10/100/1GHZ </Descripcio>
+    <QuantitatVenuda>20</QuantitatVenuda>
+    <PreuVenda>37.7</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaAlbara>
+  <LiniaAlbara>
+    <NAlbara>1</NAlbara>
+    <Descripcio>DEC-1100-T EUROCONECTOR TDT</Descripcio>
+    <QuantitatVenuda>19</QuantitatVenuda>
+    <PreuVenda>84.48</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaAlbara>
+  <LiniaAlbara>
+    <NAlbara>8</NAlbara>
+    <Descripcio>Cámara digital SAMSUNG Digimax UCA3</Descripcio>
+    <QuantitatVenuda>14</QuantitatVenuda>
+    <PreuVenda>275.09000000000003</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaAlbara>
+  <LiniaAlbara>
+    <NAlbara>8</NAlbara>
+    <Descripcio>Router Firewall + Switch 4ptos</Descripcio>
+    <QuantitatVenuda>9</QuantitatVenuda>
+    <PreuVenda>48.51</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaAlbara>
+  <LiniaAlbara>
+    <NAlbara>8</NAlbara>
+    <Descripcio>Módem Bluetooth 56k</Descripcio>
+    <QuantitatVenuda>16</QuantitatVenuda>
+    <PreuVenda>87.86</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaAlbara>
+  <LiniaAlbara>
+    <NAlbara>8</NAlbara>
+    <Descripcio>CDR VERBATIM 700M  52x T 50 CD</Descripcio>
+    <QuantitatVenuda>9</QuantitatVenuda>
+    <PreuVenda>23.36</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaAlbara>
+  <LiniaAlbara>
+    <NAlbara>8</NAlbara>
+    <Descripcio>Mód. SDRAM 256Mb Pc133 KVR133X64C3/256</Descripcio>
+    <QuantitatVenuda>13</QuantitatVenuda>
+    <PreuVenda>46.77</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaAlbara>
+  <LiniaAlbara>
+    <NAlbara>8</NAlbara>
+    <Descripcio>Portátil Hp Evo NX9105 AT 3.0 512</Descripcio>
+    <QuantitatVenuda>7</QuantitatVenuda>
+    <PreuVenda>1110.3600000000001</PreuVenda>
+    <Descompte>0</Descompte>
+  </LiniaAlbara>
+</Albarans>

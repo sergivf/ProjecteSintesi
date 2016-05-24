@@ -66,7 +66,7 @@ namespace ProjecteFinal
         /// <summary>
         /// Quan no hi ha més dades mostra els textbox buits
         /// </summary>
-        private void MostrarBuits()
+        public override void MostrarBuits()
         {
             txtNFactura.Text = "";
             txtDataFactura.Text = "";
@@ -82,7 +82,7 @@ namespace ProjecteFinal
         /// <summary>
         /// Emplena les dades amb el registre actual
         /// </summary>
-        private void EmplenarDades()
+        public override void EmplenarDades()
         {
             txtNFactura.Text = dr["nfactura"].ToString();
             txtDataFactura.Text = dr["datafactura"].ToString();
@@ -123,7 +123,7 @@ namespace ProjecteFinal
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void txtEliminarFactura_Click(object sender, EventArgs e)
+        private void btnEliminarFactura_Click(object sender, EventArgs e)
         {
             OracleCommand command = new OracleCommand();
 
@@ -138,7 +138,7 @@ namespace ProjecteFinal
 
             command.Dispose();
 
-           
+
 
             tamDades.CABALBARATableAdapter.Fill(dsDades.CABALBARA);
             tamDades.CABFACTURASTableAdapter.Fill(dsDades.CABFACTURAS);

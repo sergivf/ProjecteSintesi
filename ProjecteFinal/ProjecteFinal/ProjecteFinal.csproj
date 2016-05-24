@@ -117,6 +117,7 @@
     <Compile Include="frmPare.Designer.cs">
       <DependentUpon>frmPare.cs</DependentUpon>
     </Compile>
+    <Compile Include="Llistar.cs" />
     <Compile Include="OracleDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
