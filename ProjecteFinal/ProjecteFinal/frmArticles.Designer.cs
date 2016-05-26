@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblCodi = new System.Windows.Forms.Label();
             this.txtCodi = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lblDescripcio = new System.Windows.Forms.Label();
+            this.lblQuantitatStock = new System.Windows.Forms.Label();
+            this.lblPreuCost = new System.Windows.Forms.Label();
+            this.lblPreuVenda = new System.Windows.Forms.Label();
+            this.lblDescompte = new System.Windows.Forms.Label();
             this.txtDescripcio = new System.Windows.Forms.TextBox();
             this.txtQuantitatStock = new System.Windows.Forms.TextBox();
             this.txtPCost = new System.Windows.Forms.TextBox();
@@ -50,74 +50,83 @@
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label9 = new System.Windows.Forms.Label();
+            this.lblOrdenacio = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlbarans)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // lblCodi
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(32, 43);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(28, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Codi";
+            this.lblCodi.AutoSize = true;
+            this.lblCodi.Location = new System.Drawing.Point(31, 134);
+            this.lblCodi.Name = "lblCodi";
+            this.lblCodi.Size = new System.Drawing.Size(28, 13);
+            this.lblCodi.TabIndex = 1;
+            this.lblCodi.Text = "Codi";
+            this.lblCodi.Click += new System.EventHandler(this.lblCodi_Click);
             // 
             // txtCodi
             // 
-            this.txtCodi.Location = new System.Drawing.Point(139, 36);
+            this.txtCodi.Location = new System.Drawing.Point(138, 127);
             this.txtCodi.Name = "txtCodi";
             this.txtCodi.ReadOnly = true;
             this.txtCodi.Size = new System.Drawing.Size(100, 20);
             this.txtCodi.TabIndex = 2;
             // 
-            // label2
+            // lblDescripcio
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(32, 82);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Descripció";
+            this.lblDescripcio.AutoSize = true;
+            this.lblDescripcio.Location = new System.Drawing.Point(31, 173);
+            this.lblDescripcio.Name = "lblDescripcio";
+            this.lblDescripcio.Size = new System.Drawing.Size(57, 13);
+            this.lblDescripcio.TabIndex = 3;
+            this.lblDescripcio.Text = "Descripció";
+            this.lblDescripcio.Click += new System.EventHandler(this.lblDescripcio_Click);
             // 
-            // label3
+            // lblQuantitatStock
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(32, 120);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Quantitat Stock";
+            this.lblQuantitatStock.AutoSize = true;
+            this.lblQuantitatStock.Location = new System.Drawing.Point(31, 211);
+            this.lblQuantitatStock.Name = "lblQuantitatStock";
+            this.lblQuantitatStock.Size = new System.Drawing.Size(81, 13);
+            this.lblQuantitatStock.TabIndex = 4;
+            this.lblQuantitatStock.Text = "Quantitat Stock";
+            this.lblQuantitatStock.Click += new System.EventHandler(this.lblQuantitatStock_Click);
             // 
-            // label4
+            // lblPreuCost
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(32, 159);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 13);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Preu Cost";
+            this.lblPreuCost.AutoSize = true;
+            this.lblPreuCost.Location = new System.Drawing.Point(31, 250);
+            this.lblPreuCost.Name = "lblPreuCost";
+            this.lblPreuCost.Size = new System.Drawing.Size(53, 13);
+            this.lblPreuCost.TabIndex = 5;
+            this.lblPreuCost.Text = "Preu Cost";
+            this.lblPreuCost.Click += new System.EventHandler(this.lblPreuCost_Click);
             // 
-            // label5
+            // lblPreuVenda
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(32, 202);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(63, 13);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "Preu Venda";
+            this.lblPreuVenda.AutoSize = true;
+            this.lblPreuVenda.Location = new System.Drawing.Point(31, 293);
+            this.lblPreuVenda.Name = "lblPreuVenda";
+            this.lblPreuVenda.Size = new System.Drawing.Size(63, 13);
+            this.lblPreuVenda.TabIndex = 6;
+            this.lblPreuVenda.Text = "Preu Venda";
+            this.lblPreuVenda.Click += new System.EventHandler(this.lblPreuVenda_Click);
             // 
-            // label6
+            // lblDescompte
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(32, 243);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(61, 13);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "Descompte";
+            this.lblDescompte.AutoSize = true;
+            this.lblDescompte.Location = new System.Drawing.Point(31, 334);
+            this.lblDescompte.Name = "lblDescompte";
+            this.lblDescompte.Size = new System.Drawing.Size(61, 13);
+            this.lblDescompte.TabIndex = 7;
+            this.lblDescompte.Text = "Descompte";
+            this.lblDescompte.Click += new System.EventHandler(this.lblDescompte_Click);
             // 
             // txtDescripcio
             // 
-            this.txtDescripcio.Location = new System.Drawing.Point(139, 75);
+            this.txtDescripcio.Location = new System.Drawing.Point(138, 166);
             this.txtDescripcio.Name = "txtDescripcio";
             this.txtDescripcio.ReadOnly = true;
             this.txtDescripcio.Size = new System.Drawing.Size(100, 20);
@@ -125,7 +134,7 @@
             // 
             // txtQuantitatStock
             // 
-            this.txtQuantitatStock.Location = new System.Drawing.Point(139, 113);
+            this.txtQuantitatStock.Location = new System.Drawing.Point(138, 204);
             this.txtQuantitatStock.Name = "txtQuantitatStock";
             this.txtQuantitatStock.ReadOnly = true;
             this.txtQuantitatStock.Size = new System.Drawing.Size(100, 20);
@@ -133,7 +142,7 @@
             // 
             // txtPCost
             // 
-            this.txtPCost.Location = new System.Drawing.Point(139, 152);
+            this.txtPCost.Location = new System.Drawing.Point(138, 243);
             this.txtPCost.Name = "txtPCost";
             this.txtPCost.ReadOnly = true;
             this.txtPCost.Size = new System.Drawing.Size(100, 20);
@@ -141,7 +150,7 @@
             // 
             // txtPVenda
             // 
-            this.txtPVenda.Location = new System.Drawing.Point(139, 195);
+            this.txtPVenda.Location = new System.Drawing.Point(138, 286);
             this.txtPVenda.Name = "txtPVenda";
             this.txtPVenda.ReadOnly = true;
             this.txtPVenda.Size = new System.Drawing.Size(100, 20);
@@ -149,7 +158,7 @@
             // 
             // txtDescompte
             // 
-            this.txtDescompte.Location = new System.Drawing.Point(139, 236);
+            this.txtDescompte.Location = new System.Drawing.Point(138, 327);
             this.txtDescompte.Name = "txtDescompte";
             this.txtDescompte.ReadOnly = true;
             this.txtDescompte.Size = new System.Drawing.Size(100, 20);
@@ -237,11 +246,44 @@
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(21, 33);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(78, 18);
+            this.label9.TabIndex = 32;
+            this.label9.Text = "Ordenat: ";
+            // 
+            // lblOrdenacio
+            // 
+            this.lblOrdenacio.AutoSize = true;
+            this.lblOrdenacio.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOrdenacio.Location = new System.Drawing.Point(105, 33);
+            this.lblOrdenacio.Name = "lblOrdenacio";
+            this.lblOrdenacio.Size = new System.Drawing.Size(87, 18);
+            this.lblOrdenacio.TabIndex = 33;
+            this.lblOrdenacio.Text = "CODI ASC";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(21, 74);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(236, 18);
+            this.label10.TabIndex = 34;
+            this.label10.Text = "Premer els Labels per ordenar";
+            // 
             // frmArticles
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(955, 517);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.lblOrdenacio);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.dgvAlbarans);
             this.Controls.Add(this.btnCercarArticles);
             this.Controls.Add(this.dtpDataFinal);
@@ -253,23 +295,23 @@
             this.Controls.Add(this.txtPCost);
             this.Controls.Add(this.txtQuantitatStock);
             this.Controls.Add(this.txtDescripcio);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblDescompte);
+            this.Controls.Add(this.lblPreuVenda);
+            this.Controls.Add(this.lblPreuCost);
+            this.Controls.Add(this.lblQuantitatStock);
+            this.Controls.Add(this.lblDescripcio);
             this.Controls.Add(this.txtCodi);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblCodi);
             this.Name = "frmArticles";
             this.Text = "frmArticles";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmArticles_FormClosing);
-            this.Controls.SetChildIndex(this.label1, 0);
+            this.Controls.SetChildIndex(this.lblCodi, 0);
             this.Controls.SetChildIndex(this.txtCodi, 0);
-            this.Controls.SetChildIndex(this.label2, 0);
-            this.Controls.SetChildIndex(this.label3, 0);
-            this.Controls.SetChildIndex(this.label4, 0);
-            this.Controls.SetChildIndex(this.label5, 0);
-            this.Controls.SetChildIndex(this.label6, 0);
+            this.Controls.SetChildIndex(this.lblDescripcio, 0);
+            this.Controls.SetChildIndex(this.lblQuantitatStock, 0);
+            this.Controls.SetChildIndex(this.lblPreuCost, 0);
+            this.Controls.SetChildIndex(this.lblPreuVenda, 0);
+            this.Controls.SetChildIndex(this.lblDescompte, 0);
             this.Controls.SetChildIndex(this.txtDescripcio, 0);
             this.Controls.SetChildIndex(this.txtQuantitatStock, 0);
             this.Controls.SetChildIndex(this.txtPCost, 0);
@@ -281,6 +323,9 @@
             this.Controls.SetChildIndex(this.dtpDataFinal, 0);
             this.Controls.SetChildIndex(this.btnCercarArticles, 0);
             this.Controls.SetChildIndex(this.dgvAlbarans, 0);
+            this.Controls.SetChildIndex(this.label9, 0);
+            this.Controls.SetChildIndex(this.lblOrdenacio, 0);
+            this.Controls.SetChildIndex(this.label10, 0);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlbarans)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -289,13 +334,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblCodi;
         private System.Windows.Forms.TextBox txtCodi;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblDescripcio;
+        private System.Windows.Forms.Label lblQuantitatStock;
+        private System.Windows.Forms.Label lblPreuCost;
+        private System.Windows.Forms.Label lblPreuVenda;
+        private System.Windows.Forms.Label lblDescompte;
         private System.Windows.Forms.TextBox txtDescripcio;
         private System.Windows.Forms.TextBox txtQuantitatStock;
         private System.Windows.Forms.TextBox txtPCost;
@@ -311,5 +356,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lblOrdenacio;
+        private System.Windows.Forms.Label label10;
     }
 }

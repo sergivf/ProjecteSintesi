@@ -21,6 +21,8 @@ namespace ProjecteFinal
         OracleDataSetTableAdapters.ARTICLESTableAdapter aTa;
         OracleConnection cnOracle;
         DataRow dr;
+        bool asc = false;
+        bool desc = false;
 
         public frmArticles(OracleDataSet dsDades, OracleConnection cnOracle)
         {
@@ -32,6 +34,7 @@ namespace ProjecteFinal
             cnOracle.Open();
 
             dsDades.ARTICLES.DefaultView.Sort = "CODI ASC";
+            asc = true;
 
             Origen.DataSource = dsDades.ARTICLES;
             Origen.MoveFirst();
@@ -232,6 +235,114 @@ namespace ProjecteFinal
                 reader.Dispose();
                 reader.Close();
                 cmd.Dispose();
+            }
+        }
+
+        private void lblCodi_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.ARTICLES.DefaultView.Sort = "CODI DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "CODI DESC";
+            }
+            else
+            {
+                dsDades.ARTICLES.DefaultView.Sort = "CODI ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "CODI ASC";
+            }
+        }
+
+        private void lblDescripcio_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.ARTICLES.DefaultView.Sort = "DESCRIPCIO DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "DESCRIPCIÓ DESC";
+            }
+            else
+            {
+                dsDades.ARTICLES.DefaultView.Sort = "DESCRIPCIO ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "DESCRIPCIÓ ASC";
+            }
+        }
+
+        private void lblQuantitatStock_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.ARTICLES.DefaultView.Sort = "QUANTITATSTOCK DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "QUANTITAT STOCK DESC";
+            }
+            else
+            {
+                dsDades.ARTICLES.DefaultView.Sort = "QUANTITATSTOCK ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "QUANTITAT STOCK ASC";
+            }
+        }
+
+        private void lblPreuCost_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.ARTICLES.DefaultView.Sort = "PCOST DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "PREU COST DESC";
+            }
+            else
+            {
+                dsDades.ARTICLES.DefaultView.Sort = "PCOST ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "PREU COST ASC";
+            }
+        }
+
+        private void lblPreuVenda_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.ARTICLES.DefaultView.Sort = "PVENDA DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "PREU VENDA DESC";
+            }
+            else
+            {
+                dsDades.ARTICLES.DefaultView.Sort = "PVENDA ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "PREU VENDA ASC";
+            }
+        }
+
+        private void lblDescompte_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.ARTICLES.DefaultView.Sort = "DESCOMPTE DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "DESCOMPTE DESC";
+            }
+            else
+            {
+                dsDades.ARTICLES.DefaultView.Sort = "DESCOMPTE ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "DESCOMPTE ASC";
             }
         }
     }

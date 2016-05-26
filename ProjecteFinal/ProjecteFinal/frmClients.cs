@@ -19,6 +19,9 @@ namespace ProjecteFinal
         OracleDataSetTableAdapters.CLIENTSTableAdapter cTa;
         OracleConnection cnOracle;
         DataRow dr;
+        bool asc = false;
+        bool desc = false;
+
         public frmClients(OracleDataSet dsDades, OracleConnection cnOracle) 
         {
             InitializeComponent();
@@ -29,6 +32,7 @@ namespace ProjecteFinal
             cnOracle.Open();
 
             dsDades.CLIENTS.DefaultView.Sort = "CODI ASC";
+            asc = true;
 
             Origen.DataSource = dsDades.CLIENTS;
             Origen.MoveFirst();
@@ -306,6 +310,204 @@ namespace ProjecteFinal
                 {
                     dgvLinies.Rows.Add(reader.GetOracleString(0), reader.GetOracleString(1), reader.GetOracleValue(2), reader.GetOracleValue(3));
                 }
+            }
+        }
+
+        private void lblCodi_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "CODI DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "CODI DESC";
+            }
+            else
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "CODI ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "CODI ASC";
+            }
+        }
+
+        private void lblNIF_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "NIF DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "NIF DESC";
+            }
+            else
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "NIF ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "NIF ASC";
+            }
+        }
+
+        private void lblNom_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "NOM DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "NOM DESC";
+            }
+            else
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "NOM ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "NOM ASC";
+            }
+        }
+
+        private void lblAdreça_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "ADREÇA DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "ADREÇA DESC";
+            }
+            else
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "ADREÇA ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "ADREÇA ASC";
+            }
+        }
+
+        private void lblCodiProvincia_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "CODIPROVINCIA DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "CODI PROVINCIA DESC";
+            }
+            else
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "CODIPROVINCIA ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "CODI PROVINCIA ASC";
+            }
+        }
+
+        private void lblCodiMunicipi_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "CODIMUNICIPI DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "CODI MUNICIPI DESC";
+            }
+            else
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "CODIMUNICIPI ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "CODI MUNICIPI ASC";
+            }
+        }
+
+        private void lblTelefon_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "TELEFON DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "TELEFON DESC";
+            }
+            else
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "TELEFON ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "TELEFON ASC";
+            }
+        }
+
+        private void lblFax_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "FAX DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "FAX DESC";
+            }
+            else
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "FAX ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "FAX ASC";
+            }
+        }
+
+        private void lblEmail_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "EMAIL DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "EMAIL DESC";
+            }
+            else
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "EMAIL ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "EMAIL ASC";
+            }
+        }
+
+        private void lblBancCC_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "BANCCC DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "BANCCC DESC";
+            }
+            else
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "BANCCC ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "BANCCC ASC";
+            }
+        }
+
+        private void lblFormaPagament_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "FORMADEPAGAMENT DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "FORMA DE PAGAMENT DESC";
+            }
+            else
+            {
+                dsDades.CLIENTS.DefaultView.Sort = "FORMADEPAGAMENT ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "FORMADEPAGAMENT ASC";
             }
         }
     }

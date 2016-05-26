@@ -28,15 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblNFactura = new System.Windows.Forms.Label();
+            this.lblDataAlbara = new System.Windows.Forms.Label();
+            this.lblNAlbara = new System.Windows.Forms.Label();
+            this.lblDataFactura = new System.Windows.Forms.Label();
+            this.lblNom = new System.Windows.Forms.Label();
+            this.lblCodiClient = new System.Windows.Forms.Label();
+            this.lblNIF = new System.Windows.Forms.Label();
+            this.lblDireccio = new System.Windows.Forms.Label();
+            this.lblPoblacio = new System.Windows.Forms.Label();
             this.txtNFactura = new System.Windows.Forms.TextBox();
             this.txtNAlbara = new System.Windows.Forms.TextBox();
             this.txtDataFactura = new System.Windows.Forms.TextBox();
@@ -53,93 +53,105 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnEliminarFactura = new System.Windows.Forms.Button();
+            this.lblOrdenat = new System.Windows.Forms.Label();
+            this.lblOrdenacio = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLiniesFactura)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // lblNFactura
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(41, 65);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Número factura";
+            this.lblNFactura.AutoSize = true;
+            this.lblNFactura.Location = new System.Drawing.Point(27, 106);
+            this.lblNFactura.Name = "lblNFactura";
+            this.lblNFactura.Size = new System.Drawing.Size(80, 13);
+            this.lblNFactura.TabIndex = 1;
+            this.lblNFactura.Text = "Número factura";
+            this.lblNFactura.Click += new System.EventHandler(this.lblNFactura_Click);
             // 
-            // label2
+            // lblDataAlbara
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(41, 190);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Data albara";
+            this.lblDataAlbara.AutoSize = true;
+            this.lblDataAlbara.Location = new System.Drawing.Point(27, 231);
+            this.lblDataAlbara.Name = "lblDataAlbara";
+            this.lblDataAlbara.Size = new System.Drawing.Size(62, 13);
+            this.lblDataAlbara.TabIndex = 2;
+            this.lblDataAlbara.Text = "Data albara";
+            this.lblDataAlbara.Click += new System.EventHandler(this.lblDataAlbara_Click);
             // 
-            // label3
+            // lblNAlbara
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(41, 148);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Número albarà";
+            this.lblNAlbara.AutoSize = true;
+            this.lblNAlbara.Location = new System.Drawing.Point(27, 191);
+            this.lblNAlbara.Name = "lblNAlbara";
+            this.lblNAlbara.Size = new System.Drawing.Size(76, 13);
+            this.lblNAlbara.TabIndex = 3;
+            this.lblNAlbara.Text = "Número albarà";
+            this.lblNAlbara.Click += new System.EventHandler(this.lblNAlbara_Click);
             // 
-            // label4
+            // lblDataFactura
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(41, 106);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(66, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Data factura";
+            this.lblDataFactura.AutoSize = true;
+            this.lblDataFactura.Location = new System.Drawing.Point(27, 147);
+            this.lblDataFactura.Name = "lblDataFactura";
+            this.lblDataFactura.Size = new System.Drawing.Size(66, 13);
+            this.lblDataFactura.TabIndex = 4;
+            this.lblDataFactura.Text = "Data factura";
+            this.lblDataFactura.Click += new System.EventHandler(this.lblDataFactura_Click);
             // 
-            // label5
+            // lblNom
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(41, 310);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(29, 13);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Nom";
+            this.lblNom.AutoSize = true;
+            this.lblNom.Location = new System.Drawing.Point(27, 351);
+            this.lblNom.Name = "lblNom";
+            this.lblNom.Size = new System.Drawing.Size(29, 13);
+            this.lblNom.TabIndex = 5;
+            this.lblNom.Text = "Nom";
+            this.lblNom.Click += new System.EventHandler(this.lblNom_Click);
             // 
-            // label6
+            // lblCodiClient
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(41, 232);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(56, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Codi client";
+            this.lblCodiClient.AutoSize = true;
+            this.lblCodiClient.Location = new System.Drawing.Point(27, 273);
+            this.lblCodiClient.Name = "lblCodiClient";
+            this.lblCodiClient.Size = new System.Drawing.Size(56, 13);
+            this.lblCodiClient.TabIndex = 5;
+            this.lblCodiClient.Text = "Codi client";
+            this.lblCodiClient.Click += new System.EventHandler(this.lblCodiClient_Click);
             // 
-            // label7
+            // lblNIF
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(41, 271);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(24, 13);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "NIF";
+            this.lblNIF.AutoSize = true;
+            this.lblNIF.Location = new System.Drawing.Point(27, 312);
+            this.lblNIF.Name = "lblNIF";
+            this.lblNIF.Size = new System.Drawing.Size(24, 13);
+            this.lblNIF.TabIndex = 6;
+            this.lblNIF.Text = "NIF";
+            this.lblNIF.Click += new System.EventHandler(this.lblNIF_Click);
             // 
-            // label8
+            // lblDireccio
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(41, 347);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(46, 13);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Direcció";
+            this.lblDireccio.AutoSize = true;
+            this.lblDireccio.Location = new System.Drawing.Point(27, 388);
+            this.lblDireccio.Name = "lblDireccio";
+            this.lblDireccio.Size = new System.Drawing.Size(46, 13);
+            this.lblDireccio.TabIndex = 7;
+            this.lblDireccio.Text = "Direcció";
+            this.lblDireccio.Click += new System.EventHandler(this.lblDireccio_Click);
             // 
-            // label9
+            // lblPoblacio
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(41, 384);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(48, 13);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "Població";
+            this.lblPoblacio.AutoSize = true;
+            this.lblPoblacio.Location = new System.Drawing.Point(27, 421);
+            this.lblPoblacio.Name = "lblPoblacio";
+            this.lblPoblacio.Size = new System.Drawing.Size(48, 13);
+            this.lblPoblacio.TabIndex = 8;
+            this.lblPoblacio.Text = "Població";
+            this.lblPoblacio.Click += new System.EventHandler(this.lblPoblacio_Click);
             // 
             // txtNFactura
             // 
-            this.txtNFactura.Location = new System.Drawing.Point(132, 58);
+            this.txtNFactura.Location = new System.Drawing.Point(132, 99);
             this.txtNFactura.Name = "txtNFactura";
             this.txtNFactura.ReadOnly = true;
             this.txtNFactura.Size = new System.Drawing.Size(100, 20);
@@ -147,7 +159,7 @@
             // 
             // txtNAlbara
             // 
-            this.txtNAlbara.Location = new System.Drawing.Point(132, 141);
+            this.txtNAlbara.Location = new System.Drawing.Point(132, 184);
             this.txtNAlbara.Name = "txtNAlbara";
             this.txtNAlbara.ReadOnly = true;
             this.txtNAlbara.Size = new System.Drawing.Size(100, 20);
@@ -155,7 +167,7 @@
             // 
             // txtDataFactura
             // 
-            this.txtDataFactura.Location = new System.Drawing.Point(132, 99);
+            this.txtDataFactura.Location = new System.Drawing.Point(132, 140);
             this.txtDataFactura.Name = "txtDataFactura";
             this.txtDataFactura.ReadOnly = true;
             this.txtDataFactura.Size = new System.Drawing.Size(100, 20);
@@ -163,7 +175,7 @@
             // 
             // txtDataAlbara
             // 
-            this.txtDataAlbara.Location = new System.Drawing.Point(132, 183);
+            this.txtDataAlbara.Location = new System.Drawing.Point(132, 224);
             this.txtDataAlbara.Name = "txtDataAlbara";
             this.txtDataAlbara.ReadOnly = true;
             this.txtDataAlbara.Size = new System.Drawing.Size(100, 20);
@@ -171,7 +183,7 @@
             // 
             // txtCodiClient
             // 
-            this.txtCodiClient.Location = new System.Drawing.Point(132, 225);
+            this.txtCodiClient.Location = new System.Drawing.Point(132, 266);
             this.txtCodiClient.Name = "txtCodiClient";
             this.txtCodiClient.ReadOnly = true;
             this.txtCodiClient.Size = new System.Drawing.Size(100, 20);
@@ -179,7 +191,7 @@
             // 
             // txtNom
             // 
-            this.txtNom.Location = new System.Drawing.Point(132, 303);
+            this.txtNom.Location = new System.Drawing.Point(132, 344);
             this.txtNom.Name = "txtNom";
             this.txtNom.ReadOnly = true;
             this.txtNom.Size = new System.Drawing.Size(100, 20);
@@ -187,7 +199,7 @@
             // 
             // txtNIF
             // 
-            this.txtNIF.Location = new System.Drawing.Point(132, 264);
+            this.txtNIF.Location = new System.Drawing.Point(132, 305);
             this.txtNIF.Name = "txtNIF";
             this.txtNIF.ReadOnly = true;
             this.txtNIF.Size = new System.Drawing.Size(100, 20);
@@ -195,7 +207,7 @@
             // 
             // txtDireccio
             // 
-            this.txtDireccio.Location = new System.Drawing.Point(132, 340);
+            this.txtDireccio.Location = new System.Drawing.Point(132, 381);
             this.txtDireccio.Name = "txtDireccio";
             this.txtDireccio.ReadOnly = true;
             this.txtDireccio.Size = new System.Drawing.Size(100, 20);
@@ -203,7 +215,7 @@
             // 
             // txtPoblacio
             // 
-            this.txtPoblacio.Location = new System.Drawing.Point(132, 377);
+            this.txtPoblacio.Location = new System.Drawing.Point(132, 414);
             this.txtPoblacio.Name = "txtPoblacio";
             this.txtPoblacio.ReadOnly = true;
             this.txtPoblacio.Size = new System.Drawing.Size(100, 20);
@@ -266,11 +278,44 @@
             this.btnEliminarFactura.UseVisualStyleBackColor = true;
             this.btnEliminarFactura.Click += new System.EventHandler(this.btnEliminarFactura_Click);
             // 
+            // lblOrdenat
+            // 
+            this.lblOrdenat.AutoSize = true;
+            this.lblOrdenat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOrdenat.Location = new System.Drawing.Point(15, 34);
+            this.lblOrdenat.Name = "lblOrdenat";
+            this.lblOrdenat.Size = new System.Drawing.Size(78, 18);
+            this.lblOrdenat.TabIndex = 30;
+            this.lblOrdenat.Text = "Ordenat: ";
+            // 
+            // lblOrdenacio
+            // 
+            this.lblOrdenacio.AutoSize = true;
+            this.lblOrdenacio.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOrdenacio.Location = new System.Drawing.Point(99, 34);
+            this.lblOrdenacio.Name = "lblOrdenacio";
+            this.lblOrdenacio.Size = new System.Drawing.Size(201, 18);
+            this.lblOrdenacio.TabIndex = 31;
+            this.lblOrdenacio.Text = "NÚMERO FACTURA ASC";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(15, 65);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(236, 18);
+            this.label10.TabIndex = 32;
+            this.label10.Text = "Premer els Labels per ordenar";
+            // 
             // frmFactures
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(828, 457);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.lblOrdenacio);
+            this.Controls.Add(this.lblOrdenat);
             this.Controls.Add(this.btnEliminarFactura);
             this.Controls.Add(this.dgvLiniesFactura);
             this.Controls.Add(this.txtPoblacio);
@@ -282,27 +327,27 @@
             this.Controls.Add(this.txtDataFactura);
             this.Controls.Add(this.txtNAlbara);
             this.Controls.Add(this.txtNFactura);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblPoblacio);
+            this.Controls.Add(this.lblDireccio);
+            this.Controls.Add(this.lblNIF);
+            this.Controls.Add(this.lblCodiClient);
+            this.Controls.Add(this.lblNom);
+            this.Controls.Add(this.lblDataFactura);
+            this.Controls.Add(this.lblNAlbara);
+            this.Controls.Add(this.lblDataAlbara);
+            this.Controls.Add(this.lblNFactura);
             this.Name = "frmFactures";
             this.Text = "frmFactures";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmFactures_FormClosing);
-            this.Controls.SetChildIndex(this.label1, 0);
-            this.Controls.SetChildIndex(this.label2, 0);
-            this.Controls.SetChildIndex(this.label3, 0);
-            this.Controls.SetChildIndex(this.label4, 0);
-            this.Controls.SetChildIndex(this.label5, 0);
-            this.Controls.SetChildIndex(this.label6, 0);
-            this.Controls.SetChildIndex(this.label7, 0);
-            this.Controls.SetChildIndex(this.label8, 0);
-            this.Controls.SetChildIndex(this.label9, 0);
+            this.Controls.SetChildIndex(this.lblNFactura, 0);
+            this.Controls.SetChildIndex(this.lblDataAlbara, 0);
+            this.Controls.SetChildIndex(this.lblNAlbara, 0);
+            this.Controls.SetChildIndex(this.lblDataFactura, 0);
+            this.Controls.SetChildIndex(this.lblNom, 0);
+            this.Controls.SetChildIndex(this.lblCodiClient, 0);
+            this.Controls.SetChildIndex(this.lblNIF, 0);
+            this.Controls.SetChildIndex(this.lblDireccio, 0);
+            this.Controls.SetChildIndex(this.lblPoblacio, 0);
             this.Controls.SetChildIndex(this.txtNFactura, 0);
             this.Controls.SetChildIndex(this.txtNAlbara, 0);
             this.Controls.SetChildIndex(this.txtDataFactura, 0);
@@ -314,6 +359,9 @@
             this.Controls.SetChildIndex(this.txtPoblacio, 0);
             this.Controls.SetChildIndex(this.dgvLiniesFactura, 0);
             this.Controls.SetChildIndex(this.btnEliminarFactura, 0);
+            this.Controls.SetChildIndex(this.lblOrdenat, 0);
+            this.Controls.SetChildIndex(this.lblOrdenacio, 0);
+            this.Controls.SetChildIndex(this.label10, 0);
             ((System.ComponentModel.ISupportInitialize)(this.dgvLiniesFactura)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -322,9 +370,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lblNIF;
+        private System.Windows.Forms.Label lblDireccio;
+        private System.Windows.Forms.Label lblPoblacio;
         private System.Windows.Forms.TextBox txtNFactura;
         private System.Windows.Forms.TextBox txtNAlbara;
         private System.Windows.Forms.TextBox txtDataFactura;
@@ -340,12 +388,15 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblCodiClient;
+        private System.Windows.Forms.Label lblNom;
+        private System.Windows.Forms.Label lblDataFactura;
+        private System.Windows.Forms.Label lblNAlbara;
+        private System.Windows.Forms.Label lblDataAlbara;
+        private System.Windows.Forms.Label lblNFactura;
         private System.Windows.Forms.Button btnEliminarFactura;
+        private System.Windows.Forms.Label lblOrdenat;
+        private System.Windows.Forms.Label lblOrdenacio;
+        private System.Windows.Forms.Label label10;
     }
 }

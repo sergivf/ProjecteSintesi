@@ -1,6 +1,7 @@
 <?xml version="1.0" standalone="yes"?>
 <Albarans>
   <Empresa>
+    <DataLlistat>25/05/2016 - 12:07:55</DataLlistat>
     <Logotip>logo.jpg</Logotip>
     <Nom>Reparacions</Nom>
     <Adreça>Adreça inventada</Adreça>
@@ -19,18 +20,18 @@
     <Descripcio>Soporte de pared para LCD Tv</Descripcio>
     <QuantitatVenuda>14</QuantitatVenuda>
     <PreuVenda>102.57000000000001</PreuVenda>
-    <Descompte>0</Descompte>
+    <Descompte>1</Descompte>
   </LiniaAlbara>
   <LiniaAlbara>
     <Descripcio>Tarjeta de Red 10/100/1GHZ </Descripcio>
     <QuantitatVenuda>20</QuantitatVenuda>
     <PreuVenda>37.7</PreuVenda>
-    <Descompte>0</Descompte>
+    <Descompte>20</Descompte>
   </LiniaAlbara>
   <LiniaAlbara>
     <Descripcio>DEC-1100-T EUROCONECTOR TDT</Descripcio>
     <QuantitatVenuda>19</QuantitatVenuda>
     <PreuVenda>84.48</PreuVenda>
-    <Descompte>0</Descompte>
+    <Descompte>10</Descompte>
   </LiniaAlbara>
 </Albarans>

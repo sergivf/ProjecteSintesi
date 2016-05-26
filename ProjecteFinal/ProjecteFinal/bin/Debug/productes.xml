@@ -2453,15 +2453,15 @@
     <article>
         <idProducte>SMC0011</idProducte>
         <descripcio>Pcmcia Wireless 11Mb </descripcio>
-        <pcost>-118.1</pcost>
-        <pvenda>-180.198419606118</pvenda>
+        <pcost>118.1</pcost>
+        <pvenda>180.198419606118</pvenda>
         <quantitatstock>640</quantitatstock>
     </article>
     <article>
         <idProducte>SMC0012</idProducte>
         <descripcio>T .Pci  Wireless 11Mb </descripcio>
-        <pcost>-402.17</pcost>
-        <pvenda>-614.641018093754</pvenda>
+        <pcost>402.17</pcost>
+        <pvenda>614.641018093754</pvenda>
         <quantitatstock>444</quantitatstock>
     </article>
     <article>

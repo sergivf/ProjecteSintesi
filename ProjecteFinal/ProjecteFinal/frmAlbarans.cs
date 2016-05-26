@@ -17,8 +17,10 @@ namespace ProjecteFinal
         OracleConnection cnOracle;
         OracleDataSetTableAdapters.CABALBARATableAdapter caTa;
         OracleDataSetTableAdapters.TableAdapterManager tamDades;
-
+        bool asc = false;
+        bool desc = false;
         DataRow dr;
+
         public frmAlbarans(OracleDataSet dsDades, OracleConnection cnOracle, OracleDataSetTableAdapters.TableAdapterManager tamDades)
         {
             InitializeComponent();
@@ -32,6 +34,7 @@ namespace ProjecteFinal
 
             // Ordenem els albarans pel seu número
             dsDades.CABALBARA.DefaultView.Sort = "NALBARA ASC";
+            asc = true;
 
             Origen.DataSource = dsDades.CABALBARA;
             Origen.MoveFirst();
@@ -189,13 +192,14 @@ namespace ProjecteFinal
                 FrmManual frmManual = new FrmManual();
                 frmManual.ShowDialog();
                 string nFactura = Convert.ToString(frmManual.NFactura);
+                int numFactura = Convert.ToInt32(nFactura);
                 DateTime data = frmManual.DtData;
 
                 // Comprova si el número de factura que ens han entrat existeix
-                if (!ExisteixFactura(Convert.ToInt32(nFactura)))
+                if (!ExisteixFactura(numFactura))
                 {
                     // Generarà la factura
-                    FacturarAlbara(dr["nalbara"].ToString(), nFactura, data);
+                    if (numFactura != 0) FacturarAlbara(dr["nalbara"].ToString(), nFactura, data);
                 }
                 else
                 {
@@ -304,6 +308,132 @@ namespace ProjecteFinal
             else
             {
                 return false;
+            }
+        }
+
+        private void lblNAlbara_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CABALBARA.DefaultView.Sort = "NALBARA DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "NÚMERO D'ALBARÀ DESC";
+            }
+            else
+            {
+                dsDades.CABALBARA.DefaultView.Sort = "NALBARA ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "NÚMERO D'ALBARÀ ASC";
+            }
+        }
+
+        private void lblDataAlbara_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CABALBARA.DefaultView.Sort = "DATAALBARA DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "DATA D'ALBARÀ DESC";
+            }
+            else
+            {
+                dsDades.CABALBARA.DefaultView.Sort = "DATAALBARA ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "DATA D'ALBARÀ ASC";
+            }
+        }
+
+        private void lblCodiClient_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CABALBARA.DefaultView.Sort = "CODICLIENT DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "CODI CLIENT DESC";
+            }
+            else
+            {
+                dsDades.CABALBARA.DefaultView.Sort = "CODICLIENT ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "CODI CLIENT ASC";
+            }
+        }
+
+        private void lblNIF_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CABALBARA.DefaultView.Sort = "NIF DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "NIF DESC";
+            }
+            else
+            {
+                dsDades.CABALBARA.DefaultView.Sort = "NIF ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "NIF ASC";
+            }
+        }
+
+        private void lblNom_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CABALBARA.DefaultView.Sort = "NOM DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "NOM DESC";
+            }
+            else
+            {
+                dsDades.CABALBARA.DefaultView.Sort = "NOM ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "NOM ASC";
+            }
+        }
+
+        private void Direccio_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CABALBARA.DefaultView.Sort = "DIRECCIO DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "DIRECCIO DESC";
+            }
+            else
+            {
+                dsDades.CABALBARA.DefaultView.Sort = "DIRECCIO ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "DIRECCIO ASC";
+            }
+        }
+
+        private void lblPoblacio_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CABALBARA.DefaultView.Sort = "POBLACIO DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "POBLACIÓ DESC";
+            }
+            else
+            {
+                dsDades.CABALBARA.DefaultView.Sort = "POBLACIO ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "POBLACIÓ ASC";
             }
         }
     }

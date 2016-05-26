@@ -1,6 +1,7 @@
 <?xml version="1.0" standalone="yes"?>
 <Factures>
   <Empresa>
+    <DataLlistat>25/05/2016 - 12:11:21</DataLlistat>
     <Logotip>logo.jpg</Logotip>
     <Nom>Reparacions</Nom>
     <Adreça>Adreça inventada</Adreça>
@@ -49,7 +50,7 @@
     <Descripcio>Monitor IMAGEQUEST L90D+ TFT 19" 8 ms Pivot. Multim.</Descripcio>
     <QuantitatVenuda>13</QuantitatVenuda>
     <PreuVenda>375.62</PreuVenda>
-    <Descompte>0</Descompte>
+    <Descompte>15</Descompte>
   </LiniaFactura>
   <LiniaFactura>
     <Descripcio>Imp. EPSON STYLUS PHOTO R300</Descripcio>
@@ -61,13 +62,13 @@
     <Descripcio>Cordless Desktop Int. Pro OEM</Descripcio>
     <QuantitatVenuda>13</QuantitatVenuda>
     <PreuVenda>25.82</PreuVenda>
-    <Descompte>0</Descompte>
+    <Descompte>55</Descompte>
   </LiniaFactura>
   <LiniaFactura>
     <Descripcio>Mód. SDRAM 128Mb Pc133 KVR133X64C3/128</Descripcio>
     <QuantitatVenuda>10</QuantitatVenuda>
     <PreuVenda>28.810000000000002</PreuVenda>
-    <Descompte>0</Descompte>
+    <Descompte>10</Descompte>
   </LiniaFactura>
   <LiniaFactura>
     <Descripcio>Mód. DDRAM 512Mb Pc333 KVR333X64C25/512</Descripcio>

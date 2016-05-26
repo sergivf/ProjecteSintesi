@@ -105,6 +105,7 @@ namespace ProjecteFinal
 
                 #region Empresa
                 DataTable empresa = new DataTable("Empresa");
+                empresa.Columns.Add("DataLlistat", typeof(string));
                 empresa.Columns.Add("Logotip", typeof(string));
                 empresa.Columns.Add("Nom", typeof(string));
                 empresa.Columns.Add("Adreça", typeof(string));
@@ -114,12 +115,13 @@ namespace ProjecteFinal
 
                 DataRow fila = empresa.NewRow();
 
-                fila[0] = "logo.jpg";
-                fila[1] = "Reparacions";
-                fila[2] = "Adreça inventada";
-                fila[3] = "NIF";
-                fila[4] = "987654321";
-                fila[5] = "Fax inventat";
+                fila[0] = DateTime.Now.ToString("dd/MM/yyyy - HH:mm:ss");
+                fila[1] = "logo.jpg";
+                fila[2] = "Reparacions";
+                fila[3] = "Adreça inventada";
+                fila[4] = "NIF";
+                fila[5] = "987654321";
+                fila[6] = "Fax inventat";
 
                 empresa.Rows.Add(fila);
                 #endregion
@@ -185,7 +187,7 @@ namespace ProjecteFinal
 
                     albarans.WriteXml("albarans.xml");
 
-                    ConvertToHTML("albarans.xslt", "albarans.xml", "albarans.html");
+                    ConvertToHTML("albarans.xsl", "albarans.xml", "albarans.html");
 
                     OpenFileNavigator("albarans.html");
 
@@ -228,6 +230,7 @@ namespace ProjecteFinal
                 DataTable liniaAlbara = new DataTable("LiniaAlbara");
 
                 #region Empresa
+                empresa.Columns.Add("DataLlistat", typeof(string));
                 empresa.Columns.Add("Logotip", typeof(string));
                 empresa.Columns.Add("Nom", typeof(string));
                 empresa.Columns.Add("Adreça", typeof(string));
@@ -237,12 +240,13 @@ namespace ProjecteFinal
 
                 DataRow fila = empresa.NewRow();
 
-                fila[0] = "logo.jpg";
-                fila[1] = "Reparacions";
-                fila[2] = "Adreça inventada";
-                fila[3] = "NIF";
-                fila[4] = "987654321";
-                fila[5] = "Fax inventat";
+                fila[0] = DateTime.Now.ToString("dd/MM/yyyy - HH:mm:ss");
+                fila[1] = "logo.jpg";
+                fila[2] = "Reparacions";
+                fila[3] = "Adreça inventada";
+                fila[4] = "NIF";
+                fila[5] = "987654321";
+                fila[6] = "Fax inventat";
 
                 empresa.Rows.Add(fila);
                 #endregion
@@ -341,6 +345,7 @@ namespace ProjecteFinal
 
                 #region Empresa
                 DataTable empresa = new DataTable("Empresa");
+                empresa.Columns.Add("DataLlistat", typeof(string));
                 empresa.Columns.Add("Logotip", typeof(string));
                 empresa.Columns.Add("Nom", typeof(string));
                 empresa.Columns.Add("Adreça", typeof(string));
@@ -350,12 +355,13 @@ namespace ProjecteFinal
 
                 DataRow fila = empresa.NewRow();
 
-                fila[0] = "logo.jpg";
-                fila[1] = "Reparacions";
-                fila[2] = "Adreça inventada";
-                fila[3] = "NIF";
-                fila[4] = "987654321";
-                fila[5] = "Fax inventat";
+                fila[0] = DateTime.Now.ToString("dd/MM/yyyy - HH:mm:ss");
+                fila[1] = "logo.jpg";
+                fila[2] = "Reparacions";
+                fila[3] = "Adreça inventada";
+                fila[4] = "NIF";
+                fila[5] = "987654321";
+                fila[6] = "Fax inventat";
 
                 empresa.Rows.Add(fila);
                 #endregion

@@ -17,6 +17,9 @@ namespace ProjecteFinal
         OracleConnection cnOracle;
         OracleDataSetTableAdapters.TableAdapterManager tamDades;
         DataRow dr;
+        bool asc = false;
+        bool desc = false;
+
         public frmFactures(OracleDataSet dsDades, OracleConnection cnOracle, OracleDataSetTableAdapters.TableAdapterManager tamDades)
         {
             InitializeComponent();
@@ -29,6 +32,7 @@ namespace ProjecteFinal
 
             // Ordenem els albarans per número de Factura
             dsDades.CABFACTURAS.DefaultView.Sort = "NFACTURA ASC";
+            asc = true;
 
             Origen.DataSource = dsDades.CABFACTURAS;
             Origen.MoveFirst();
@@ -145,6 +149,168 @@ namespace ProjecteFinal
             tamDades.LINEASALBARATableAdapter.Fill(dsDades.LINEASALBARA);
             tamDades.LINEASFACTURATableAdapter.Fill(dsDades.LINEASFACTURA);
             tamDades.ARTICLESTableAdapter.Fill(dsDades.ARTICLES);
+        }
+
+        private void lblNFactura_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CABFACTURAS.DefaultView.Sort = "NFACTURA DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "NÚMERO FACTURA DESC";
+            }
+            else
+            {
+                dsDades.CABFACTURAS.DefaultView.Sort = "NFACTURA ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "NÚMERO FACTURA ASC";
+            }
+        }
+
+        private void lblDataFactura_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CABFACTURAS.DefaultView.Sort = "DATAFACTURA DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "DATA FACTURA DESC";
+            }
+            else
+            {
+                dsDades.CABFACTURAS.DefaultView.Sort = "DATAFACTURA ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "DATA FACTURA ASC";
+            }
+        }
+
+        private void lblNAlbara_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CABFACTURAS.DefaultView.Sort = "NALBARA DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "NÚMERO D'ALBARÀ DESC";
+            }
+            else
+            {
+                dsDades.CABFACTURAS.DefaultView.Sort = "NALBARA ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "NÚMERO D'ALBARÀ ASC";
+            }
+        }
+
+        private void lblDataAlbara_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CABFACTURAS.DefaultView.Sort = "DATAALBARA DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "DATA D'ALBARÀ DESC";
+            }
+            else
+            {
+                dsDades.CABFACTURAS.DefaultView.Sort = "DATAALBARA ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "NÚMERO D'ALBARÀ ASC";
+            }
+        }
+
+        private void lblCodiClient_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CABFACTURAS.DefaultView.Sort = "CODICLIENT DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "CODI CLIENT DESC";
+            }
+            else
+            {
+                dsDades.CABFACTURAS.DefaultView.Sort = "CODICLIENT ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "CODI CLIENT ASC";
+            }
+        }
+
+        private void lblNIF_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CABFACTURAS.DefaultView.Sort = "NIF DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "NIF DESC";
+            }
+            else
+            {
+                dsDades.CABFACTURAS.DefaultView.Sort = "NIF ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "NIF ASC";
+            }
+        }
+
+        private void lblNom_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CABFACTURAS.DefaultView.Sort = "NOM DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "NOM DESC";
+            }
+            else
+            {
+                dsDades.CABFACTURAS.DefaultView.Sort = "NOM ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "NOM ASC";
+            }
+        }
+
+        private void lblDireccio_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CABFACTURAS.DefaultView.Sort = "DIRECCIO DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "DIRECCIÓ DESC";
+            }
+            else
+            {
+                dsDades.CABFACTURAS.DefaultView.Sort = "DIRECCIO ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "DIRECCIÓ ASC";
+            }
+        }
+
+        private void lblPoblacio_Click(object sender, EventArgs e)
+        {
+            if (asc)
+            {
+                dsDades.CABFACTURAS.DefaultView.Sort = "POBLACIO DESC";
+                asc = false;
+                desc = true;
+                lblOrdenacio.Text = "POBLACIÓ DESC";
+            }
+            else
+            {
+                dsDades.CABFACTURAS.DefaultView.Sort = "POBLACIO ASC";
+                asc = true;
+                desc = false;
+                lblOrdenacio.Text = "POBLACIÓ ASC";
+            }
         }
     }
 }
